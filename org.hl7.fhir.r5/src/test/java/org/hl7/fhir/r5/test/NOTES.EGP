@@ -1,0 +1,68 @@
+<!-- /.idea/workspace.xml -->
+  <component name="RunManager" selected="JUnit.TurtleGeneratorTests.testPublishedExamples">
+    <configuration name="TurtleGeneratorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org.hl7.fhir.r5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hl7.fhir.r5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hl7.fhir.r5.test" />
+      <option name="MAIN_CLASS_NAME" value="org.hl7.fhir.r5.test.TurtleGeneratorTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurtleGeneratorTests.testExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org.hl7.fhir.r5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hl7.fhir.r5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hl7.fhir.r5.test" />
+      <option name="MAIN_CLASS_NAME" value="org.hl7.fhir.r5.test.TurtleGeneratorTests" />
+      <option name="METHOD_NAME" value="testExamples" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurtleGeneratorTests.testPublishedExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org.hl7.fhir.r5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hl7.fhir.r5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hl7.fhir.r5.test" />
+      <option name="MAIN_CLASS_NAME" value="org.hl7.fhir.r5.test.TurtleGeneratorTests" />
+      <option name="METHOD_NAME" value="testPublishedExamples" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="org.hl7.fhir.core_turtle-examples-writer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="org.hl7.fhir.core_turtle-examples-writer" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TurtleGeneratorTests.testPublishedExamples" />
+        <item itemvalue="JUnit.TurtleGeneratorTests.testExamples" />
+        <item itemvalue="JUnit.TurtleGeneratorTests" />
+      </list>
+    </recent_temporary>
+  </component>
