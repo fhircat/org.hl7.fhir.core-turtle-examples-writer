@@ -1,14 +1,15 @@
 package org.hl7.fhir.r5.test;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.FileSystems;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Properties;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.fhir.ucum.UcumException;
 import org.hl7.fhir.r5.conformance.profile.ProfileUtilities;
@@ -56,17 +57,40 @@ public class TurtleGeneratorTests {
     turtleParser = (TurtleParser) Manager.makeParser(workerContext, FhirFormat.TURTLE);
 
     // Temporary directory of files that should be discarded after testing
-    outputTurtleDirectory = FileSystems.getDefault().getPath(System.getProperty("java.io.tmpdir"));
+    outputTurtleDirectory = Path.of("examples-ttl").toAbsolutePath();
+    File outputTurtleDirectoryFile = outputTurtleDirectory.toFile();
+    if (!outputTurtleDirectoryFile.exists()) {
+      outputTurtleDirectoryFile.mkdir();
+    }
 
     // Directory of XML files used for generating Turtle files
     String currentDirectory = System.getProperty("user.dir");
     inputXmlDirectory = FileSystems.getDefault().getPath(currentDirectory, "src", "test", "resources", "testUtilities", "xml", "examples");
   }
 
+  public static List<String> listXmlBaseNames(Path dir) throws IOException {
+    try (Stream<Path> files = Files.list(dir)) {
+      return files
+        .filter(Files::isRegularFile)
+        .filter(p -> p.toString().toLowerCase().endsWith(".xml"))
+        .map(p -> {
+          String filename = p.getFileName().toString();
+          int dotIndex = filename.lastIndexOf('.');
+          return (dotIndex > 0) ? filename.substring(0, dotIndex) : filename;
+        })
+        .filter(p -> {
+          return !p.contains(".profile");
+        })
+        .collect(Collectors.toList());
+    }
+  }
+
   @Test
   public void testExamples() throws IOException, UcumException {
-    var exampleInstanceName = "codesystem-contact-point-use";
-    testInstanceGeneration(exampleInstanceName);
+    var exampleInstanceNames =
+      // Arrays.asList("codesystem-contact-point-use");
+      listXmlBaseNames(inputXmlDirectory); // everything in that directory
+    testInstanceGeneration(exampleInstanceNames);
   }
 
   @Disabled("TODO this doesn't pass due to existing issues in R5 RDF")
@@ -80,18 +104,22 @@ public class TurtleGeneratorTests {
   @Test
   public void testPublishedExamples() throws IOException, UcumException {
     inputXmlDirectory = getPublishedXmlDirectory();
-    var exampleInstanceName = "codesystem-contact-point-use";
+    var exampleInstanceName =
+      // Arrays.asList("codesystem-contact-point-use");
+      listXmlBaseNames(inputXmlDirectory); // everything in that directory
     testInstanceGeneration(exampleInstanceName);
   }
 
   /*
    * Generate a Turtle file from the name of an XML resource, then parse it
   */
-  private void testInstanceGeneration(String resourceName) throws IOException, UcumException {
-    // Generate Turtle
-    var generatedTurtleFilePath = generateTurtleFromResourceName(resourceName, inputXmlDirectory, outputTurtleDirectory);
-    // Try parsing again ("round-trip test") -- this only tests for valid RDF
-    parseGeneratedTurtle(generatedTurtleFilePath);
+  private void testInstanceGeneration(Iterable<String> resourceNames) throws IOException, UcumException {
+    for (String resourceName : resourceNames) {
+      // Generate Turtle
+      var generatedTurtleFilePath = generateTurtleFromResourceName(resourceName, inputXmlDirectory, outputTurtleDirectory);
+      // Try parsing again ("round-trip test") -- this only tests for valid RDF
+      parseGeneratedTurtle(generatedTurtleFilePath);
+    }
   }
 
   /*
