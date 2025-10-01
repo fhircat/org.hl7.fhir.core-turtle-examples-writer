@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -32,7 +32,7 @@
          a sct:229115003 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "229115003" ] ;
          fhir:display [ fhir:v "Bench Press (regime/therapy)" ]
@@ -40,7 +40,7 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:occurrence [

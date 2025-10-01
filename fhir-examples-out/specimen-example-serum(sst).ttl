@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:accessionIdentifier [
      fhir:system [
        fhir:v "http://acme.com/labs/accession-ids"^^xsd:anyURI ;
-       fhir:link <http://acme.com/labs/accession-ids>
+       fhir:l <http://acme.com/labs/accession-ids>
      ] ;
      fhir:value [ fhir:v "20150816-00124" ]
   ] ; # 
@@ -36,23 +36,23 @@
        a sct:119364003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "119364003" ] ;
        fhir:display [ fhir:v "Serum sample" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:request ( [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/ft4> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/ft4> ;
      fhir:reference [ fhir:v "ServiceRequest/ft4" ]
   ] ) ; # 
   fhir:collection [
      fhir:collector [
-       fhir:link <http://hl7.org/fhir/Practitioner/f202> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f202> ;
        fhir:reference [ fhir:v "Practitioner/f202" ]
      ] ;
      fhir:collected [
@@ -62,7 +62,7 @@
   ] ; # 
   fhir:container ( [
      fhir:device [
-       fhir:link <http://hl7.org/fhir/Device/device-example-specimen-container-example-sst-vacutainer> ;
+       fhir:l <http://hl7.org/fhir/Device/device-example-specimen-container-example-sst-vacutainer> ;
        fhir:reference [ fhir:v "Device/device-example-specimen-container-example-sst-vacutainer" ]
      ]
   ] ) . # 

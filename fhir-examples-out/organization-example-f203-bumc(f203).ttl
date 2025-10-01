@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
      ] ;
      fhir:system [
        fhir:v "http://www.zorgkaartnederland.nl/"^^xsd:anyURI ;
-       fhir:link <http://www.zorgkaartnederland.nl/>
+       fhir:l <http://www.zorgkaartnederland.nl/>
      ] ;
      fhir:value [ fhir:v "Blijdorp MC" ]
   ] ) ; # 
@@ -52,14 +52,14 @@
        a sct:405608006 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "405608006" ] ;
        fhir:display [ fhir:v "Academic Medical Center" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/organization-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/organization-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/organization-type>
        ] ;
        fhir:code [ fhir:v "prov" ]
      ] ) #    BMC is an Academic Medical Center   

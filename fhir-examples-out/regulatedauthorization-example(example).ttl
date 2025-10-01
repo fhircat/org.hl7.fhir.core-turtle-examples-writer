@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://ema.europa.eu/example/marketingAuthorizationNumber"^^xsd:anyURI ;
-       fhir:link <http://ema.europa.eu/example/marketingAuthorizationNumber>
+       fhir:l <http://ema.europa.eu/example/marketingAuthorizationNumber>
      ] ;
      fhir:value [ fhir:v "EU/1/11/999/001" ]
   ] ) ; # 
@@ -34,7 +34,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://ema.europa.eu/example/country"^^xsd:anyURI ;
-         fhir:link <http://ema.europa.eu/example/country>
+         fhir:l <http://ema.europa.eu/example/country>
        ] ;
        fhir:code [ fhir:v "EU" ]
      ] )
@@ -43,7 +43,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://ema.europa.eu/example/authorizationstatus"^^xsd:anyURI ;
-         fhir:link <http://ema.europa.eu/example/authorizationstatus>
+         fhir:l <http://ema.europa.eu/example/authorizationstatus>
        ] ;
        fhir:code [ fhir:v "active" ]
      ] )
@@ -54,7 +54,7 @@
      fhir:end [ fhir:v "2020-05-20"^^xsd:date ]
   ] ; # 
   fhir:holder [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ; #   dataExclusivityPeriod>
 #    <start value="2010-08-15"/>
@@ -65,14 +65,14 @@
 #    <reference value="RegulatedAuthorization/Jurusdictional1"/>
 #  </jurisdictionalAuthorization  
   fhir:regulator [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ; # 
   fhir:case [
      fhir:identifier [
        fhir:system [
          fhir:v "http://ema.europa.eu/example/procedureidentifier-number"^^xsd:anyURI ;
-         fhir:link <http://ema.europa.eu/example/procedureidentifier-number>
+         fhir:l <http://ema.europa.eu/example/procedureidentifier-number>
        ] ;
        fhir:value [ fhir:v "EMEA/H/C/009999/IA/0099/G" ]
      ] ;
@@ -80,7 +80,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://ema.europa.eu/example/marketingAuthorizationProcedureType"^^xsd:anyURI ;
-           fhir:link <http://ema.europa.eu/example/marketingAuthorizationProcedureType>
+           fhir:l <http://ema.europa.eu/example/marketingAuthorizationProcedureType>
          ] ;
          fhir:code [ fhir:v "VariationTypeIA" ]
        ] )
@@ -94,7 +94,7 @@
        fhir:identifier [
          fhir:system [
            fhir:v "http://ema.europa.eu/example/applicationidentifier-number"^^xsd:anyURI ;
-           fhir:link <http://ema.europa.eu/example/applicationidentifier-number>
+           fhir:l <http://ema.europa.eu/example/applicationidentifier-number>
          ] ;
          fhir:value [ fhir:v "IA38G" ]
        ] ;
@@ -102,7 +102,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://ema.europa.eu/example/marketingAuthorizationApplicationType"^^xsd:anyURI ;
-             fhir:link <http://ema.europa.eu/example/marketingAuthorizationApplicationType>
+             fhir:l <http://ema.europa.eu/example/marketingAuthorizationApplicationType>
            ] ;
            fhir:code [ fhir:v "GroupTypeIAVariationNotification" ]
          ] )
@@ -115,7 +115,7 @@
        fhir:identifier [
          fhir:system [
            fhir:v "http://ema.europa.eu/example/applicationidentifier-number"^^xsd:anyURI ;
-           fhir:link <http://ema.europa.eu/example/applicationidentifier-number>
+           fhir:l <http://ema.europa.eu/example/applicationidentifier-number>
          ] ;
          fhir:value [ fhir:v "IA38F" ]
        ] ;
@@ -123,7 +123,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://ema.europa.eu/example/marketingAuthorizationApplicationType"^^xsd:anyURI ;
-             fhir:link <http://ema.europa.eu/example/marketingAuthorizationApplicationType>
+             fhir:l <http://ema.europa.eu/example/marketingAuthorizationApplicationType>
            ] ;
            fhir:code [ fhir:v "GroupTypeIAVariationNotification" ]
          ] )

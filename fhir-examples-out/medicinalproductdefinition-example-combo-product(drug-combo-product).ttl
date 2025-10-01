@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,6 +27,7 @@
      a fhir:PackagedProductDefinition ;
      fhir:id [ fhir:v "packageCombo" ] ;
      fhir:packageFor ( [
+       fhir:l <#> ;
        fhir:reference [ fhir:v "#" ]
      ] ) ;
      fhir:packaging [
@@ -44,6 +45,7 @@
          fhir:containedItem ( [
            fhir:item [
              fhir:reference [
+               fhir:l <#tabletItem> ;
                fhir:reference [ fhir:v "#tabletItem" ]
              ]
            ] ;
@@ -60,6 +62,7 @@
          fhir:containedItem ( [
            fhir:item [
              fhir:reference [
+               fhir:l <#creamItem> ;
                fhir:reference [ fhir:v "#creamItem" ]
              ]
            ] ;
@@ -68,7 +71,7 @@
              fhir:unit [ fhir:v "g" ] ;
              fhir:system [
                fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-               fhir:link <http://unitsofmeasure.org>
+               fhir:l <http://unitsofmeasure.org>
              ] ;
              fhir:code [ fhir:v "g" ]
            ]
@@ -90,7 +93,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-           fhir:link <http://example.org.uk/fhir/doseform>
+           fhir:l <http://example.org.uk/fhir/doseform>
          ] ;
          fhir:code [ fhir:v "tablet" ]
        ] )
@@ -103,7 +106,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-           fhir:link <http://example.org.uk/fhir/doseform>
+           fhir:l <http://example.org.uk/fhir/doseform>
          ] ;
          fhir:code [ fhir:v "Cream for topical application" ]
        ] )
@@ -112,7 +115,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org.uk/fhir/product"^^xsd:anyURI ;
-       fhir:link <http://example.org.uk/fhir/product>
+       fhir:l <http://example.org.uk/fhir/product>
      ] ;
      fhir:value [ fhir:v "ThrushTreatCombo" ]
   ] ) ; # 
@@ -120,7 +123,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-         fhir:link <http://example.org.uk/fhir/doseform>
+         fhir:l <http://example.org.uk/fhir/doseform>
        ] ;
        fhir:code [ fhir:v "Tablet and Cream for topical application" ]
      ] )

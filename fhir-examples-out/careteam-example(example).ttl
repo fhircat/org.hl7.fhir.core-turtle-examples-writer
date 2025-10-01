@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -41,7 +41,7 @@
        a loinc:LA27976-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "LA27976-2" ] ;
        fhir:display [ fhir:v "Encounter-focused care team" ]
@@ -49,7 +49,7 @@
   ] ) ; # 
   fhir:name [ fhir:v "Peter James Charlmers Care Team for Inpatient Encounter"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; # 
@@ -61,7 +61,7 @@
        fhir:text [ fhir:v "responsiblePerson" ]
      ] ;
      fhir:member [
-       fhir:link <http://hl7.org/fhir/Patient/example> ;
+       fhir:l <http://hl7.org/fhir/Patient/example> ;
        fhir:reference [ fhir:v "Patient/example" ] ;
        fhir:display [ fhir:v "Peter James Chalmers" ]
      ]
@@ -70,11 +70,12 @@
        fhir:text [ fhir:v "adviser" ]
      ] ;
      fhir:member [
+       fhir:l <#pr1> ;
        fhir:reference [ fhir:v "#pr1" ] ;
        fhir:display [ fhir:v "Dorothy Dietition" ]
      ] ;
      fhir:onBehalfOf [
-       fhir:link <http://hl7.org/fhir/Organization/f001> ;
+       fhir:l <http://hl7.org/fhir/Organization/f001> ;
        fhir:reference [ fhir:v "Organization/f001" ]
      ] ;
      fhir:coverage [
@@ -94,7 +95,7 @@
      ]
   ] ) ; # 
   fhir:managingOrganization ( [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ]
   ] ) . # 
 

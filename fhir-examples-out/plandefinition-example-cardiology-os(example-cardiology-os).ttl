@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -32,7 +32,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/library-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/library-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/library-type>
          ] ;
          fhir:code [ fhir:v "logic-library" ] ;
          fhir:display [ fhir:v "Logic Library" ]
@@ -51,7 +51,7 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/cqf-expression"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/cqf-expression>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/cqf-expression>
            ] ;
            fhir:value [
              a fhir:Expression ;
@@ -71,6 +71,7 @@
      fhir:kind [ fhir:v "MedicationRequest" ] ;
      fhir:product [
        a fhir:Reference ;
+       fhir:l <#metoprololTartrate25Medication> ;
        fhir:reference [ fhir:v "#metoprololTartrate25Medication" ]
      ] ;
      fhir:dosage ( [
@@ -94,7 +95,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+               fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
              ] ;
              fhir:code [ fhir:v "ordered" ] ;
              fhir:display [ fhir:v "Ordered" ]
@@ -121,7 +122,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-           fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+           fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
          ] ;
          fhir:code [ fhir:v "866426" ]
        ] ) ;
@@ -132,7 +133,7 @@
          a sct:385055001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "385055001" ] ;
          fhir:display [ fhir:v "Tablet dose form" ]
@@ -142,6 +143,7 @@
      fhir:ingredient ( [
        fhir:item [
          fhir:reference [
+           fhir:l <#metoprololTartrate25Substance> ;
            fhir:reference [ fhir:v "#metoprololTartrate25Substance" ]
          ]
        ] ;
@@ -166,7 +168,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-             fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+             fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
            ] ;
            fhir:code [ fhir:v "6918" ]
          ] ) ;
@@ -180,6 +182,7 @@
      fhir:kind [ fhir:v "MedicationRequest" ] ;
      fhir:product [
        a fhir:Reference ;
+       fhir:l <#metoprololTartrate50Medication> ;
        fhir:reference [ fhir:v "#metoprololTartrate50Medication" ]
      ] ;
      fhir:dosage ( [
@@ -203,7 +206,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+               fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
              ] ;
              fhir:code [ fhir:v "ordered" ] ;
              fhir:display [ fhir:v "Ordered" ]
@@ -230,7 +233,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-           fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+           fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
          ] ;
          fhir:code [ fhir:v "866435" ]
        ] ) ;
@@ -241,7 +244,7 @@
          a sct:385055001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "385055001" ] ;
          fhir:display [ fhir:v "Tablet dose form" ]
@@ -251,6 +254,7 @@
      fhir:ingredient ( [
        fhir:item [
          fhir:reference [
+           fhir:l <#metoprololTartrate50Substance> ;
            fhir:reference [ fhir:v "#metoprololTartrate50Substance" ]
          ]
        ] ;
@@ -275,7 +279,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-             fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+             fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
            ] ;
            fhir:code [ fhir:v "6918" ]
          ] ) ;
@@ -289,6 +293,7 @@
      fhir:kind [ fhir:v "MedicationRequest" ] ;
      fhir:product [
        a fhir:Reference ;
+       fhir:l <#nitroglycerinMedication> ;
        fhir:reference [ fhir:v "#nitroglycerinMedication" ]
      ] ;
      fhir:dosage ( [
@@ -305,7 +310,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+               fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
              ] ;
              fhir:code [ fhir:v "ordered" ] ;
              fhir:display [ fhir:v "Ordered" ]
@@ -336,7 +341,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-           fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+           fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
          ] ;
          fhir:code [ fhir:v "316365" ]
        ] ) ;
@@ -347,7 +352,7 @@
          a sct:385055001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "385055001" ] ;
          fhir:display [ fhir:v "Tablet dose form" ]
@@ -357,6 +362,7 @@
      fhir:ingredient ( [
        fhir:item [
          fhir:reference [
+           fhir:l <#nitroglycerinSubstance> ;
            fhir:reference [ fhir:v "#nitroglycerinSubstance" ]
          ]
        ] ;
@@ -381,7 +387,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-             fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+             fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
            ] ;
            fhir:code [ fhir:v "4917" ]
          ] ) ;
@@ -398,7 +404,10 @@
        fhir:type [ fhir:v "coding" ] ;
        fhir:required [ fhir:v true ] ;
        fhir:repeats [ fhir:v true ] ;
-       fhir:answerValueSet [ fhir:v "#CardiologyReferralReasonValues"^^xsd:anyURI ]
+       fhir:answerValueSet [
+         fhir:v "#CardiologyReferralReasonValues"^^xsd:anyURI ;
+         fhir:l <#CardiologyReferralReasonValues>
+       ]
      ] )
   ] [
      a fhir:Questionnaire ;
@@ -412,31 +421,31 @@
   ] ) ; # 
   fhir:url [
      fhir:v "http://va.gov/kas/orderset/B5-Cardiology-ChestPainCAD-OS"^^xsd:anyURI ;
-     fhir:link <http://va.gov/kas/orderset/B5-Cardiology-ChestPainCAD-OS>
+     fhir:l <http://va.gov/kas/orderset/B5-Cardiology-ChestPainCAD-OS>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.11.8" ]
   ] [
      fhir:use [ fhir:v "official" ] ; #   identifierName=\"B5\"   
      fhir:system [
        fhir:v "urn:va.gov:kbs:knart:artifact:r1"^^xsd:anyURI ;
-       fhir:link <urn:va.gov:kbs:knart:artifact:r1>
+       fhir:l <urn:va.gov:kbs:knart:artifact:r1>
      ] ;
      fhir:value [ fhir:v "bb7ccea6-9744-4743-854a-bcffd87191f6" ]
   ] [
      fhir:system [
        fhir:v "urn:va.gov:kbs:contract:VA118-16-D-1008:to:VA-118-16-F-1008-0007"^^xsd:anyURI ;
-       fhir:link <urn:va.gov:kbs:contract:VA118-16-D-1008:to:VA-118-16-F-1008-0007>
+       fhir:l <urn:va.gov:kbs:contract:VA118-16-D-1008:to:VA-118-16-F-1008-0007>
      ] ;
      fhir:value [ fhir:v "CLIN0004AG" ]
   ] [
      fhir:system [
        fhir:v "urn:cognitivemedicine.com:lab:jira"^^xsd:anyURI ;
-       fhir:link <urn:cognitivemedicine.com:lab:jira>
+       fhir:l <urn:cognitivemedicine.com:lab:jira>
      ] ;
      fhir:value [ fhir:v "KP-914" ]
   ] ) ; # 
@@ -447,7 +456,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/plan-definition-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/plan-definition-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/plan-definition-type>
        ] ;
        fhir:code [ fhir:v "order-set" ] ;
        fhir:display [ fhir:v "Order Set" ]
@@ -461,7 +470,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -471,7 +480,7 @@
          a sct:look up value ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "look up value" ] ;
          fhir:display [ fhir:v "appropriate snomed condition" ]
@@ -497,7 +506,10 @@
      fhir:type [ fhir:v "derived-from" ] ;
      fhir:display [ fhir:v "Cardiology: Chest Pain (CP) / Coronary Artery Disease (CAD) Clinical Content White Paper" ] ;
      fhir:document [
-       fhir:url [ fhir:v "NEED-A-URL-HERE"^^xsd:anyURI ]
+       fhir:url [
+         fhir:v "NEED-A-URL-HERE"^^xsd:anyURI ;
+         fhir:l fhir:NEED-A-URL-HERE
+       ]
      ]
   ] [
      fhir:type [ fhir:v "justification" ] ;
@@ -506,7 +518,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://www.framinghamheartstudy.org/risk-functions/cardiovascular-disease/10-year-risk.php"^^xsd:anyURI ;
-         fhir:link <https://www.framinghamheartstudy.org/risk-functions/cardiovascular-disease/10-year-risk.php>
+         fhir:l <https://www.framinghamheartstudy.org/risk-functions/cardiovascular-disease/10-year-risk.php>
        ]
      ]
   ] [
@@ -516,7 +528,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://www.framinghamheartstudy.org/risk-functions/cardiovascular-disease/10-year-risk.php"^^xsd:anyURI ;
-         fhir:link <https://www.framinghamheartstudy.org/risk-functions/cardiovascular-disease/10-year-risk.php>
+         fhir:l <https://www.framinghamheartstudy.org/risk-functions/cardiovascular-disease/10-year-risk.php>
        ]
      ]
   ] [
@@ -524,14 +536,20 @@
      fhir:display [ fhir:v "2014 ACC/AHA/AATS/PCNA/SCAI/STS focused update of the guideline for the diagnosis and management of patients with stable ischemic heart disease: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines, and the American Association for Thoracic Surgery, Preventive Cardiovascular Nurses Association, Society for Cardiovascular Angiography and Interventions, and Society of Thoracic Surgeons" ] ; #     no identifier field available, this is an example of what is in the source OS\n     <identifiers>\n         <identifier root=\"10.1016\/j.jtcvs.2014.11.002\" identifierName=\"DOI\"\/>\n         <identifier root=\"Fihn et al., 2015\" identifierName=\"LocalDocBook\"\/>\n      <\/identifiers>   ,    used the title from HeD example for display here  
      fhir:citation [ fhir:v "Fihn SD, Blankenship JC, Alexander KP, Bittl JA, Byrne JG, Fletcher BJ, et al. 2014 ACC/AHA/AATS/PCNA/SCAI/STS focused update of the guideline for the diagnosis and management of patients with stable ischemic heart disease: A report of the american college of cardiology/american heart association task force on practice guidelines, and the american association for thoracic surgery, preventive cardiovascular nurses association, society for cardiovascular angiography and interventions, and society of thoracic surgeons. J Thorac Cardiovasc Surg. 2015 March 01;149(3):5." ] ; #    here is the description from the source OS, no spot for it\n        <description\n            value=\"A report of the American College of Cardiology\/American Heart Association Task Force on Practice Guidelines, and the American Association for Thoracic Surgery, Preventive Cardiovascular Nurses Association, Society for Cardiovascular Angiography and Interventions, and Society of Thoracic Surgeons\"\/>\n        
      fhir:document [
-       fhir:url [ fhir:v "NEED-A-URL-HERE"^^xsd:anyURI ]
+       fhir:url [
+         fhir:v "NEED-A-URL-HERE"^^xsd:anyURI ;
+         fhir:l fhir:NEED-A-URL-HERE
+       ]
      ]
   ] [
      fhir:type [ fhir:v "justification" ] ;
      fhir:display [ fhir:v "ACC/AHA 2002 guideline update for exercise testing: summary article: A report of the American college of cardiology/American heart association task force on practice guidelines (committee to update the 1997 exercise testing guidelines)" ] ; #     no identifier field available, this is an example of what is in the source OS\n     <identifiers>\n        <identifier root=\"https:\/\/doi.org\/10.1016\/S0735-1097(02)02164-2\"\n                   identifierName=\"DOI\"\/>\n         <identifier root=\"Gibbons et al., 2002\" identifierName=\"LocalDocBook\"\/>\n     <\/identifiers>   ,    used the title from HeD example for display here  
      fhir:citation [ fhir:v "Gibbons RJ, Balady GJ, Bricker JT, Chaitman BR, Fletcher GF, Froelicher VF, et al. ACC/AHA 2002 guideline update for exercise testing: Summary article: A report of the american college of cardiology/american heart association task force on practice guidelines (committee to update the 1997 exercise testing guidelines). Circulation. 2002 October 01;106(14):1883-92." ] ; #    there was no description in this specific entry   
      fhir:document [
-       fhir:url [ fhir:v "NEED-A-URL-HERE"^^xsd:anyURI ]
+       fhir:url [
+         fhir:v "NEED-A-URL-HERE"^^xsd:anyURI ;
+         fhir:l fhir:NEED-A-URL-HERE
+       ]
      ]
   ] [
      fhir:type [ fhir:v "justification" ] ;
@@ -540,7 +558,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4064039-2345-4227-b83d-54dc13a838d3"^^xsd:anyURI ;
-         fhir:link <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4064039-2345-4227-b83d-54dc13a838d3>
+         fhir:l <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4064039-2345-4227-b83d-54dc13a838d3>
        ]
      ]
   ] [
@@ -550,7 +568,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fe85155-bc00-406b-b097-e8aece187a8a"^^xsd:anyURI ;
-         fhir:link <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fe85155-bc00-406b-b097-e8aece187a8a>
+         fhir:l <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fe85155-bc00-406b-b097-e8aece187a8a>
        ]
      ]
   ] [
@@ -560,7 +578,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fe85155-bc00-406b-b097-e8aece187a8a"^^xsd:anyURI ;
-         fhir:link <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fe85155-bc00-406b-b097-e8aece187a8a>
+         fhir:l <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fe85155-bc00-406b-b097-e8aece187a8a>
        ]
      ]
   ] [
@@ -570,7 +588,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d948600-35d8-4490-983b-918bdce488c8"^^xsd:anyURI ;
-         fhir:link <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d948600-35d8-4490-983b-918bdce488c8>
+         fhir:l <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d948600-35d8-4490-983b-918bdce488c8>
        ]
      ]
   ] [
@@ -580,7 +598,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67bf2a15-b115-47ac-ae28-ce2dafd6b5c9"^^xsd:anyURI ;
-         fhir:link <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67bf2a15-b115-47ac-ae28-ce2dafd6b5c9>
+         fhir:l <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67bf2a15-b115-47ac-ae28-ce2dafd6b5c9>
        ]
      ]
   ] [
@@ -590,7 +608,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5c1c694c-4b08-469e-b538-08e69df06146"^^xsd:anyURI ;
-         fhir:link <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5c1c694c-4b08-469e-b538-08e69df06146>
+         fhir:l <https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5c1c694c-4b08-469e-b538-08e69df06146>
        ]
      ]
   ] [
@@ -600,11 +618,14 @@
      fhir:document [
        fhir:url [
          fhir:v "http://heart.bmj.com/content/96/12/974.long"^^xsd:anyURI ;
-         fhir:link <http://heart.bmj.com/content/96/12/974.long>
+         fhir:l <http://heart.bmj.com/content/96/12/974.long>
        ]
      ]
   ] ) ; # 
-  fhir:library ( [ fhir:v "#cardiology-chestPain-logic"^^xsd:anyURI] ) ; # 
+  fhir:library ( [
+     fhir:v "#cardiology-chestPain-logic"^^xsd:anyURI ;
+     fhir:l <#cardiology-chestPain-logic>
+  ] ) ; # 
   fhir:action ( [
      fhir:action ( [
        fhir:title [ fhir:v "Consults and Referrals" ] ;
@@ -614,7 +635,8 @@
          fhir:textEquivalent [ fhir:v "Referral to cardiology to evaluate chest pain (routine)" ] ;
          fhir:definition [
            a fhir:canonical ;
-           fhir:v "#referralToCardiologyConsult"^^xsd:anyURI
+           fhir:v "#referralToCardiologyConsult"^^xsd:anyURI ;
+           fhir:l <#referralToCardiologyConsult>
          ] ;
          fhir:dynamicValue ( [
            fhir:path [ fhir:v "timing.event" ] ;
@@ -663,13 +685,15 @@
          fhir:title [ fhir:v "Reason for cardiology consultation" ] ;
          fhir:definition [
            a fhir:canonical ;
-           fhir:v "#CollectReferralReason"^^xsd:anyURI
+           fhir:v "#CollectReferralReason"^^xsd:anyURI ;
+           fhir:l <#CollectReferralReason>
          ]
        ] [
          fhir:title [ fhir:v "Goal of cardiology consultation" ] ;
          fhir:definition [
            a fhir:canonical ;
-           fhir:v "#CardiologyConsultationGoal"^^xsd:anyURI
+           fhir:v "#CardiologyConsultationGoal"^^xsd:anyURI ;
+           fhir:l <#CardiologyConsultationGoal>
          ]
        ] )
      ] [
@@ -686,7 +710,8 @@
            fhir:textEquivalent [ fhir:v "metoprolol tartrate 25 mg tablet 1 tablet oral 2 time daily" ] ;
            fhir:definition [
              a fhir:canonical ;
-             fhir:v "#metoprololTartrate25Prescription"^^xsd:anyURI
+             fhir:v "#metoprololTartrate25Prescription"^^xsd:anyURI ;
+             fhir:l <#metoprololTartrate25Prescription>
            ] ;
            fhir:dynamicValue ( [
              fhir:path [ fhir:v "status" ] ;
@@ -711,7 +736,8 @@
            fhir:textEquivalent [ fhir:v "metoprolol tartrate 50 mg tablet 1 tablet oral 2 time daily" ] ;
            fhir:definition [
              a fhir:canonical ;
-             fhir:v "#metoprololTartrate50Prescription"^^xsd:anyURI
+             fhir:v "#metoprololTartrate50Prescription"^^xsd:anyURI ;
+             fhir:l <#metoprololTartrate50Prescription>
            ] ;
            fhir:dynamicValue ( [
              fhir:path [ fhir:v "status" ] ;
@@ -736,7 +762,8 @@
            fhir:textEquivalent [ fhir:v "amlodipine 5  tablet 1 tablet oral  daily" ] ;
            fhir:definition [
              a fhir:canonical ;
-             fhir:v "#amlodipinePrescription"^^xsd:anyURI
+             fhir:v "#amlodipinePrescription"^^xsd:anyURI ;
+             fhir:l <#amlodipinePrescription>
            ] ;
            fhir:dynamicValue ( [
              fhir:path [ fhir:v "status" ] ;
@@ -766,7 +793,8 @@
            fhir:textEquivalent [ fhir:v "nitroglycerin 0.4 mg tablet sub-lingual every 5 minutes as needed for chest pain; maximum 3 tablets" ] ;
            fhir:definition [
              a fhir:canonical ;
-             fhir:v "#nitroglycerinPrescription"^^xsd:anyURI
+             fhir:v "#nitroglycerinPrescription"^^xsd:anyURI ;
+             fhir:l <#nitroglycerinPrescription>
            ] ;
            fhir:dynamicValue ( [
              fhir:path [ fhir:v "status" ] ;

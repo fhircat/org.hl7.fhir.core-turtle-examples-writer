@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -32,7 +32,7 @@
          a sct:324252006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "324252006" ] ;
          fhir:display [ fhir:v "Azithromycin 250mg capsule (product)" ]
@@ -42,16 +42,17 @@
   fhir:status [ fhir:v "completed"] ; # 
   fhir:medication [
      fhir:reference [
+       fhir:l <#med0306> ;
        fhir:reference [ fhir:v "#med0306" ]
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/f001> ;
+     fhir:l <http://hl7.org/fhir/Encounter/f001> ;
      fhir:reference [ fhir:v "Encounter/f001" ] ;
      fhir:display [ fhir:v "encounter who leads to this prescription" ]
   ] ; # 
@@ -65,7 +66,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/med-admin-perform-function"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/med-admin-perform-function>
+           fhir:l <http://terminology.hl7.org/CodeSystem/med-admin-perform-function>
          ] ;
          fhir:code [ fhir:v "performer" ] ;
          fhir:display [ fhir:v "Performer" ]
@@ -73,14 +74,14 @@
      ] ;
      fhir:actor [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Practitioner/f007> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f007> ;
          fhir:reference [ fhir:v "Practitioner/f007" ] ;
          fhir:display [ fhir:v "Patrick Pump" ]
        ]
      ]
   ] ) ; # 
   fhir:request [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0302> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0302> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0302" ]
   ] ; # 
   fhir:dosage [
@@ -90,7 +91,7 @@
          a sct:26643006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "26643006" ] ;
          fhir:display [ fhir:v "Oral Route" ]
@@ -101,7 +102,7 @@
          a sct:421521009 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "421521009" ] ;
          fhir:display [ fhir:v "Swallow - dosing instruction imperative (qualifier value)" ]
@@ -112,7 +113,7 @@
        fhir:unit [ fhir:v "TAB" ] ;
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
        ] ;
        fhir:code [ fhir:v "TAB" ]
      ]

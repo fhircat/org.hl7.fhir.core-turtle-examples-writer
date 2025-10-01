@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://example-lab.com/specdef/123455"^^xsd:anyURI ;
-     fhir:link <http://example-lab.com/specdef/123455>
+     fhir:l <http://example-lab.com/specdef/123455>
   ] ; # 
   fhir:identifier [
      fhir:value [ fhir:v "123455" ]
@@ -39,7 +39,7 @@
        a sct:122555007 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "122555007" ]
      ] ) ;
@@ -55,7 +55,7 @@
          a sct:119364003 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "119364003" ]
        ] ) ;
@@ -71,7 +71,7 @@
            a sct:702281005 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "702281005" ] ;
            fhir:display [ fhir:v "Evacuated blood collection tube with thrombin and clot activator and gel separator" ]
@@ -81,7 +81,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/5.1.0/CodeSystem-container-cap.html"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/5.1.0/CodeSystem-container-cap.html>
+             fhir:l <http://terminology.hl7.org/5.1.0/CodeSystem-container-cap.html>
            ] ;
            fhir:code [ fhir:v "yellow" ] ;
            fhir:display [ fhir:v "yellow cap" ]
@@ -93,7 +93,7 @@
          fhir:unit [ fhir:v "ml" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mL" ]
        ]
@@ -111,7 +111,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ] ;
@@ -120,7 +120,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ]
@@ -129,7 +129,7 @@
          fhir:value [ fhir:v "12"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "h" ]
        ]

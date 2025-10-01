@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
        a sct:182836005 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "182836005" ] ;
        fhir:display [ fhir:v "Review of medication" ]
@@ -40,7 +40,7 @@
   ] ; # 
   fhir:date [ fhir:v "2013-11-20T23:10:23+11:00"^^xsd:dateTime] ; # 
   fhir:source [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:entry ( [
@@ -48,7 +48,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://nehta.gov.au/codes/medications/changetype"^^xsd:anyURI ;
-           fhir:link <http://nehta.gov.au/codes/medications/changetype>
+           fhir:l <http://nehta.gov.au/codes/medications/changetype>
          ] ;
          fhir:code [ fhir:v "01" ] ;
          fhir:display [ fhir:v "Prescribed" ]
@@ -62,7 +62,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://nehta.gov.au/codes/medications/changetype"^^xsd:anyURI ;
-           fhir:link <http://nehta.gov.au/codes/medications/changetype>
+           fhir:l <http://nehta.gov.au/codes/medications/changetype>
          ] ;
          fhir:code [ fhir:v "02" ] ;
          fhir:display [ fhir:v "Cancelled" ]

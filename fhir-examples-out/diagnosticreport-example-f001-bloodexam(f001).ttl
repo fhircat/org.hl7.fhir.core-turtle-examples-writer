@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,13 +25,13 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "https://example.com/base/DiagnosticReport/f001"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/DiagnosticReport/f001>
+       fhir:l <https://example.com/base/DiagnosticReport/f001>
      ] ;
      fhir:resource ( <https://example.com/base/DiagnosticReport/f001> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/ServiceRequest/req"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/ServiceRequest/req>
+       fhir:l <https://example.com/base/ServiceRequest/req>
      ] ;
      fhir:resource ( <https://example.com/base/ServiceRequest/req> )
   ] ) . # 
@@ -46,12 +46,12 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://www.bmc.nl/zorgportal/identifiers/reports"^^xsd:anyURI ;
-       fhir:link <http://www.bmc.nl/zorgportal/identifiers/reports>
+       fhir:l <http://www.bmc.nl/zorgportal/identifiers/reports>
      ] ;
      fhir:value [ fhir:v "nr1239044" ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/req> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/req> ;
      fhir:reference [ fhir:v "ServiceRequest/req" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
@@ -60,14 +60,14 @@
        a sct:252275004 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "252275004" ] ;
        fhir:display [ fhir:v "Haematology test" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "HM" ]
      ] )
@@ -77,37 +77,37 @@
        a loinc:58410-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "58410-2" ] ;
        fhir:display [ fhir:v "Complete blood count (hemogram) panel - Blood by Automated count" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f001> ;
+     fhir:l <http://hl7.org/fhir/Patient/f001> ;
      fhir:reference [ fhir:v "Patient/f001" ] ;
      fhir:display [ fhir:v "P. van den Heuvel" ]
   ] ; # 
   fhir:issued [ fhir:v "2013-05-15T19:32:52+01:00"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ] ;
      fhir:display [ fhir:v "Burgers University Medical Centre" ]
   ] ) ; # 
   fhir:result ( [
-     fhir:link <http://hl7.org/fhir/Observation/f001> ;
+     fhir:l <http://hl7.org/fhir/Observation/f001> ;
      fhir:reference [ fhir:v "Observation/f001" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/f002> ;
+     fhir:l <http://hl7.org/fhir/Observation/f002> ;
      fhir:reference [ fhir:v "Observation/f002" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/f003> ;
+     fhir:l <http://hl7.org/fhir/Observation/f003> ;
      fhir:reference [ fhir:v "Observation/f003" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/f004> ;
+     fhir:l <http://hl7.org/fhir/Observation/f004> ;
      fhir:reference [ fhir:v "Observation/f004" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/f005> ;
+     fhir:l <http://hl7.org/fhir/Observation/f005> ;
      fhir:reference [ fhir:v "Observation/f005" ]
   ] ) ; # 
   fhir:conclusion [ fhir:v "Core lab"] . # 
@@ -137,7 +137,7 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://example.org/bodysitecode"^^xsd:anyURI ;
-       fhir:link <http://example.org/bodysitecode>
+       fhir:l <http://example.org/bodysitecode>
      ] ;
      fhir:value [
        a fhir:CodeableConcept ;
@@ -145,7 +145,7 @@
          a sct:14975008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "14975008" ] ;
          fhir:display [ fhir:v "Forearm structure" ]
@@ -155,7 +155,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.bmc.nl/zorgportal/identifiers/labresults"^^xsd:anyURI ;
-       fhir:link <http://www.bmc.nl/zorgportal/identifiers/labresults>
+       fhir:l <http://www.bmc.nl/zorgportal/identifiers/labresults>
      ] ;
      fhir:value [ fhir:v "L2381" ]
   ] ) ; # 
@@ -167,7 +167,7 @@
          a loinc:58410-2 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "58410-2" ] ;
          fhir:display [ fhir:v "Complete blood count (hemogram) panel - Blood by Automated count" ]
@@ -175,16 +175,16 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f001> ;
+     fhir:l <http://hl7.org/fhir/Patient/f001> ;
      fhir:reference [ fhir:v "Patient/f001" ] ;
      fhir:display [ fhir:v "P. van den Heuvel" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/f001> ;
+     fhir:l <http://hl7.org/fhir/Encounter/f001> ;
      fhir:reference [ fhir:v "Encounter/f001" ]
   ] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Practitioner/f001> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f001> ;
      fhir:reference [ fhir:v "Practitioner/f001" ] ;
      fhir:display [ fhir:v "E.van den Broek" ]
   ] ; # 

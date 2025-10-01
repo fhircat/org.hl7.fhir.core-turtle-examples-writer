@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,12 +26,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/Questionnaire/3141"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/Questionnaire/3141>
+     fhir:l <http://hl7.org/fhir/Questionnaire/3141>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.20.2" ]
   ] ) ; # 
@@ -46,7 +46,7 @@
      fhir:code ( [
        fhir:system [
          fhir:v "http://example.org/system/code/sections"^^xsd:anyURI ;
-         fhir:link <http://example.org/system/code/sections>
+         fhir:l <http://example.org/system/code/sections>
        ] ;
        fhir:code [ fhir:v "COMORBIDITY" ]
      ] ) ;
@@ -56,7 +56,7 @@
        fhir:code ( [
          fhir:system [
            fhir:v "http://example.org/system/code/questions"^^xsd:anyURI ;
-           fhir:link <http://example.org/system/code/questions>
+           fhir:l <http://example.org/system/code/questions>
          ] ;
          fhir:code [ fhir:v "COMORB" ]
        ] ) ;
@@ -64,14 +64,14 @@
        fhir:type [ fhir:v "coding" ] ;
        fhir:answerValueSet [
          fhir:v "http://hl7.org/fhir/ValueSet/yesnodontknow"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/ValueSet/yesnodontknow>
+         fhir:l <http://hl7.org/fhir/ValueSet/yesnodontknow>
        ] ;
        fhir:item ( [
          fhir:linkId [ fhir:v "1.1.1" ] ;
          fhir:code ( [
            fhir:system [
              fhir:v "http://example.org/system/code/sections"^^xsd:anyURI ;
-             fhir:link <http://example.org/system/code/sections>
+             fhir:l <http://example.org/system/code/sections>
            ] ;
            fhir:code [ fhir:v "CARDIAL" ]
          ] ) ;
@@ -83,7 +83,7 @@
              a fhir:Coding ;
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v2-0136"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v2-0136>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v2-0136>
              ] ;
              fhir:code [ fhir:v "Y" ]
            ]
@@ -93,7 +93,7 @@
            fhir:code ( [
              fhir:system [
                fhir:v "http://example.org/system/code/questions"^^xsd:anyURI ;
-               fhir:link <http://example.org/system/code/questions>
+               fhir:l <http://example.org/system/code/questions>
              ] ;
              fhir:code [ fhir:v "COMORBCAR" ]
            ] ) ;
@@ -101,14 +101,14 @@
            fhir:type [ fhir:v "coding" ] ;
            fhir:answerValueSet [
              fhir:v "http://hl7.org/fhir/ValueSet/yesnodontknow"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/ValueSet/yesnodontknow>
+             fhir:l <http://hl7.org/fhir/ValueSet/yesnodontknow>
            ] ;
            fhir:item ( [
              fhir:linkId [ fhir:v "1.1.1.1.1" ] ;
              fhir:code ( [
                fhir:system [
                  fhir:v "http://example.org/system/code/questions"^^xsd:anyURI ;
-                 fhir:link <http://example.org/system/code/questions>
+                 fhir:l <http://example.org/system/code/questions>
                ] ;
                fhir:code [ fhir:v "COMCAR00" ] ;
                fhir:display [ fhir:v "Angina Pectoris" ]
@@ -116,7 +116,7 @@
                a sct:194828000 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "194828000" ] ;
                fhir:display [ fhir:v "Angina (disorder)" ]
@@ -125,7 +125,7 @@
              fhir:type [ fhir:v "coding" ] ;
              fhir:answerValueSet [
                fhir:v "http://hl7.org/fhir/ValueSet/yesnodontknow"^^xsd:anyURI ;
-               fhir:link <http://hl7.org/fhir/ValueSet/yesnodontknow>
+               fhir:l <http://hl7.org/fhir/ValueSet/yesnodontknow>
              ]
            ] [
              fhir:linkId [ fhir:v "1.1.1.1.2" ] ;
@@ -133,7 +133,7 @@
                a sct:22298006 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "22298006" ] ;
                fhir:display [ fhir:v "Myocardial infarction (disorder)" ]
@@ -142,7 +142,7 @@
              fhir:type [ fhir:v "coding" ] ;
              fhir:answerValueSet [
                fhir:v "http://hl7.org/fhir/ValueSet/yesnodontknow"^^xsd:anyURI ;
-               fhir:link <http://hl7.org/fhir/ValueSet/yesnodontknow>
+               fhir:l <http://hl7.org/fhir/ValueSet/yesnodontknow>
              ]
            ] )
          ] [
@@ -150,7 +150,7 @@
            fhir:code ( [
              fhir:system [
                fhir:v "http://example.org/system/code/questions"^^xsd:anyURI ;
-               fhir:link <http://example.org/system/code/questions>
+               fhir:l <http://example.org/system/code/questions>
              ] ;
              fhir:code [ fhir:v "COMORBVAS" ]
            ] ) ;
@@ -158,7 +158,7 @@
            fhir:type [ fhir:v "coding" ] ;
            fhir:answerValueSet [
              fhir:v "http://hl7.org/fhir/ValueSet/yesnodontknow"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/ValueSet/yesnodontknow>
+             fhir:l <http://hl7.org/fhir/ValueSet/yesnodontknow>
            ]
          ] )
        ] )
@@ -168,7 +168,7 @@
      fhir:code ( [
        fhir:system [
          fhir:v "http://example.org/system/code/sections"^^xsd:anyURI ;
-         fhir:link <http://example.org/system/code/sections>
+         fhir:l <http://example.org/system/code/sections>
        ] ;
        fhir:code [ fhir:v "HISTOPATHOLOGY" ]
      ] ) ;
@@ -178,7 +178,7 @@
        fhir:code ( [
          fhir:system [
            fhir:v "http://example.org/system/code/sections"^^xsd:anyURI ;
-           fhir:link <http://example.org/system/code/sections>
+           fhir:l <http://example.org/system/code/sections>
          ] ;
          fhir:code [ fhir:v "ABDOMINAL" ]
        ] ) ;
@@ -188,7 +188,7 @@
          fhir:code ( [
            fhir:system [
              fhir:v "http://example.org/system/code/questions"^^xsd:anyURI ;
-             fhir:link <http://example.org/system/code/questions>
+             fhir:l <http://example.org/system/code/questions>
            ] ;
            fhir:code [ fhir:v "STADPT" ] ;
            fhir:display [ fhir:v "pT category" ]

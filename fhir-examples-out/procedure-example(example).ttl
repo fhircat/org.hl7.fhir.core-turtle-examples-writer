@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
        a sct:80146002 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "80146002" ] ;
        fhir:display [ fhir:v "Appendectomy (Procedure)" ]
@@ -39,7 +39,7 @@
      fhir:text [ fhir:v "Appendectomy" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:occurrence [
@@ -47,19 +47,19 @@
      fhir:v "2013-04-05"^^xsd:date
   ] ; # 
   fhir:recorder [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr Cecil Surgeon" ]
   ] ; # 
   fhir:reported [
      a fhir:Reference ;
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr Cecil Surgeon" ]
   ] ; # 
   fhir:performer ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/example> ;
        fhir:reference [ fhir:v "Practitioner/example" ] ;
        fhir:display [ fhir:v "Dr Cecil Surgeon" ]
      ]
@@ -76,7 +76,7 @@
      fhir:text [ fhir:v "Routine Appendectomy. Appendix was inflamed and in retro-caecal position" ]
   ] ) ; # 
   fhir:supportingInfo ( [
-     fhir:link <http://hl7.org/fhir/ImagingStudy/example> ;
+     fhir:l <http://hl7.org/fhir/ImagingStudy/example> ;
      fhir:reference [ fhir:v "ImagingStudy/example" ]
   ] ) . # 
 

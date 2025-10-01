@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "dicom-wado-rs" ]
      ] )
@@ -42,7 +42,7 @@
   ] ) ; # 
   fhir:address [
      fhir:v "https://pacs.hospital.org/wado-rs"^^xsd:anyURI ;
-     fhir:link <https://pacs.hospital.org/wado-rs>
+     fhir:l <https://pacs.hospital.org/wado-rs>
   ] . # 
 
 # -------------------------------------------------------------------------------------

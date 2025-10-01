@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://hospitalx.com/selfpayagreement"^^xsd:anyURI ;
-       fhir:link <http://hospitalx.com/selfpayagreement>
+       fhir:l <http://hospitalx.com/selfpayagreement>
      ] ;
      fhir:value [ fhir:v "SP12345678" ]
   ] ) ; # 
@@ -34,7 +34,7 @@
   fhir:kind [ fhir:v "self-pay"] ; # 
   fhir:paymentBy ( [
      fhir:party [
-       fhir:link <http://hl7.org/fhir/Patient/5> ;
+       fhir:l <http://hl7.org/fhir/Patient/5> ;
        fhir:reference [ fhir:v "Patient/5" ]
      ]
   ] ) ; # 
@@ -42,18 +42,18 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/coverage-selfpay"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/coverage-selfpay>
+         fhir:l <http://terminology.hl7.org/CodeSystem/coverage-selfpay>
        ] ;
        fhir:code [ fhir:v "pay" ] ;
        fhir:display [ fhir:v "PAY" ]
      ] )
   ] ; # 
   fhir:subscriber [
-     fhir:link <http://hl7.org/fhir/Patient/5> ;
+     fhir:l <http://hl7.org/fhir/Patient/5> ;
      fhir:reference [ fhir:v "Patient/5" ]
   ] ; # 
   fhir:beneficiary [
-     fhir:link <http://hl7.org/fhir/Patient/5> ;
+     fhir:l <http://hl7.org/fhir/Patient/5> ;
      fhir:reference [ fhir:v "Patient/5" ]
   ] ; # 
   fhir:relationship [

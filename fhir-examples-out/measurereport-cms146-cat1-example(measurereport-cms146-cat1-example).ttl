@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -35,14 +35,15 @@
   fhir:type [ fhir:v "individual"] ; # 
   fhir:measure [
      fhir:v "http://example.org/fhir/Measure/CMS146"^^xsd:anyURI ;
-     fhir:link <http://example.org/fhir/Measure/CMS146>
+     fhir:l <http://example.org/fhir/Measure/CMS146>
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/123> ;
+     fhir:l <http://hl7.org/fhir/Patient/123> ;
      fhir:reference [ fhir:v "Patient/123" ]
   ] ; # 
   fhir:date [ fhir:v "2014-04-01"^^xsd:date] ; # 
   fhir:reporter [
+     fhir:l <#reporter> ;
      fhir:reference [ fhir:v "#reporter" ]
   ] ; # 
   fhir:period [
@@ -370,7 +371,7 @@
      ] )
   ] ) ; # 
   fhir:evaluatedResource ( [
-     fhir:link <http://hl7.org/fhir/Condition/example> ;
+     fhir:l <http://hl7.org/fhir/Condition/example> ;
      fhir:reference [ fhir:v "Condition/example" ] #   Condition #example is a condition that was considered in evaluating the measure for Patient #123  
   ] ) . # 
 

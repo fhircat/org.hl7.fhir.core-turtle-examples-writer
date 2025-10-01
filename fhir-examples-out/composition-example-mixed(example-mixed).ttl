@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
        a loinc:78418-1 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "78418-1" ] ;
        fhir:display [ fhir:v "Neonatal perinatal medicine Discharge summary" ]
@@ -41,20 +41,20 @@
        a loinc:LP173421-1 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "LP173421-1" ] ;
        fhir:display [ fhir:v "Report" ]
      ] )
   ] ) ; # 
   fhir:subject ( [
-     fhir:link <http://hl7.org/fhir/Patient/newborn> ;
+     fhir:l <http://hl7.org/fhir/Patient/newborn> ;
      fhir:reference [ fhir:v "Patient/newborn" ] ;
      fhir:display [ fhir:v "Tahlia Smith" ]
   ] ) ; # 
   fhir:date [ fhir:v "2018-10-30T16:56:04+11:00"^^xsd:dateTime] ; # 
   fhir:author ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/xcda-author> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/xcda-author> ;
      fhir:reference [ fhir:v "Practitioner/xcda-author" ] ;
      fhir:display [ fhir:v "Harold Hippocrates, MD" ]
   ] ) ; # 
@@ -64,7 +64,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/composition-attestation-mode>
+           fhir:l <http://hl7.org/fhir/composition-attestation-mode>
          ] ;
          fhir:code [ fhir:v "legal" ] ;
          fhir:display [ fhir:v "Legal" ]
@@ -72,13 +72,13 @@
      ] ;
      fhir:time [ fhir:v "2012-01-04T09:10:14Z"^^xsd:dateTime ] ;
      fhir:party [
-       fhir:link <http://hl7.org/fhir/Practitioner/xcda-author> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/xcda-author> ;
        fhir:reference [ fhir:v "Practitioner/xcda-author" ] ;
        fhir:display [ fhir:v "Harold Hippocrates, MD" ]
      ]
   ] ) ; # 
   fhir:custodian [
-     fhir:link <http://hl7.org/fhir/Organization/2.16.840.1.113883.19.5> ;
+     fhir:l <http://hl7.org/fhir/Organization/2.16.840.1.113883.19.5> ;
      fhir:reference [ fhir:v "Organization/2.16.840.1.113883.19.5" ] ;
      fhir:display [ fhir:v "Good Health Clinic" ]
   ] ; # 
@@ -88,7 +88,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.org/codes/SectionType"^^xsd:anyURI ;
-           fhir:link <http://acme.org/codes/SectionType>
+           fhir:l <http://acme.org/codes/SectionType>
          ] ;
          fhir:code [ fhir:v "newborn" ] ;
          fhir:display [ fhir:v "New Born Details" ]
@@ -104,7 +104,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.org/codes/SectionType"^^xsd:anyURI ;
-           fhir:link <http://acme.org/codes/SectionType>
+           fhir:l <http://acme.org/codes/SectionType>
          ] ;
          fhir:code [ fhir:v "mother" ] ;
          fhir:display [ fhir:v "Mother's Details" ]

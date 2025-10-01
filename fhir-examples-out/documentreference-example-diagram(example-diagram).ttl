@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,14 +28,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/media-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/media-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/media-type>
        ] ;
        fhir:code [ fhir:v "image" ] ;
        fhir:display [ fhir:v "Image" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/xcda> ;
+     fhir:l <http://hl7.org/fhir/Patient/xcda> ;
      fhir:reference [ fhir:v "Patient/xcda" ]
   ] ; #    don't have this codesystem in DocumentReference, could be brought into the event codes.
 #	<modality>
@@ -47,7 +47,7 @@
 #	  
   fhir:date [ fhir:v "2017-12-17T14:56:18Z"^^xsd:dateTime] ; # 
   fhir:author ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/xcda-author> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/xcda-author> ;
      fhir:reference [ fhir:v "Practitioner/xcda-author" ]
   ] [
      fhir:display [ fhir:v "Acme Camera" ]

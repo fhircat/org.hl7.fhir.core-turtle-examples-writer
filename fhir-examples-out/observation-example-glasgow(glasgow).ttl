@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
        a loinc:9269-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "9269-2" ] ;
        fhir:display [ fhir:v "Glasgow coma score total" ]
@@ -44,7 +44,7 @@
 #	In this example there is only LOINC
 #     
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; # 
@@ -57,7 +57,7 @@
      fhir:value [ fhir:v "13"^^xsd:decimal ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "{score}" ]
   ] ; #     In FHIR, units may be represented twice. Once in the
@@ -69,7 +69,7 @@
        fhir:value [ fhir:v "8"^^xsd:decimal ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "{score}" ]
      ] ;
@@ -81,7 +81,7 @@
        fhir:value [ fhir:v "9"^^xsd:decimal ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "{score}" ]
      ] ;
@@ -89,7 +89,7 @@
        fhir:value [ fhir:v "12"^^xsd:decimal ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "{score}" ]
      ] ;
@@ -101,7 +101,7 @@
        fhir:value [ fhir:v "13"^^xsd:decimal ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "{score}" ]
      ] ;
@@ -115,7 +115,7 @@
          a loinc:9268-4 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "9268-4" ] ;
          fhir:display [ fhir:v "Glasgow coma score motor" ]
@@ -127,7 +127,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.ec/codes"^^xsd:anyURI ;
-           fhir:link <http://acme.ec/codes>
+           fhir:l <http://acme.ec/codes>
          ] ;
          fhir:code [ fhir:v "5" ] ;
          fhir:display [ fhir:v "Localizes painful stimuli" ]
@@ -136,7 +136,7 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/itemWeight"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/itemWeight>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/itemWeight>
            ] ;
            fhir:value [
              a fhir:decimal ;
@@ -145,7 +145,7 @@
          ] ) ; #      This example has the extension which maps a numeric score to the code this may already be known and unecessary in the Observation resource    ,     0..1 Value of extension    
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "LA6566-9" ] ;
          fhir:display [ fhir:v "Localizing pain" ]
@@ -158,7 +158,7 @@
          a loinc:9270-0 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "9270-0" ] ;
          fhir:display [ fhir:v "Glasgow coma score verbal" ]
@@ -170,7 +170,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.ec/codes"^^xsd:anyURI ;
-           fhir:link <http://acme.ec/codes>
+           fhir:l <http://acme.ec/codes>
          ] ;
          fhir:code [ fhir:v "4" ] ;
          fhir:display [ fhir:v "Confused, disoriented" ]
@@ -179,7 +179,7 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/itemWeight"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/itemWeight>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/itemWeight>
            ] ;
            fhir:value [
              a fhir:decimal ;
@@ -188,7 +188,7 @@
          ] ) ; #      This example has the extension which maps a numeric score to the code this may already be known and unecessary in the Observation resource    ,     0..1 Value of extension    
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "LA6560-2" ] ; #    technicallly the code is '5' and the LA is the identifier to do hav e both  would require an extention   
          fhir:display [ fhir:v "Confused" ]
@@ -201,7 +201,7 @@
          a loinc:9267-6 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "9267-6" ] ;
          fhir:display [ fhir:v "Glasgow coma score eye opening" ]
@@ -213,7 +213,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.ec/codes"^^xsd:anyURI ;
-           fhir:link <http://acme.ec/codes>
+           fhir:l <http://acme.ec/codes>
          ] ;
          fhir:code [ fhir:v "4" ] ;
          fhir:display [ fhir:v "Opens eyes spontaneously" ]
@@ -222,7 +222,7 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/itemWeight"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/itemWeight>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/itemWeight>
            ] ;
            fhir:value [
              a fhir:decimal ;
@@ -231,7 +231,7 @@
          ] ) ; #      This example has the extension which maps a numeric score to the code this may already be known and unecessary in the Observation resource    ,     0..1 Value of extension    
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "LA6556-0" ] ; #    technicallly the code is '4' and the LA is the identifier to do hav e both  would require an extention   
          fhir:display [ fhir:v "Eyes open spontaneously" ]

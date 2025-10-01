@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,73 +24,73 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/1"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/1>
+       fhir:l <http://hl7.org/fhir/Patient/1>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/1> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/2"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/2>
+       fhir:l <http://hl7.org/fhir/Patient/2>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/3>
+       fhir:l <http://hl7.org/fhir/Patient/3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/4"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/4>
+       fhir:l <http://hl7.org/fhir/Patient/4>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/4> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/5"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/5>
+       fhir:l <http://hl7.org/fhir/Patient/5>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/5> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/6"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/6>
+       fhir:l <http://hl7.org/fhir/Patient/6>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/6> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/7"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/7>
+       fhir:l <http://hl7.org/fhir/Patient/7>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/7> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/8"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/8>
+       fhir:l <http://hl7.org/fhir/Patient/8>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/8> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/9"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/9>
+       fhir:l <http://hl7.org/fhir/Patient/9>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/9> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/10"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/10>
+       fhir:l <http://hl7.org/fhir/Patient/10>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/10> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/11"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/11>
+       fhir:l <http://hl7.org/fhir/Patient/11>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/11> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Patient/12"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Patient/12>
+       fhir:l <http://hl7.org/fhir/Patient/12>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Patient/12> )
   ] ) . # 
@@ -109,14 +109,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444222222" ]
   ] ) ; # 
@@ -138,7 +138,7 @@
      fhir:line ( [ fhir:v "2222 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -158,14 +158,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444333333" ]
   ] ) ; # 
@@ -186,7 +186,7 @@
      fhir:line ( [ fhir:v "2222 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -204,14 +204,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444555555" ]
   ] ) ; # 
@@ -232,7 +232,7 @@
      fhir:line ( [ fhir:v "2222 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -250,14 +250,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444114567" ]
   ] ) ; # 
@@ -278,7 +278,7 @@
      fhir:line ( [ fhir:v "6666 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -296,14 +296,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444111234" ]
   ] ) ; # 
@@ -324,7 +324,7 @@
      fhir:line ( [ fhir:v "6666 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -342,14 +342,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444113456" ]
   ] ) ; # 
@@ -370,7 +370,7 @@
      fhir:line ( [ fhir:v "6666 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -388,14 +388,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444112345" ]
   ] ) ; # 
@@ -416,7 +416,7 @@
      fhir:line ( [ fhir:v "6666 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -434,14 +434,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444666666" ]
   ] ) ; # 
@@ -462,7 +462,7 @@
      fhir:line ( [ fhir:v "4444 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -480,14 +480,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444777777" ]
   ] ) ; # 
@@ -507,14 +507,14 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://example.org/Profile/administrative-status"^^xsd:anyURI ;
-         fhir:link <http://example.org/Profile/administrative-status>
+         fhir:l <http://example.org/Profile/administrative-status>
        ] ;
        fhir:value [
          a fhir:CodeableConcept ;
          fhir:coding ( [
            fhir:system [
              fhir:v "http://example.org/fhir/v2/administrative-status"^^xsd:anyURI ;
-             fhir:link <http://example.org/fhir/v2/administrative-status>
+             fhir:l <http://example.org/fhir/v2/administrative-status>
            ] ;
            fhir:code [ fhir:v "FTM" ] ;
            fhir:display [ fhir:v "female-to-male" ]
@@ -531,7 +531,7 @@
      fhir:line ( [ fhir:v "4444 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -549,14 +549,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444888888" ]
   ] ) ; # 
@@ -577,7 +577,7 @@
      fhir:line ( [ fhir:v "2222 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -595,14 +595,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444999999" ]
   ] ) ; # 
@@ -623,7 +623,7 @@
      fhir:line ( [ fhir:v "4444 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 
@@ -641,14 +641,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "555222222" ]
   ] ) ; # 
@@ -669,7 +669,7 @@
      fhir:line ( [ fhir:v "5555 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] . # 
 

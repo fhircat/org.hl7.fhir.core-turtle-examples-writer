@@ -16,7 +16,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,25 +29,25 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.acme.org/nutritionorders"^^xsd:anyURI ;
-       fhir:link <http://www.acme.org/nutritionorders>
+       fhir:l <http://www.acme.org/nutritionorders>
      ] ;
      fhir:value [ fhir:v "123" ]
   ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:intent [ fhir:v "order"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter Chalmers" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ] ;
      fhir:display [ fhir:v "Inpatient" ]
   ] ; # 
   fhir:dateTime [ fhir:v "2014-09-17"^^xsd:date] ; # 
   fhir:orderer [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr Adam Careful" ]
   ] ; # 
@@ -58,7 +58,7 @@
            a sct:412414007 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "412414007" ] ;
            fhir:display [ fhir:v "infant formula + iron" ]
@@ -72,7 +72,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/entformula-additive"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/entformula-additive>
+               fhir:l <http://terminology.hl7.org/CodeSystem/entformula-additive>
              ] ;
              fhir:code [ fhir:v "carbohydrate" ] ;
              fhir:display [ fhir:v "Carbohydrate" ]
@@ -86,7 +86,7 @@
        fhir:unit [ fhir:v "calories per ounce" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "cal/[foz_us]" ]
      ] ;
@@ -94,7 +94,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
          ] ;
          fhir:code [ fhir:v "PO" ] ;
          fhir:display [ fhir:v "Swallow, oral" ] ;
@@ -120,7 +120,7 @@
          fhir:unit [ fhir:v "ounces" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "[foz_us]" ]
        ]
@@ -130,7 +130,7 @@
        fhir:unit [ fhir:v "ounces" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "[foz_us]" ]
      ] ;

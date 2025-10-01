@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,12 +25,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://example.org/Questionnaire/zika-virus-exposure-assessment"^^xsd:anyURI ;
-     fhir:link <http://example.org/Questionnaire/zika-virus-exposure-assessment>
+     fhir:l <http://example.org/Questionnaire/zika-virus-exposure-assessment>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.20.1" ]
   ] ) ; # 
@@ -47,13 +47,13 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://example.org/additional-information"^^xsd:anyURI ;
-         fhir:link <http://example.org/additional-information>
+         fhir:l <http://example.org/additional-information>
        ] ;
        fhir:value [
          a fhir:Attachment ;
          fhir:url [
            fhir:v "http://www.cdc.gov/zika/geo/index.html"^^xsd:anyURI ;
-           fhir:link <http://www.cdc.gov/zika/geo/index.html>
+           fhir:l <http://www.cdc.gov/zika/geo/index.html>
          ] ;
          fhir:title [ fhir:v "Areas with active Zika virus transmission/exposure risk" ]
        ]
@@ -62,7 +62,7 @@
      fhir:code ( [
        fhir:system [
          fhir:v "http://example.org/questionnaires"^^xsd:anyURI ;
-         fhir:link <http://example.org/questionnaires>
+         fhir:l <http://example.org/questionnaires>
        ] ;
        fhir:code [ fhir:v "CDE: Resident of or Frequent Traveler to Zika Area" ]
      ] ) ;
@@ -72,13 +72,13 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://example.org/additional-information"^^xsd:anyURI ;
-         fhir:link <http://example.org/additional-information>
+         fhir:l <http://example.org/additional-information>
        ] ;
        fhir:value [
          a fhir:Attachment ;
          fhir:url [
            fhir:v "http://www.cdc.gov/zika/geo/index.html"^^xsd:anyURI ;
-           fhir:link <http://www.cdc.gov/zika/geo/index.html>
+           fhir:l <http://www.cdc.gov/zika/geo/index.html>
          ] ;
          fhir:title [ fhir:v "Areas with active Zika virus transmission/exposure risk" ]
        ]
@@ -87,7 +87,7 @@
      fhir:code ( [
        fhir:system [
          fhir:v "http://example.org/questionnaires"^^xsd:anyURI ;
-         fhir:link <http://example.org/questionnaires>
+         fhir:l <http://example.org/questionnaires>
        ] ;
        fhir:code [ fhir:v "CDE: Recent Travel to Zika Area" ]
      ] ) ;
@@ -106,7 +106,7 @@
      fhir:code ( [
        fhir:system [
          fhir:v "http://example.org/questionnaires"^^xsd:anyURI ;
-         fhir:link <http://example.org/questionnaires>
+         fhir:l <http://example.org/questionnaires>
        ] ;
        fhir:code [ fhir:v "CDE: Time Since Returned From Travel" ]
      ] ) ;
@@ -124,13 +124,13 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://example.org/additional-information"^^xsd:anyURI ;
-         fhir:link <http://example.org/additional-information>
+         fhir:l <http://example.org/additional-information>
        ] ;
        fhir:value [
          a fhir:Attachment ;
          fhir:url [
            fhir:v "http://www.cdc.gov/zika/geo/index.html"^^xsd:anyURI ;
-           fhir:link <http://www.cdc.gov/zika/geo/index.html>
+           fhir:l <http://www.cdc.gov/zika/geo/index.html>
          ] ;
          fhir:title [ fhir:v "Areas with active Zika virus transmission/exposure risk" ]
        ]
@@ -139,7 +139,7 @@
      fhir:code ( [
        fhir:system [
          fhir:v "http://example.org/questionnaires"^^xsd:anyURI ;
-         fhir:link <http://example.org/questionnaires>
+         fhir:l <http://example.org/questionnaires>
        ] ;
        fhir:code [ fhir:v "CDE: Recent Sexual Encounter with Traveler to Zika Area" ]
      ] ) ;
@@ -158,7 +158,7 @@
      fhir:code ( [
        fhir:system [
          fhir:v "http://example.org/questionnaires"^^xsd:anyURI ;
-         fhir:link <http://example.org/questionnaires>
+         fhir:l <http://example.org/questionnaires>
        ] ;
        fhir:code [ fhir:v "CDE: Time Since Sexual Encounter" ]
      ] ) ;
@@ -176,13 +176,13 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://example.org/additional-information"^^xsd:anyURI ;
-         fhir:link <http://example.org/additional-information>
+         fhir:l <http://example.org/additional-information>
        ] ;
        fhir:value [
          a fhir:Attachment ;
          fhir:url [
            fhir:v "http://www.cdc.gov/zika/geo/index.html"^^xsd:anyURI ;
-           fhir:link <http://www.cdc.gov/zika/geo/index.html>
+           fhir:l <http://www.cdc.gov/zika/geo/index.html>
          ] ;
          fhir:title [ fhir:v "Areas with active Zika virus transmission/exposure risk" ]
        ]
@@ -191,7 +191,7 @@
      fhir:code ( [
        fhir:system [
          fhir:v "http://example.org/questionnaires"^^xsd:anyURI ;
-         fhir:link <http://example.org/questionnaires>
+         fhir:l <http://example.org/questionnaires>
        ] ;
        fhir:code [ fhir:v "CDE: Planned Travel to Zika Area" ]
      ] ) ;

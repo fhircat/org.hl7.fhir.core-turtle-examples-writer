@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -35,26 +35,26 @@
      ] )
   ] ; # 
   fhir:request ( [
-     fhir:link <http://hl7.org/fhir/BiologicallyDerivedProduct/HCTcollection-servicerequest> ;
+     fhir:l <http://hl7.org/fhir/BiologicallyDerivedProduct/HCTcollection-servicerequest> ;
      fhir:reference [ fhir:v "BiologicallyDerivedProduct/HCTcollection-servicerequest" ] ;
      fhir:display [ fhir:v "Service Request for HCT Collection" ]
   ] ) ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://www.isbt128.org/uri/SingleEuropeanCode"^^xsd:anyURI ;
-       fhir:link <https://www.isbt128.org/uri/SingleEuropeanCode>
+       fhir:l <https://www.isbt128.org/uri/SingleEuropeanCode>
      ] ;
      fhir:value [ fhir:v "PL001499Z549917123456 A00T041600320171231" ]
   ] ) ; # 
   fhir:biologicalSourceEvent [
      fhir:system [
        fhir:v "https://www.isbt128.org/uri/DonationIdentificationNumber"^^xsd:anyURI ;
-       fhir:link <https://www.isbt128.org/uri/DonationIdentificationNumber>
+       fhir:l <https://www.isbt128.org/uri/DonationIdentificationNumber>
      ] ;
      fhir:value [ fhir:v "W000022000687" ]
   ] ; # 
   fhir:processingFacility ( [
-     fhir:link <http://hl7.org/fhir/Organization/Example> ;
+     fhir:l <http://hl7.org/fhir/Organization/Example> ;
      fhir:reference [ fhir:v "Organization/Example" ]
   ] ) ; # 
   fhir:division [ fhir:v "A00000"] ; # 
@@ -64,7 +64,7 @@
   fhir:expirationDate [ fhir:v "2028-08-02T23:59:00-05:00"^^xsd:dateTime] ; # 
   fhir:collection [
      fhir:source [
-       fhir:link <http://hl7.org/fhir/Patient/example-a> ;
+       fhir:l <http://hl7.org/fhir/Patient/example-a> ;
        fhir:reference [ fhir:v "Patient/example-a" ] ;
        fhir:display [ fhir:v "HCT Collection" ]
      ]
@@ -75,7 +75,7 @@
        fhir:unit [ fhir:v "degrees C" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ]
      ]
   ] ; # 
@@ -90,7 +90,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://www.isbt128.org/uri/ABORhD"^^xsd:anyURI ;
-           fhir:link <https://www.isbt128.org/uri/ABORhD>
+           fhir:l <https://www.isbt128.org/uri/ABORhD>
          ] ;
          fhir:code [ fhir:v "62" ] ;
          fhir:display [ fhir:v "A RhD Positive" ]
@@ -107,7 +107,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://www.isbt128.org/uri/CollectionType"^^xsd:anyURI ;
-           fhir:link <https://www.isbt128.org/uri/CollectionType>
+           fhir:l <https://www.isbt128.org/uri/CollectionType>
          ] ;
          fhir:code [ fhir:v "1" ] ;
          fhir:display [ fhir:v "For Autologous Use Only" ]
@@ -125,7 +125,7 @@
        fhir:unit [ fhir:v "mL" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ]
      ]
   ] [
@@ -140,7 +140,7 @@
        fhir:unit [ fhir:v "10*6/mL" ] ;
        fhir:system [
          fhir:v "https://ucum.org/"^^xsd:anyURI ;
-         fhir:link <https://ucum.org/>
+         fhir:l <https://ucum.org/>
        ]
      ]
   ] ) . # 

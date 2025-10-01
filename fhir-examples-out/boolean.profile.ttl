@@ -16,7 +16,7 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
      ] ;
      fhir:value [
        a fhir:code ;
@@ -25,7 +25,7 @@
   ] [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version>
      ] ;
      fhir:value [
        a fhir:code ;
@@ -34,7 +34,7 @@
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/StructureDefinition/boolean"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/StructureDefinition/boolean>
+     fhir:l <http://hl7.org/fhir/StructureDefinition/boolean>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "boolean"] ; # 
@@ -53,7 +53,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -62,10 +62,13 @@
   fhir:fhirVersion [ fhir:v "5.0.0"] ; # 
   fhir:kind [ fhir:v "primitive-type"] ; # 
   fhir:abstract [ fhir:v false] ; # 
-  fhir:type [ fhir:v "boolean"^^xsd:anyURI] ; # 
+  fhir:type [
+     fhir:v "boolean"^^xsd:anyURI ;
+     fhir:l fhir:boolean
+  ] ; # 
   fhir:baseDefinition [
      fhir:v "http://hl7.org/fhir/StructureDefinition/PrimitiveType"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/StructureDefinition/PrimitiveType>
+     fhir:l <http://hl7.org/fhir/StructureDefinition/PrimitiveType>
   ] ; # 
   fhir:derivation [ fhir:v "specialization"] ; # 
   fhir:snapshot [
@@ -88,7 +91,7 @@
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
        fhir:isModifier [ fhir:v false ] ;
@@ -110,16 +113,17 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type>
            ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "string"^^xsd:anyURI
+             fhir:v "string"^^xsd:anyURI ;
+             fhir:l fhir:string
            ]
          ] ) ;
          fhir:code [
            fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhirpath/System.String>
+           fhir:l <http://hl7.org/fhirpath/System.String>
          ]
        ] ) ;
        fhir:isModifier [ fhir:v false ] ;
@@ -139,7 +143,10 @@
          fhir:max [ fhir:v "*" ]
        ] ;
        fhir:type ( [
-         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+         fhir:code [
+           fhir:v "Extension"^^xsd:anyURI ;
+           fhir:l fhir:Extension
+         ]
        ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
@@ -148,7 +155,7 @@
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] [
          fhir:key [ fhir:v "ext-1" ] ;
@@ -157,7 +164,7 @@
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
        fhir:isModifier [ fhir:v false ] ;
@@ -179,16 +186,17 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type>
            ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "boolean"^^xsd:anyURI
+             fhir:v "boolean"^^xsd:anyURI ;
+             fhir:l fhir:boolean
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/regex"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/regex>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/regex>
            ] ;
            fhir:value [
              a fhir:string ;
@@ -197,7 +205,7 @@
          ] ) ;
          fhir:code [
            fhir:v "http://hl7.org/fhirpath/System.Boolean"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhirpath/System.Boolean>
+           fhir:l <http://hl7.org/fhirpath/System.Boolean>
          ]
        ] ) ; #  Note: special primitive values have a FHIRPath system type. e.g. this is compiler magic (c) 
        fhir:isModifier [ fhir:v false ] ;
@@ -224,16 +232,17 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type>
            ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "boolean"^^xsd:anyURI
+             fhir:v "boolean"^^xsd:anyURI ;
+             fhir:l fhir:boolean
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/regex"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/regex>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/regex>
            ] ;
            fhir:value [
              a fhir:string ;
@@ -242,7 +251,7 @@
          ] ) ;
          fhir:code [
            fhir:v "http://hl7.org/fhirpath/System.Boolean"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhirpath/System.Boolean>
+           fhir:l <http://hl7.org/fhirpath/System.Boolean>
          ]
        ] ) #  Note: special primitive values have a FHIRPath system type. e.g. this is compiler magic (a) ,  Note: special primitive values have a FHIRPath system type. e.g. this is compiler magic (b) 
      ] )

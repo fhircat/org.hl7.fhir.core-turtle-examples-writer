@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://happyvalley.com/coverageelegibilityrequest"^^xsd:anyURI ;
-       fhir:link <http://happyvalley.com/coverageelegibilityrequest>
+       fhir:l <http://happyvalley.com/coverageelegibilityrequest>
      ] ;
      fhir:value [ fhir:v "52346" ]
   ] ) ; # 
@@ -38,7 +38,7 @@
   ] ; # 
   fhir:purpose ( [ fhir:v "validation"] [ fhir:v "benefits"] ) ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ]
   ] ; # 
   fhir:serviced [
@@ -50,31 +50,31 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://happyvalleyclinic.com/staff"^^xsd:anyURI ;
-         fhir:link <http://happyvalleyclinic.com/staff>
+         fhir:l <http://happyvalleyclinic.com/staff>
        ] ;
        fhir:value [ fhir:v "14" ]
      ]
   ] ; # 
   fhir:provider [
-     fhir:link <http://hl7.org/fhir/Organization/1> ;
+     fhir:l <http://hl7.org/fhir/Organization/1> ;
      fhir:reference [ fhir:v "Organization/1" ]
   ] ; # 
   fhir:insurer [
-     fhir:link <http://hl7.org/fhir/Organization/2> ;
+     fhir:l <http://hl7.org/fhir/Organization/2> ;
      fhir:reference [ fhir:v "Organization/2" ]
   ] ; # 
   fhir:facility [
      fhir:identifier [
        fhir:system [
          fhir:v "http://statecliniclicensor.com/clinicid"^^xsd:anyURI ;
-         fhir:link <http://statecliniclicensor.com/clinicid>
+         fhir:l <http://statecliniclicensor.com/clinicid>
        ] ;
        fhir:value [ fhir:v "G35B9" ]
      ]
   ] ; # 
   fhir:insurance ( [
      fhir:coverage [
-       fhir:link <http://hl7.org/fhir/Coverage/9876B1> ;
+       fhir:l <http://hl7.org/fhir/Coverage/9876B1> ;
        fhir:reference [ fhir:v "Coverage/9876B1" ]
      ] ;
      fhir:businessArrangement [ fhir:v "NB8742" ]
@@ -84,7 +84,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ex-benefitcategory"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ex-benefitcategory>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ex-benefitcategory>
          ] ;
          fhir:code [ fhir:v "69" ] ;
          fhir:display [ fhir:v "Maternity" ]

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -23,25 +23,25 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "urn:uuid:e19deb42-7137-48b0-aef1-d37019d0316e"^^xsd:anyURI ;
-       fhir:link <urn:uuid:e19deb42-7137-48b0-aef1-d37019d0316e>
+       fhir:l <urn:uuid:e19deb42-7137-48b0-aef1-d37019d0316e>
      ] ;
      fhir:resource ( <urn:uuid:e19deb42-7137-48b0-aef1-d37019d0316e> )
   ] [
      fhir:fullUrl [
        fhir:v "urn:uuid:7d95129b-ea17-48fb-844c-70317219723d"^^xsd:anyURI ;
-       fhir:link <urn:uuid:7d95129b-ea17-48fb-844c-70317219723d>
+       fhir:l <urn:uuid:7d95129b-ea17-48fb-844c-70317219723d>
      ] ;
      fhir:resource ( <urn:uuid:7d95129b-ea17-48fb-844c-70317219723d> )
   ] [
      fhir:fullUrl [
        fhir:v "urn:uuid:4b9d12e2-c4c3-4533-85d0-7f78a6b91a53"^^xsd:anyURI ;
-       fhir:link <urn:uuid:4b9d12e2-c4c3-4533-85d0-7f78a6b91a53>
+       fhir:l <urn:uuid:4b9d12e2-c4c3-4533-85d0-7f78a6b91a53>
      ] ;
      fhir:resource ( <urn:uuid:4b9d12e2-c4c3-4533-85d0-7f78a6b91a53> ) #   would normally go on to have ingredients here (see other examples)  
   ] [
      fhir:fullUrl [
        fhir:v "urn:uuid:9a66d8b9-1793-4e43-8cc3-89af55d86d0c"^^xsd:anyURI ;
-       fhir:link <urn:uuid:9a66d8b9-1793-4e43-8cc3-89af55d86d0c>
+       fhir:l <urn:uuid:9a66d8b9-1793-4e43-8cc3-89af55d86d0c>
      ] ;
      fhir:resource ( <urn:uuid:9a66d8b9-1793-4e43-8cc3-89af55d86d0c> ) #   would normally go on to have ingredients here (see other examples)  
   ] ) . # 
@@ -55,7 +55,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org.uk/fhir/product"^^xsd:anyURI ;
-       fhir:link <http://example.org.uk/fhir/product>
+       fhir:l <http://example.org.uk/fhir/product>
      ] ;
      fhir:value [ fhir:v "ThrushTreatCombo" ]
   ] ) ; # 
@@ -63,7 +63,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-         fhir:link <http://example.org.uk/fhir/doseform>
+         fhir:l <http://example.org.uk/fhir/doseform>
        ] ;
        fhir:code [ fhir:v "Tablet and Cream for topical application" ]
      ] )
@@ -79,7 +79,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n						(left blank to stop example creating something automatically)\n					</div>"^^rdf:XMLLiteral
   ] ; #   text not needed here  
   fhir:packageFor ( [
-     fhir:link <http://hl7.org/fhir/MedicinalProductDefinition/drug-combo-product-bundle-mp> ;
+     fhir:l <http://hl7.org/fhir/MedicinalProductDefinition/drug-combo-product-bundle-mp> ;
      fhir:reference [ fhir:v "MedicinalProductDefinition/drug-combo-product-bundle-mp" ]
   ] ) ; # 
   fhir:packaging [
@@ -97,7 +97,7 @@
        fhir:containedItem ( [
          fhir:item [
            fhir:reference [
-             fhir:link <http://hl7.org/fhir/ManufacturedItemDefinition/tabletItem> ;
+             fhir:l <http://hl7.org/fhir/ManufacturedItemDefinition/tabletItem> ;
              fhir:reference [ fhir:v "ManufacturedItemDefinition/tabletItem" ]
            ]
          ] ;
@@ -114,7 +114,7 @@
        fhir:containedItem ( [
          fhir:item [
            fhir:reference [
-             fhir:link <http://hl7.org/fhir/ManufacturedItemDefinition/creamItem> ;
+             fhir:l <http://hl7.org/fhir/ManufacturedItemDefinition/creamItem> ;
              fhir:reference [ fhir:v "ManufacturedItemDefinition/creamItem" ]
            ]
          ] ;
@@ -142,7 +142,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-         fhir:link <http://example.org.uk/fhir/doseform>
+         fhir:l <http://example.org.uk/fhir/doseform>
        ] ;
        fhir:code [ fhir:v "tablet" ]
      ] )
@@ -159,7 +159,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-         fhir:link <http://example.org.uk/fhir/doseform>
+         fhir:l <http://example.org.uk/fhir/doseform>
        ] ;
        fhir:code [ fhir:v "Cream for topical applcation" ]
      ] )

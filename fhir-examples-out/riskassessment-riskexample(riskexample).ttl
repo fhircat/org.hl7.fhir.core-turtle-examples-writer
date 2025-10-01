@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,16 +27,16 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://example.org"^^xsd:anyURI ;
-       fhir:link <http://example.org>
+       fhir:l <http://example.org>
      ] ;
      fhir:value [ fhir:v "risk-assessment-breastcancer1" ]
   ] ) ; # 
   fhir:basedOn [
-     fhir:link <http://hl7.org/fhir/ImmunizationRecommendation/example> ;
+     fhir:l <http://hl7.org/fhir/ImmunizationRecommendation/example> ;
      fhir:reference [ fhir:v "ImmunizationRecommendation/example" ]
   ] ; # 
   fhir:parent [
-     fhir:link <http://hl7.org/fhir/DiagnosticReport/example> ;
+     fhir:l <http://hl7.org/fhir/DiagnosticReport/example> ;
      fhir:reference [ fhir:v "DiagnosticReport/example" ]
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
@@ -44,18 +44,18 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://browser.ihtsdotools.org/"^^xsd:anyURI ;
-         fhir:link <http://browser.ihtsdotools.org/>
+         fhir:l <http://browser.ihtsdotools.org/>
        ] ;
        fhir:code [ fhir:v "709510001" ] ;
        fhir:display [ fhir:v "Assessment of risk for disease (procedure)" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ] ;
      fhir:display [ fhir:v "Encounter with patient @example" ]
   ] ; # 
@@ -64,18 +64,18 @@
      fhir:v "2017-10-10"^^xsd:date
   ] ; # 
   fhir:condition [
-     fhir:link <http://hl7.org/fhir/Condition/example> ;
+     fhir:l <http://hl7.org/fhir/Condition/example> ;
      fhir:reference [ fhir:v "Condition/example" ]
   ] ; # 
   fhir:performer [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ]
   ] ; # 
   fhir:basis ( [
-     fhir:link <http://hl7.org/fhir/DiagnosticReport/example> ;
+     fhir:l <http://hl7.org/fhir/DiagnosticReport/example> ;
      fhir:reference [ fhir:v "DiagnosticReport/example" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/example> ;
+     fhir:l <http://hl7.org/fhir/Observation/example> ;
      fhir:reference [ fhir:v "Observation/example" ]
   ] ) ; # 
   fhir:prediction ( [
@@ -93,7 +93,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ] ;
@@ -102,7 +102,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]

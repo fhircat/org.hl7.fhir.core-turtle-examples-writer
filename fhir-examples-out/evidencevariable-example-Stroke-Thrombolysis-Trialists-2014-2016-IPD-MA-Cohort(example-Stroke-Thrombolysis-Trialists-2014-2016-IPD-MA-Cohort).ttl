@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -35,7 +35,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://doi.org/10.1016/S0140-6736(14)60584-5"^^xsd:anyURI ;
-         fhir:link <https://doi.org/10.1016/S0140-6736(14)60584-5>
+         fhir:l <https://doi.org/10.1016/S0140-6736(14)60584-5>
        ]
      ]
   ] [
@@ -46,7 +46,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://doi.org/10.1161/STROKEAHA.116.013644"^^xsd:anyURI ;
-         fhir:link <https://doi.org/10.1161/STROKEAHA.116.013644>
+         fhir:l <https://doi.org/10.1161/STROKEAHA.116.013644>
        ]
      ]
   ] ) ; # 
@@ -57,51 +57,72 @@
        fhir:code [ fhir:v "any-of" ] ;
        fhir:characteristic ( [
          fhir:definitionReference [
-           fhir:link <http://hl7.org/fhir/Group/ECASSIII-Trial-Cohort> ;
+           fhir:l <http://hl7.org/fhir/Group/ECASSIII-Trial-Cohort> ;
            fhir:reference [ fhir:v "Group/ECASSIII-Trial-Cohort" ] ;
-           fhir:type [ fhir:v "Group"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Group"^^xsd:anyURI ;
+             fhir:l fhir:Group
+           ] ;
            fhir:display [ fhir:v "ECASS III Trial Cohort" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:link <http://hl7.org/fhir/Group/IST3-Trial-Cohort> ;
+           fhir:l <http://hl7.org/fhir/Group/IST3-Trial-Cohort> ;
            fhir:reference [ fhir:v "Group/IST3-Trial-Cohort" ] ;
-           fhir:type [ fhir:v "Group"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Group"^^xsd:anyURI ;
+             fhir:l fhir:Group
+           ] ;
            fhir:display [ fhir:v "IST3 Trial Cohort" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:link <http://hl7.org/fhir/Group/ECASS-Trial-Cohort> ;
+           fhir:l <http://hl7.org/fhir/Group/ECASS-Trial-Cohort> ;
            fhir:reference [ fhir:v "Group/ECASS-Trial-Cohort" ] ;
-           fhir:type [ fhir:v "Group"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Group"^^xsd:anyURI ;
+             fhir:l fhir:Group
+           ] ;
            fhir:display [ fhir:v "ECASS Trial Cohort" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:link <http://hl7.org/fhir/Group/ECASSII-Trial-Cohort> ;
+           fhir:l <http://hl7.org/fhir/Group/ECASSII-Trial-Cohort> ;
            fhir:reference [ fhir:v "Group/ECASSII-Trial-Cohort" ] ;
-           fhir:type [ fhir:v "Group"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Group"^^xsd:anyURI ;
+             fhir:l fhir:Group
+           ] ;
            fhir:display [ fhir:v "ECASSII Trial Cohort" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:link <http://hl7.org/fhir/Group/EPITHET-Trial-Cohort> ;
+           fhir:l <http://hl7.org/fhir/Group/EPITHET-Trial-Cohort> ;
            fhir:reference [ fhir:v "Group/EPITHET-Trial-Cohort" ] ;
-           fhir:type [ fhir:v "Group"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Group"^^xsd:anyURI ;
+             fhir:l fhir:Group
+           ] ;
            fhir:display [ fhir:v "EPITHET Trial Cohort" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:link <http://hl7.org/fhir/Group/ATLANTIS-Trial-Cohort> ;
+           fhir:l <http://hl7.org/fhir/Group/ATLANTIS-Trial-Cohort> ;
            fhir:reference [ fhir:v "Group/ATLANTIS-Trial-Cohort" ] ;
-           fhir:type [ fhir:v "Group"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Group"^^xsd:anyURI ;
+             fhir:l fhir:Group
+           ] ;
            fhir:display [ fhir:v "ATLANTIS Trial Cohort" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:link <http://hl7.org/fhir/Group/NINDS-Trial-Cohort> ;
+           fhir:l <http://hl7.org/fhir/Group/NINDS-Trial-Cohort> ;
            fhir:reference [ fhir:v "Group/NINDS-Trial-Cohort" ] ;
-           fhir:type [ fhir:v "Group"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Group"^^xsd:anyURI ;
+             fhir:l fhir:Group
+           ] ;
            fhir:display [ fhir:v "NINDS Trial Cohort" ]
          ]
        ] )

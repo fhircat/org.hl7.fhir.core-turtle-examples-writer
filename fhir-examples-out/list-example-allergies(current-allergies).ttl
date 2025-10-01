@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,11 +27,11 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/list-for"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/list-for>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/list-for>
      ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:link <http://hl7.org/fhir/Patient/example> ;
+       fhir:l <http://hl7.org/fhir/Patient/example> ;
        fhir:reference [ fhir:v "Patient/example" ] ;
        fhir:display [ fhir:v "Dr Adam Careful" ]
      ]
@@ -44,7 +44,7 @@
        a loinc:52472-8 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "52472-8" ] ;
        fhir:display [ fhir:v "Allergies and Adverse Drug Reactions" ]
@@ -53,26 +53,26 @@
   ] ; # 
   fhir:date [ fhir:v "2015-07-14T23:10:23+11:00"^^xsd:dateTime] ; # 
   fhir:source [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:orderedBy [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/list-order"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/list-order>
+         fhir:l <http://terminology.hl7.org/CodeSystem/list-order>
        ] ;
        fhir:code [ fhir:v "entry-date" ]
      ] )
   ] ; # 
   fhir:entry ( [
      fhir:item [
-       fhir:link <http://hl7.org/fhir/AllergyIntolerance/example> ;
+       fhir:l <http://hl7.org/fhir/AllergyIntolerance/example> ;
        fhir:reference [ fhir:v "AllergyIntolerance/example" ]
      ]
   ] [
      fhir:item [
-       fhir:link <http://hl7.org/fhir/AllergyIntolerance/medication> ;
+       fhir:l <http://hl7.org/fhir/AllergyIntolerance/medication> ;
        fhir:reference [ fhir:v "AllergyIntolerance/medication" ]
      ]
   ] ) . # 

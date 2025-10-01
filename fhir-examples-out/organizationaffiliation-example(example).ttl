@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.acme.org/practitioners"^^xsd:anyURI ;
-       fhir:link <http://www.acme.org/practitioners>
+       fhir:l <http://www.acme.org/practitioners>
      ] ;
      fhir:value [ fhir:v "23" ]
   ] ) ; # 
@@ -37,15 +37,15 @@
      fhir:end [ fhir:v "2012-03-31"^^xsd:date ]
   ] ; # 
   fhir:organization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7pay> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7pay> ;
      fhir:reference [ fhir:v "Organization/hl7pay" ]
   ] ; # 
   fhir:participatingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ] #   Organization that will provide services to the affiliated organization  
   ] ; # 
   fhir:network ( [
-     fhir:link <http://hl7.org/fhir/Organization/hl7pay> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7pay> ;
      fhir:reference [ fhir:v "Organization/hl7pay" ] ;
      fhir:display [ fhir:v "HL7 Payer Network" ]
   ] ) ; # 
@@ -53,7 +53,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/organization-role"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/organization-role>
+         fhir:l <http://terminology.hl7.org/CodeSystem/organization-role>
        ] ;
        fhir:code [ fhir:v "provider" ]
      ] )
@@ -63,19 +63,19 @@
        a sct:408443003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "408443003" ] ;
        fhir:display [ fhir:v "General medical practice" ]
      ] )
   ] ) ; # 
   fhir:location ( [
-     fhir:link <http://hl7.org/fhir/Location/1> ;
+     fhir:l <http://hl7.org/fhir/Location/1> ;
      fhir:reference [ fhir:v "Location/1" ] ;
      fhir:display [ fhir:v "South Wing, second floor" ]
   ] ) ; # 
   fhir:healthcareService ( [
-     fhir:link <http://hl7.org/fhir/HealthcareService/example> ;
+     fhir:l <http://hl7.org/fhir/HealthcareService/example> ;
      fhir:reference [ fhir:v "HealthcareService/example" ]
   ] ) ; # 
   fhir:contact ( [
@@ -86,7 +86,7 @@
      ] )
   ] ) ; # 
   fhir:endpoint ( [
-     fhir:link <http://hl7.org/fhir/Endpoint/example> ;
+     fhir:l <http://hl7.org/fhir/Endpoint/example> ;
      fhir:reference [ fhir:v "Endpoint/example" ] #   Endpoint that handles the v2 messaging for the network  
   ] ) . # 
 

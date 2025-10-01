@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://intranet.aumc.nl/labvalues"^^xsd:anyURI ;
-       fhir:link <https://intranet.aumc.nl/labvalues>
+       fhir:l <https://intranet.aumc.nl/labvalues>
      ] ;
      fhir:value [ fhir:v "1304-03720-Bicarbonate" ] #    Does not exist   
   ] ) ; # 
@@ -38,7 +38,7 @@
        a loinc:1963-8 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "1963-8" ] ;
        fhir:display [ fhir:v "Bicarbonate [Moles/?volume] in Serum" ]
@@ -46,20 +46,20 @@
        a sct:365722008 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "365722008" ] ;
        fhir:display [ fhir:v "Bicarbonate level" ]
      ] ) #    Kind of observation = Bicarbonate LOINC and SNOMED CT translations here - Note in the US the primary code will be LOINC per meaningful use.  Further SNOMED CT  has acceeded to LOINC being the primary coding system for vitals and anthropromorphic measures.  SNOMED CT is required in some countries such as the UK.  
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f201> ;
+     fhir:l <http://hl7.org/fhir/Patient/f201> ;
      fhir:reference [ fhir:v "Patient/f201" ] ;
      fhir:display [ fhir:v "Roel" ]
   ] ; # 
   fhir:issued [ fhir:v "2013-04-04T14:34:00+01:00"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/f202> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f202> ;
      fhir:reference [ fhir:v "Practitioner/f202" ] ;
      fhir:display [ fhir:v "Luigi Maas" ]
   ] ) ; # 
@@ -69,7 +69,7 @@
      fhir:unit [ fhir:v "mmol/L" ] ;
      fhir:system [
        fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-       fhir:link <http://snomed.info/sct>
+       fhir:l <http://snomed.info/sct>
      ] ;
      fhir:code [ fhir:v "258813002" ]
   ] ; # 
@@ -78,14 +78,14 @@
        a sct:166698001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "166698001" ] ;
        fhir:display [ fhir:v "Serum bicarbonate level normal" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "N" ]
      ] )
@@ -104,7 +104,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/referencerange-meaning"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/referencerange-meaning>
+           fhir:l <http://terminology.hl7.org/CodeSystem/referencerange-meaning>
          ] ;
          fhir:code [ fhir:v "normal" ] ;
          fhir:display [ fhir:v "Normal Range" ]

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/b248b1b2-1686-4b94-9936-37d7a5f94b51> ;
+     fhir:l <http://hl7.org/fhir/Patient/b248b1b2-1686-4b94-9936-37d7a5f94b51> ;
      fhir:reference [ fhir:v "Patient/b248b1b2-1686-4b94-9936-37d7a5f94b51" ]
   ] ; # 
   fhir:occurrence [
@@ -38,7 +38,7 @@
      fhir:v "2006-01-13T23:01:00Z"^^xsd:dateTime
   ] ; # 
   fhir:basis ( [
-     fhir:link <http://hl7.org/fhir/List/prognosis> ;
+     fhir:l <http://hl7.org/fhir/List/prognosis> ;
      fhir:reference [ fhir:v "List/prognosis" ]
   ] ) ; # 
   fhir:prediction ( [
@@ -56,7 +56,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -76,7 +76,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ] ;
@@ -85,7 +85,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -105,7 +105,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ] ;
@@ -114,7 +114,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -134,7 +134,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ] ;
@@ -143,7 +143,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -163,7 +163,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ] ;
@@ -172,7 +172,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -192,7 +192,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ] ;
@@ -201,7 +201,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -221,7 +221,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ] ;
@@ -230,7 +230,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -250,7 +250,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ] ;
@@ -259,7 +259,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]

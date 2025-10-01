@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://example.org"^^xsd:anyURI ;
-       fhir:link <http://example.org>
+       fhir:l <http://example.org>
      ] ;
      fhir:value [ fhir:v "12345" ]
   ] ) ; # 
@@ -36,14 +36,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "DUPTHPY" ] ;
        fhir:display [ fhir:v "Duplicate Therapy Alert" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/dicom> ;
+     fhir:l <http://hl7.org/fhir/Patient/dicom> ;
      fhir:reference [ fhir:v "Patient/dicom" ]
   ] ; # 
   fhir:identified [
@@ -51,22 +51,22 @@
      fhir:v "2013-05-08"^^xsd:date
   ] ; # 
   fhir:author [
-     fhir:link <http://hl7.org/fhir/Device/example> ;
+     fhir:l <http://hl7.org/fhir/Device/example> ;
      fhir:reference [ fhir:v "Device/example" ]
   ] ; # 
   fhir:implicated ( [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/di> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/di> ;
      fhir:reference [ fhir:v "ServiceRequest/di" ] ;
      fhir:display [ fhir:v "Chest CT - ordered May 8, 2013 by Dr. Adam Careful" ]
   ] [
-     fhir:link <http://hl7.org/fhir/ImagingStudy/example> ;
+     fhir:l <http://hl7.org/fhir/ImagingStudy/example> ;
      fhir:reference [ fhir:v "ImagingStudy/example" ] ;
      fhir:display [ fhir:v "Image 1 from Series 3: CT Images on Patient MINT (MINT1234) taken at 1-Jan 2011 01:20 AM" ]
   ] ) ; #   test 1  
   fhir:detail [ fhir:v "Similar test was performed within the past 14 days"] ; # 
   fhir:reference [
      fhir:v "http://www.tmhp.com/RadiologyClinicalDecisionSupport/2011/CHEST%20IMAGING%20GUIDELINES%202011.pdf"^^xsd:anyURI ;
-     fhir:link <http://www.tmhp.com/RadiologyClinicalDecisionSupport/2011/CHEST%20IMAGING%20GUIDELINES%202011.pdf>
+     fhir:l <http://www.tmhp.com/RadiologyClinicalDecisionSupport/2011/CHEST%20IMAGING%20GUIDELINES%202011.pdf>
   ] . # 
 
 <http://hl7.org/fhir/Patient/dicom> a fhir:Patient .

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,13 +31,13 @@
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/Measure/component-a-example"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Measure/component-a-example>
+       fhir:l <http://example.org/fhir/Measure/component-a-example>
      ]
   ] [
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/Measure/component-b-example"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Measure/component-b-example>
+       fhir:l <http://example.org/fhir/Measure/component-b-example>
      ]
   ] ) ; # 
   fhir:scoring [

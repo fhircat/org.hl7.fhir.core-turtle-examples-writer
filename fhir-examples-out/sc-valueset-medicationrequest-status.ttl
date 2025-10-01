@@ -15,7 +15,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/sc-medicationrequest-status"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/sc-medicationrequest-status>
+     fhir:l <http://hl7.org/fhir/ConceptMap/sc-medicationrequest-status>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "MedicationrequestStatusCanonicalMap"] ; # 
@@ -34,7 +34,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -43,21 +43,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/medicationrequest-status"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/medicationrequest-status>
+     fhir:l <http://hl7.org/fhir/ValueSet/medicationrequest-status>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/resource-status"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/resource-status>
+     fhir:l <http://hl7.org/fhir/ValueSet/resource-status>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/CodeSystem/medicationrequest-status"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/CodeSystem/medicationrequest-status>
+       fhir:l <http://hl7.org/fhir/CodeSystem/medicationrequest-status>
      ] ;
      fhir:target [
        fhir:v "http://hl7.org/fhir/resource-status"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/resource-status>
+       fhir:l <http://hl7.org/fhir/resource-status>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "entered-in-error" ] ;

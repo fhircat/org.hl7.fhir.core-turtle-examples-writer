@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,73 +24,73 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/71"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/71>
+       fhir:l <http://hl7.org/fhir/Endpoint/71>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/71> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/72"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/72>
+       fhir:l <http://hl7.org/fhir/Endpoint/72>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/72> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/73"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/73>
+       fhir:l <http://hl7.org/fhir/Endpoint/73>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/73> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/74"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/74>
+       fhir:l <http://hl7.org/fhir/Endpoint/74>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/74> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/75"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/75>
+       fhir:l <http://hl7.org/fhir/Endpoint/75>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/75> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/76"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/76>
+       fhir:l <http://hl7.org/fhir/Endpoint/76>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/76> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/77"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/77>
+       fhir:l <http://hl7.org/fhir/Endpoint/77>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/77> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/78"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/78>
+       fhir:l <http://hl7.org/fhir/Endpoint/78>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/78> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/79"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/79>
+       fhir:l <http://hl7.org/fhir/Endpoint/79>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/79> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/80"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/80>
+       fhir:l <http://hl7.org/fhir/Endpoint/80>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/80> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/81"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/81>
+       fhir:l <http://hl7.org/fhir/Endpoint/81>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/81> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/Endpoint/82"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Endpoint/82>
+       fhir:l <http://hl7.org/fhir/Endpoint/82>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/Endpoint/82> )
   ] ) . # 
@@ -106,7 +106,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "hl7-fhir-rest" ]
      ] )
@@ -128,7 +128,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://sqlonfhir-dstu2.azurewebsites.net/fhir"^^xsd:anyURI ;
-     fhir:link <https://sqlonfhir-dstu2.azurewebsites.net/fhir>
+     fhir:l <https://sqlonfhir-dstu2.azurewebsites.net/fhir>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/72> a fhir:Endpoint ;
@@ -142,7 +142,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "hl7-fhir-rest" ]
      ] )
@@ -164,7 +164,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://sqlonfhir-dstu2.azurewebsites.net/fhir"^^xsd:anyURI ;
-     fhir:link <https://sqlonfhir-dstu2.azurewebsites.net/fhir>
+     fhir:l <https://sqlonfhir-dstu2.azurewebsites.net/fhir>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/73> a fhir:Endpoint ;
@@ -178,7 +178,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "hl7-fhir-rest" ]
      ] )
@@ -200,7 +200,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://sqlonfhir-dstu2.azurewebsites.net/fhir"^^xsd:anyURI ;
-     fhir:link <https://sqlonfhir-dstu2.azurewebsites.net/fhir>
+     fhir:l <https://sqlonfhir-dstu2.azurewebsites.net/fhir>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/74> a fhir:Endpoint ;
@@ -214,7 +214,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "hl7-fhir-rest" ]
      ] )
@@ -236,7 +236,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://open.epic.com/Interface/FHIR"^^xsd:anyURI ;
-     fhir:link <https://open.epic.com/Interface/FHIR>
+     fhir:l <https://open.epic.com/Interface/FHIR>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/75> a fhir:Endpoint ;
@@ -250,7 +250,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "secure-email" ]
      ] )
@@ -270,7 +270,10 @@
 #          <system value="http://hl7.org/fhir/http-verb" />
 #          <code value="POST PUT DELETE" />
 #        </method> 
-  fhir:address [ fhir:v "mailto:subscriptions@example.org"^^xsd:anyURI] . # 
+  fhir:address [
+     fhir:v "mailto:subscriptions@example.org"^^xsd:anyURI ;
+     fhir:l fhir:mailto:subscriptions@example.org
+  ] . # 
 
 <http://hl7.org/fhir/Endpoint/76> a fhir:Endpoint ;
   fhir:id [ fhir:v "76"] ; # 
@@ -283,7 +286,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "hl7-fhir-msg" ]
      ] )
@@ -305,7 +308,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://sqlonfhir-dstu2.azurewebsites.net/fhir"^^xsd:anyURI ;
-     fhir:link <https://sqlonfhir-dstu2.azurewebsites.net/fhir>
+     fhir:l <https://sqlonfhir-dstu2.azurewebsites.net/fhir>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/77> a fhir:Endpoint ;
@@ -319,7 +322,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "hl7v2-mllp" ]
      ] )
@@ -341,7 +344,7 @@
 #        </method> 
   fhir:address [
      fhir:v "mllp://127.0.0.1:4001"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/mllp://127.0.0.1:4001>
+     fhir:l <http://hl7.org/fhir/mllp://127.0.0.1:4001>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/78> a fhir:Endpoint ;
@@ -355,7 +358,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "dicom-wado-rs" ]
      ] )
@@ -377,7 +380,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://pacs.hospital.org/dicomweb"^^xsd:anyURI ;
-     fhir:link <https://pacs.hospital.org/dicomweb>
+     fhir:l <https://pacs.hospital.org/dicomweb>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/79> a fhir:Endpoint ;
@@ -391,7 +394,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "dicom-qido-rs" ]
      ] )
@@ -413,7 +416,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://pacs.hospital.org/dicomweb"^^xsd:anyURI ;
-     fhir:link <https://pacs.hospital.org/dicomweb>
+     fhir:l <https://pacs.hospital.org/dicomweb>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/80> a fhir:Endpoint ;
@@ -427,7 +430,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "dicom-stow-rs" ]
      ] )
@@ -449,7 +452,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://pacs.hospital.org/dicomweb"^^xsd:anyURI ;
-     fhir:link <https://pacs.hospital.org/dicomweb>
+     fhir:l <https://pacs.hospital.org/dicomweb>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/81> a fhir:Endpoint ;
@@ -463,7 +466,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "dicom-stow-rs" ]
      ] )
@@ -485,7 +488,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://pacs.hospital.org/dicomweb"^^xsd:anyURI ;
-     fhir:link <https://pacs.hospital.org/dicomweb>
+     fhir:l <https://pacs.hospital.org/dicomweb>
   ] . # 
 
 <http://hl7.org/fhir/Endpoint/82> a fhir:Endpoint ;
@@ -499,7 +502,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "dicom-wado-uri" ]
      ] )
@@ -521,7 +524,7 @@
 #        </method> 
   fhir:address [
      fhir:v "https://pacs.hospital.org/wadoUri"^^xsd:anyURI ;
-     fhir:link <https://pacs.hospital.org/wadoUri>
+     fhir:l <https://pacs.hospital.org/wadoUri>
   ] . # 
 
 # -------------------------------------------------------------------------------------

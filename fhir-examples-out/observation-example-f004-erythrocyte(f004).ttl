@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://www.bmc.nl/zorgportal/identifiers/observations"^^xsd:anyURI ;
-       fhir:link <http://www.bmc.nl/zorgportal/identifiers/observations>
+       fhir:l <http://www.bmc.nl/zorgportal/identifiers/observations>
      ] ;
      fhir:value [ fhir:v "6326" ]
   ] ) ; # 
@@ -38,14 +38,14 @@
        a loinc:789-8 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "789-8" ] ;
        fhir:display [ fhir:v "Erythrocytes [#/volume] in Blood by Automated count" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f001> ;
+     fhir:l <http://hl7.org/fhir/Patient/f001> ;
      fhir:reference [ fhir:v "Patient/f001" ] ;
      fhir:display [ fhir:v "P. van de Heuvel" ]
   ] ; # 
@@ -55,7 +55,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2013-04-03T15:30:10+01:00"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/f005> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f005> ;
      fhir:reference [ fhir:v "Practitioner/f005" ] ;
      fhir:display [ fhir:v "A. Langeveld" ]
   ] ) ; # 
@@ -65,7 +65,7 @@
      fhir:unit [ fhir:v "10^12/L" ] ; #     Actually, 4.12E+12    
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "10*12/L" ]
   ] ; # 
@@ -73,7 +73,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "L" ] ;
        fhir:display [ fhir:v "Low" ]

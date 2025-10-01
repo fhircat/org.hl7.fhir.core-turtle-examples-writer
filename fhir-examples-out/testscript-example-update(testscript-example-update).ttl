@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,12 +25,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/TestScript/testscript-example-update"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/TestScript/testscript-example-update>
+     fhir:l <http://hl7.org/fhir/TestScript/testscript-example-update>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.12.5" ]
   ] ) ; # 
@@ -54,7 +54,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ] ;
        fhir:display [ fhir:v "United States of America (the)" ]
@@ -66,7 +66,7 @@
      fhir:link ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/patient.html"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/patient.html>
+         fhir:l <http://hl7.org/fhir/patient.html>
        ] ;
        fhir:description [ fhir:v "Demographics and other administrative information about an individual or animal receiving care or other health-related services." ]
      ] ) ;
@@ -76,14 +76,14 @@
        fhir:description [ fhir:v "Patient Update and Delete Operations" ] ;
        fhir:link ( [
          fhir:v "http://hl7.org/fhir/http.html#update"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/http.html#update>
+         fhir:l <http://hl7.org/fhir/http.html#update>
        ] [
          fhir:v "http://hl7.org/fhir/http.html#delete"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/http.html#delete>
+         fhir:l <http://hl7.org/fhir/http.html#delete>
        ] ) ;
        fhir:capabilities [
          fhir:v "http://hl7.org/fhir/CapabilityStatement/example"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/CapabilityStatement/example>
+         fhir:l <http://hl7.org/fhir/CapabilityStatement/example>
        ]
      ] )
   ] ; # 
@@ -92,7 +92,7 @@
      fhir:autocreate [ fhir:v false ] ;
      fhir:autodelete [ fhir:v false ] ;
      fhir:resource [
-       fhir:link <http://hl7.org/fhir/Patient/example> ;
+       fhir:l <http://hl7.org/fhir/Patient/example> ;
        fhir:reference [ fhir:v "Patient/example" ] ;
        fhir:display [ fhir:v "Peter Chalmers" ]
      ]
@@ -101,14 +101,14 @@
      fhir:autocreate [ fhir:v false ] ;
      fhir:autodelete [ fhir:v false ] ;
      fhir:resource [
-       fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+       fhir:l <http://hl7.org/fhir/Patient/pat1> ;
        fhir:reference [ fhir:v "Patient/pat1" ] ;
        fhir:display [ fhir:v "Donald Duck" ]
      ]
   ] ) ; # 
   fhir:profile ( [
      fhir:v "http://hl7.org/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/StructureDefinition/Patient> ;
+     fhir:l <http://hl7.org/fhir/StructureDefinition/Patient> ;
      fhir:id [ fhir:v "patient-profile" ]
   ] ) ; # 
   fhir:variable ( [
@@ -122,11 +122,14 @@
          fhir:type [
            fhir:system [
              fhir:v "http://hl7.org/fhir/restful-interaction"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/restful-interaction>
+             fhir:l <http://hl7.org/fhir/restful-interaction>
            ] ;
            fhir:code [ fhir:v "delete" ]
          ] ;
-         fhir:resource [ fhir:v "Patient"^^xsd:anyURI ] ;
+         fhir:resource [
+           fhir:v "Patient"^^xsd:anyURI ;
+           fhir:l fhir:Patient
+         ] ;
          fhir:label [ fhir:v "SetupDeletePatient" ] ;
          fhir:description [ fhir:v "Execute a delete operation to insure the patient does not exist on the server." ] ;
          fhir:accept [ fhir:v "xml" ] ;
@@ -147,11 +150,14 @@
          fhir:type [
            fhir:system [
              fhir:v "http://hl7.org/fhir/restful-interaction"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/restful-interaction>
+             fhir:l <http://hl7.org/fhir/restful-interaction>
            ] ;
            fhir:code [ fhir:v "update" ]
          ] ;
-         fhir:resource [ fhir:v "Patient"^^xsd:anyURI ] ;
+         fhir:resource [
+           fhir:v "Patient"^^xsd:anyURI ;
+           fhir:l fhir:Patient
+         ] ;
          fhir:label [ fhir:v "SetupCreatePatient" ] ;
          fhir:description [ fhir:v "Create patient resource on test server using the contents of fixture-patient-create" ] ;
          fhir:accept [ fhir:v "xml" ] ;
@@ -179,11 +185,14 @@
          fhir:type [
            fhir:system [
              fhir:v "http://hl7.org/fhir/restful-interaction"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/restful-interaction>
+             fhir:l <http://hl7.org/fhir/restful-interaction>
            ] ;
            fhir:code [ fhir:v "update" ]
          ] ;
-         fhir:resource [ fhir:v "Patient"^^xsd:anyURI ] ;
+         fhir:resource [
+           fhir:v "Patient"^^xsd:anyURI ;
+           fhir:l fhir:Patient
+         ] ;
          fhir:label [ fhir:v "SetupUpdatePatient" ] ;
          fhir:description [ fhir:v "Update patient resource on test server using the contents of fixture-patient-update" ] ;
          fhir:accept [ fhir:v "xml" ] ;

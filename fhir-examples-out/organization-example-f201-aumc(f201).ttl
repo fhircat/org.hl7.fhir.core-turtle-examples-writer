@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:use [ fhir:v "official" ] ; #    Identifier for the AUMC   
      fhir:system [
        fhir:v "http://www.zorgkaartnederland.nl/"^^xsd:anyURI ;
-       fhir:link <http://www.zorgkaartnederland.nl/>
+       fhir:l <http://www.zorgkaartnederland.nl/>
      ] ;
      fhir:value [ fhir:v "Artis University Medical Center" ]
   ] ) ; # 
@@ -38,21 +38,21 @@
        a sct:405608006 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "405608006" ] ;
        fhir:display [ fhir:v "Academic Medical Center" ]
      ] [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.2.4.15.1060"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.2.4.15.1060>
+         fhir:l <urn:oid:2.16.840.1.113883.2.4.15.1060>
        ] ;
        fhir:code [ fhir:v "V6" ] ; #     RoleCodeNLUZIRoleCodeOrganisaties    
        fhir:display [ fhir:v "University Medical Hospital" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/organization-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/organization-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/organization-type>
        ] ;
        fhir:code [ fhir:v "prov" ] ;
        fhir:display [ fhir:v "Healthcare Provider" ]

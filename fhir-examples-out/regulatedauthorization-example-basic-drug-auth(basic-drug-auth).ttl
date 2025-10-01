@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,7 +24,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"basic-drug-auth\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization \"basic-drug-auth\" </p></div><p><b>subject</b>: <a href=\"broken-link.html\">MedicinalProductDefinition/equilidem</a></p><p><b>type</b>: Regulatory Drug Marketing Approval <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#active)</span></p><p><b>statusDate</b>: 2016-01-01</p><p><b>holder</b>: <a href=\"broken-link.html\">Organization/EqlidrugCo: EquiliDrugCo Holdings Inc.</a></p><p><b>regulator</b>: <a href=\"broken-link.html\">Organization/FDA: FDA</a></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:subject ( [
-     fhir:link <http://hl7.org/fhir/MedicinalProductDefinition/equilidem> ;
+     fhir:l <http://hl7.org/fhir/MedicinalProductDefinition/equilidem> ;
      fhir:reference [ fhir:v "MedicinalProductDefinition/equilidem" ]
   ] ) ; # 
   fhir:type [
@@ -37,12 +37,12 @@
   ] ; # 
   fhir:statusDate [ fhir:v "2016-01-01"^^xsd:date] ; # 
   fhir:holder [
-     fhir:link <http://hl7.org/fhir/Organization/EqlidrugCo> ;
+     fhir:l <http://hl7.org/fhir/Organization/EqlidrugCo> ;
      fhir:reference [ fhir:v "Organization/EqlidrugCo" ] ;
      fhir:display [ fhir:v "EquiliDrugCo Holdings Inc." ]
   ] ; # 
   fhir:regulator [
-     fhir:link <http://hl7.org/fhir/Organization/FDA> ;
+     fhir:l <http://hl7.org/fhir/Organization/FDA> ;
      fhir:reference [ fhir:v "Organization/FDA" ] ;
      fhir:display [ fhir:v "FDA" ]
   ] . # 

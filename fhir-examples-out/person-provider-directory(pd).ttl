@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,14 +29,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444444444" ]
   ] ) ; # 
@@ -60,20 +60,20 @@
      fhir:state [ fhir:v "MN" ]
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://www.northfield-regional.com/Organization/2> ;
+     fhir:l <http://www.northfield-regional.com/Organization/2> ;
      fhir:reference [ fhir:v "http://www.northfield-regional.com/Organization/2" ] ;
      fhir:display [ fhir:v "Northfield Regional Physician Directory" ]
   ] ; # 
   fhir:link ( [
      fhir:target [
-       fhir:link <http://www.goodhealth.com/Practitioner/98574> ;
+       fhir:l <http://www.goodhealth.com/Practitioner/98574> ;
        fhir:reference [ fhir:v "http://www.goodhealth.com/Practitioner/98574" ] ;
        fhir:display [ fhir:v "Dr. Harold Hippocrates" ]
      ] ;
      fhir:assurance [ fhir:v "level2" ]
   ] [
      fhir:target [
-       fhir:link <http://www.acme-medical.com/Practitioner/ab34d> ;
+       fhir:l <http://www.acme-medical.com/Practitioner/ab34d> ;
        fhir:reference [ fhir:v "http://www.acme-medical.com/Practitioner/ab34d" ] ;
        fhir:display [ fhir:v "Harold Hippocrates, MD" ]
      ] ;

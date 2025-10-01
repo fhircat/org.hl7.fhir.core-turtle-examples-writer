@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
      ] ;
      fhir:system [
        fhir:v "http://example.org/www.monumentHIE.com"^^xsd:anyURI ;
-       fhir:link <http://example.org/www.monumentHIE.com>
+       fhir:l <http://example.org/www.monumentHIE.com>
      ] ;
      fhir:value [ fhir:v "hosp32" ] ;
      fhir:assigner [
@@ -48,7 +48,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/organization-role"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/organization-role>
+         fhir:l <http://hl7.org/fhir/organization-role>
        ] ;
        fhir:code [ fhir:v "member" ] ;
        fhir:display [ fhir:v "Member" ]

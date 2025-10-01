@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
        a sct:385219001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "385219001" ] ;
        fhir:display [ fhir:v "Injection Solution (qualifier value)" ]
@@ -42,7 +42,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-             fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+             fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
            ] ;
            fhir:code [ fhir:v "8591" ] ;
            fhir:display [ fhir:v "Potassium Chloride" ]
@@ -55,7 +55,7 @@
          fhir:value [ fhir:v "20"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "meq" ]
        ] ;
@@ -63,7 +63,7 @@
          fhir:value [ fhir:v "1000"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mL" ]
        ]
@@ -74,7 +74,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-             fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+             fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
            ] ;
            fhir:code [ fhir:v "313002" ] ;
            fhir:display [ fhir:v "1000 ml glucost 50mg/ml Injection" ]
@@ -87,7 +87,7 @@
          fhir:value [ fhir:v "5"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "g" ]
        ] ;
@@ -95,7 +95,7 @@
          fhir:value [ fhir:v "100"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mL" ]
        ]

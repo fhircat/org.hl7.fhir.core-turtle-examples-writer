@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
   ] ) ; # 
   fhir:type [ fhir:v "dna"] ; # 
   fhir:specimen [
-     fhir:link <http://hl7.org/fhir/Specimen/genetics-example1-somatic> ;
+     fhir:l <http://hl7.org/fhir/Specimen/genetics-example1-somatic> ;
      fhir:reference [ fhir:v "Specimen/genetics-example1-somatic" ] ;
      fhir:display [ fhir:v "Molecular Specimen ID: MLD45-Z4-1234" ]
   ] ; # 
@@ -37,7 +37,7 @@
      fhir:display [ fhir:v "12 lead EKG Device Metric" ]
   ] ; # 
   fhir:performer [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ] ;
      fhir:display [ fhir:v "HL7" ]
   ] ; # 
@@ -47,7 +47,7 @@
          a loinc:LA30100-4 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "LA30100-4" ] ;
          fhir:display [ fhir:v "0-based interval counting" ]
@@ -59,7 +59,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.ncbi.nlm.nih.gov/nuccore"^^xsd:anyURI ;
-             fhir:link <http://www.ncbi.nlm.nih.gov/nuccore>
+             fhir:l <http://www.ncbi.nlm.nih.gov/nuccore>
            ] ;
            fhir:code [ fhir:v "NC_000002.12" ]
          ] )

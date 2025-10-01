@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:use [ fhir:v "secondary" ] ; #    Internal business ID for the relationship created by Founding Fathers Memorial Hospital   
      fhir:system [
        fhir:v "http://example.org/www.foundingfathersmemorial.com"^^xsd:anyURI ;
-       fhir:link <http://example.org/www.foundingfathersmemorial.com>
+       fhir:l <http://example.org/www.foundingfathersmemorial.com>
      ] ;
      fhir:value [ fhir:v "service002" ] ;
      fhir:assigner [
@@ -53,7 +53,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/organization-role"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/organization-role>
+         fhir:l <http://hl7.org/fhir/organization-role>
        ] ;
        fhir:code [ fhir:v "provider" ] ;
        fhir:display [ fhir:v "Provider" ] ;
@@ -66,7 +66,7 @@
        a sct:394602003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "394602003" ] ;
        fhir:display [ fhir:v "Rehabilitation - specialty" ]

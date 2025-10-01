@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,21 +29,21 @@
      fhir:text [ fhir:v "Refill Request" ]
   ] ; # 
   fhir:focus [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx002> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx002> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx002" ]
   ] ; # 
   fhir:for [
-     fhir:link <http://hl7.org/fhir/Patient/f001> ;
+     fhir:l <http://hl7.org/fhir/Patient/f001> ;
      fhir:reference [ fhir:v "Patient/f001" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2016-03-10T22:39:32-04:00"^^xsd:dateTime] ; # 
   fhir:lastModified [ fhir:v "2016-03-10T22:39:32-04:00"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:owner [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ]
   ] . # 
 

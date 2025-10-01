@@ -13,12 +13,12 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/vitalsigns"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/vitalsigns>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/vitalsigns>
      ] ) ;
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -33,7 +33,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "vital-signs" ] ;
        fhir:display [ fhir:v "Vital Signs" ]
@@ -45,7 +45,7 @@
        a loinc:8302-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "8302-2" ] ;
        fhir:display [ fhir:v "Body height" ]
@@ -53,7 +53,7 @@
      fhir:text [ fhir:v "Body height" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -66,7 +66,7 @@
      fhir:unit [ fhir:v "in" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "[in_i]" ]
   ] . # 

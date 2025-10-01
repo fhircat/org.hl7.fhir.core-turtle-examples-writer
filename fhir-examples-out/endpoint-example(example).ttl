@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org/enpoint-identifier"^^xsd:anyURI ;
-       fhir:link <http://example.org/enpoint-identifier>
+       fhir:l <http://example.org/enpoint-identifier>
      ] ;
      fhir:value [ fhir:v "epcp12" ]
   ] ) ; # 
@@ -35,7 +35,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
        ] ;
        fhir:code [ fhir:v "hl7-fhir-rest" ]
      ] )
@@ -46,7 +46,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/endpoint-environment"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/endpoint-environment>
+         fhir:l <http://hl7.org/fhir/endpoint-environment>
        ] ;
        fhir:code [ fhir:v "test" ]
      ] )
@@ -54,13 +54,13 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/endpoint-environment"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/endpoint-environment>
+         fhir:l <http://hl7.org/fhir/endpoint-environment>
        ] ;
        fhir:code [ fhir:v "dev" ]
      ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] ; # 
   fhir:contact ( [
@@ -76,7 +76,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/fhir-types>
+           fhir:l <http://hl7.org/fhir/fhir-types>
          ] ;
          fhir:code [ fhir:v "CarePlan" ]
        ] )
@@ -85,7 +85,7 @@
   ] ) ; # 
   fhir:address [
      fhir:v "http://fhir3.healthintersections.com.au/open/CarePlan"^^xsd:anyURI ;
-     fhir:link <http://fhir3.healthintersections.com.au/open/CarePlan>
+     fhir:l <http://fhir3.healthintersections.com.au/open/CarePlan>
   ] ; # 
   fhir:header ( [ fhir:v "bearer-code BASGS534s4"] ) . #   Not a valid bearer token, but is here for demonstration purposes  
 

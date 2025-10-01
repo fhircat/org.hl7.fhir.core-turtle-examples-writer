@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "DRG" ] ;
        fhir:display [ fhir:v "Drug Interaction Alert" ]
@@ -38,7 +38,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "DRG" ] ;
        fhir:display [ fhir:v "Drug Interaction Alert" ]
@@ -46,7 +46,7 @@
   ] ; # 
   fhir:severity [ fhir:v "high"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Device/example> ;
+     fhir:l <http://hl7.org/fhir/Device/example> ;
      fhir:reference [ fhir:v "Device/example" ]
   ] ; # 
   fhir:identified [
@@ -54,11 +54,11 @@
      fhir:v "2014-01-05"^^xsd:date
   ] ; # 
   fhir:implicated ( [
-     fhir:link <http://hl7.org/fhir/MedicationStatement/example001> ;
+     fhir:l <http://hl7.org/fhir/MedicationStatement/example001> ;
      fhir:reference [ fhir:v "MedicationStatement/example001" ] ;
      fhir:display [ fhir:v "500 mg Acetaminophen tablet 1/day, PRN since 2010" ]
   ] [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0331> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0331> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0331" ] ;
      fhir:display [ fhir:v "Warfarin 1 MG TAB prescribed Jan. 15, 2015" ]
   ] ) ; # 
@@ -68,7 +68,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "13" ] ;
          fhir:display [ fhir:v "Stopped Concurrent Therapy" ]
@@ -77,7 +77,7 @@
      ] ;
      fhir:date [ fhir:v "2014-01-05"^^xsd:date ] ;
      fhir:author [
-       fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/example> ;
        fhir:reference [ fhir:v "Practitioner/example" ] ;
        fhir:display [ fhir:v "Dr. Adam Careful" ]
      ]

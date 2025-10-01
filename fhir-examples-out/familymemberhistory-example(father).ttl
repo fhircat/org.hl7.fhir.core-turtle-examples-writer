@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,11 +29,11 @@
   ] ) ; # 
   fhir:instantiatesUri ( [
      fhir:v "http://example.org/family-member-history-questionnaire"^^xsd:anyURI ;
-     fhir:link <http://example.org/family-member-history-questionnaire>
+     fhir:l <http://example.org/family-member-history-questionnaire>
   ] ) ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter Patient" ]
   ] ; # 
@@ -43,14 +43,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/provenance-participant-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
          ] ;
          fhir:code [ fhir:v "verifier" ] ;
          fhir:display [ fhir:v "Verifier" ]
        ] )
      ] ;
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f201> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f201> ;
        fhir:reference [ fhir:v "Practitioner/f201" ]
      ]
   ] ) ; # 
@@ -58,7 +58,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
        ] ;
        fhir:code [ fhir:v "FTH" ] ;
        fhir:display [ fhir:v "father" ]
@@ -68,7 +68,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/administrative-gender"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/administrative-gender>
+         fhir:l <http://hl7.org/fhir/administrative-gender>
        ] ;
        fhir:code [ fhir:v "male" ] ;
        fhir:display [ fhir:v "Male" ]
@@ -80,7 +80,7 @@
          a sct:315619001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "315619001" ] ;
          fhir:display [ fhir:v "Myocardial Infarction" ]
@@ -94,7 +94,7 @@
        fhir:unit [ fhir:v "yr" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ] ;

@@ -15,14 +15,14 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
        ] ;
        fhir:code [ fhir:v "N" ] ;
        fhir:display [ fhir:v "normal" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
   fhir:identifier [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:uuid:0c3151bd-1cbf-4d64-b04d-cd9187a4c6e0" ]
   ] ; # 
@@ -40,49 +40,49 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "http://fhir.healthintersections.com.au/open/Composition/180f219f-97a8-486d-99d9-ed631fe4fc57"^^xsd:anyURI ;
-       fhir:link <http://fhir.healthintersections.com.au/open/Composition/180f219f-97a8-486d-99d9-ed631fe4fc57>
+       fhir:l <http://fhir.healthintersections.com.au/open/Composition/180f219f-97a8-486d-99d9-ed631fe4fc57>
      ] ;
      fhir:resource ( <http://fhir.healthintersections.com.au/open/Composition/180f219f-97a8-486d-99d9-ed631fe4fc57> )
   ] [
      fhir:fullUrl [
        fhir:v "http://fhir.healthintersections.com.au/open/Practitioner/example"^^xsd:anyURI ;
-       fhir:link <http://fhir.healthintersections.com.au/open/Practitioner/example>
+       fhir:l <http://fhir.healthintersections.com.au/open/Practitioner/example>
      ] ;
      fhir:resource ( <http://fhir.healthintersections.com.au/open/Practitioner/example> )
   ] [
      fhir:fullUrl [
        fhir:v "http://fhir.healthintersections.com.au/open/Patient/d1"^^xsd:anyURI ;
-       fhir:link <http://fhir.healthintersections.com.au/open/Patient/d1>
+       fhir:l <http://fhir.healthintersections.com.au/open/Patient/d1>
      ] ;
      fhir:resource ( <http://fhir.healthintersections.com.au/open/Patient/d1> )
   ] [
      fhir:fullUrl [
        fhir:v "http://fhir.healthintersections.com.au/open/Encounter/doc-example"^^xsd:anyURI ;
-       fhir:link <http://fhir.healthintersections.com.au/open/Encounter/doc-example>
+       fhir:l <http://fhir.healthintersections.com.au/open/Encounter/doc-example>
      ] ;
      fhir:resource ( <http://fhir.healthintersections.com.au/open/Encounter/doc-example> )
   ] [
      fhir:fullUrl [
        fhir:v "urn:uuid:541a72a8-df75-4484-ac89-ac4923f03b81"^^xsd:anyURI ;
-       fhir:link <urn:uuid:541a72a8-df75-4484-ac89-ac4923f03b81>
+       fhir:l <urn:uuid:541a72a8-df75-4484-ac89-ac4923f03b81>
      ] ;
      fhir:resource ( <urn:uuid:541a72a8-df75-4484-ac89-ac4923f03b81> )
   ] [
      fhir:fullUrl [
        fhir:v "urn:uuid:124a6916-5d84-4b8c-b250-10cefb8e6e86"^^xsd:anyURI ;
-       fhir:link <urn:uuid:124a6916-5d84-4b8c-b250-10cefb8e6e86>
+       fhir:l <urn:uuid:124a6916-5d84-4b8c-b250-10cefb8e6e86>
      ] ;
      fhir:resource ( <urn:uuid:124a6916-5d84-4b8c-b250-10cefb8e6e86> )
   ] [
      fhir:fullUrl [
        fhir:v "urn:uuid:673f8db5-0ffd-4395-9657-6da00420bbc1"^^xsd:anyURI ;
-       fhir:link <urn:uuid:673f8db5-0ffd-4395-9657-6da00420bbc1>
+       fhir:l <urn:uuid:673f8db5-0ffd-4395-9657-6da00420bbc1>
      ] ;
      fhir:resource ( <urn:uuid:673f8db5-0ffd-4395-9657-6da00420bbc1> )
   ] [
      fhir:fullUrl [
        fhir:v "urn:uuid:47600e0f-b6b5-4308-84b5-5dec157f7637"^^xsd:anyURI ;
-       fhir:link <urn:uuid:47600e0f-b6b5-4308-84b5-5dec157f7637>
+       fhir:l <urn:uuid:47600e0f-b6b5-4308-84b5-5dec157f7637>
      ] ;
      fhir:resource ( <urn:uuid:47600e0f-b6b5-4308-84b5-5dec157f7637> )
   ] ) ; #      The Composition resource     
@@ -90,18 +90,18 @@
      fhir:type ( [
        fhir:system [
          fhir:v "urn:iso-astm:E1762-95:2013"^^xsd:anyURI ;
-         fhir:link <urn:iso-astm:E1762-95:2013>
+         fhir:l <urn:iso-astm:E1762-95:2013>
        ] ;
        fhir:code [ fhir:v "1.2.840.10065.1.12.1.1" ] ;
        fhir:display [ fhir:v "Author's Signature" ]
      ] ) ;
      fhir:when [ fhir:v "2015-08-31T07:42:33+10:00"^^xsd:dateTime ] ;
      fhir:who [
-       fhir:link <http://hl7.org/fhir/Device/software> ;
+       fhir:l <http://hl7.org/fhir/Device/software> ;
        fhir:reference [ fhir:v "Device/software" ]
      ] ;
      fhir:onBehalfOf [
-       fhir:link <http://hl7.org/fhir/Organization/example> ;
+       fhir:l <http://hl7.org/fhir/Organization/example> ;
        fhir:reference [ fhir:v "Organization/example" ]
      ] ;
      fhir:sigFormat [ fhir:v "image/jpg" ] ; #    a real document would typically have a digital signature, but\n      the publishing tools are not yet setup to produce a valid digital\n      signature. For now, an image of a signature   
@@ -123,24 +123,24 @@
        a loinc:28655-9 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "28655-9" ]
      ] ) ;
      fhir:text [ fhir:v "Discharge Summary from Responsible Clinician" ]
   ] ; # 
   fhir:subject ( [
-     fhir:link <http://fhir.healthintersections.com.au/open/Patient/d1> ;
+     fhir:l <http://fhir.healthintersections.com.au/open/Patient/d1> ;
      fhir:reference [ fhir:v "http://fhir.healthintersections.com.au/open/Patient/d1" ] ;
      fhir:display [ fhir:v "Eve Everywoman" ]
   ] ) ; # 
   fhir:encounter [
-     fhir:link <http://fhir.healthintersections.com.au/open/Encounter/doc-example> ;
+     fhir:l <http://fhir.healthintersections.com.au/open/Encounter/doc-example> ;
      fhir:reference [ fhir:v "http://fhir.healthintersections.com.au/open/Encounter/doc-example" ]
   ] ; #      The Encounter resource. Points directly to an Encounter resource. Contains the dates of admission, specialtyu etc.     
   fhir:date [ fhir:v "2013-02-01T12:30:02Z"^^xsd:dateTime] ; # 
   fhir:author ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Doctor Dave" ]
   ] ) ; # 
@@ -152,7 +152,7 @@
          a loinc:29299-5 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "29299-5" ] ;
          fhir:display [ fhir:v "Reason for visit Narrative" ]
@@ -163,7 +163,7 @@
        fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n              <table>\n\n                <thead>\n\n                  <tr>\n\n                    <td>Details</td>\n\n                    <td/>\n\n                  </tr>\n\n                </thead>\n\n                <tbody>\n\n                  <tr>\n\n                    <td>Acute Asthmatic attack. Was wheezing for days prior to admission.</td>\n\n                    <td/>\n\n                  </tr>\n\n                </tbody>\n\n              </table>\n\n            </div>"^^rdf:XMLLiteral
      ] ;
      fhir:entry ( [
-       fhir:link <urn:uuid:541a72a8-df75-4484-ac89-ac4923f03b81> ;
+       fhir:l <urn:uuid:541a72a8-df75-4484-ac89-ac4923f03b81> ;
        fhir:reference [ fhir:v "urn:uuid:541a72a8-df75-4484-ac89-ac4923f03b81" ]
      ] )
   ] [
@@ -173,7 +173,7 @@
          a loinc:10183-2 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "10183-2" ] ;
          fhir:display [ fhir:v "Hospital discharge medications Narrative" ]
@@ -184,10 +184,10 @@
        fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n              <table>\n\n                <thead>\n\n                  <tr>\n\n                    <td>Medication</td>\n\n                    <td>Last Change</td>\n\n                    <td>Last ChangeReason</td>\n\n                  </tr>\n\n                </thead>\n\n                <tbody>\n\n                  <tr>\n\n                    <td>Theophylline 200mg BD after meals</td>\n\n                    <td>continued</td>\n\n                  </tr>\n\n                  <tr>\n\n                    <td>Ventolin Inhaler</td>\n\n                    <td>stopped</td>\n\n                    <td>Getting side effect of tremor</td>\n\n                  </tr>\n\n                </tbody>\n\n              </table>\n\n            </div>"^^rdf:XMLLiteral
      ] ;
      fhir:entry ( [
-       fhir:link <urn:uuid:124a6916-5d84-4b8c-b250-10cefb8e6e86> ;
+       fhir:l <urn:uuid:124a6916-5d84-4b8c-b250-10cefb8e6e86> ;
        fhir:reference [ fhir:v "urn:uuid:124a6916-5d84-4b8c-b250-10cefb8e6e86" ]
      ] [
-       fhir:link <urn:uuid:673f8db5-0ffd-4395-9657-6da00420bbc1> ;
+       fhir:l <urn:uuid:673f8db5-0ffd-4395-9657-6da00420bbc1> ;
        fhir:reference [ fhir:v "urn:uuid:673f8db5-0ffd-4395-9657-6da00420bbc1" ]
      ] ) #      This is an entry that refers to a MedicationRequest resource in this document.\n                It is a new medication (as indicated by the flag)    
   ] [
@@ -197,7 +197,7 @@
          a loinc:48765-2 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "48765-2" ] ;
          fhir:display [ fhir:v "Allergies and adverse reactions Document" ]
@@ -208,7 +208,7 @@
        fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n              <table>\n\n                <thead>\n\n                  <tr>\n\n                    <td>Allergen</td>\n\n                    <td>Reaction</td>\n\n                  </tr>\n\n                </thead>\n\n                <tbody>\n\n                  <tr>\n\n                    <td>Doxycycline</td>\n\n                    <td>Hives</td>\n\n                  </tr>\n\n                </tbody>\n\n              </table>\n\n            </div>"^^rdf:XMLLiteral
      ] ;
      fhir:entry ( [
-       fhir:link <urn:uuid:47600e0f-b6b5-4308-84b5-5dec157f7637> ;
+       fhir:l <urn:uuid:47600e0f-b6b5-4308-84b5-5dec157f7637> ;
        fhir:reference [ fhir:v "urn:uuid:47600e0f-b6b5-4308-84b5-5dec157f7637" ]
      ] )
   ] ) . # 
@@ -227,7 +227,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.acme.org/practitioners"^^xsd:anyURI ;
-       fhir:link <http://www.acme.org/practitioners>
+       fhir:l <http://www.acme.org/practitioners>
      ] ;
      fhir:value [ fhir:v "23" ]
   ] ) ; # 
@@ -278,7 +278,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "IMP" ] ;
        fhir:display [ fhir:v "inpatient encounter" ]
@@ -288,7 +288,7 @@
      fhir:text [ fhir:v "Orthopedic Admission" ]
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/d1> ;
+     fhir:l <http://hl7.org/fhir/Patient/d1> ;
      fhir:reference [ fhir:v "Patient/d1" ]
   ] ; # 
   fhir:actualPeriod [
@@ -317,19 +317,19 @@
        a loinc:46241-6 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "46241-6" ]
      ] ) ;
      fhir:text [ fhir:v "Reason for admission" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://fhir.healthintersections.com.au/open/Patient/d1> ;
+     fhir:l <http://fhir.healthintersections.com.au/open/Patient/d1> ;
      fhir:reference [ fhir:v "http://fhir.healthintersections.com.au/open/Patient/d1" ] ;
      fhir:display [ fhir:v "Eve Everywoman" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://fhir.healthintersections.com.au/open/Encounter/doc-example> ;
+     fhir:l <http://fhir.healthintersections.com.au/open/Encounter/doc-example> ;
      fhir:reference [ fhir:v "http://fhir.healthintersections.com.au/open/Encounter/doc-example" ]
   ] ; # 
   fhir:value [
@@ -354,7 +354,7 @@
          a sct:66493003 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "66493003" ]
        ] ) ;
@@ -362,12 +362,12 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://fhir.healthintersections.com.au/open/Patient/d1> ;
+     fhir:l <http://fhir.healthintersections.com.au/open/Patient/d1> ;
      fhir:reference [ fhir:v "http://fhir.healthintersections.com.au/open/Patient/d1" ] ;
      fhir:display [ fhir:v "Peter Patient" ]
   ] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Peter Practitioner" ]
   ] ; #      The prescriber details could also be within the bundle, but has the same options as patient    
@@ -392,7 +392,7 @@
          a sct:394899003 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "394899003" ] ;
          fhir:display [ fhir:v "oral administration of treatment" ]
@@ -403,7 +403,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -415,7 +415,7 @@
          fhir:unit [ fhir:v "tablet" ] ;
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
          ] ;
          fhir:code [ fhir:v "TAB" ]
        ]
@@ -437,7 +437,7 @@
   ] ; #      a reference to the medication being prescribed. As described earlier, this could be contained (as is the example here), separately
 #        within the document bundle or simply a reference to a remote server. See comment in the contained resource    
   fhir:subject [
-     fhir:link <http://fhir.healthintersections.com.au/open/Patient/d1> ;
+     fhir:l <http://fhir.healthintersections.com.au/open/Patient/d1> ;
      fhir:reference [ fhir:v "http://fhir.healthintersections.com.au/open/Patient/d1" ] ;
      fhir:display [ fhir:v "Peter Patient" ]
   ] ; # 
@@ -460,7 +460,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical>
+         fhir:l <http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical>
        ] ;
        fhir:code [ fhir:v "active" ] ;
        fhir:display [ fhir:v "Active" ]
@@ -470,7 +470,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/allergyintolerance-verification>
+         fhir:l <http://terminology.hl7.org/CodeSystem/allergyintolerance-verification>
        ] ;
        fhir:code [ fhir:v "confirmed" ] ;
        fhir:display [ fhir:v "Confirmed" ]
@@ -480,7 +480,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/allergy-intolerance-type"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/allergy-intolerance-type>
+         fhir:l <http://hl7.org/fhir/allergy-intolerance-type>
        ] ;
        fhir:code [ fhir:v "allergy" ] ;
        fhir:display [ fhir:v "Allergy" ]
@@ -491,7 +491,7 @@
      fhir:text [ fhir:v "Doxycycline" ]
   ] ; # 
   fhir:patient [
-     fhir:link <http://fhir.healthintersections.com.au/open/Patient/d1> ;
+     fhir:l <http://fhir.healthintersections.com.au/open/Patient/d1> ;
      fhir:reference [ fhir:v "http://fhir.healthintersections.com.au/open/Patient/d1" ] ;
      fhir:display [ fhir:v "Eve Everywoman" ]
   ] ; # 
@@ -502,7 +502,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://example.org/system"^^xsd:anyURI ;
-             fhir:link <http://example.org/system>
+             fhir:l <http://example.org/system>
            ] ;
            fhir:code [ fhir:v "xxx" ] ;
            fhir:display [ fhir:v "Hives" ]

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -38,7 +38,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://doi.org/10.1002/14651858.CD000213.pub3"^^xsd:anyURI ;
-         fhir:link <https://doi.org/10.1002/14651858.CD000213.pub3>
+         fhir:l <https://doi.org/10.1002/14651858.CD000213.pub3>
        ]
      ]
   ] ) ; # 
@@ -49,32 +49,50 @@
        fhir:code [ fhir:v "any-of" ] ;
        fhir:characteristic ( [
          fhir:definitionReference [
-           fhir:type [ fhir:v "Evidence"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Evidence"^^xsd:anyURI ;
+             fhir:l fhir:Evidence
+           ] ;
            fhir:display [ fhir:v "NINDS 1995" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:type [ fhir:v "Evidence"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Evidence"^^xsd:anyURI ;
+             fhir:l fhir:Evidence
+           ] ;
            fhir:display [ fhir:v "ECASS 1995" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:type [ fhir:v "Evidence"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Evidence"^^xsd:anyURI ;
+             fhir:l fhir:Evidence
+           ] ;
            fhir:display [ fhir:v "ECASS II 1998" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:type [ fhir:v "Evidence"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Evidence"^^xsd:anyURI ;
+             fhir:l fhir:Evidence
+           ] ;
            fhir:display [ fhir:v "ATLANTIS B 1999" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:type [ fhir:v "Evidence"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Evidence"^^xsd:anyURI ;
+             fhir:l fhir:Evidence
+           ] ;
            fhir:display [ fhir:v "ATLANTIS A 2000" ]
          ]
        ] [
          fhir:definitionReference [
-           fhir:type [ fhir:v "Evidence"^^xsd:anyURI ] ;
+           fhir:type [
+             fhir:v "Evidence"^^xsd:anyURI ;
+             fhir:l fhir:Evidence
+           ] ;
            fhir:display [ fhir:v "IST3 2012" ]
          ]
        ] )

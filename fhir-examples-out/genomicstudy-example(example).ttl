@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:use [ fhir:v "temp" ] ;
      fhir:system [
        fhir:v "http://www.somesystemabc.net/identifiers/genomicstudies"^^xsd:anyURI ;
-       fhir:link <http://www.somesystemabc.net/identifiers/genomicstudies>
+       fhir:l <http://www.somesystemabc.net/identifiers/genomicstudies>
      ] ;
      fhir:value [ fhir:v "urn:uuid:1111-1111-1111-1111" ]
   ] ) ; # 
@@ -37,31 +37,31 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/genomicstudy-type"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/genomicstudy-type>
+         fhir:l <http://hl7.org/fhir/genomicstudy-type>
        ] ;
        fhir:code [ fhir:v "fam-var-segr" ] ;
        fhir:display [ fhir:v "Familial variant segregation" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/denovoChild> ;
+     fhir:l <http://hl7.org/fhir/Patient/denovoChild> ;
      fhir:reference [ fhir:v "Patient/denovoChild" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/denovoEncounter> ;
+     fhir:l <http://hl7.org/fhir/Encounter/denovoEncounter> ;
      fhir:reference [ fhir:v "Encounter/denovoEncounter" ]
   ] ; # 
   fhir:startDate [ fhir:v "2021-01-01"^^xsd:date] ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/genomicServiceRequest> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/genomicServiceRequest> ;
      fhir:reference [ fhir:v "ServiceRequest/genomicServiceRequest" ]
   ] ) ; # 
   fhir:referrer [
-     fhir:link <http://hl7.org/fhir/Practitioner/practitioner01> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/practitioner01> ;
      fhir:reference [ fhir:v "Practitioner/practitioner01" ]
   ] ; # 
   fhir:interpreter ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/practitioner02> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/practitioner02> ;
      fhir:reference [ fhir:v "Practitioner/practitioner02" ]
   ] ) ; # 
   fhir:reason ( [
@@ -70,7 +70,7 @@
          a sct:267431006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "267431006" ] ;
          fhir:display [ fhir:v "Disorder of lipid metabolism (disorder)" ]
@@ -86,17 +86,17 @@
        fhir:use [ fhir:v "temp" ] ;
        fhir:system [
          fhir:v "http://www.somesystemabc.net/identifiers/genomicAnalyses"^^xsd:anyURI ;
-         fhir:link <http://www.somesystemabc.net/identifiers/genomicAnalyses>
+         fhir:l <http://www.somesystemabc.net/identifiers/genomicAnalyses>
        ] ;
        fhir:value [ fhir:v "urn:uuid:1111-1111-1111-1111" ]
      ] ) ; #   0..* Genomic Analysis Event of proband  
      fhir:instantiatesUri [
        fhir:v "https://pubmed.ncbi.nlm.nih.gov/33927380/"^^xsd:anyURI ;
-       fhir:link <https://pubmed.ncbi.nlm.nih.gov/33927380/>
+       fhir:l <https://pubmed.ncbi.nlm.nih.gov/33927380/>
      ] ; #   <instantiatesCanonical>0..1 canonical(PlanDefinition) The defined protocol that describes the analysis<\/instantiatesCanonical>  
      fhir:title [ fhir:v "Proband Sequence Variation Detection Using Next Generation Sequencing" ] ;
      fhir:specimen ( [
-       fhir:link <http://hl7.org/fhir/Specimen/denovo-1> ;
+       fhir:l <http://hl7.org/fhir/Specimen/denovo-1> ;
        fhir:reference [ fhir:v "Specimen/denovo-1" ]
      ] ) ;
      fhir:date [ fhir:v "2021-01-01T01:01:10-06:00"^^xsd:dateTime ] ;
@@ -105,7 +105,7 @@
      ] ) ; #   0..1 The date of the analysis event  
      fhir:input ( [
        fhir:file [
-         fhir:link <http://hl7.org/fhir/DocumentReference/genomicFile1> ;
+         fhir:l <http://hl7.org/fhir/DocumentReference/genomicFile1> ;
          fhir:reference [ fhir:v "DocumentReference/genomicFile1" ]
        ] ; #   0..* Inputs for the analysis event of Child 
        fhir:type [
@@ -117,14 +117,14 @@
      ] ) ; #   <protocolPerformed>0..1 Reference(Procedure|Task) The protocol that was performed for the analysis event<\/protocolPerformed>  ,   <regionsCalled>0..1 Reference(DocumentReference) Genomic regions actually called in the analysis event (BED file)<\/regionsCalled>  ,   <generatedBy[x]>0..1 Identifier|Reference(GenomicStudy) The analysis event or other GenomicStudy that generated this input file<\/generatedBy[x]>  
      fhir:performer ( [
        fhir:actor [
-         fhir:link <http://hl7.org/fhir/Practitioner/practitioner02> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/practitioner02> ;
          fhir:reference [ fhir:v "Practitioner/practitioner02" ]
        ] ; #   0..* Performer for the analysis event  
        fhir:role [
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html>
+             fhir:l <http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html>
            ] ;
            fhir:code [ fhir:v "PRF" ] ;
            fhir:display [ fhir:v "Performer" ]
@@ -133,7 +133,7 @@
      ] ) ;
      fhir:device ( [
        fhir:device [
-         fhir:link <http://hl7.org/fhir/Device/NGS-device> ;
+         fhir:l <http://hl7.org/fhir/Device/NGS-device> ;
          fhir:reference [ fhir:v "Device/NGS-device" ]
        ] ; #   0..* Devices used for the analysis (e.g., instruments, software), with settings and parameters  
        fhir:function [
@@ -147,21 +147,21 @@
        fhir:use [ fhir:v "temp" ] ;
        fhir:system [
          fhir:v "http://www.somesystemabc.net/identifiers/genomicAnalyses"^^xsd:anyURI ;
-         fhir:link <http://www.somesystemabc.net/identifiers/genomicAnalyses>
+         fhir:l <http://www.somesystemabc.net/identifiers/genomicAnalyses>
        ] ;
        fhir:value [ fhir:v "urn:uuid:1111-1111-1111-1112" ]
      ] ) ; #   0..* Genomic Analysis Event of mother  
      fhir:instantiatesUri [
        fhir:v "https://pubmed.ncbi.nlm.nih.gov/33927380/"^^xsd:anyURI ;
-       fhir:link <https://pubmed.ncbi.nlm.nih.gov/33927380/>
+       fhir:l <https://pubmed.ncbi.nlm.nih.gov/33927380/>
      ] ; #   <instantiatesCanonical>0..1 canonical(PlanDefinition) The defined protocol that describes the analysis<\/instantiatesCanonical>  
      fhir:title [ fhir:v "Maternal Sequence Variation Detection Using Next Generation Sequencing" ] ;
      fhir:focus ( [
-       fhir:link <http://hl7.org/fhir/Patient/denovoMother> ;
+       fhir:l <http://hl7.org/fhir/Patient/denovoMother> ;
        fhir:reference [ fhir:v "Patient/denovoMother" ]
      ] ) ; #   0..1 Name of the analysis event (human friendly)  
      fhir:specimen ( [
-       fhir:link <http://hl7.org/fhir/Specimen/denovo-2> ;
+       fhir:l <http://hl7.org/fhir/Specimen/denovo-2> ;
        fhir:reference [ fhir:v "Specimen/denovo-2" ]
      ] ) ;
      fhir:date [ fhir:v "2021-01-01T01:01:10-06:00"^^xsd:dateTime ] ;
@@ -170,7 +170,7 @@
      ] ) ; #   0..1 The date of the analysis event  
      fhir:input ( [
        fhir:file [
-         fhir:link <http://hl7.org/fhir/DocumentReference/genomicFile2> ;
+         fhir:l <http://hl7.org/fhir/DocumentReference/genomicFile2> ;
          fhir:reference [ fhir:v "DocumentReference/genomicFile2" ]
        ] ; #   0..* Inputs for the analysis event of Mother 
        fhir:type [
@@ -182,14 +182,14 @@
      ] ) ; #   <generatedBy[x]>0..1 Identifier|Reference(GenomicStudy) The analysis event or other GenomicStudy that generated this input file<\/generatedBy[x]>  
      fhir:performer ( [
        fhir:actor [
-         fhir:link <http://hl7.org/fhir/Practitioner/practitioner02> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/practitioner02> ;
          fhir:reference [ fhir:v "Practitioner/practitioner02" ]
        ] ; #   0..* Performer for the analysis event  
        fhir:role [
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html>
+             fhir:l <http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html>
            ] ;
            fhir:code [ fhir:v "PRF" ] ;
            fhir:display [ fhir:v "Performer" ]
@@ -198,7 +198,7 @@
      ] ) ;
      fhir:device ( [
        fhir:device [
-         fhir:link <http://hl7.org/fhir/Device/NGS-device> ;
+         fhir:l <http://hl7.org/fhir/Device/NGS-device> ;
          fhir:reference [ fhir:v "Device/NGS-device" ]
        ] #   0..* Devices used for the analysis (e.g., instruments, software), with settings and parameters  
      ] ) #   <function>0..1 CodeableConcept Specific function for the device used for the analysis<\/function>  
@@ -207,21 +207,21 @@
        fhir:use [ fhir:v "temp" ] ;
        fhir:system [
          fhir:v "http://www.somesystemabc.net/identifiers/genomicAnalyses"^^xsd:anyURI ;
-         fhir:link <http://www.somesystemabc.net/identifiers/genomicAnalyses>
+         fhir:l <http://www.somesystemabc.net/identifiers/genomicAnalyses>
        ] ;
        fhir:value [ fhir:v "urn:uuid:1111-1111-1111-1113" ]
      ] ) ; #   0..* Genomic Analysis Event of father  
      fhir:instantiatesUri [
        fhir:v "https://pubmed.ncbi.nlm.nih.gov/33927380/"^^xsd:anyURI ;
-       fhir:link <https://pubmed.ncbi.nlm.nih.gov/33927380/>
+       fhir:l <https://pubmed.ncbi.nlm.nih.gov/33927380/>
      ] ; #   <instantiatesCanonical>0..1 canonical(PlanDefinition) The defined protocol that describes the analysis<\/instantiatesCanonical>  
      fhir:title [ fhir:v "Paternal Sequence Variation Detection Using Next Generation Sequencing" ] ;
      fhir:focus ( [
-       fhir:link <http://hl7.org/fhir/Patient/denovoFather> ;
+       fhir:l <http://hl7.org/fhir/Patient/denovoFather> ;
        fhir:reference [ fhir:v "Patient/denovoFather" ]
      ] ) ;
      fhir:specimen ( [
-       fhir:link <http://hl7.org/fhir/Specimen/denovo-3> ;
+       fhir:l <http://hl7.org/fhir/Specimen/denovo-3> ;
        fhir:reference [ fhir:v "Specimen/denovo-3" ]
      ] ) ;
      fhir:date [ fhir:v "2021-01-01T01:01:10-06:00"^^xsd:dateTime ] ;
@@ -230,7 +230,7 @@
      ] ) ; #   0..1 The date of the analysis event  
      fhir:input ( [
        fhir:file [
-         fhir:link <http://hl7.org/fhir/DocumentReference/genomicFile3> ;
+         fhir:l <http://hl7.org/fhir/DocumentReference/genomicFile3> ;
          fhir:reference [ fhir:v "DocumentReference/genomicFile3" ]
        ] ; #   0..* Inputs for the analysis event  
        fhir:type [
@@ -242,14 +242,14 @@
      ] ) ; #   <generatedBy[x]>0..1 Identifier|Reference(GenomicStudy) The analysis event or other GenomicStudy that generated this input file<\/generatedBy[x]>  
      fhir:performer ( [
        fhir:actor [
-         fhir:link <http://hl7.org/fhir/Practitioner/practitioner02> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/practitioner02> ;
          fhir:reference [ fhir:v "Practitioner/practitioner02" ]
        ] ; #   0..* Performer for the analysis event  
        fhir:role [
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html>
+             fhir:l <http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html>
            ] ;
            fhir:code [ fhir:v "PRF" ] ;
            fhir:display [ fhir:v "Performer" ]
@@ -258,7 +258,7 @@
      ] ) ;
      fhir:device ( [
        fhir:device [
-         fhir:link <http://hl7.org/fhir/Device/NGS-device> ;
+         fhir:l <http://hl7.org/fhir/Device/NGS-device> ;
          fhir:reference [ fhir:v "Device/NGS-device" ]
        ] #   0..* Devices used for the analysis (e.g., instruments, software), with settings and parameters  
      ] ) #   <function>0..1 CodeableConcept Specific function for the device used for the analysis<\/function>  
@@ -267,13 +267,13 @@
        fhir:use [ fhir:v "temp" ] ;
        fhir:system [
          fhir:v "http://www.somesystemabc.net/identifiers/genomicAnalyses"^^xsd:anyURI ;
-         fhir:link <http://www.somesystemabc.net/identifiers/genomicAnalyses>
+         fhir:l <http://www.somesystemabc.net/identifiers/genomicAnalyses>
        ] ;
        fhir:value [ fhir:v "urn:uuid:1111-1111-1111-1114" ]
      ] ) ; #   0..* De Novo Mutation Analysis  
      fhir:instantiatesUri [
        fhir:v "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6885382/"^^xsd:anyURI ;
-       fhir:link <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6885382/>
+       fhir:l <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6885382/>
      ] ; #   <instantiatesCanonical>0..1 canonical(PlanDefinition) The defined protocol that describes the analysis<\/instantiatesCanonical>  
      fhir:title [ fhir:v "De Novo Mutation Detection and Interpretation" ] ;
      fhir:date [ fhir:v "2021-01-01T03:01:10-06:00"^^xsd:dateTime ] ; #   <specimen> 0..1 Reference(Specimen) The specimen used in the analysis event<\/specimen>  
@@ -282,7 +282,7 @@
      ] ) ; #   0..1 The date of the analysis event  
      fhir:input ( [
        fhir:file [
-         fhir:link <http://hl7.org/fhir/DocumentReference/genomicFile1> ;
+         fhir:l <http://hl7.org/fhir/DocumentReference/genomicFile1> ;
          fhir:reference [ fhir:v "DocumentReference/genomicFile1" ]
        ] ; #   0..* Inputs for the analysis event of Child 
        fhir:type [
@@ -293,7 +293,7 @@
        ]
      ] [
        fhir:file [
-         fhir:link <http://hl7.org/fhir/DocumentReference/genomicFile2> ;
+         fhir:l <http://hl7.org/fhir/DocumentReference/genomicFile2> ;
          fhir:reference [ fhir:v "DocumentReference/genomicFile2" ]
        ] ; #   0..* Inputs for the analysis event of Mother 
        fhir:type [
@@ -304,7 +304,7 @@
        ]
      ] [
        fhir:file [
-         fhir:link <http://hl7.org/fhir/DocumentReference/genomicFile3> ;
+         fhir:l <http://hl7.org/fhir/DocumentReference/genomicFile3> ;
          fhir:reference [ fhir:v "DocumentReference/genomicFile3" ]
        ] ; #   0..* Inputs for the analysis event of Father  
        fhir:type [
@@ -316,14 +316,14 @@
      ] ) ; #   <generatedBy[x]>0..1 Identifier|Reference(GenomicStudy) The analysis event or other GenomicStudy that generated this input file<\/generatedBy[x]>  
      fhir:performer ( [
        fhir:actor [
-         fhir:link <http://hl7.org/fhir/Practitioner/practitioner02> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/practitioner02> ;
          fhir:reference [ fhir:v "Practitioner/practitioner02" ]
        ] ; #   0..* Performer for the analysis event  
        fhir:role [
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html>
+             fhir:l <http://terminology.hl7.org/3.1.0/CodeSystem-v3-ParticipationType.html>
            ] ;
            fhir:code [ fhir:v "PRF" ] ;
            fhir:display [ fhir:v "Performer" ]
@@ -332,7 +332,7 @@
      ] ) ;
      fhir:device ( [
        fhir:device [
-         fhir:link <http://hl7.org/fhir/Device/Triodenovo-SW> ;
+         fhir:l <http://hl7.org/fhir/Device/Triodenovo-SW> ;
          fhir:reference [ fhir:v "Device/Triodenovo-SW" ]
        ] #   0..* Devices used for the analysis (e.g., instruments, software), with settings and parameters  
      ] ) #   <function>0..1 CodeableConcept Specific function for the device used for the analysis<\/function>  

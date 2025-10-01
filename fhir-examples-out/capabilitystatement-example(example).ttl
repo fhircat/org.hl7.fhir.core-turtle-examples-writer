@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
   ] ; # 
   fhir:url [
      fhir:v "urn:uuid:68d043b5-9ecf-4559-a57a-396e0d452311"^^xsd:anyURI ;
-     fhir:link <urn:uuid:68d043b5-9ecf-4559-a57a-396e0d452311>
+     fhir:l <urn:uuid:68d043b5-9ecf-4559-a57a-396e0d452311>
   ] ; # 
   fhir:version [ fhir:v "20130510"] ; # 
   fhir:name [ fhir:v "ACMEEHR"] ; # 
@@ -46,7 +46,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -55,7 +55,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/variant-state"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/variant-state>
+           fhir:l <http://terminology.hl7.org/CodeSystem/variant-state>
          ] ;
          fhir:code [ fhir:v "positive" ]
        ] )
@@ -65,7 +65,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ] ;
        fhir:display [ fhir:v "United States of America (the)" ]
@@ -76,7 +76,7 @@
   fhir:kind [ fhir:v "instance"] ; # 
   fhir:instantiates ( [
      fhir:v "http://ihe.org/fhir/CapabilityStatement/pixm-client"^^xsd:anyURI ;
-     fhir:link <http://ihe.org/fhir/CapabilityStatement/pixm-client>
+     fhir:l <http://ihe.org/fhir/CapabilityStatement/pixm-client>
   ] ) ; # 
   fhir:software [
      fhir:name [ fhir:v "EHR" ] ;
@@ -87,7 +87,7 @@
      fhir:description [ fhir:v "main EHR at ACME" ] ;
      fhir:url [
        fhir:v "http://10.2.3.4/fhir"^^xsd:anyURI ;
-       fhir:link <http://10.2.3.4/fhir>
+       fhir:l <http://10.2.3.4/fhir>
      ]
   ] ; # 
   fhir:fhirVersion [ fhir:v "5.0.0"] ; # 
@@ -96,7 +96,7 @@
   fhir:acceptLanguage ( [ fhir:v "en"] [ fhir:v "es"] ) ; # 
   fhir:implementationGuide ( [
      fhir:v "http://example.org/fhir/us/lab"^^xsd:anyURI ;
-     fhir:link <http://example.org/fhir/us/lab>
+     fhir:l <http://example.org/fhir/us/lab>
   ] ) ; # 
   fhir:rest ( [
      fhir:mode [ fhir:v "server" ] ;
@@ -107,7 +107,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/restful-security-service"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/restful-security-service>
+             fhir:l <http://hl7.org/fhir/restful-security-service>
            ] ;
            fhir:code [ fhir:v "SMART-on-FHIR" ]
          ] )
@@ -118,11 +118,11 @@
        fhir:type [ fhir:v "Patient" ] ;
        fhir:profile [
          fhir:v "http://registry.fhir.org/r5/StructureDefinition/7896271d-57f6-4231-89dc-dcc91eab2416"^^xsd:anyURI ;
-         fhir:link <http://registry.fhir.org/r5/StructureDefinition/7896271d-57f6-4231-89dc-dcc91eab2416>
+         fhir:l <http://registry.fhir.org/r5/StructureDefinition/7896271d-57f6-4231-89dc-dcc91eab2416>
        ] ;
        fhir:supportedProfile ( [
          fhir:v "http://registry.fhir.org/r5/StructureDefinition/00ab9e7a-06c7-4f77-9234-4154ca1e3347"^^xsd:anyURI ;
-         fhir:link <http://registry.fhir.org/r5/StructureDefinition/00ab9e7a-06c7-4f77-9234-4154ca1e3347>
+         fhir:l <http://registry.fhir.org/r5/StructureDefinition/00ab9e7a-06c7-4f77-9234-4154ca1e3347>
        ] ) ;
        fhir:documentation [ fhir:v "This server does not let the clients create identities." ] ;
        fhir:interaction ( [
@@ -153,7 +153,7 @@
          fhir:name [ fhir:v "identifier" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Patient-identifier"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Patient-identifier>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Patient-identifier>
          ] ;
          fhir:type [ fhir:v "token" ] ;
          fhir:documentation [ fhir:v "Only supports search by institution MRN" ]
@@ -161,7 +161,7 @@
          fhir:name [ fhir:v "general-practitioner" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Patient-general-practitioner"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Patient-general-practitioner>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Patient-general-practitioner>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] )
@@ -173,7 +173,7 @@
      ] ) ;
      fhir:compartment ( [
        fhir:v "http://hl7.org/fhir/CompartmentDefinition/patient"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/CompartmentDefinition/patient>
+       fhir:l <http://hl7.org/fhir/CompartmentDefinition/patient>
      ] )
   ] ) ; # 
   fhir:messaging ( [
@@ -181,11 +181,14 @@
        fhir:protocol [
          fhir:system [
            fhir:v "http://hl7.org/fhir/message-transport"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/message-transport>
+           fhir:l <http://hl7.org/fhir/message-transport>
          ] ;
          fhir:code [ fhir:v "mllp" ]
        ] ;
-       fhir:address [ fhir:v "mllp:10.1.1.10:9234"^^xsd:anyURI ]
+       fhir:address [
+         fhir:v "mllp:10.1.1.10:9234"^^xsd:anyURI ;
+         fhir:l fhir:mllp:10.1.1.10:9234
+       ]
      ] ) ;
      fhir:reliableCache [ fhir:v "30"^^xsd:nonNegativeInteger ] ;
      fhir:documentation [ fhir:v "ADT A08 equivalent for external system notifications" ] ;
@@ -193,7 +196,7 @@
        fhir:mode [ fhir:v "receiver" ] ;
        fhir:definition [
          fhir:v "http://hl7.org/fhir/MessageDefinition/example"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/MessageDefinition/example>
+         fhir:l <http://hl7.org/fhir/MessageDefinition/example>
        ]
      ] )
   ] ) ; # 
@@ -202,7 +205,7 @@
      fhir:documentation [ fhir:v "Basic rules for all documents in the EHR system" ] ;
      fhir:profile [
        fhir:v "http://fhir.hl7.org/base/Profilebc054d23-75e1-4dc6-aca5-838b6b1ac81d/_history/b5fdd9fc-b021-4ea1-911a-721a60663796"^^xsd:anyURI ;
-       fhir:link <http://fhir.hl7.org/base/Profilebc054d23-75e1-4dc6-aca5-838b6b1ac81d/_history/b5fdd9fc-b021-4ea1-911a-721a60663796>
+       fhir:l <http://fhir.hl7.org/base/Profilebc054d23-75e1-4dc6-aca5-838b6b1ac81d/_history/b5fdd9fc-b021-4ea1-911a-721a60663796>
      ]
   ] ) . # 
 

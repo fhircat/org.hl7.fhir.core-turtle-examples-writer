@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.21367.2005.3.7.1234" ]
   ] ) ; # 
@@ -35,7 +35,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/sid/cvx"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/sid/cvx>
+         fhir:l <http://hl7.org/fhir/sid/cvx>
        ] ;
        fhir:code [ fhir:v "175" ]
      ] ) ;
@@ -43,18 +43,18 @@
   ] ; # 
   fhir:manufacturer [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+       fhir:l <http://hl7.org/fhir/Organization/hl7> ;
        fhir:reference [ fhir:v "Organization/hl7" ]
      ]
   ] ; # 
   fhir:lotNumber [ fhir:v "PPL909K"] ; # 
   fhir:expirationDate [ fhir:v "2023-01-21"^^xsd:date] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:occurrence [
@@ -63,14 +63,14 @@
   ] ; # 
   fhir:primarySource [ fhir:v true] ; # 
   fhir:location [
-     fhir:link <http://hl7.org/fhir/Location/1> ;
+     fhir:l <http://hl7.org/fhir/Location/1> ;
      fhir:reference [ fhir:v "Location/1" ]
   ] ; # 
   fhir:site [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActSite"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActSite>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActSite>
        ] ;
        fhir:code [ fhir:v "LA" ] ;
        fhir:display [ fhir:v "left arm" ]
@@ -80,7 +80,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
        ] ;
        fhir:code [ fhir:v "IM" ] ;
        fhir:display [ fhir:v "Injection, intramuscular" ]
@@ -90,7 +90,7 @@
      fhir:value [ fhir:v "5"^^xsd:decimal ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "mg" ]
   ] ; # 
@@ -99,13 +99,13 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0443"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0443>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0443>
          ] ;
          fhir:code [ fhir:v "OP" ]
        ] )
      ] ;
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/example> ;
        fhir:reference [ fhir:v "Practitioner/example" ]
      ]
   ] [
@@ -113,13 +113,13 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0443"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0443>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0443>
          ] ;
          fhir:code [ fhir:v "AP" ]
        ] )
      ] ;
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/example> ;
        fhir:reference [ fhir:v "Practitioner/example" ]
      ]
   ] ) ; # 
@@ -128,7 +128,7 @@
   ] ) ; # 
   fhir:reason ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Observation/example> ;
+       fhir:l <http://hl7.org/fhir/Observation/example> ;
        fhir:reference [ fhir:v "Observation/example" ]
      ]
   ] ) ; # 
@@ -137,7 +137,7 @@
      fhir:date [ fhir:v "2021-09-12"^^xsd:date ] ;
      fhir:manifestation [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Observation/example2> ;
+         fhir:l <http://hl7.org/fhir/Observation/example2> ;
          fhir:reference [ fhir:v "Observation/example2" ]
        ]
      ] ;

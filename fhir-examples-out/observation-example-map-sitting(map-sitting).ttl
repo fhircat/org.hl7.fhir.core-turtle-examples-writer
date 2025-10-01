@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/observation-bodyPosition"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/observation-bodyPosition>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/observation-bodyPosition>
      ] ;
      fhir:value [
        a fhir:CodeableConcept ;
@@ -36,7 +36,7 @@
          a sct:33586001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "33586001" ] ;
          fhir:display [ fhir:v "Sitting position (finding)" ]
@@ -45,7 +45,7 @@
   ] [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/observation-delta"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/observation-delta>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/observation-delta>
      ] ;
      fhir:value [
        a fhir:CodeableConcept ;
@@ -53,7 +53,7 @@
          a sct:1250004 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "1250004" ] ;
          fhir:display [ fhir:v "Decreased (qualifier value)" ]
@@ -65,7 +65,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
@@ -76,18 +76,18 @@
        a loinc:8478-0 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "8478-0" ] ;
        fhir:display [ fhir:v "Mean blood pressure" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:effective [
@@ -102,7 +102,7 @@
      fhir:unit [ fhir:v "mm Hg" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "mm[Hg]" ]
   ] ; # 
@@ -110,7 +110,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0078"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0078>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0078>
        ] ;
        fhir:code [ fhir:v "L" ] ;
        fhir:display [ fhir:v "Low" ]

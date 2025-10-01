@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://ehic.com/insurer/123456789/member"^^xsd:anyURI ;
-       fhir:link <http://ehic.com/insurer/123456789/member>
+       fhir:l <http://ehic.com/insurer/123456789/member>
      ] ;
      fhir:value [ fhir:v "A123456780" ]
   ] ) ; # 
@@ -36,18 +36,18 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "EHCPOL" ] ;
        fhir:display [ fhir:v "extended healthcare" ]
      ] )
   ] ; # 
   fhir:subscriber [
-     fhir:link <http://hl7.org/fhir/Patient/5> ;
+     fhir:l <http://hl7.org/fhir/Patient/5> ;
      fhir:reference [ fhir:v "Patient/5" ]
   ] ; # 
   fhir:beneficiary [
-     fhir:link <http://hl7.org/fhir/Patient/5> ;
+     fhir:l <http://hl7.org/fhir/Patient/5> ;
      fhir:reference [ fhir:v "Patient/5" ]
   ] ; # 
   fhir:relationship [
@@ -62,7 +62,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://ehic.com/insurer"^^xsd:anyURI ;
-         fhir:link <http://ehic.com/insurer>
+         fhir:l <http://ehic.com/insurer>
        ] ;
        fhir:value [ fhir:v "123456789" ]
      ]

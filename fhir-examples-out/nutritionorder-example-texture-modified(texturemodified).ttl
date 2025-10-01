@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,20 +27,20 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://goodhealthhospital.org/nutrition-requests"^^xsd:anyURI ;
-       fhir:link <http://goodhealthhospital.org/nutrition-requests>
+       fhir:l <http://goodhealthhospital.org/nutrition-requests>
      ] ;
      fhir:value [ fhir:v "123" ]
   ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:intent [ fhir:v "order"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter Chalmers" ]
   ] ; # 
   fhir:dateTime [ fhir:v "2014-09-17"^^xsd:date] ; # 
   fhir:orderer [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr Adam Careful" ]
   ] ; # 
@@ -50,14 +50,14 @@
          a sct:435801000124108 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "435801000124108" ] ;
          fhir:display [ fhir:v "Texture modified diet" ]
        ] [
          fhir:system [
            fhir:v "http://goodhealthhospital.org/diet-type-codes"^^xsd:anyURI ;
-           fhir:link <http://goodhealthhospital.org/diet-type-codes>
+           fhir:l <http://goodhealthhospital.org/diet-type-codes>
          ] ;
          fhir:code [ fhir:v "1010" ] ;
          fhir:display [ fhir:v "Texture modified diet" ]
@@ -83,7 +83,7 @@
            a sct:228049004 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "228049004" ] ;
            fhir:display [ fhir:v "Chopped food" ]
@@ -95,7 +95,7 @@
            a sct:28647000 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "28647000" ] ;
            fhir:display [ fhir:v "Meat" ]

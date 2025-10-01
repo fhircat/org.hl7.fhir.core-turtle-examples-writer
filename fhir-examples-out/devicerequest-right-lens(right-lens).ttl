@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,14 +27,14 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.happysight.com/prescription"^^xsd:anyURI ;
-       fhir:link <http://www.happysight.com/prescription>
+       fhir:l <http://www.happysight.com/prescription>
      ] ;
      fhir:value [ fhir:v "15013R" ]
   ] ) ; # 
   fhir:groupIdentifier [
      fhir:system [
        fhir:v "http://acme.org"^^xsd:anyURI ;
-       fhir:link <http://acme.org>
+       fhir:l <http://acme.org>
      ] ;
      fhir:value [ fhir:v "15013" ]
   ] ; #    insert contents here   
@@ -45,7 +45,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct>
          ] ;
          fhir:code [ fhir:v "lens" ]
        ] )
@@ -57,7 +57,7 @@
          a loinc:28826-6 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "28826-6" ] ;
          fhir:display [ fhir:v "Sphere distance Glasses prescription.lens - right" ]
@@ -70,7 +70,7 @@
        fhir:unit [ fhir:v "Diopter" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "[diop]" ]
      ]
@@ -80,7 +80,7 @@
          a loinc:28829-0 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "28829-0" ] ;
          fhir:display [ fhir:v "Prism base distance Glasses prescription.lens - right" ]
@@ -93,7 +93,7 @@
        fhir:unit [ fhir:v "Diopter" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "[diop]" ]
      ]
@@ -103,7 +103,7 @@
          a loinc:28810-0 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "28810-0" ] ;
          fhir:display [ fhir:v "Add 1 LM glasses lens - right" ]
@@ -116,13 +116,13 @@
        fhir:unit [ fhir:v "Diopter" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "[diop]" ]
      ]
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:occurrence [
@@ -130,7 +130,7 @@
      fhir:v "2014-06-15"^^xsd:date
   ] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ]
   ] . # 
 

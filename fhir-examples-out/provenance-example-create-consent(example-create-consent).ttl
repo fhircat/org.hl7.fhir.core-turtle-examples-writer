@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,7 +24,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Provenance</b><a name=\"example-create-consent\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Provenance \"example-create-consent\" </p></div><p><b>target</b>: <a href=\"consent-example.html\">Consent/consent-example-basic/_history/1</a></p><p><b>recorded</b>: 10 Sept 2021, 5:08:21 pm</p><p><b>activity</b>: create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.1.0/CodeSystem-v3-DataOperation.html\">DataOperation</a>#CREATE)</span></p><p><b>patient</b>: <a href=\"patient-example.html\">Patient/example</a> \"Peter CHALMERS\"</p><h3>Agents</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Who</b></td></tr><tr><td>*</td><td>Assembler <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.1.0/CodeSystem-provenance-participant-type.html\">Provenance participant type</a>#assembler)</span></td><td><span>: LEAP Consent Management Service</span></td></tr></table><h3>Entities</h3><table class=\"grid\"><tr><td>-</td><td><b>Role</b></td><td><b>What</b></td></tr><tr><td>*</td><td>source</td><td><a href=\"broken-link.html\">http://example.org/fhir/QuestionnaireResponse/some-questionnaire-response</a></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:target ( [
-     fhir:link <http://hl7.org/fhir/Consent/consent-example-basic/_history/1> ;
+     fhir:l <http://hl7.org/fhir/Consent/consent-example-basic/_history/1> ;
      fhir:reference [ fhir:v "Consent/consent-example-basic/_history/1" ]
   ] ) ; # 
   fhir:recorded [ fhir:v "2021-09-10T07:08:21.722+00:00"^^xsd:dateTime] ; # 
@@ -32,14 +32,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-DataOperation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-DataOperation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-DataOperation>
        ] ;
        fhir:code [ fhir:v "CREATE" ] ;
        fhir:display [ fhir:v "create" ]
      ] )
   ] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:agent ( [
@@ -47,7 +47,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/provenance-participant-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
          ] ;
          fhir:code [ fhir:v "assembler" ] ;
          fhir:display [ fhir:v "Assembler" ]
@@ -60,7 +60,7 @@
   fhir:entity ( [
      fhir:role [ fhir:v "source" ] ;
      fhir:what [
-       fhir:link <http://example.org/fhir/QuestionnaireResponse/some-questionnaire-response> ;
+       fhir:l <http://example.org/fhir/QuestionnaireResponse/some-questionnaire-response> ;
        fhir:reference [ fhir:v "http://example.org/fhir/QuestionnaireResponse/some-questionnaire-response" ]
      ]
   ] ) . # 

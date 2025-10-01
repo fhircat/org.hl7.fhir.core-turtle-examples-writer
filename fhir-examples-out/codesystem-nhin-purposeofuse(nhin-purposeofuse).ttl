@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -21,12 +21,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://healthit.gov/nhin/purposeofuse"^^xsd:anyURI ;
-     fhir:link <http://healthit.gov/nhin/purposeofuse>
+     fhir:l <http://healthit.gov/nhin/purposeofuse>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.4.1825" ]
   ] ) ; # 
@@ -47,7 +47,7 @@
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
      fhir:v "http://hl7.org/fhir/ValueSet/nhin-purposeofuse"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/nhin-purposeofuse>
+     fhir:l <http://hl7.org/fhir/ValueSet/nhin-purposeofuse>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

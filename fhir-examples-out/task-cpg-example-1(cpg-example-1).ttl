@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
      fhir:text [ fhir:v "Collect information" ] #   \n    <coding>\n      <system value=\"http:\/\/hl7.org\/fhir\/uv\/cpg\/CodeSystem\/cpg-activity-type\"\/>\n      <code value=\"collect-information\"\/>\n      <display value=\"Collect information\"\/>\n    <\/coding>\n      
   ] ; # 
   fhir:for [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] #   <reference value=\"Patient\/dnci-scenario4\"\/>  
   ] ; # 
   fhir:input ( [
@@ -40,7 +40,7 @@
      fhir:value [
        a fhir:canonical ;
        fhir:v "http://hl7.org/fhir/Questionnaire/f201"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Questionnaire/f201>
+       fhir:l <http://hl7.org/fhir/Questionnaire/f201>
      ] #   <valueCanonical value=\"http:\/\/hl7.org\/fhir\/uv\/cpg\/Questionnaire\/activity-example-collectinformation\"\/>  
   ] ) . # 
 

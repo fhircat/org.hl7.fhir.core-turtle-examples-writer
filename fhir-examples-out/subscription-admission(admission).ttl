@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:status [ fhir:v "active"] ; # 
   fhir:topic [
      fhir:v "http://example.org/R5/SubscriptionTopic/admission"^^xsd:anyURI ;
-     fhir:link <http://example.org/R5/SubscriptionTopic/admission>
+     fhir:l <http://example.org/R5/SubscriptionTopic/admission>
   ] ; # 
   fhir:end [ fhir:v "2019-08-07T11:15:18Z"^^xsd:dateTime] ; # 
   fhir:reason [ fhir:v "subscription for beginning of a clinical encounter for patient 123"] ; # 
@@ -40,7 +40,7 @@
   ] ; # 
   fhir:endpoint [
      fhir:v "https://example.org/Endpoints/P123"^^xsd:anyURI ;
-     fhir:link <https://example.org/Endpoints/P123>
+     fhir:l <https://example.org/Endpoints/P123>
   ] ; # 
   fhir:parameter ( [
      fhir:name [ fhir:v "Authorization" ] ;

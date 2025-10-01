@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,14 +25,14 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/SearchParameter/example"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/SearchParameter/example>
+     fhir:l <http://hl7.org/fhir/SearchParameter/example>
   ] ; # 
   fhir:version [ fhir:v "1"] ; # 
   fhir:name [ fhir:v "IDSEARCHPARAMETER"] ; # 
   fhir:title [ fhir:v "I D- S E A R C H- P A R A M E T E R"] ; # 
   fhir:derivedFrom [
      fhir:v "http://hl7.org/fhir/SearchParameter/Resource-id"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/SearchParameter/Resource-id>
+     fhir:l <http://hl7.org/fhir/SearchParameter/Resource-id>
   ] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
@@ -50,7 +50,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -59,7 +59,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/variant-state"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/variant-state>
+           fhir:l <http://terminology.hl7.org/CodeSystem/variant-state>
          ] ;
          fhir:code [ fhir:v "positive" ]
        ] )
@@ -69,7 +69,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ] ;
        fhir:display [ fhir:v "United States of America (the)" ]

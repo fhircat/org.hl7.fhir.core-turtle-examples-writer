@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
        ] ;
        fhir:code [ fhir:v "PTRES" ] ;
        fhir:display [ fhir:v "Patient's Residence" ]
@@ -41,14 +41,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/location-physical-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/location-physical-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/location-physical-type>
        ] ;
        fhir:code [ fhir:v "ho" ] ;
        fhir:display [ fhir:v "House" ]
      ] )
   ] ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ]
   ] . # 
 

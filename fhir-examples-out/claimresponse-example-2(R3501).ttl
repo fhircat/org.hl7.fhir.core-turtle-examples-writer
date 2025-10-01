@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.BenefitsInc.com/fhir/remittance"^^xsd:anyURI ;
-       fhir:link <http://www.BenefitsInc.com/fhir/remittance>
+       fhir:l <http://www.BenefitsInc.com/fhir/remittance>
      ] ;
      fhir:value [ fhir:v "R3501" ]
   ] ) ; # 
@@ -35,14 +35,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/claim-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/claim-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/claim-type>
        ] ;
        fhir:code [ fhir:v "oral" ]
      ] )
   ] ; # 
   fhir:use [ fhir:v "claim"] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/1> ;
+     fhir:l <http://hl7.org/fhir/Patient/1> ;
      fhir:reference [ fhir:v "Patient/1" ]
   ] ; # 
   fhir:created [ fhir:v "2014-08-16"^^xsd:date] ; # 
@@ -50,17 +50,17 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://www.jurisdiction.org/insurers"^^xsd:anyURI ;
-         fhir:link <http://www.jurisdiction.org/insurers>
+         fhir:l <http://www.jurisdiction.org/insurers>
        ] ;
        fhir:value [ fhir:v "555123" ]
      ]
   ] ; # 
   fhir:requestor [
-     fhir:link <http://hl7.org/fhir/Practitioner/1> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/1> ;
      fhir:reference [ fhir:v "Practitioner/1" ]
   ] ; # 
   fhir:request [
-     fhir:link <http://hl7.org/fhir/Claim/100156> ;
+     fhir:l <http://hl7.org/fhir/Claim/100156> ;
      fhir:reference [ fhir:v "Claim/100156" ]
   ] ; # 
   fhir:outcome [ fhir:v "error"] ; # 
@@ -69,7 +69,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/forms-codes"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/forms-codes>
+         fhir:l <http://terminology.hl7.org/CodeSystem/forms-codes>
        ] ;
        fhir:code [ fhir:v "2" ]
      ] )
@@ -80,7 +80,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/note-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/note-type>
+           fhir:l <http://hl7.org/fhir/note-type>
          ] ;
          fhir:code [ fhir:v "display" ]
        ] )
@@ -90,14 +90,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-           fhir:link <urn:ietf:bcp:47>
+           fhir:l <urn:ietf:bcp:47>
          ] ;
          fhir:code [ fhir:v "en-CA" ]
        ] )
      ]
   ] ) ; # 
   fhir:communicationRequest ( [
-     fhir:link <http://hl7.org/fhir/CommunicationRequest/fm-solicit> ;
+     fhir:l <http://hl7.org/fhir/CommunicationRequest/fm-solicit> ;
      fhir:reference [ fhir:v "CommunicationRequest/fm-solicit" ]
   ] ) ; # 
   fhir:error ( [
@@ -107,7 +107,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/adjudication-error"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/adjudication-error>
+           fhir:l <http://terminology.hl7.org/CodeSystem/adjudication-error>
          ] ;
          fhir:code [ fhir:v "a002" ]
        ] )

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/display"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/display>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/display>
        ] ;
        fhir:value [
          a fhir:string ;
@@ -37,17 +37,17 @@
   ] ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f201> ;
+     fhir:l <http://hl7.org/fhir/Patient/f201> ;
      fhir:reference [ fhir:v "Patient/f201" ] ;
      fhir:display [ fhir:v "Roel" ]
   ] ; #   Fictive, only the below answers are non-fictive  
   fhir:authored [ fhir:v "2013-06-18T00:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:author [
-     fhir:link <http://hl7.org/fhir/Practitioner/f201> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f201> ;
      fhir:reference [ fhir:v "Practitioner/f201" ]
   ] ; # 
   fhir:source [
-     fhir:link <http://hl7.org/fhir/Practitioner/f201> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f201> ;
      fhir:reference [ fhir:v "Practitioner/f201" ]
   ] ; # 
   fhir:item ( [

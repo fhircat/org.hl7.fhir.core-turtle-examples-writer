@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
        ] ;
        fhir:code [ fhir:v "resolved" ]
      ] )
@@ -40,7 +40,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
        ] ;
        fhir:code [ fhir:v "confirmed" ]
      ] )
@@ -50,14 +50,14 @@
        a sct:55607006 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "55607006" ] ;
        fhir:display [ fhir:v "Problem" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-category>
        ] ;
        fhir:code [ fhir:v "problem-list-item" ]
      ] ) #   The fever is a mild problem  
@@ -67,7 +67,7 @@
        a sct:255604002 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "255604002" ] ;
        fhir:display [ fhir:v "Mild" ]
@@ -78,7 +78,7 @@
        a sct:386661006 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "386661006" ] ;
        fhir:display [ fhir:v "Fever" ]
@@ -89,19 +89,19 @@
        a sct:38266002 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "38266002" ] ;
        fhir:display [ fhir:v "Entire body as a whole" ]
      ] ) #   Fever applies to whole body  
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f201> ;
+     fhir:l <http://hl7.org/fhir/Patient/f201> ;
      fhir:reference [ fhir:v "Patient/f201" ] ; #   It entails Roel's problem  
      fhir:display [ fhir:v "Roel" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/f201> ;
+     fhir:l <http://hl7.org/fhir/Encounter/f201> ;
      fhir:reference [ fhir:v "Encounter/f201" ]
   ] ; # 
   fhir:onset [
@@ -118,14 +118,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/provenance-participant-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
          ] ;
          fhir:code [ fhir:v "enterer" ] ;
          fhir:display [ fhir:v "Enterer" ]
        ] )
      ] ;
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f201> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f201> ;
        fhir:reference [ fhir:v "Practitioner/f201" ]
      ]
   ] [
@@ -133,14 +133,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/provenance-participant-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
          ] ;
          fhir:code [ fhir:v "verifier" ] ;
          fhir:display [ fhir:v "Verifier" ]
        ] )
      ] ;
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f201> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f201> ;
        fhir:reference [ fhir:v "Practitioner/f201" ]
      ]
   ] ) ; # 
@@ -150,14 +150,14 @@
          a sct:258710007 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "258710007" ] ;
          fhir:display [ fhir:v "degrees C" ]
        ] )
      ] ; #   Problem is confirmed by 39 degrees Celsius  
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Observation/f202> ;
+       fhir:l <http://hl7.org/fhir/Observation/f202> ;
        fhir:reference [ fhir:v "Observation/f202" ] ;
        fhir:display [ fhir:v "Temperature" ]
      ]

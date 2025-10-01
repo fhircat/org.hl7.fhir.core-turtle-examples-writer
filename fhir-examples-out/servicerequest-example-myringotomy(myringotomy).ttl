@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://orionhealth.com/fhir/apps/referralids"^^xsd:anyURI ;
-       fhir:link <http://orionhealth.com/fhir/apps/referralids>
+       fhir:l <http://orionhealth.com/fhir/apps/referralids>
      ] ;
      fhir:value [ fhir:v "ret4421" ]
   ] ) ; # 
@@ -47,7 +47,7 @@
        a sct:103696004 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "103696004" ] ;
        fhir:display [ fhir:v "Patient referral to specialist" ]
@@ -60,7 +60,7 @@
          a sct:172676009 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "172676009" ] ;
          fhir:display [ fhir:v "Myringotomy and insertion of tympanic ventilation tube" ]
@@ -69,7 +69,7 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <https://fhir.orionhealth.com/blaze/fhir/Patient/77662> ;
+     fhir:l <https://fhir.orionhealth.com/blaze/fhir/Patient/77662> ;
      fhir:reference [ fhir:v "https://fhir.orionhealth.com/blaze/fhir/Patient/77662" ] ;
      fhir:display [ fhir:v "Beverly Weaver" ]
   ] ; # 
@@ -82,7 +82,7 @@
   ] ; # 
   fhir:authoredOn [ fhir:v "2014-02-14"^^xsd:date] ; # 
   fhir:requester [
-     fhir:link <https://fhir.orionhealth.com/blaze/fhir/Practitioner/77272> ;
+     fhir:l <https://fhir.orionhealth.com/blaze/fhir/Practitioner/77272> ;
      fhir:reference [ fhir:v "https://fhir.orionhealth.com/blaze/fhir/Practitioner/77272" ] ;
      fhir:display [ fhir:v "Serena Shrink" ]
   ] ; # 
@@ -90,14 +90,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://orionhealth.com/fhir/apps/specialties"^^xsd:anyURI ;
-         fhir:link <http://orionhealth.com/fhir/apps/specialties>
+         fhir:l <http://orionhealth.com/fhir/apps/specialties>
        ] ;
        fhir:code [ fhir:v "ent" ] ;
        fhir:display [ fhir:v "ENT" ]
      ] )
   ] ; # 
   fhir:performer ( [
-     fhir:link <https://fhir.orionhealth.com/blaze/fhir/Practitioner/76597> ;
+     fhir:l <https://fhir.orionhealth.com/blaze/fhir/Practitioner/76597> ;
      fhir:reference [ fhir:v "https://fhir.orionhealth.com/blaze/fhir/Practitioner/76597" ] ;
      fhir:display [ fhir:v "Dr Dave" ]
   ] ) ; # 

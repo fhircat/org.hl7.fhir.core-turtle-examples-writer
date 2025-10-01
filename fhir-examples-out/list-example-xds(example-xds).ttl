@@ -25,7 +25,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -53,14 +53,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://ihe.net/fhir/CodeSystem/identifier-type"^^xsd:anyURI ;
-           fhir:link <http://ihe.net/fhir/CodeSystem/identifier-type>
+           fhir:l <http://ihe.net/fhir/CodeSystem/identifier-type>
          ] ;
          fhir:code [ fhir:v "master" ]
        ] )
      ] ; #    master identifier   
      fhir:system [
        fhir:v "http://example.org/documents"^^xsd:anyURI ;
-       fhir:link <http://example.org/documents>
+       fhir:l <http://example.org/documents>
      ] ;
      fhir:value [ fhir:v "23425234234-2346" ]
   ] [
@@ -68,14 +68,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://ihe.net/fhir/CodeSystem/identifier-type"^^xsd:anyURI ;
-           fhir:link <http://ihe.net/fhir/CodeSystem/identifier-type>
+           fhir:l <http://ihe.net/fhir/CodeSystem/identifier-type>
          ] ;
          fhir:code [ fhir:v "set" ]
        ] )
      ] ; #    set identifier   
      fhir:system [
        fhir:v "http://example.org/documents"^^xsd:anyURI ;
-       fhir:link <http://example.org/documents>
+       fhir:l <http://example.org/documents>
      ] ;
      fhir:value [ fhir:v "23425234234-2347" ]
   ] ) ; # 
@@ -86,16 +86,17 @@
      fhir:text [ fhir:v "History and Physical" ]
   ] ; # 
   fhir:subject ( [
-     fhir:link <http://hl7.org/fhir/Patient/xcda> ;
+     fhir:l <http://hl7.org/fhir/Patient/xcda> ;
      fhir:reference [ fhir:v "Patient/xcda" ]
   ] ) ; # 
   fhir:date [ fhir:v "2004-12-25T23:50:50-05:00"^^xsd:dateTime] ; # 
   fhir:source [
+     fhir:l <#a1> ;
      fhir:reference [ fhir:v "#a1" ]
   ] ; # 
   fhir:entry ( [
      fhir:item [
-       fhir:link <http://hl7.org/fhir/DocumentReference/example> ;
+       fhir:l <http://hl7.org/fhir/DocumentReference/example> ;
        fhir:reference [ fhir:v "DocumentReference/example" ]
      ]
   ] ) . #   

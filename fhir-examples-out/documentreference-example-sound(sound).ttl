@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,11 +25,11 @@
   ] ; # 
   fhir:status [ fhir:v "current"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/xcda> ;
+     fhir:l <http://hl7.org/fhir/Patient/xcda> ;
      fhir:reference [ fhir:v "Patient/xcda" ]
   ] ; # 
   fhir:author ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/xcda-author> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/xcda-author> ;
      fhir:reference [ fhir:v "Practitioner/xcda-author" ]
   ] ) ; # 
   fhir:content ( [

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,34 +27,34 @@
   fhir:requestIdentifier [
      fhir:system [
        fhir:v "http://example.org"^^xsd:anyURI ;
-       fhir:link <http://example.org>
+       fhir:l <http://example.org>
      ] ;
      fhir:value [ fhir:v "guidanceRequest2" ]
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org"^^xsd:anyURI ;
-       fhir:link <http://example.org>
+       fhir:l <http://example.org>
      ] ;
      fhir:value [ fhir:v "guidanceResponse2" ]
   ] ) ; # 
   fhir:module [
      a fhir:uri ;
      fhir:v "http://someguidelineprovider.org/diabetes-guidelines.html"^^xsd:anyURI ;
-     fhir:link <http://someguidelineprovider.org/diabetes-guidelines.html>
+     fhir:l <http://someguidelineprovider.org/diabetes-guidelines.html>
   ] ; # 
   fhir:status [ fhir:v "data-required"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:occurrenceDateTime [ fhir:v "2017-03-10T16:02:00Z"^^xsd:dateTime] ; # 
   fhir:performer [
-     fhir:link <http://hl7.org/fhir/Device/software> ;
+     fhir:l <http://hl7.org/fhir/Device/software> ;
      fhir:reference [ fhir:v "Device/software" ]
   ] ; # 
   fhir:reason ( [
@@ -71,7 +71,7 @@
          a loinc:4548-4 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "4548-4" ] ;
          fhir:display [ fhir:v "Hemoglobin A1c/Hemoglobin.total in Blood" ]

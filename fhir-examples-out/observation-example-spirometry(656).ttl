@@ -26,7 +26,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -44,14 +44,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:11073:10101>
+         fhir:l <urn:iso:std:iso:11073:10101>
        ] ;
        fhir:code [ fhir:v "152584" ] ;
        fhir:display [ fhir:v "MDC_FLOW_AWAY_EXP_FORCED_PEAK" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/PatientId-patientId> ;
+     fhir:l <http://hl7.org/fhir/Patient/PatientId-patientId> ;
      fhir:reference [ fhir:v "Patient/PatientId-patientId" ]
   ] ; # 
   fhir:effective [
@@ -59,7 +59,7 @@
      fhir:v "2017-05-03T15:54:26-04:00"^^xsd:dateTime
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Patient/PatientId-patientId> ;
+     fhir:l <http://hl7.org/fhir/Patient/PatientId-patientId> ;
      fhir:reference [ fhir:v "Patient/PatientId-patientId" ]
   ] ) ; # 
   fhir:value [
@@ -68,7 +68,7 @@
      fhir:unit [ fhir:v "cL/s" ] ;
      fhir:system [
        fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-       fhir:link <urn:iso:std:iso:11073:10101>
+       fhir:l <urn:iso:std:iso:11073:10101>
      ] ;
      fhir:code [ fhir:v "265201" ]
   ] . # 

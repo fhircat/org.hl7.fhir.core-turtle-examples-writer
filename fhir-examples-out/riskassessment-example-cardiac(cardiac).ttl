@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,17 +27,17 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://example.org"^^xsd:anyURI ;
-       fhir:link <http://example.org>
+       fhir:l <http://example.org>
      ] ;
      fhir:value [ fhir:v "risk-assessment-cardiac" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:occurrence [
@@ -48,13 +48,13 @@
      fhir:display [ fhir:v "http://cvdrisk.nhlbi.nih.gov/#cholesterol" ]
   ] ; # 
   fhir:basis ( [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] [
-     fhir:link <http://hl7.org/fhir/DiagnosticReport/lipids> ;
+     fhir:l <http://hl7.org/fhir/DiagnosticReport/lipids> ;
      fhir:reference [ fhir:v "DiagnosticReport/lipids" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/blood-pressure> ;
+     fhir:l <http://hl7.org/fhir/Observation/blood-pressure> ;
      fhir:reference [ fhir:v "Observation/blood-pressure" ]
   ] ) ; # 
   fhir:prediction ( [
@@ -72,7 +72,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ] ;
@@ -81,7 +81,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]

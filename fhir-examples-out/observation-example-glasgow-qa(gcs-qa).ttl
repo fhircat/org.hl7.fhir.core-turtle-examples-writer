@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
        a loinc:9269-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "9269-2" ] ;
        fhir:display [ fhir:v "Glasgow coma score total" ]
@@ -44,7 +44,7 @@
 #	In this example there is only LOINC
 #     
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; # 
@@ -57,7 +57,7 @@
      fhir:value [ fhir:v "13"^^xsd:decimal ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "{score}" ]
   ] ; #     In FHIR, units may be represented twice. Once in the
@@ -69,7 +69,7 @@
        fhir:value [ fhir:v "8"^^xsd:decimal ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "{score}" ]
      ] ;
@@ -81,7 +81,7 @@
        fhir:value [ fhir:v "9"^^xsd:decimal ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "{score}" ]
      ] ;
@@ -89,7 +89,7 @@
        fhir:value [ fhir:v "12"^^xsd:decimal ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "{score}" ]
      ] ;
@@ -101,7 +101,7 @@
        fhir:value [ fhir:v "13"^^xsd:decimal ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "{score}" ]
      ] ;
@@ -110,7 +110,7 @@
      ] #     meaning as text    
   ] ) ; # 
   fhir:derivedFrom ( [
-     fhir:link <http://hl7.org/fhir/QuestionnaireResponse/gcs> ;
+     fhir:l <http://hl7.org/fhir/QuestionnaireResponse/gcs> ;
      fhir:reference [ fhir:v "QuestionnaireResponse/gcs" ] ;
      fhir:display [ fhir:v "GCS form results" ]
   ] ) . #     put the references to the QuestionnairAnswer example here using the derived-From type     

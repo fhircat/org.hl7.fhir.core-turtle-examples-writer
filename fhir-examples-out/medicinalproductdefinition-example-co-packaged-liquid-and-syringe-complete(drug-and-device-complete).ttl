@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,6 +27,7 @@
      a fhir:PackagedProductDefinition ;
      fhir:id [ fhir:v "package" ] ;
      fhir:packageFor ( [
+       fhir:l <#> ;
        fhir:reference [ fhir:v "#" ]
      ] ) ;
      fhir:packaging [
@@ -51,6 +52,7 @@
              fhir:containedItem ( [
                fhir:item [
                  fhir:reference [
+                   fhir:l <#powderItem> ;
                    fhir:reference [ fhir:v "#powderItem" ]
                  ]
                ] ;
@@ -59,7 +61,7 @@
                  fhir:unit [ fhir:v "g" ] ;
                  fhir:system [
                    fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-                   fhir:link <http://unitsofmeasure.org>
+                   fhir:l <http://unitsofmeasure.org>
                  ] ;
                  fhir:code [ fhir:v "g" ]
                ]
@@ -73,6 +75,7 @@
              fhir:containedItem ( [
                fhir:item [
                  fhir:reference [
+                   fhir:l <#solventItem> ;
                    fhir:reference [ fhir:v "#solventItem" ]
                  ]
                ] ;
@@ -81,7 +84,7 @@
                  fhir:unit [ fhir:v "ml" ] ;
                  fhir:system [
                    fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-                   fhir:link <http://unitsofmeasure.org>
+                   fhir:l <http://unitsofmeasure.org>
                  ] ;
                  fhir:code [ fhir:v "mL" ]
                ]
@@ -96,6 +99,7 @@
            fhir:containedItem ( [
              fhir:item [
                fhir:reference [
+                 fhir:l <#syringeDevice> ;
                  fhir:reference [ fhir:v "#syringeDevice" ]
                ]
              ] ;
@@ -114,7 +118,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-           fhir:link <http://example.org.uk/fhir/doseform>
+           fhir:l <http://example.org.uk/fhir/doseform>
          ] ;
          fhir:code [ fhir:v "solvent for powder for injection" ]
        ] )
@@ -127,7 +131,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-           fhir:link <http://example.org.uk/fhir/doseform>
+           fhir:l <http://example.org.uk/fhir/doseform>
          ] ;
          fhir:code [ fhir:v "powder for solution for injection" ]
        ] )
@@ -145,6 +149,7 @@
      fhir:id [ fhir:v "administrable-form" ] ;
      fhir:status [ fhir:v "active" ] ;
      fhir:formOf ( [
+       fhir:l <#> ;
        fhir:reference [ fhir:v "#" ]
      ] ) ;
      fhir:administrableDoseForm [
@@ -153,8 +158,10 @@
        ] )
      ] ;
      fhir:producedFrom ( [
+       fhir:l <#powderItem> ;
        fhir:reference [ fhir:v "#powderItem" ]
      ] [
+       fhir:l <#solventItem> ;
        fhir:reference [ fhir:v "#solventItem" ]
      ] ) ;
      fhir:routeOfAdministration ( [
@@ -162,7 +169,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://example.org.uk/fhir/route"^^xsd:anyURI ;
-             fhir:link <http://example.org.uk/fhir/route>
+             fhir:l <http://example.org.uk/fhir/route>
            ] ;
            fhir:code [ fhir:v "intramuscular" ]
          ] )
@@ -172,7 +179,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org.uk/fhir/product"^^xsd:anyURI ;
-       fhir:link <http://example.org.uk/fhir/product>
+       fhir:l <http://example.org.uk/fhir/product>
      ] ;
      fhir:value [ fhir:v "Wonderdrug+" ]
   ] ) ; # 
@@ -180,7 +187,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-         fhir:link <http://example.org.uk/fhir/doseform>
+         fhir:l <http://example.org.uk/fhir/doseform>
        ] ;
        fhir:code [ fhir:v "Powder and solution for injection with itegral syringe" ]
      ] )

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -39,7 +39,7 @@
   ] ; # 
   fhir:transform [
      fhir:v "http://example.org/fhir/StructureMap/supplyrequest-transform"^^xsd:anyURI ;
-     fhir:link <http://example.org/fhir/StructureMap/supplyrequest-transform>
+     fhir:l <http://example.org/fhir/StructureMap/supplyrequest-transform>
   ] . # 
 
 # -------------------------------------------------------------------------------------

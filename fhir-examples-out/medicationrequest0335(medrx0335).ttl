@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://www.bmc.nl/portal/prescriptions"^^xsd:anyURI ;
-       fhir:link <http://www.bmc.nl/portal/prescriptions>
+       fhir:l <http://www.bmc.nl/portal/prescriptions>
      ] ;
      fhir:value [ fhir:v "12345689" ]
   ] ) ; # 
@@ -38,7 +38,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-           fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+           fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
          ] ;
          fhir:code [ fhir:v "884308" ] ;
          fhir:display [ fhir:v "Nystatin 100UNT/MG Topical Ointment" ]
@@ -46,13 +46,13 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ; #    Linked to the resource patient who needs the medication   
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2015-01-15"^^xsd:date] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Practitioner/f007> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f007> ;
      fhir:reference [ fhir:v "Practitioner/f007" ] ;
      fhir:display [ fhir:v "Patrick Pump" ]
   ] ; # 
@@ -69,7 +69,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -81,7 +81,7 @@
          fhir:unit [ fhir:v "ea" ] ;
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
          ] ;
          fhir:code [ fhir:v "OINT" ]
        ]
@@ -98,7 +98,7 @@
        fhir:unit [ fhir:v "g" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "g" ]
      ] ;
@@ -107,7 +107,7 @@
        fhir:unit [ fhir:v "days" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "d" ]
      ]
@@ -121,7 +121,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
          ] ;
          fhir:code [ fhir:v "FP" ] ;
          fhir:display [ fhir:v "formulary policy" ]

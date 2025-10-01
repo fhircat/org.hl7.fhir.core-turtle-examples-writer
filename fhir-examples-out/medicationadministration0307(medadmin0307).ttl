@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -32,7 +32,7 @@
          a sct:400621001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "400621001" ] ;
          fhir:display [ fhir:v "Lorazepam 2mg/ml injection solution 1ml vial (product)" ]
@@ -43,7 +43,7 @@
          a sct:385219001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "385219001" ] ;
          fhir:display [ fhir:v "Injection solution (qualifier value)" ]
@@ -56,7 +56,7 @@
              a sct:387106007 ;
              fhir:system [
                fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-               fhir:link <http://snomed.info/sct>
+               fhir:l <http://snomed.info/sct>
              ] ;
              fhir:code [ fhir:v "387106007" ] ;
              fhir:display [ fhir:v "Lorazepam (substance)" ]
@@ -69,7 +69,7 @@
            fhir:value [ fhir:v "2"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mg" ]
          ] ;
@@ -77,7 +77,7 @@
            fhir:value [ fhir:v "1"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mL" ]
          ]
@@ -87,16 +87,17 @@
   fhir:status [ fhir:v "completed"] ; # 
   fhir:medication [
      fhir:reference [
+       fhir:l <#med0313> ;
        fhir:reference [ fhir:v "#med0313" ]
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/f001> ;
+     fhir:l <http://hl7.org/fhir/Encounter/f001> ;
      fhir:reference [ fhir:v "Encounter/f001" ] ;
      fhir:display [ fhir:v "encounter who leads to this prescription" ]
   ] ; # 
@@ -110,7 +111,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/med-admin-perform-function"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/med-admin-perform-function>
+           fhir:l <http://terminology.hl7.org/CodeSystem/med-admin-perform-function>
          ] ;
          fhir:code [ fhir:v "performer" ] ;
          fhir:display [ fhir:v "Performer" ]
@@ -118,19 +119,19 @@
      ] ;
      fhir:actor [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Practitioner/f007> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f007> ;
          fhir:reference [ fhir:v "Practitioner/f007" ] ;
          fhir:display [ fhir:v "Patrick Pump" ]
        ]
      ]
   ] ) ; # 
   fhir:request [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0315> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0315> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0315" ]
   ] ; # 
   fhir:device ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Device/f001> ;
+       fhir:l <http://hl7.org/fhir/Device/f001> ;
        fhir:reference [ fhir:v "Device/f001" ]
      ]
   ] ) ; # 
@@ -141,7 +142,7 @@
          a sct:255560000 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "255560000" ] ;
          fhir:display [ fhir:v "Intravenous" ]
@@ -152,7 +153,7 @@
          a sct:420620005 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "420620005" ] ;
          fhir:display [ fhir:v "Push - dosing instruction imperative (qualifier value)" ]
@@ -163,7 +164,7 @@
        fhir:unit [ fhir:v "mg" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "mg" ]
      ] ;
@@ -173,7 +174,7 @@
        fhir:unit [ fhir:v "min" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "min" ]
      ]

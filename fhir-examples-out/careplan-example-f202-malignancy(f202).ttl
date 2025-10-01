@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -33,14 +33,14 @@
            a sct:28995006 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "28995006" ] ;
            fhir:display [ fhir:v "Treated with" ]
          ] )
        ] ;
        fhir:member [
-         fhir:link <http://hl7.org/fhir/Practitioner/f201> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f201> ;
          fhir:reference [ fhir:v "Practitioner/f201" ] ;
          fhir:display [ fhir:v "Dokter Bronsig" ]
        ]
@@ -53,7 +53,7 @@
        fhir:text [ fhir:v "Elimination of the spenoid bone tumor" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/f201> ;
+       fhir:l <http://hl7.org/fhir/Patient/f201> ;
        fhir:reference [ fhir:v "Patient/f201" ] ;
        fhir:display [ fhir:v "Roel" ]
      ]
@@ -61,33 +61,35 @@
   fhir:status [ fhir:v "active"] ; # 
   fhir:intent [ fhir:v "plan"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f201> ;
+     fhir:l <http://hl7.org/fhir/Patient/f201> ;
      fhir:reference [ fhir:v "Patient/f201" ] ; #   It entails Roel's careplan  
      fhir:display [ fhir:v "Roel" ]
   ] ; # 
   fhir:careTeam ( [
+     fhir:l <#careteam> ;
      fhir:reference [ fhir:v "#careteam" ]
   ] ) ; # 
   fhir:addresses ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Condition/f202> ;
+       fhir:l <http://hl7.org/fhir/Condition/f202> ;
        fhir:reference [ fhir:v "Condition/f202" ] ;
        fhir:display [ fhir:v "Roel's head-neck tumor" ]
      ]
   ] ) ; # 
   fhir:goal ( [
+     fhir:l <#goal> ;
      fhir:reference [ fhir:v "#goal" ]
   ] ) ; # 
   fhir:activity ( [
      fhir:performedActivity ( [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Procedure/f201> ;
+         fhir:l <http://hl7.org/fhir/Procedure/f201> ;
          fhir:reference [ fhir:v "Procedure/f201" ] ;
          fhir:display [ fhir:v "Roel's Chemotherapy" ]
        ]
      ] ) ;
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/RequestOrchestration/example> ;
+       fhir:l <http://hl7.org/fhir/RequestOrchestration/example> ;
        fhir:reference [ fhir:v "RequestOrchestration/example" ]
      ] #    Chemotherapy   
   ] ) . # 

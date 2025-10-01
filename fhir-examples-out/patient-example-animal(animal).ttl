@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,50 +27,59 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/patient-animal"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/patient-animal>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/patient-animal>
      ] ;
      fhir:extension ( [
-       fhir:url [ fhir:v "species"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "species"^^xsd:anyURI ;
+         fhir:l fhir:species
+       ] ;
        fhir:value [
          a fhir:CodeableConcept ;
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/animal-species"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/animal-species>
+             fhir:l <http://hl7.org/fhir/animal-species>
            ] ;
            fhir:code [ fhir:v "canislf" ] ;
            fhir:display [ fhir:v "Dog" ]
          ] )
        ]
      ] [
-       fhir:url [ fhir:v "breed"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "breed"^^xsd:anyURI ;
+         fhir:l fhir:breed
+       ] ;
        fhir:value [
          a fhir:CodeableConcept ;
          fhir:coding ( [
            a sct:58108001 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "58108001" ] ;
            fhir:display [ fhir:v "Golden retriever" ]
          ] [
            fhir:system [
              fhir:v "http://example.org/fhir/CodeSystem/animal-breed"^^xsd:anyURI ;
-             fhir:link <http://example.org/fhir/CodeSystem/animal-breed>
+             fhir:l <http://example.org/fhir/CodeSystem/animal-breed>
            ] ;
            fhir:code [ fhir:v "gret" ] ;
            fhir:display [ fhir:v "Golden Retriever" ]
          ] )
        ]
      ] [
-       fhir:url [ fhir:v "genderStatus"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "genderStatus"^^xsd:anyURI ;
+         fhir:l fhir:genderStatus
+       ] ;
        fhir:value [
          a fhir:CodeableConcept ;
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/animal-genderstatus"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/animal-genderstatus>
+             fhir:l <http://hl7.org/fhir/animal-genderstatus>
            ] ;
            fhir:code [ fhir:v "neutered" ]
          ] )
@@ -83,7 +92,7 @@
      ] ;
      fhir:system [
        fhir:v "http://www.maroondah.vic.gov.au/AnimalRegFees.aspx"^^xsd:anyURI ;
-       fhir:link <http://www.maroondah.vic.gov.au/AnimalRegFees.aspx>
+       fhir:l <http://www.maroondah.vic.gov.au/AnimalRegFees.aspx>
      ] ;
      fhir:value [ fhir:v "1234123" ] ;
      fhir:period [
@@ -105,7 +114,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0131>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0131>
          ] ;
          fhir:code [ fhir:v "C" ]
        ] )

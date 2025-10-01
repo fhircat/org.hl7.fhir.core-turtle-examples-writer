@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,19 +26,25 @@
   ] ; # 
   fhir:questionnaire [
      fhir:v "http://hl7.org/fhir/Questionnaire/bb"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/Questionnaire/bb>
+     fhir:l <http://hl7.org/fhir/Questionnaire/bb>
   ] ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/1> ;
+     fhir:l <http://hl7.org/fhir/Patient/1> ;
      fhir:reference [ fhir:v "http://hl7.org/fhir/Patient/1" ] ;
-     fhir:type [ fhir:v "Patient"^^xsd:anyURI ]
+     fhir:type [
+       fhir:v "Patient"^^xsd:anyURI ;
+       fhir:l fhir:Patient
+     ]
   ] ; # 
   fhir:authored [ fhir:v "2013-02-19T14:15:00+10:00"^^xsd:dateTime] ; # 
   fhir:author [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "http://hl7.org/fhir/Practitioner/example" ] ;
-     fhir:type [ fhir:v "Practitioner"^^xsd:anyURI ]
+     fhir:type [
+       fhir:v "Practitioner"^^xsd:anyURI ;
+       fhir:l fhir:Practitioner
+     ]
   ] ; # 
   fhir:item ( [
      fhir:linkId [ fhir:v "birthDetails" ] ;

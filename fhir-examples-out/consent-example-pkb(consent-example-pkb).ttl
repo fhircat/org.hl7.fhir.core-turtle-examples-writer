@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,26 +30,26 @@
        a loinc:59284-0 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "59284-0" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; # 
   fhir:date [ fhir:v "2018-12-28"^^xsd:date] ; # 
   fhir:controller ( [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ]
   ] ) ; # 
   fhir:regulatoryBasis ( [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "INFA" ]
      ] )
@@ -61,13 +61,13 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+             fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
            ] ;
            fhir:code [ fhir:v "PRCP" ]
          ] )
        ] ; #   as a receiver of data  
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Organization/f001> ;
+         fhir:l <http://hl7.org/fhir/Organization/f001> ;
          fhir:reference [ fhir:v "Organization/f001" ]
        ] #   the non-migrated team  
      ] ) ; #   we permit  
@@ -75,7 +75,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+           fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
          ] ;
          fhir:code [ fhir:v "access" ]
        ] )
@@ -83,7 +83,7 @@
      fhir:securityLabel ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
        ] ;
        fhir:code [ fhir:v "N" ]
      ] ) ; #   any data with confidentiality N  
@@ -93,13 +93,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ; #   as a receiver of data  
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ] #   the non-migrated team  
        ] ) ; #   we permit  
@@ -107,7 +107,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -115,7 +115,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "PSY" ]
        ] ) #   any data with tag PSY (see security labels)  
@@ -125,13 +125,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ; #   as a receiver of data  
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ] #   the non-migrated team  
        ] ) ; #   we permit  
@@ -139,7 +139,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -147,7 +147,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "SPI" ]
        ] ) #   any data with and tag SPI (see security labels). SPI is nearest?  
@@ -157,13 +157,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ;
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ]
        ] ) ;
@@ -171,7 +171,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -179,7 +179,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
          ] ;
          fhir:code [ fhir:v "N" ]
        ] )
@@ -189,13 +189,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ;
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ]
        ] ) ;
@@ -203,7 +203,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -211,7 +211,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "PSY" ]
        ] )
@@ -221,13 +221,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ;
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ]
        ] ) ;
@@ -235,7 +235,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -243,7 +243,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "SPI" ]
        ] )
@@ -253,13 +253,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ;
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ]
        ] ) ;
@@ -267,7 +267,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -275,7 +275,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "SEX" ]
        ] )
@@ -285,13 +285,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ;
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ]
        ] ) ;
@@ -299,7 +299,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -307,7 +307,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
          ] ;
          fhir:code [ fhir:v "N" ]
        ] )
@@ -317,13 +317,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ;
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ]
        ] ) ;
@@ -331,7 +331,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -339,7 +339,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "PSY" ]
        ] )
@@ -349,13 +349,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ;
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ]
        ] ) ;
@@ -363,7 +363,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -371,7 +371,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "SPI" ]
        ] )
@@ -381,13 +381,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ;
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ]
        ] ) ;
@@ -395,7 +395,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -403,7 +403,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "SEX" ]
        ] )
@@ -413,13 +413,13 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
              ] ;
              fhir:code [ fhir:v "PRCP" ]
            ] )
          ] ;
          fhir:reference [
-           fhir:link <http://hl7.org/fhir/Organization/f001> ;
+           fhir:l <http://hl7.org/fhir/Organization/f001> ;
            fhir:reference [ fhir:v "Organization/f001" ]
          ]
        ] ) ;
@@ -427,7 +427,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -435,7 +435,7 @@
        fhir:securityLabel ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
          ] ;
          fhir:code [ fhir:v "N" ]
        ] )

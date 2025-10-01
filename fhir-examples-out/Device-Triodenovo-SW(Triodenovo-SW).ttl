@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.somesystemabc.net/identifiers/devices"^^xsd:anyURI ;
-       fhir:link <http://www.somesystemabc.net/identifiers/devices>
+       fhir:l <http://www.somesystemabc.net/identifiers/devices>
      ] ;
      fhir:value [ fhir:v "11112" ]
   ] ) ; # 
@@ -42,7 +42,7 @@
        a sct:706687001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "706687001" ] ;
        fhir:display [ fhir:v "Software (physical object)" ]

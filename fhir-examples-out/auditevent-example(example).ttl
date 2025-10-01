@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-         fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
        ] ;
        fhir:code [ fhir:v "110100" ] ;
        fhir:display [ fhir:v "Application Activity" ]
@@ -37,7 +37,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-         fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
        ] ;
        fhir:code [ fhir:v "110120" ] ;
        fhir:display [ fhir:v "Application Start" ]
@@ -49,7 +49,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/audit-event-outcome"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/audit-event-outcome>
+         fhir:l <http://terminology.hl7.org/CodeSystem/audit-event-outcome>
        ] ;
        fhir:code [ fhir:v "0" ] ;
        fhir:display [ fhir:v "Success" ]
@@ -69,7 +69,7 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/auditevent-AlternativeUserID"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/auditevent-AlternativeUserID>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/auditevent-AlternativeUserID>
        ] ;
        fhir:value [
          a fhir:Identifier ;
@@ -83,7 +83,7 @@
        fhir:identifier [
          fhir:system [
            fhir:v "urn:oid:2.16.840.1.113883.4.2"^^xsd:anyURI ;
-           fhir:link <urn:oid:2.16.840.1.113883.4.2>
+           fhir:l <urn:oid:2.16.840.1.113883.4.2>
          ] ;
          fhir:value [ fhir:v "2.16.840.1.113883.4.2" ]
        ]
@@ -102,7 +102,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-           fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+           fhir:l <http://dicom.nema.org/resources/ontology/DCM>
          ] ;
          fhir:code [ fhir:v "110122" ] ;
          fhir:display [ fhir:v "Login" ]
@@ -116,7 +116,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
              ] ;
              fhir:code [ fhir:v "SNO" ]
            ] ) ;
@@ -129,7 +129,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/object-role"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/object-role>
+           fhir:l <http://terminology.hl7.org/CodeSystem/object-role>
          ] ;
          fhir:code [ fhir:v "4" ] ;
          fhir:display [ fhir:v "Domain Resource" ]

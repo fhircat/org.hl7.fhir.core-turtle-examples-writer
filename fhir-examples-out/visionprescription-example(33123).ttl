@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,19 +26,19 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.happysight.com/prescription"^^xsd:anyURI ;
-       fhir:link <http://www.happysight.com/prescription>
+       fhir:l <http://www.happysight.com/prescription>
      ] ;
      fhir:value [ fhir:v "15013" ]
   ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:created [ fhir:v "2014-06-15"^^xsd:date] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:dateWritten [ fhir:v "2014-06-15"^^xsd:date] ; # 
   fhir:prescriber [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ]
   ] ; # 
   fhir:lensSpecification ( [
@@ -46,7 +46,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct>
          ] ;
          fhir:code [ fhir:v "lens" ]
        ] )
@@ -63,7 +63,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct>
          ] ;
          fhir:code [ fhir:v "lens" ]
        ] )

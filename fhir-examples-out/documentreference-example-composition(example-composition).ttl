@@ -14,13 +14,13 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -33,7 +33,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://healthintersections.com.au/test"^^xsd:anyURI ;
-       fhir:link <http://healthintersections.com.au/test>
+       fhir:l <http://healthintersections.com.au/test>
      ] ;
      fhir:value [ fhir:v "1" ]
   ] ) ; # 
@@ -43,7 +43,7 @@
        a loinc:11488-4 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "11488-4" ] ;
        fhir:display [ fhir:v "Consult note" ]
@@ -54,19 +54,19 @@
        a loinc:LP173421-1 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "LP173421-1" ] ;
        fhir:display [ fhir:v "Report" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/xcda> ;
+     fhir:l <http://hl7.org/fhir/Patient/xcda> ;
      fhir:reference [ fhir:v "Patient/xcda" ] ;
      fhir:display [ fhir:v "Henry Levin the 7th" ]
   ] ; # 
   fhir:context ( [
-     fhir:link <http://hl7.org/fhir/Encounter/xcda> ;
+     fhir:l <http://hl7.org/fhir/Encounter/xcda> ;
      fhir:reference [ fhir:v "Encounter/xcda" ]
   ] ) ; # 
   fhir:event ( [
@@ -74,7 +74,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "HEALTHREC" ] ;
          fhir:display [ fhir:v "health record" ]
@@ -82,7 +82,7 @@
      ]
   ] [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Observation/example> ;
+       fhir:l <http://hl7.org/fhir/Observation/example> ;
        fhir:reference [ fhir:v "Observation/example" ]
      ]
   ] ) ; # 
@@ -92,7 +92,7 @@
   ] ; # 
   fhir:date [ fhir:v "2012-01-04T09:10:14Z"^^xsd:dateTime] ; # 
   fhir:author ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/xcda-author> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/xcda-author> ;
      fhir:reference [ fhir:v "Practitioner/xcda-author" ] ;
      fhir:display [ fhir:v "Harold Hippocrates, MD" ]
   ] ) ; # 
@@ -101,13 +101,13 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/composition-attestation-mode"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/composition-attestation-mode>
+           fhir:l <http://hl7.org/fhir/composition-attestation-mode>
          ] ;
          fhir:code [ fhir:v "professional" ]
        ] )
      ] ;
      fhir:party [
-       fhir:link <http://hl7.org/fhir/Practitioner/xcda-author> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/xcda-author> ;
        fhir:reference [ fhir:v "Practitioner/xcda-author" ] ;
        fhir:display [ fhir:v "Harold Hippocrates, MD" ]
      ]
@@ -117,13 +117,13 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/document-relationship-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/document-relationship-type>
+           fhir:l <http://hl7.org/fhir/document-relationship-type>
          ] ;
          fhir:code [ fhir:v "replaces" ]
        ] )
      ] ;
      fhir:target [
-       fhir:link <http://hl7.org/fhir/DocumentReference/old-example> ;
+       fhir:l <http://hl7.org/fhir/DocumentReference/old-example> ;
        fhir:reference [ fhir:v "DocumentReference/old-example" ]
      ]
   ] ) ; # 
@@ -132,7 +132,7 @@
      fhir:attachment [
        fhir:url [
          fhir:v "Composition/example"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/Composition/example>
+         fhir:l <http://hl7.org/fhir/Composition/example>
        ]
      ]
   ] ) . # 

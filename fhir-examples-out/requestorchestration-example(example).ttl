@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -34,7 +34,7 @@
        ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/example> ;
+       fhir:l <http://hl7.org/fhir/Patient/example> ;
        fhir:reference [ fhir:v "Patient/example" ]
      ]
   ] [
@@ -48,7 +48,7 @@
        ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/example> ;
+       fhir:l <http://hl7.org/fhir/Patient/example> ;
        fhir:reference [ fhir:v "Patient/example" ]
      ]
   ] ) ; # 
@@ -58,7 +58,7 @@
   fhir:groupIdentifier [
      fhir:system [
        fhir:v "http://example.org/treatment-group"^^xsd:anyURI ;
-       fhir:link <http://example.org/treatment-group>
+       fhir:l <http://example.org/treatment-group>
      ] ;
      fhir:value [ fhir:v "00001" ]
   ] ; # 
@@ -66,16 +66,16 @@
   fhir:intent [ fhir:v "plan"] ; # 
   fhir:priority [ fhir:v "routine"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2017-03-06T17:31:00Z"^^xsd:dateTime] ; # 
   fhir:author [
-     fhir:link <http://hl7.org/fhir/Practitioner/1> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/1> ;
      fhir:reference [ fhir:v "Practitioner/1" ]
   ] ; # 
   fhir:reason ( [
@@ -98,7 +98,7 @@
      fhir:participant ( [
        fhir:actor [
          a fhir:Reference ;
-         fhir:link <http://hl7.org/fhir/Practitioner/1> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/1> ;
          fhir:reference [ fhir:v "Practitioner/1" ]
        ]
      ] ) ;
@@ -116,6 +116,7 @@
          ] )
        ] ;
        fhir:resource [
+         fhir:l <#medicationrequest-1> ;
          fhir:reference [ fhir:v "#medicationrequest-1" ]
        ]
      ] [
@@ -136,6 +137,7 @@
          ] )
        ] ;
        fhir:resource [
+         fhir:l <#medicationrequest-2> ;
          fhir:reference [ fhir:v "#medicationrequest-2" ]
        ]
      ] )

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -40,12 +40,12 @@
      fhir:type [ fhir:v "derived-from" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/Measure/measure-exclusive-breastfeeding"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Measure/measure-exclusive-breastfeeding>
+       fhir:l <http://example.org/fhir/Measure/measure-exclusive-breastfeeding>
      ]
   ] ) ; # 
   fhir:library ( [
      fhir:v "http://example.org/fhir/Library/library-exclusive-breastfeeding-cds-logic"^^xsd:anyURI ;
-     fhir:link <http://example.org/fhir/Library/library-exclusive-breastfeeding-cds-logic>
+     fhir:l <http://example.org/fhir/Library/library-exclusive-breastfeeding-cds-logic>
   ] ) ; # 
   fhir:action ( [
      fhir:title [ fhir:v "Mother should be administered a breastfeeding readiness assessment." ] ;

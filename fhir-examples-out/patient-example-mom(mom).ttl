@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,14 +29,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444222222" ]
   ] ) ; # 
@@ -58,12 +58,12 @@
      fhir:line ( [ fhir:v "2222 Home Street" ] )
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] ; # 
   fhir:link ( [
      fhir:other [
-       fhir:link <http://hl7.org/fhir/RelatedPerson/newborn-mom> ;
+       fhir:l <http://hl7.org/fhir/RelatedPerson/newborn-mom> ;
        fhir:reference [ fhir:v "RelatedPerson/newborn-mom" ]
      ] ;
      fhir:type [ fhir:v "seealso" ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://www.bmc.nl/zorgportal/identifiers/encounters"^^xsd:anyURI ;
-       fhir:link <http://www.bmc.nl/zorgportal/identifiers/encounters>
+       fhir:l <http://www.bmc.nl/zorgportal/identifiers/encounters>
      ] ;
      fhir:value [ fhir:v "v3251" ]
   ] ) ; # 
@@ -37,7 +37,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "AMB" ] ;
        fhir:display [ fhir:v "ambulatory" ] #    outpatient   
@@ -48,7 +48,7 @@
        a sct:103391001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "103391001" ] ;
        fhir:display [ fhir:v "Urgent" ]
@@ -59,25 +59,25 @@
        a sct:270427003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "270427003" ] ;
        fhir:display [ fhir:v "Patient-initiated encounter" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f001> ;
+     fhir:l <http://hl7.org/fhir/Patient/f001> ;
      fhir:reference [ fhir:v "Patient/f001" ] ;
      fhir:display [ fhir:v "P. van de Heuvel" ]
   ] ; # 
   fhir:serviceProvider [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ] ;
      fhir:display [ fhir:v "BMC" ]
   ] ; # 
   fhir:participant ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f003> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f003> ;
        fhir:reference [ fhir:v "Practitioner/f003" ] ;
        fhir:display [ fhir:v "M.I.M Versteegh" ]
      ]
@@ -87,7 +87,7 @@
      fhir:unit [ fhir:v "min" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "min" ]
   ] ; # 
@@ -98,7 +98,7 @@
            a sct:34068001 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "34068001" ] ;
            fhir:display [ fhir:v "Partial lobectomy of lung" ]
@@ -111,7 +111,7 @@
        fhir:use [ fhir:v "official" ] ;
        fhir:system [
          fhir:v "http://www.bmc.nl/zorgportal/identifiers/pre-admissions"^^xsd:anyURI ;
-         fhir:link <http://www.bmc.nl/zorgportal/identifiers/pre-admissions>
+         fhir:l <http://www.bmc.nl/zorgportal/identifiers/pre-admissions>
        ] ;
        fhir:value [ fhir:v "98682" ]
      ] ;
@@ -120,7 +120,7 @@
          a sct:305997006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "305997006" ] ;
          fhir:display [ fhir:v "Referral by radiologist" ]
@@ -131,7 +131,7 @@
          a sct:306689006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "306689006" ] ;
          fhir:display [ fhir:v "Discharge to home" ]

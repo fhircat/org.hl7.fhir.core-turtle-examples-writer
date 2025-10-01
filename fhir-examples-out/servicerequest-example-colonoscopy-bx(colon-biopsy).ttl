@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
   fhir:requisition [
      fhir:system [
        fhir:v "http://bumc.org/requisitions"^^xsd:anyURI ;
-       fhir:link <http://bumc.org/requisitions>
+       fhir:l <http://bumc.org/requisitions>
      ] ;
      fhir:value [ fhir:v "req12345" ]
   ] ; #    Example of biopsy service request that is part of a colonoscopy  
@@ -42,7 +42,7 @@
          a sct:76164006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "76164006" ] ;
          fhir:display [ fhir:v "Biopsy of colon (procedure)" ]
@@ -51,17 +51,17 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2017-03-05"^^xsd:date] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Practitioner/3ad0687e-f477-468c-afd5-fcc2bf897809> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/3ad0687e-f477-468c-afd5-fcc2bf897809> ;
      fhir:reference [ fhir:v "Practitioner/3ad0687e-f477-468c-afd5-fcc2bf897809" ] ;
      fhir:display [ fhir:v "Dr. Beverly Crusher" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr Adam Careful" ]
   ] ) . # 

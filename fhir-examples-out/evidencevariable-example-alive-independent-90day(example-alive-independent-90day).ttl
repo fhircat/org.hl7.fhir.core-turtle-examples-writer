@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -37,7 +37,7 @@
          a sct:718705001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "718705001" ] ;
          fhir:display [ fhir:v "Functionally dependent (finding)" ]
@@ -49,7 +49,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/evidence-variable-event"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/evidence-variable-event>
+             fhir:l <http://hl7.org/fhir/evidence-variable-event>
            ] ;
            fhir:code [ fhir:v "study-start" ] ;
            fhir:display [ fhir:v "Study Start" ]
@@ -60,7 +60,7 @@
          fhir:unit [ fhir:v "day" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "d" ]
        ]
@@ -73,7 +73,7 @@
          a sct:419099009 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "419099009" ] ;
          fhir:display [ fhir:v "Dead (finding)" ]
@@ -85,7 +85,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/evidence-variable-event"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/evidence-variable-event>
+             fhir:l <http://hl7.org/fhir/evidence-variable-event>
            ] ;
            fhir:code [ fhir:v "study-start" ] ;
            fhir:display [ fhir:v "Study Start" ]
@@ -96,7 +96,7 @@
          fhir:unit [ fhir:v "day" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "d" ]
        ]

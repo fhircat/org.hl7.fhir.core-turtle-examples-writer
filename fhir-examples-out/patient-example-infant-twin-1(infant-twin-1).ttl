@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName>
      ] ;
      fhir:value [
        a fhir:string ;
@@ -39,20 +39,20 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "MR" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://coruscanthealth.org/main-hospital/patient-identifier"^^xsd:anyURI ;
-       fhir:link <http://coruscanthealth.org/main-hospital/patient-identifier>
+       fhir:l <http://coruscanthealth.org/main-hospital/patient-identifier>
      ] ;
      fhir:value [ fhir:v "MRN7465737865" ]
   ] [
      fhir:system [
        fhir:v "http://new-republic.gov/galactic-citizen-identifier"^^xsd:anyURI ;
-       fhir:link <http://new-republic.gov/galactic-citizen-identifier>
+       fhir:l <http://new-republic.gov/galactic-citizen-identifier>
      ] ;
      fhir:value [ fhir:v "7465737865" ]
   ] ) ; # 
@@ -67,7 +67,7 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/patient-birthTime"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/patient-birthTime>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/patient-birthTime>
        ] ;
        fhir:value [
          a fhir:dateTime ;
@@ -85,20 +85,20 @@
          a sct:72705000 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "72705000" ] ;
          fhir:display [ fhir:v "Mother" ]
        ] [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0131>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0131>
          ] ;
          fhir:code [ fhir:v "N" ]
        ] [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "MTH" ]
        ] ) #    Indicates that the contact is the patient's mother   

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
        ] ;
        fhir:code [ fhir:v "active" ]
      ] )
@@ -37,7 +37,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
        ] ;
        fhir:code [ fhir:v "confirmed" ]
      ] )
@@ -46,7 +46,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-category>
        ] ;
        fhir:code [ fhir:v "encounter-diagnosis" ] ;
        fhir:display [ fhir:v "Encounter Diagnosis" ]
@@ -54,7 +54,7 @@
        a sct:439401001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "439401001" ] ;
        fhir:display [ fhir:v "Diagnosis" ]
@@ -65,7 +65,7 @@
        a sct:24484000 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "24484000" ] ;
        fhir:display [ fhir:v "Severe" ]
@@ -76,7 +76,7 @@
        a sct:39065001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "39065001" ] ;
        fhir:display [ fhir:v "Burn of ear" ]
@@ -88,7 +88,7 @@
        a sct:49521004 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "49521004" ] ;
        fhir:display [ fhir:v "Left external ear structure" ]
@@ -96,7 +96,7 @@
      fhir:text [ fhir:v "Left Ear" ]
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:onset [

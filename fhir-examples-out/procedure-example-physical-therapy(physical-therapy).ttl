@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Assessment of passive range of motion for both knees on Sept 27, 2016 due to osteoarthritis</div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/physical-therapy> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/physical-therapy> ;
      fhir:reference [ fhir:v "ServiceRequest/physical-therapy" ] ;
      fhir:display [ fhir:v "Order for the assessment of passive range of motion" ]
   ] ) ; # 
@@ -35,7 +35,7 @@
        a sct:386053000 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "386053000" ] ;
        fhir:display [ fhir:v "Evaluation procedure (procedure)" ]
@@ -47,7 +47,7 @@
        a sct:710830005 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "710830005" ] ;
        fhir:display [ fhir:v "Assessment of passive range of motion (procedure)" ]
@@ -55,7 +55,7 @@
      fhir:text [ fhir:v "Assessment of passive range of motion" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:occurrence [
@@ -80,7 +80,7 @@
        a sct:36701003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "36701003" ] ;
        fhir:display [ fhir:v "Both knees (body structure)" ]

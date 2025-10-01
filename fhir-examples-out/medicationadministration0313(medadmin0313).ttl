@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
          a sct:322254008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "322254008" ] ;
          fhir:display [ fhir:v "Paracetamol 240mg suppository (product)" ]
@@ -39,7 +39,7 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
@@ -51,7 +51,7 @@
   fhir:performer ( [
      fhir:actor [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Practitioner/f007> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f007> ;
          fhir:reference [ fhir:v "Practitioner/f007" ] ;
          fhir:display [ fhir:v "Patrick Pump" ]
        ]
@@ -62,7 +62,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/reason-medication-given"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/reason-medication-given>
+           fhir:l <http://terminology.hl7.org/CodeSystem/reason-medication-given>
          ] ;
          fhir:code [ fhir:v "c" ] ;
          fhir:display [ fhir:v "Emergency" ]
@@ -70,7 +70,7 @@
      ]
   ] ) ; # 
   fhir:request [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0324> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0324> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0324" ]
   ] ; # 
   fhir:dosage [
@@ -80,7 +80,7 @@
          a sct:34402009 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "34402009" ] ;
          fhir:display [ fhir:v "Rectum structure" ]
@@ -91,7 +91,7 @@
        fhir:unit [ fhir:v "mg" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "mg" ]
      ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-           fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+           fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
          ] ;
          fhir:code [ fhir:v "213293" ] ;
          fhir:display [ fhir:v "Capecitabine 500mg oral tablet (Xeloda)" ]
@@ -41,22 +41,23 @@
   fhir:status [ fhir:v "completed"] ; # 
   fhir:medication [
      fhir:reference [
+       fhir:l <#medexample015> ;
        fhir:reference [ fhir:v "#medexample015" ]
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:performer ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f006> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f006> ;
        fhir:reference [ fhir:v "Practitioner/f006" ]
      ]
   ] ) ; # 
   fhir:authorizingPrescription ( [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0309> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0309> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0309" ]
   ] ) ; # 
   fhir:dosageInstruction ( [
@@ -73,7 +74,7 @@
          a sct:394899003 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "394899003" ] ;
          fhir:display [ fhir:v "oral administration of treatment" ]
@@ -84,7 +85,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -96,7 +97,7 @@
          fhir:unit [ fhir:v "mg" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ]

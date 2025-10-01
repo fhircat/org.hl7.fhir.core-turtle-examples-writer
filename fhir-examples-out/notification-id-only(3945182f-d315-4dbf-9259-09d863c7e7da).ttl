@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,19 +24,19 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "urn:uuid:c144782b-da2f-4125-a9e2-9fa4b9085a40"^^xsd:anyURI ;
-       fhir:link <urn:uuid:c144782b-da2f-4125-a9e2-9fa4b9085a40>
+       fhir:l <urn:uuid:c144782b-da2f-4125-a9e2-9fa4b9085a40>
      ] ;
      fhir:resource ( <urn:uuid:c144782b-da2f-4125-a9e2-9fa4b9085a40> )
   ] [
      fhir:fullUrl [
        fhir:v "http://example.org/FHIR/R5/Encounter/2"^^xsd:anyURI ;
-       fhir:link <http://example.org/FHIR/R5/Encounter/2>
+       fhir:l <http://example.org/FHIR/R5/Encounter/2>
      ] ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "Encounter/2"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/Encounter/2>
+         fhir:l <http://hl7.org/fhir/Encounter/2>
        ]
      ] ;
      fhir:response [
@@ -56,17 +56,17 @@
   fhir:notificationEvent ( [
      fhir:eventNumber [ fhir:v "2"^^xsd:long ] ;
      fhir:focus [
-       fhir:link <http://example.org/FHIR/R5/Encounter/2> ;
+       fhir:l <http://example.org/FHIR/R5/Encounter/2> ;
        fhir:reference [ fhir:v "http://example.org/FHIR/R5/Encounter/2" ]
      ]
   ] ) ; # 
   fhir:subscription [
-     fhir:link <http://example.org/FHIR/R5/Subscription/123> ;
+     fhir:l <http://example.org/FHIR/R5/Subscription/123> ;
      fhir:reference [ fhir:v "http://example.org/FHIR/R5/Subscription/123" ]
   ] ; # 
   fhir:topic [
      fhir:v "http://example.org/FHIR/R5/SubscriptionTopic/admission"^^xsd:anyURI ;
-     fhir:link <http://example.org/FHIR/R5/SubscriptionTopic/admission>
+     fhir:l <http://example.org/FHIR/R5/SubscriptionTopic/admission>
   ] . # 
 
 # -------------------------------------------------------------------------------------

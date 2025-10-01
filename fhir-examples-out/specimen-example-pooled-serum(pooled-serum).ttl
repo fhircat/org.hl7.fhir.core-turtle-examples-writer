@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:accessionIdentifier [
      fhir:system [
        fhir:v "https://vetmed.iastate.edu/vdl"^^xsd:anyURI ;
-       fhir:link <https://vetmed.iastate.edu/vdl>
+       fhir:l <https://vetmed.iastate.edu/vdl>
      ] ;
      fhir:value [ fhir:v "20171120-1234" ]
   ] ; # 
@@ -34,7 +34,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "https://vetmed.iastate.edu/vdl"^^xsd:anyURI ;
-         fhir:link <https://vetmed.iastate.edu/vdl>
+         fhir:l <https://vetmed.iastate.edu/vdl>
        ] ;
        fhir:code [ fhir:v "Serum sample, pooled" ] ;
        fhir:display [ fhir:v "Serum sample, pooled" ]
@@ -42,7 +42,7 @@
      fhir:text [ fhir:v "Pooled serum sample" ]
   ] ; #    Pooled serum sample from 30 individuals in the herd- no Snomed Code for this - used a made up local code  
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Group/herd1> ;
+     fhir:l <http://hl7.org/fhir/Group/herd1> ;
      fhir:reference [ fhir:v "Group/herd1" ]
   ] ; #    subject is a herd of breeding sows   
   fhir:combined [ fhir:v "pooled"] ; # 
@@ -57,7 +57,7 @@
   ] ; # 
   fhir:container ( [
      fhir:device [
-       fhir:link <http://hl7.org/fhir/Device/device-example-specimen-container-red-top-vacutainer> ;
+       fhir:l <http://hl7.org/fhir/Device/device-example-specimen-container-red-top-vacutainer> ;
        fhir:reference [ fhir:v "Device/device-example-specimen-container-red-top-vacutainer" ]
      ]
   ] ) ; # 

@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http:/goodhealth.org/identifiers"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/http:/goodhealth.org/identifiers>
+       fhir:l <http://hl7.org/fhir/http:/goodhealth.org/identifiers>
      ] ;
      fhir:value [ fhir:v "20170201-002" ]
   ] ) ; # 
@@ -37,12 +37,12 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http:/goodhealth.org/accession/identifiers"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/http:/goodhealth.org/accession/identifiers>
+       fhir:l <http://hl7.org/fhir/http:/goodhealth.org/accession/identifiers>
      ] ;
      fhir:value [ fhir:v "G20170201-001" ]
   ] ; # 
   fhir:partOf ( [
-     fhir:link <http://hl7.org/fhir/Task/example1> ;
+     fhir:l <http://hl7.org/fhir/Task/example1> ;
      fhir:reference [ fhir:v "Task/example1" ] ;
      fhir:display [ fhir:v "Lipid Panel" ]
   ] ) ; #   	This Task is a child task of the submitted lipid panel requet
@@ -54,7 +54,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/CodeSystem/task-code"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/CodeSystem/task-code>
+         fhir:l <http://hl7.org/fhir/CodeSystem/task-code>
        ] ;
        fhir:code [ fhir:v "fulfill" ]
      ] )
@@ -63,13 +63,13 @@
      fhir:display [ fhir:v "BloodDraw ServiceRequest" ]
   ] ; #   	Filler generated order using a fictive  servicerequest to complete the loop  
   fhir:for [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; #   	who the task is for
 #  
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ] ;
      fhir:display [ fhir:v "Example In-Patient Encounter" ]
   ] ; # 
@@ -80,7 +80,7 @@
   fhir:authoredOn [ fhir:v "2016-10-31T08:45:05+10:00"^^xsd:dateTime] ; # 
   fhir:lastModified [ fhir:v "2016-10-31T09:45:05+10:00"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Clinical Laboratory @ Acme Hospital" ]
   ] ; #   requester is filler  
@@ -90,7 +90,7 @@
          a sct:18850004 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "18850004" ] ;
          fhir:display [ fhir:v "Laboratory hematologist" ]
@@ -99,7 +99,7 @@
      ]
   ] ) ; # 
   fhir:owner [
-     fhir:link <http://hl7.org/fhir/Practitioner/f202> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f202> ;
      fhir:reference [ fhir:v "Practitioner/f202" ] ;
      fhir:display [ fhir:v "Luigi Maas" ]
   ] ; #   assume at draw station  
@@ -115,7 +115,7 @@
      ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:link <http://hl7.org/fhir/Specimen/101> ;
+       fhir:l <http://hl7.org/fhir/Specimen/101> ;
        fhir:reference [ fhir:v "Specimen/101" ]
      ]
   ] ) . #   The expected output of this task is a Specimen and will generated once the task is completed   

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org.uk/fhir/product"^^xsd:anyURI ;
-       fhir:link <http://example.org.uk/fhir/product>
+       fhir:l <http://example.org.uk/fhir/product>
      ] ;
      fhir:value [ fhir:v "Equilidem25" ]
   ] ) ; # 
@@ -34,7 +34,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org.uk/fhir/dosefom"^^xsd:anyURI ;
-         fhir:link <http://example.org.uk/fhir/dosefom>
+         fhir:l <http://example.org.uk/fhir/dosefom>
        ] ;
        fhir:code [ fhir:v "tablet" ]
      ] )
@@ -44,7 +44,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org.uk/fhir/legalstatusofsupply"^^xsd:anyURI ;
-         fhir:link <http://example.org.uk/fhir/legalstatusofsupply>
+         fhir:l <http://example.org.uk/fhir/legalstatusofsupply>
        ] ;
        fhir:code [ fhir:v "POM" ] ;
        fhir:display [ fhir:v "Prescription only medicine" ]
@@ -54,7 +54,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://www.whocc.no/atc/example"^^xsd:anyURI ;
-         fhir:link <http://www.whocc.no/atc/example>
+         fhir:l <http://www.whocc.no/atc/example>
        ] ;
        fhir:code [ fhir:v "B01A" ]
      ] )
@@ -70,7 +70,7 @@
   fhir:crossReference ( [
      fhir:product [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/MedicinalProductDefinition/genericEquilidonium> ;
+         fhir:l <http://hl7.org/fhir/MedicinalProductDefinition/genericEquilidonium> ;
          fhir:reference [ fhir:v "MedicinalProductDefinition/genericEquilidonium" ]
        ]
      ]

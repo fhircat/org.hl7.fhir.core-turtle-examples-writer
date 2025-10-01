@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:value [ fhir:v "45678" ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/CarePlan/preg> ;
+     fhir:l <http://hl7.org/fhir/CarePlan/preg> ;
      fhir:reference [ fhir:v "CarePlan/preg" ] ;
      fhir:display [ fhir:v "Maternity care plan" ]
   ] ) ; # 
@@ -40,7 +40,7 @@
          a sct:62013009 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "62013009" ] ;
          fhir:display [ fhir:v "Ambulating patient (procedure)" ]
@@ -49,18 +49,18 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2017-03-05"^^xsd:date] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Practitioner/3ad0687e-f477-468c-afd5-fcc2bf897809> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/3ad0687e-f477-468c-afd5-fcc2bf897809> ;
      fhir:reference [ fhir:v "Practitioner/3ad0687e-f477-468c-afd5-fcc2bf897809" ] ;
      fhir:display [ fhir:v "Dr. Beverly Crusher" ]
   ] ; # 
   fhir:reason ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Observation/blood-pressure> ;
+       fhir:l <http://hl7.org/fhir/Observation/blood-pressure> ;
        fhir:reference [ fhir:v "Observation/blood-pressure" ] ;
        fhir:display [ fhir:v "Blood Pressure" ]
      ]

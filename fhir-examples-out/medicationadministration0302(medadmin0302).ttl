@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -32,7 +32,7 @@
          a sct:385219001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "385219001" ] ;
          fhir:display [ fhir:v "Injection Solution (qualifier value)" ]
@@ -45,7 +45,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-               fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+               fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
              ] ;
              fhir:code [ fhir:v "204520" ] ;
              fhir:display [ fhir:v "Potassium Chloride" ]
@@ -58,7 +58,7 @@
            fhir:value [ fhir:v "2"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "meq" ]
          ] ;
@@ -66,7 +66,7 @@
            fhir:value [ fhir:v "1"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mL" ]
          ]
@@ -77,7 +77,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-               fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+               fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
              ] ;
              fhir:code [ fhir:v "313002" ] ;
              fhir:display [ fhir:v "Sodium Chloride 0.9% injectable solution" ]
@@ -90,7 +90,7 @@
            fhir:value [ fhir:v 0.9 ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "g" ]
          ] ;
@@ -98,7 +98,7 @@
            fhir:value [ fhir:v "100"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mL" ]
          ]
@@ -106,7 +106,7 @@
      ] )
   ] ) ; # 
   fhir:partOf ( [
-     fhir:link <http://hl7.org/fhir/Procedure/biopsy> ;
+     fhir:l <http://hl7.org/fhir/Procedure/biopsy> ;
      fhir:reference [ fhir:v "Procedure/biopsy" ]
   ] ) ; # 
   fhir:status [ fhir:v "completed"] ; # 
@@ -114,7 +114,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/medication-admin-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/medication-admin-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/medication-admin-category>
        ] ;
        fhir:code [ fhir:v "inpatient" ] ;
        fhir:display [ fhir:v "Inpatient" ]
@@ -122,16 +122,17 @@
   ] ) ; # 
   fhir:medication [
      fhir:reference [
+       fhir:l <#med0317> ;
        fhir:reference [ fhir:v "#med0317" ]
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/f001> ;
+     fhir:l <http://hl7.org/fhir/Encounter/f001> ;
      fhir:reference [ fhir:v "Encounter/f001" ] ;
      fhir:display [ fhir:v "encounter who leads to this prescription" ]
   ] ; # 
@@ -143,7 +144,7 @@
   fhir:performer ( [
      fhir:actor [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Practitioner/f007> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f007> ;
          fhir:reference [ fhir:v "Practitioner/f007" ] ;
          fhir:display [ fhir:v "Patrick Pump" ]
        ]
@@ -154,7 +155,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/reason-medication-given"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/reason-medication-given>
+           fhir:l <http://terminology.hl7.org/CodeSystem/reason-medication-given>
          ] ;
          fhir:code [ fhir:v "b" ] ;
          fhir:display [ fhir:v "Given as Ordered" ]
@@ -162,7 +163,7 @@
      ]
   ] ) ; # 
   fhir:request [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0322> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0322> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0322" ]
   ] ; # 
   fhir:dosage [
@@ -172,7 +173,7 @@
          a sct:6073002 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "6073002" ] ;
          fhir:display [ fhir:v "Structure of ligament of left superior vena cava" ]
@@ -183,7 +184,7 @@
          a sct:47625008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "47625008" ] ;
          fhir:display [ fhir:v "Intravenous route (qualifier value)" ]
@@ -197,7 +198,7 @@
        fhir:unit [ fhir:v "meq" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "meq" ]
      ] ;
@@ -207,7 +208,7 @@
          fhir:value [ fhir:v "100"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mL" ]
        ] ;
@@ -215,7 +216,7 @@
          fhir:value [ fhir:v "1"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "h" ]
        ]

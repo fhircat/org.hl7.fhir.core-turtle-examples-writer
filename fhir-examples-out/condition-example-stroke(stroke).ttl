@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
        ] ;
        fhir:code [ fhir:v "active" ]
      ] )
@@ -37,7 +37,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
        ] ;
        fhir:code [ fhir:v "confirmed" ]
      ] )
@@ -46,7 +46,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-category>
        ] ;
        fhir:code [ fhir:v "encounter-diagnosis" ] ;
        fhir:display [ fhir:v "Encounter Diagnosis" ]
@@ -57,7 +57,7 @@
        a sct:422504002 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "422504002" ] ;
        fhir:display [ fhir:v "Ischemic stroke (disorder)" ]
@@ -65,7 +65,7 @@
      fhir:text [ fhir:v "Stroke" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:onset [

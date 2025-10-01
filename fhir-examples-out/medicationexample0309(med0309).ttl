@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -33,13 +33,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/sid/ndc"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/sid/ndc>
+         fhir:l <http://hl7.org/fhir/sid/ndc>
        ] ;
        fhir:code [ fhir:v "50580-608-02" ] ;
        fhir:display [ fhir:v "Tylenol PM" ]
      ] )
   ] ; # 
   fhir:marketingAuthorizationHolder [
+     fhir:l <#mmanu> ;
      fhir:reference [ fhir:v "#mmanu" ]
   ] ; # 
   fhir:doseForm [
@@ -47,7 +48,7 @@
        a sct:385057009 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "385057009" ] ;
        fhir:display [ fhir:v "Film-coated tablet (qualifier value)" ]
@@ -59,7 +60,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-             fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+             fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
            ] ;
            fhir:code [ fhir:v "315266" ] ;
            fhir:display [ fhir:v "Acetaminophen 500 MG" ]
@@ -72,7 +73,7 @@
          fhir:value [ fhir:v "500"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ] ;
@@ -80,7 +81,7 @@
          fhir:value [ fhir:v "1"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
          ] ;
          fhir:code [ fhir:v "TAB" ]
        ]
@@ -91,7 +92,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-             fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+             fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
            ] ;
            fhir:code [ fhir:v "901813" ] ;
            fhir:display [ fhir:v "Diphenhydramine Hydrochloride 25 mg" ]
@@ -104,7 +105,7 @@
          fhir:value [ fhir:v "25"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ] ;
@@ -112,7 +113,7 @@
          fhir:value [ fhir:v "1"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
          ] ;
          fhir:code [ fhir:v "TAB" ]
        ]

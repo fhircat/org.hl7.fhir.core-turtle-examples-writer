@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+           fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
          ] ;
          fhir:code [ fhir:v "active" ]
        ] )
@@ -39,7 +39,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+           fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
          ] ;
          fhir:code [ fhir:v "confirmed" ]
        ] )
@@ -48,7 +48,7 @@
        fhir:text [ fhir:v "GERDS" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/1> ;
+       fhir:l <http://hl7.org/fhir/Patient/1> ;
        fhir:reference [ fhir:v "Patient/1" ] ;
        fhir:display [ fhir:v "Eve Everywoman" ]
      ]
@@ -59,7 +59,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+           fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
          ] ;
          fhir:code [ fhir:v "active" ]
        ] )
@@ -68,7 +68,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+           fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
          ] ;
          fhir:code [ fhir:v "confirmed" ]
        ] )
@@ -77,7 +77,7 @@
        fhir:text [ fhir:v "Obesity" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/1> ;
+       fhir:l <http://hl7.org/fhir/Patient/1> ;
        fhir:reference [ fhir:v "Patient/1" ] ;
        fhir:display [ fhir:v "Eve Everywoman" ]
      ]
@@ -88,7 +88,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+           fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
          ] ;
          fhir:code [ fhir:v "active" ]
        ] )
@@ -97,7 +97,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+           fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
          ] ;
          fhir:code [ fhir:v "confirmed" ]
        ] )
@@ -106,7 +106,7 @@
        fhir:text [ fhir:v "Psoriasis" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/1> ;
+       fhir:l <http://hl7.org/fhir/Patient/1> ;
        fhir:reference [ fhir:v "Patient/1" ] ;
        fhir:display [ fhir:v "Eve Everywoman" ]
      ]
@@ -118,7 +118,7 @@
        fhir:text [ fhir:v "Eve will lose weight and reduce her GERDS symptoms by improving her diet" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/1> ;
+       fhir:l <http://hl7.org/fhir/Patient/1> ;
        fhir:reference [ fhir:v "Patient/1" ] ;
        fhir:display [ fhir:v "Eve Everywoman" ]
      ]
@@ -130,7 +130,7 @@
        fhir:text [ fhir:v "Eve will improve her GERDS symptoms" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/1> ;
+       fhir:l <http://hl7.org/fhir/Patient/1> ;
        fhir:reference [ fhir:v "Patient/1" ] ;
        fhir:display [ fhir:v "Eve Everywoman" ]
      ]
@@ -142,7 +142,7 @@
        fhir:text [ fhir:v "Eve will increase her energy by being more active" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/1> ;
+       fhir:l <http://hl7.org/fhir/Patient/1> ;
        fhir:reference [ fhir:v "Patient/1" ] ;
        fhir:display [ fhir:v "Eve Everywoman" ]
      ]
@@ -154,7 +154,7 @@
        fhir:text [ fhir:v "Eve will set up her medications and take as prescribed" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/1> ;
+       fhir:l <http://hl7.org/fhir/Patient/1> ;
        fhir:reference [ fhir:v "Patient/1" ] ;
        fhir:display [ fhir:v "Eve Everywoman" ]
      ]
@@ -166,7 +166,7 @@
        fhir:text [ fhir:v "Eve will restart her light treatments" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/1> ;
+       fhir:l <http://hl7.org/fhir/Patient/1> ;
        fhir:reference [ fhir:v "Patient/1" ] ;
        fhir:display [ fhir:v "Eve Everywoman" ]
      ]
@@ -177,35 +177,43 @@
   fhir:status [ fhir:v "active"] ; # 
   fhir:intent [ fhir:v "plan"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/1> ;
+     fhir:l <http://hl7.org/fhir/Patient/1> ;
      fhir:reference [ fhir:v "Patient/1" ] ;
      fhir:display [ fhir:v "Eve Everywoman" ]
   ] ; # 
   fhir:addresses ( [
      fhir:reference [
+       fhir:l <#p1> ;
        fhir:reference [ fhir:v "#p1" ] ;
        fhir:display [ fhir:v "GERDS" ] #   Local reference  
      ]
   ] [
      fhir:reference [
+       fhir:l <#p2> ;
        fhir:reference [ fhir:v "#p2" ] ;
        fhir:display [ fhir:v "Obesity" ] #   Local reference  
      ]
   ] [
      fhir:reference [
+       fhir:l <#p3> ;
        fhir:reference [ fhir:v "#p3" ] ;
        fhir:display [ fhir:v "Psoriasis" ] #   Local reference  
      ]
   ] ) ; # 
   fhir:goal ( [
+     fhir:l <#g1> ;
      fhir:reference [ fhir:v "#g1" ]
   ] [
+     fhir:l <#g2> ;
      fhir:reference [ fhir:v "#g2" ]
   ] [
+     fhir:l <#g3> ;
      fhir:reference [ fhir:v "#g3" ]
   ] [
+     fhir:l <#g4> ;
      fhir:reference [ fhir:v "#g4" ]
   ] [
+     fhir:l <#g5> ;
      fhir:reference [ fhir:v "#g5" ]
   ] ) ; # 
   fhir:activity ( [
@@ -214,17 +222,17 @@
        fhir:text [ fhir:v "Eve eats one meal a day with her parents" ]
      ] ) ;
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-1> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-1> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-1" ]
      ] #   Eve will review photos of high and low density foods and share with her parents  
   ] [
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-2> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-2> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-2" ]
      ] #   Eve will ask her dad to asist her to put the head of her bed on blocks  
   ] [
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/NutritionOrder/activity-3> ;
+       fhir:l <http://hl7.org/fhir/NutritionOrder/activity-3> ;
        fhir:reference [ fhir:v "NutritionOrder/activity-3" ]
      ] #   Eve will reduce her intake of coffee and chocolate  
   ] [
@@ -236,7 +244,7 @@
        fhir:text [ fhir:v "Eve is still walking the dogs." ]
      ] ) ;
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-4> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-4> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-4" ]
      ] #   Eve will walk her friend's dog up and down a big hill 15-30 minutes 3 days a week  
   ] [
@@ -248,12 +256,12 @@
        fhir:text [ fhir:v "Eve did not walk to her parents the last week, but has plans to start again" ]
      ] ) ;
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-5> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-5> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-5" ]
      ] #   Eve will walk 3 blocks to her parents house twice a week  
   ] [
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-6> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-6> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-6" ]
      ] #   Eve will use a calendar to check off after medications are taken  
   ] [
@@ -265,7 +273,7 @@
        fhir:text [ fhir:v "Since her skin is improved Eve has not been using the light treatment as often, maybe once a week.  She would like to increase to 3 times a week again" ]
      ] ) ;
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-7> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-7> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-7" ]
      ] #   Eve will use her lights MWF after her shower for 3 minutes  
   ] [
@@ -274,7 +282,7 @@
        fhir:text [ fhir:v "Eve created a chart as a reminer to take the medications that do not fit in her pill box" ]
      ] ) ;
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-8> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-8> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-8" ]
      ] #   Eve will use a calendar of a chart to help her remember when to take her medications  
   ] [
@@ -286,12 +294,12 @@
        fhir:text [ fhir:v "Eve prefers to focus on walking at this time" ]
      ] ) ;
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-9> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-9> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-9" ]
      ] #   Eve will start using stretch bands and one step 2 days a week Mon\/Wed 6-7am and maybe Friday afternoon  
   ] [
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-10> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-10> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-10" ]
      ] #   Eve will match a printed medication worksheet with the medication bottles at home  
   ] [
@@ -300,7 +308,7 @@
        fhir:text [ fhir:v "Eve now has some of her medications set up in pill packs by her pharmacist" ]
      ] ) ;
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-11> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-11> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-11" ]
      ] #    Eve will get a medication box to sort her pills.  She will have one for scheduled medications and one for as needed  
   ] [
@@ -312,7 +320,7 @@
        fhir:text [ fhir:v "hold until \"less busy\"" ]
      ] ) ;
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/activity-12> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/activity-12> ;
        fhir:reference [ fhir:v "ServiceRequest/activity-12" ]
      ] #   Eve will open execersie DVD workout package and listen to it  
   ] ) ; # 

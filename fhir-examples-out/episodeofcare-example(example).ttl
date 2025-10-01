@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org/sampleepisodeofcare-identifier"^^xsd:anyURI ;
-       fhir:link <http://example.org/sampleepisodeofcare-identifier>
+       fhir:l <http://example.org/sampleepisodeofcare-identifier>
      ] ;
      fhir:value [ fhir:v "123" ]
   ] ) ; # 
@@ -59,7 +59,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/episodeofcare-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/episodeofcare-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/episodeofcare-type>
        ] ;
        fhir:code [ fhir:v "hacc" ] ;
        fhir:display [ fhir:v "Home and Community Care" ]
@@ -68,7 +68,7 @@
   fhir:diagnosis ( [
      fhir:condition ( [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Condition/stroke> ;
+         fhir:l <http://hl7.org/fhir/Condition/stroke> ;
          fhir:reference [ fhir:v "Condition/stroke" ]
        ]
      ] ) ;
@@ -76,7 +76,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/diagnosis-role"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/diagnosis-role>
+           fhir:l <http://terminology.hl7.org/CodeSystem/diagnosis-role>
          ] ;
          fhir:code [ fhir:v "CC" ] ;
          fhir:display [ fhir:v "Chief complaint" ]
@@ -84,11 +84,11 @@
      ]
   ] ) ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/hl7> ;
+     fhir:l <http://hl7.org/fhir/Organization/hl7> ;
      fhir:reference [ fhir:v "Organization/hl7" ]
   ] ; # 
   fhir:period [
@@ -98,17 +98,17 @@
      fhir:display [ fhir:v "Referral from Example Aged Care Services" ]
   ] ) ; # 
   fhir:careManager [
-     fhir:link <http://hl7.org/fhir/Practitioner/f204> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f204> ;
      fhir:reference [ fhir:v "Practitioner/f204" ] ;
      fhir:display [ fhir:v "Carla Espinosa" ]
   ] ; # 
   fhir:careTeam ( [
-     fhir:link <http://hl7.org/fhir/CareTeam/example> ;
+     fhir:l <http://hl7.org/fhir/CareTeam/example> ;
      fhir:reference [ fhir:v "CareTeam/example" ] ;
      fhir:display [ fhir:v "example care team" ]
   ] ) ; # 
   fhir:account ( [
-     fhir:link <http://hl7.org/fhir/Account/example> ;
+     fhir:l <http://hl7.org/fhir/Account/example> ;
      fhir:reference [ fhir:v "Account/example" ] ;
      fhir:display [ fhir:v "example account" ]
   ] ) . # 

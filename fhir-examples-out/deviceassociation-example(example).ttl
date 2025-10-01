@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,20 +26,20 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">[Put rendering here]</div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:device [
-     fhir:link <http://hl7.org/fhir/Device/prod1> ;
+     fhir:l <http://hl7.org/fhir/Device/prod1> ;
      fhir:reference [ fhir:v "Device/prod1" ]
   ] ; # 
   fhir:status [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/deviceassociation-status"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/deviceassociation-status>
+         fhir:l <http://hl7.org/fhir/deviceassociation-status>
        ] ;
        fhir:code [ fhir:v "implanted" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] . # 

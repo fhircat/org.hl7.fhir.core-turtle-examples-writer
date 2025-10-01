@@ -18,7 +18,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://acme.com/containers/id"^^xsd:anyURI ;
-       fhir:link <http://acme.com/containers/id>
+       fhir:l <http://acme.com/containers/id>
      ] ;
      fhir:value [ fhir:v "345676" ]
   ] ) ; # 
@@ -41,7 +41,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.com/containers/codes"^^xsd:anyURI ;
-           fhir:link <http://acme.com/containers/codes>
+           fhir:l <http://acme.com/containers/codes>
          ] ;
          fhir:code [ fhir:v "tube-type" ] ;
          fhir:display [ fhir:v "Tube Type" ]
@@ -52,7 +52,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.com/containers/types"^^xsd:anyURI ;
-           fhir:link <http://acme.com/containers/types>
+           fhir:l <http://acme.com/containers/types>
          ] ;
          fhir:code [ fhir:v "RedTop" ] ;
          fhir:display [ fhir:v "Red Top Tube" ]
@@ -63,7 +63,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.com/containers/codes"^^xsd:anyURI ;
-           fhir:link <http://acme.com/containers/codes>
+           fhir:l <http://acme.com/containers/codes>
          ] ;
          fhir:code [ fhir:v "amount" ] ;
          fhir:display [ fhir:v "Amount" ]
@@ -74,7 +74,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.com/containers/capacities"^^xsd:anyURI ;
-           fhir:link <http://acme.com/containers/capacities>
+           fhir:l <http://acme.com/containers/capacities>
          ] ;
          fhir:code [ fhir:v "4.5mL" ] ;
          fhir:display [ fhir:v "4.5 mL" ]

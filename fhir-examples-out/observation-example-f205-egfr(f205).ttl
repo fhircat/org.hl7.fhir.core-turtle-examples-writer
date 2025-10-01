@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://intranet.aumc.nl/labvalues"^^xsd:anyURI ;
-       fhir:link <https://intranet.aumc.nl/labvalues>
+       fhir:l <https://intranet.aumc.nl/labvalues>
      ] ;
      fhir:value [ fhir:v "1304-03720-eGFR" ] #     Does not exist    
   ] ) ; # 
@@ -38,20 +38,20 @@
        a loinc:33914-3 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "33914-3" ] ;
        fhir:display [ fhir:v "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)" ]
      ] ) #     Kind of observation = eGFR    
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f201> ;
+     fhir:l <http://hl7.org/fhir/Patient/f201> ;
      fhir:reference [ fhir:v "Patient/f201" ] ;
      fhir:display [ fhir:v "Roel" ]
   ] ; # 
   fhir:issued [ fhir:v "2013-04-04T14:34:00+01:00"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/f202> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f202> ;
      fhir:reference [ fhir:v "Practitioner/f202" ] ;
      fhir:display [ fhir:v "Luigi Maas" ]
   ] ) ; # 
@@ -66,7 +66,7 @@
        a sct:702668005 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "702668005" ] ;
        fhir:display [ fhir:v "MDRD" ]
@@ -78,7 +78,7 @@
          a loinc:48643-1 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "48643-1" ] ;
          fhir:display [ fhir:v "Glomerular filtration rate/1.73 sq M predicted among blacks [Volume Rate/?Area] in Serum or Plasma by Creatinine-based formula (MDRD)" ]
@@ -91,7 +91,7 @@
        fhir:unit [ fhir:v "mL/min/1.73m2" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "mL/min/{1.73_m2}" ]
      ] ;
@@ -101,7 +101,7 @@
          fhir:unit [ fhir:v "mL/min/1.73m2" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mL/min/{1.73_m2}" ]
        ] ;
@@ -114,7 +114,7 @@
            fhir:unit [ fhir:v "yrs" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "a" ]
          ]
@@ -126,7 +126,7 @@
          a loinc:48642-3 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "48642-3" ] ;
          fhir:display [ fhir:v "Glomerular filtration rate/1.73 sq M predicted among non-blacks [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)" ]
@@ -138,7 +138,7 @@
        fhir:unit [ fhir:v "mL/min/1.73m2" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "mL/min/{1.73_m2}" ]
      ] ;
@@ -148,7 +148,7 @@
          fhir:unit [ fhir:v "mL/min/1.73m2" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mL/min/{1.73_m2}" ]
        ] ;
@@ -158,7 +158,7 @@
            fhir:unit [ fhir:v "yrs" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "a" ]
          ]

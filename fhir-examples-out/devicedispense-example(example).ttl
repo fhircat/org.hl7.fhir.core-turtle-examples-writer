@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://www.gs1.org/gtin"^^xsd:anyURI ;
-           fhir:link <https://www.gs1.org/gtin>
+           fhir:l <https://www.gs1.org/gtin>
          ] ;
          fhir:code [ fhir:v "00613994223838" ] ;
          fhir:display [ fhir:v "ADAPTA (TM) Pacemaker" ]
@@ -39,7 +39,7 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] . # 

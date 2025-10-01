@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/sid/ndc"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/sid/ndc>
+           fhir:l <http://hl7.org/fhir/sid/ndc>
          ] ;
          fhir:code [ fhir:v "0074-3043-13" ] ;
          fhir:display [ fhir:v "Vicodin 5mg Hydrocodone, 500mg Acetaminophen tablet " ]
@@ -38,25 +38,25 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:performer ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f006> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f006> ;
        fhir:reference [ fhir:v "Practitioner/f006" ]
      ]
   ] ) ; # 
   fhir:authorizingPrescription ( [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0321> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0321> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0321" ]
   ] ) ; # 
   fhir:type [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "RFP" ] ;
        fhir:display [ fhir:v "Refill - Part Fill" ]
@@ -66,7 +66,7 @@
      fhir:value [ fhir:v "30"^^xsd:decimal ] ;
      fhir:system [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
      ] ;
      fhir:code [ fhir:v "TAB" ]
   ] ; # 
@@ -75,7 +75,7 @@
      fhir:unit [ fhir:v "Day" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "d" ]
   ] ; # 
@@ -88,7 +88,7 @@
          a sct:418914006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "418914006" ] ;
          fhir:display [ fhir:v "Warning. May cause drowsiness. If affected do not drive or operate machinery. Avoid alcoholic drink (qualifier value)" ]
@@ -106,7 +106,7 @@
          a sct:203082005 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "203082005" ] ;
          fhir:display [ fhir:v "Fibromyalgia (disorder)" ]
@@ -117,7 +117,7 @@
          a sct:26643006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "26643006" ] ;
          fhir:display [ fhir:v "Oral Route" ]
@@ -128,7 +128,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -140,7 +140,7 @@
          fhir:unit [ fhir:v "TAB" ] ;
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
          ] ;
          fhir:code [ fhir:v "TAB" ]
        ]

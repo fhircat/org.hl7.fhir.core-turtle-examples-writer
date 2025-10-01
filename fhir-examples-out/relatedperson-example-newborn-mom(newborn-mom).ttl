@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,27 +28,27 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SS" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/sid/us-ssn"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/us-ssn>
+       fhir:l <http://hl7.org/fhir/sid/us-ssn>
      ] ;
      fhir:value [ fhir:v "444222222" ]
   ] ) ; # 
   fhir:active [ fhir:v true] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/newborn> ;
+     fhir:l <http://hl7.org/fhir/Patient/newborn> ;
      fhir:reference [ fhir:v "Patient/newborn" ]
   ] ; # 
   fhir:relationship ( [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
        ] ;
        fhir:code [ fhir:v "NMTH" ] ;
        fhir:display [ fhir:v "natural mother" ]

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:accessionIdentifier [
      fhir:system [
        fhir:v "http://lab.acme.org/specimens/2015"^^xsd:anyURI ;
-       fhir:link <http://lab.acme.org/specimens/2015>
+       fhir:l <http://lab.acme.org/specimens/2015>
      ] ; #    accession identifier - e.g. assigned by the labaratory when it is received.\n     This is common, unlike specimen identifier   
      fhir:value [ fhir:v "X352356" ]
   ] ; # 
@@ -35,20 +35,20 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0487"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0487>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0487>
        ] ;
        fhir:code [ fhir:v "RANDU" ] ;
        fhir:display [ fhir:v "Urine, Random" ]
      ] ) #   \n   Type is a loosely defined field because there is such a lot of variation in how it is used.\n   The principal variation is how much information that could be represented elsewhere is also\n   represented here. For instance, here's some possible types:\n     lithium heparin plasma   (+ .container.additive) (e.g. SNOMED CT 446272009)\n     transfusion bag of blood (+ container.type)\n     Peritoneal lavage        (+ collection.bodySite)\n   If the type includes other fields, it would be normal not to populate the other fields\n\n   Note that this practice is so widespread that it's pointless to try and stop it\n   
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:receivedTime [ fhir:v "2015-08-18T07:03:00Z"^^xsd:dateTime] ; # 
   fhir:collection [
      fhir:collector [
-       fhir:link <http://hl7.org/fhir/Practitioner/f202> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f202> ;
        fhir:reference [ fhir:v "Practitioner/f202" ] #    in practice, collecter is almost always recorded   
      ] ;
      fhir:collected [
@@ -62,7 +62,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0373"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0373>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0373>
          ] ;
          fhir:code [ fhir:v "ACID" ]
        ] )
@@ -77,7 +77,7 @@
   ] ) ; # 
   fhir:container ( [
      fhir:device [
-       fhir:link <http://hl7.org/fhir/Device/device-example-specimen-container-polycup> ;
+       fhir:l <http://hl7.org/fhir/Device/device-example-specimen-container-polycup> ;
        fhir:reference [ fhir:v "Device/device-example-specimen-container-polycup" ]
      ] ;
      fhir:specimenQuantity [

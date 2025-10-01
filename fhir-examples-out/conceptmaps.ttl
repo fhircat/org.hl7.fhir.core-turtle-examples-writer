@@ -16,133 +16,133 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v2"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v2>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v2>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v3>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-document-reference-status-v3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-document-reference-status-v3>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-document-reference-status-v3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-document-reference-status-v3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-name-use-v2"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-name-use-v2>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-name-use-v2>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-name-use-v2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-name-use-v3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-name-use-v3>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-name-use-v3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-name-use-v3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-address-use-v2"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-address-use-v2>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-address-use-v2>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-address-use-v2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-address-use-v3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-address-use-v3>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-address-use-v3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-address-use-v3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-address-type-v3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-address-type-v3>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-address-type-v3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-address-type-v3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-contact-point-system-v2"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-contact-point-system-v2>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-contact-point-system-v2>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-contact-point-system-v2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v2"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v2>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v2>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v3>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-detectedissue-severity-v3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-detectedissue-severity-v3>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-detectedissue-severity-v3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-detectedissue-severity-v3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cm-composition-status-v3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cm-composition-status-v3>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cm-composition-status-v3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cm-composition-status-v3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/101"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/101>
+       fhir:l <http://hl7.org/fhir/ConceptMap/101>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/101> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/103"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/103>
+       fhir:l <http://hl7.org/fhir/ConceptMap/103>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/103> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/102"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/102>
+       fhir:l <http://hl7.org/fhir/ConceptMap/102>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/102> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/example2"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/example2>
+       fhir:l <http://hl7.org/fhir/ConceptMap/example2>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/example2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/cdshooks-indicator"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/cdshooks-indicator>
+       fhir:l <http://hl7.org/fhir/ConceptMap/cdshooks-indicator>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/cdshooks-indicator> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/example-metadata"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/example-metadata>
+       fhir:l <http://hl7.org/fhir/ConceptMap/example-metadata>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/example-metadata> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/example-metadata-2"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/example-metadata-2>
+       fhir:l <http://hl7.org/fhir/ConceptMap/example-metadata-2>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/example-metadata-2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/example-priority"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/example-priority>
+       fhir:l <http://hl7.org/fhir/ConceptMap/example-priority>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/example-priority> )
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/ConceptMap/message-adt-a04-to-bundle"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/message-adt-a04-to-bundle>
+       fhir:l <http://hl7.org/fhir/ConceptMap/message-adt-a04-to-bundle>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/ConceptMap/message-adt-a04-to-bundle> )
   ] ) . # 
@@ -155,7 +155,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v2"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v2>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v2>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v2.AdministrativeGender"] ; # 
@@ -168,7 +168,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -177,21 +177,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/administrative-gender"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/administrative-gender>
+     fhir:l <http://hl7.org/fhir/ValueSet/administrative-gender>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v2-0001"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v2-0001>
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0001>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/administrative-gender"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/administrative-gender>
+       fhir:l <http://hl7.org/fhir/administrative-gender>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v2-0001"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v2-0001>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v2-0001>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "male" ] ;
@@ -233,7 +233,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v3"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v3>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-administrative-gender-v3>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v3.AdministrativeGender"] ; # 
@@ -246,7 +246,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -255,21 +255,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/administrative-gender"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/administrative-gender>
+     fhir:l <http://hl7.org/fhir/ValueSet/administrative-gender>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v3-AdministrativeGender"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v3-AdministrativeGender>
+     fhir:l <http://terminology.hl7.org/ValueSet/v3-AdministrativeGender>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/administrative-gender"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/administrative-gender>
+       fhir:l <http://hl7.org/fhir/administrative-gender>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "male" ] ;
@@ -306,7 +306,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-document-reference-status-v3"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-document-reference-status-v3>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-document-reference-status-v3>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v3.DocumentReferenceStatus"] ; # 
@@ -319,7 +319,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -328,21 +328,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/document-reference-status"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/document-reference-status>
+     fhir:l <http://hl7.org/fhir/ValueSet/document-reference-status>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v3-ActStatus"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v3-ActStatus>
+     fhir:l <http://terminology.hl7.org/ValueSet/v3-ActStatus>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/document-reference-status"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/document-reference-status>
+       fhir:l <http://hl7.org/fhir/document-reference-status>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActStatus"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActStatus>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActStatus>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "current" ] ;
@@ -373,7 +373,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-name-use-v2"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-name-use-v2>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-name-use-v2>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v2.NameUse"] ; # 
@@ -395,7 +395,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -404,21 +404,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/name-use"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/name-use>
+     fhir:l <http://hl7.org/fhir/ValueSet/name-use>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v2-0200"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v2-0200>
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0200>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/name-use"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/name-use>
+       fhir:l <http://hl7.org/fhir/name-use>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v2-0200"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v2-0200>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v2-0200>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "usual" ] ;
@@ -478,7 +478,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-name-use-v3"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-name-use-v3>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-name-use-v3>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v3.NameUse"] ; # 
@@ -500,7 +500,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -509,21 +509,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/name-use"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/name-use>
+     fhir:l <http://hl7.org/fhir/ValueSet/name-use>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v3-EntityNameUseR2"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v3-EntityNameUseR2>
+     fhir:l <http://terminology.hl7.org/ValueSet/v3-EntityNameUseR2>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/name-use"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/name-use>
+       fhir:l <http://hl7.org/fhir/name-use>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityNameUseR2"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-EntityNameUseR2>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityNameUseR2>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "usual" ] ;
@@ -578,7 +578,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-address-use-v2"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-address-use-v2>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-address-use-v2>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v2.AddressUse"] ; # 
@@ -600,7 +600,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -609,21 +609,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/address-use"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/address-use>
+     fhir:l <http://hl7.org/fhir/ValueSet/address-use>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v2-0190"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v2-0190>
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0190>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/address-use"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/address-use>
+       fhir:l <http://hl7.org/fhir/address-use>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v2-0190"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v2-0190>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v2-0190>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "home" ] ;
@@ -667,7 +667,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-address-use-v3"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-address-use-v3>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-address-use-v3>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v3.AddressUse"] ; # 
@@ -689,7 +689,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -698,21 +698,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/address-use"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/address-use>
+     fhir:l <http://hl7.org/fhir/ValueSet/address-use>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v3-AddressUse"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v3-AddressUse>
+     fhir:l <http://terminology.hl7.org/ValueSet/v3-AddressUse>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/address-use"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/address-use>
+       fhir:l <http://hl7.org/fhir/address-use>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-AddressUse"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "home" ] ;
@@ -754,7 +754,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-address-type-v3"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-address-type-v3>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-address-type-v3>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v3.AddressType"] ; # 
@@ -776,7 +776,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -785,21 +785,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/address-type"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/address-type>
+     fhir:l <http://hl7.org/fhir/ValueSet/address-type>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v3-AddressUse"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v3-AddressUse>
+     fhir:l <http://terminology.hl7.org/ValueSet/v3-AddressUse>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/address-type"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/address-type>
+       fhir:l <http://hl7.org/fhir/address-type>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-AddressUse"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "postal" ] ;
@@ -824,7 +824,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-contact-point-system-v2"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-contact-point-system-v2>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-contact-point-system-v2>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v2.ContactPointSystem"] ; # 
@@ -846,7 +846,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -855,21 +855,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/contact-point-system"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/contact-point-system>
+     fhir:l <http://hl7.org/fhir/ValueSet/contact-point-system>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v2-0202"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v2-0202>
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0202>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/contact-point-system"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/contact-point-system>
+       fhir:l <http://hl7.org/fhir/contact-point-system>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v2-0202"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v2-0202>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v2-0202>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "phone" ] ;
@@ -914,7 +914,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v2"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v2>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v2>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v2.ContactPointUse"] ; # 
@@ -936,7 +936,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -945,21 +945,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/contact-point-use"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/contact-point-use>
+     fhir:l <http://hl7.org/fhir/ValueSet/contact-point-use>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v2-0201"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v2-0201>
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0201>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/contact-point-use"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/contact-point-use>
+       fhir:l <http://hl7.org/fhir/contact-point-use>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v2-0201"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v2-0201>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v2-0201>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "home" ] ;
@@ -999,7 +999,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v3"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v3>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-contact-point-use-v3>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "v3.ContactPointUse"] ; # 
@@ -1021,7 +1021,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -1030,21 +1030,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/contact-point-use"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/contact-point-use>
+     fhir:l <http://hl7.org/fhir/ValueSet/contact-point-use>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v3-AddressUse"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v3-AddressUse>
+     fhir:l <http://terminology.hl7.org/ValueSet/v3-AddressUse>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/contact-point-use"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/contact-point-use>
+       fhir:l <http://hl7.org/fhir/contact-point-use>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-AddressUse"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "home" ] ;
@@ -1089,7 +1089,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareableconceptmap"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareableconceptmap>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareableconceptmap>
      ] )
   ] ; # 
   fhir:text [
@@ -1098,12 +1098,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-detectedissue-severity-v3"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-detectedissue-severity-v3>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-detectedissue-severity-v3>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.10" ]
   ] ) ; # 
@@ -1119,7 +1119,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -1128,11 +1128,11 @@
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/detectedissue-severity"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/detectedissue-severity>
+       fhir:l <http://hl7.org/fhir/detectedissue-severity>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "high" ] ;
@@ -1160,7 +1160,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareableconceptmap"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareableconceptmap>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareableconceptmap>
      ] )
   ] ; # 
   fhir:text [
@@ -1169,12 +1169,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/cm-composition-status-v3"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/cm-composition-status-v3>
+     fhir:l <http://hl7.org/fhir/ConceptMap/cm-composition-status-v3>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.9" ]
   ] ) ; # 
@@ -1190,7 +1190,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -1199,11 +1199,11 @@
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/composition-status"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/composition-status>
+       fhir:l <http://hl7.org/fhir/composition-status>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActStatus"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActStatus>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActStatus>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "preliminary" ] ;
@@ -1243,18 +1243,18 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/101"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/101>
+     fhir:l <http://hl7.org/fhir/ConceptMap/101>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.1" ]
   ] [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:uuid:53cd62ee-033e-414c-9f58-3ca97b5ffc3b" ]
   ] ) ; # 
@@ -1277,7 +1277,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "venue" ]
      ] ;
@@ -1290,7 +1290,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ]
      ] )
@@ -1300,21 +1300,21 @@
   fhir:sourceScope [
      a fhir:uri ;
      fhir:v "http://hl7.org/fhir/ValueSet/address-use"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/address-use>
+     fhir:l <http://hl7.org/fhir/ValueSet/address-use>
   ] ; # 
   fhir:targetScope [
      a fhir:uri ;
      fhir:v "http://terminology.hl7.org/ValueSet/v3-AddressUse"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v3-AddressUse>
+     fhir:l <http://terminology.hl7.org/ValueSet/v3-AddressUse>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/address-use"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/address-use>
+       fhir:l <http://hl7.org/fhir/address-use>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-AddressUse"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "home" ] ;
@@ -1369,18 +1369,18 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/103"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/103>
+     fhir:l <http://hl7.org/fhir/ConceptMap/103>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.7" ]
   ] [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:uuid:53cd62ee-033e-414c-9f58-3ca97b5ffc3b" ]
   ] ) ; # 
@@ -1403,7 +1403,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "840" ] ;
        fhir:display [ fhir:v "United States of America" ]
@@ -1414,16 +1414,16 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://snomed.info/sct?fhir_vs"^^xsd:anyURI ;
-     fhir:link <http://snomed.info/sct?fhir_vs>
+     fhir:l <http://snomed.info/sct?fhir_vs>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-       fhir:link <http://snomed.info/sct>
+       fhir:l <http://snomed.info/sct>
      ] ;
      fhir:target [
        fhir:v "http://hl7.org/fhir/sid/icd-10-cm"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/icd-10-cm>
+       fhir:l <http://hl7.org/fhir/sid/icd-10-cm>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "263204007" ] ;
@@ -1453,12 +1453,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/102"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/102>
+     fhir:l <http://hl7.org/fhir/ConceptMap/102>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.3" ]
   ] ) ; # 
@@ -1488,13 +1488,16 @@
   fhir:description [ fhir:v "Specimen mapping from v2 table 0487 to SNOMED CT"] ; # 
   fhir:additionalAttribute ( [
      fhir:code [ fhir:v "type-mod" ] ;
-     fhir:uri [ fhir:v "TypeModifier"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "TypeModifier"^^xsd:anyURI ;
+       fhir:l fhir:TypeModifier
+     ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "coll-method" ] ;
      fhir:uri [
        fhir:v "http://snomed.info/id/246380002"^^xsd:anyURI ;
-       fhir:link <http://snomed.info/id/246380002>
+       fhir:l <http://snomed.info/id/246380002>
      ] ;
      fhir:description [ fhir:v "Method of collection" ] ;
      fhir:type [ fhir:v "code" ]
@@ -1502,7 +1505,7 @@
      fhir:code [ fhir:v "spec-src" ] ;
      fhir:uri [
        fhir:v "http://snomed.info/id/3006873018"^^xsd:anyURI ;
-       fhir:link <http://snomed.info/id/3006873018>
+       fhir:l <http://snomed.info/id/3006873018>
      ] ;
      fhir:description [ fhir:v "Specimen source" ] ;
      fhir:type [ fhir:v "code" ]
@@ -1510,21 +1513,21 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://terminology.hl7.org/ValueSet/v2-0487"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v2-0487>
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0487>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://snomed.info/sct?fhir_vs"^^xsd:anyURI ;
-     fhir:link <http://snomed.info/sct?fhir_vs>
+     fhir:l <http://snomed.info/sct?fhir_vs>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://terminology.hl7.org/CodeSystem/v2-0487"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v2-0487>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v2-0487>
      ] ;
      fhir:target [
        fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-       fhir:link <http://snomed.info/sct>
+       fhir:l <http://snomed.info/sct>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "ACNE" ] ;
@@ -3816,12 +3819,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/example2"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/example2>
+     fhir:l <http://hl7.org/fhir/ConceptMap/example2>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.8" ]
   ] ) ; # 
@@ -3845,28 +3848,28 @@
      fhir:code [ fhir:v "ex3" ] ;
      fhir:uri [
        fhir:v "http://example.org/fhir/property-value/example"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/property-value/example>
+       fhir:l <http://example.org/fhir/property-value/example>
      ] ;
      fhir:type [ fhir:v "Coding" ]
   ] ) ; # 
   fhir:sourceScope [
      a fhir:uri ;
      fhir:v "http://example.org/fhir/example1"^^xsd:anyURI ;
-     fhir:link <http://example.org/fhir/example1>
+     fhir:l <http://example.org/fhir/example1>
   ] ; # 
   fhir:targetScope [
      a fhir:uri ;
      fhir:v "http://example.org/fhir/example2"^^xsd:anyURI ;
-     fhir:link <http://example.org/fhir/example2>
+     fhir:l <http://example.org/fhir/example2>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://example.org/fhir/example1"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/example1>
+       fhir:l <http://example.org/fhir/example1>
      ] ;
      fhir:target [
        fhir:v "http://example.org/fhir/example2"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/example2>
+       fhir:l <http://example.org/fhir/example2>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "code" ] ;
@@ -3881,7 +3884,7 @@
              a fhir:Coding ;
              fhir:system [
                fhir:v "http://example.org/fhir/example3"^^xsd:anyURI ;
-               fhir:link <http://example.org/fhir/example3>
+               fhir:l <http://example.org/fhir/example3>
              ] ;
              fhir:code [ fhir:v "some-code" ] ;
              fhir:display [ fhir:v "Something Coded" ]
@@ -3893,7 +3896,7 @@
        fhir:mode [ fhir:v "other-map" ] ;
        fhir:otherMap [
          fhir:v "http://example.org/fhir/ConceptMap/map2"^^xsd:anyURI ;
-         fhir:link <http://example.org/fhir/ConceptMap/map2>
+         fhir:l <http://example.org/fhir/ConceptMap/map2>
        ]
      ]
   ] ) . # 
@@ -3909,12 +3912,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://cds-hooks.hl7.org/ConceptMap/indicator-to-request-priority"^^xsd:anyURI ;
-     fhir:link <http://cds-hooks.hl7.org/ConceptMap/indicator-to-request-priority>
+     fhir:l <http://cds-hooks.hl7.org/ConceptMap/indicator-to-request-priority>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.6" ]
   ] ) ; # 
@@ -3927,12 +3930,12 @@
   fhir:sourceScope [
      a fhir:canonical ;
      fhir:v "http://cds-hooks.hl7.org/ValueSet/indicator"^^xsd:anyURI ;
-     fhir:link <http://cds-hooks.hl7.org/ValueSet/indicator>
+     fhir:l <http://cds-hooks.hl7.org/ValueSet/indicator>
   ] ; # 
   fhir:targetScope [
      a fhir:canonical ;
      fhir:v "http://hl7.org/fhir/ValueSet/request-priority"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/request-priority>
+     fhir:l <http://hl7.org/fhir/ValueSet/request-priority>
   ] ; # 
   fhir:group ( [
      fhir:element ( [
@@ -3962,7 +3965,7 @@
      fhir:lastUpdated [ fhir:v "2023-03-26T15:21:02.749+11:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareableconceptmap"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareableconceptmap>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareableconceptmap>
      ] )
   ] ; # 
   fhir:text [
@@ -3971,12 +3974,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/example-metadata"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/example-metadata>
+     fhir:l <http://hl7.org/fhir/ConceptMap/example-metadata>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.5" ]
   ] ) ; # 
@@ -4005,7 +4008,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/definition-topic"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/definition-topic>
+         fhir:l <http://terminology.hl7.org/CodeSystem/definition-topic>
        ] ;
        fhir:code [ fhir:v "treatment" ] ;
        fhir:display [ fhir:v "Treatment" ]
@@ -4043,27 +4046,27 @@
      fhir:type [ fhir:v "derived-from" ] ;
      fhir:resource [
        fhir:v "http://hl7.org/fhir/ConceptMap/example"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/example>
+       fhir:l <http://hl7.org/fhir/ConceptMap/example>
      ]
   ] ) ; # 
   fhir:sourceScope [
      a fhir:uri ;
      fhir:v "http://hl7.org/fhir/ValueSet/address-use"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/address-use>
+     fhir:l <http://hl7.org/fhir/ValueSet/address-use>
   ] ; # 
   fhir:targetScope [
      a fhir:uri ;
      fhir:v "http://terminology.hl7.org/ValueSet/v3-AddressUse"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v3-AddressUse>
+     fhir:l <http://terminology.hl7.org/ValueSet/v3-AddressUse>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/address-use"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/address-use>
+       fhir:l <http://hl7.org/fhir/address-use>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-AddressUse"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "home" ] ;
@@ -4113,7 +4116,7 @@
      fhir:lastUpdated [ fhir:v "2023-03-26T15:21:02.749+11:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareableconceptmap"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareableconceptmap>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareableconceptmap>
      ] )
   ] ; # 
   fhir:text [
@@ -4122,12 +4125,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/example-metadata-2"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/example-metadata-2>
+     fhir:l <http://hl7.org/fhir/ConceptMap/example-metadata-2>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.4" ]
   ] ) ; # 
@@ -4156,7 +4159,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/definition-topic"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/definition-topic>
+         fhir:l <http://terminology.hl7.org/CodeSystem/definition-topic>
        ] ;
        fhir:code [ fhir:v "treatment" ] ;
        fhir:display [ fhir:v "Treatment" ]
@@ -4194,33 +4197,33 @@
      fhir:type [ fhir:v "derived-from" ] ;
      fhir:resource [
        fhir:v "http://hl7.org/fhir/ConceptMap/example"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/example>
+       fhir:l <http://hl7.org/fhir/ConceptMap/example>
      ]
   ] [
      fhir:type [ fhir:v "predecessor" ] ;
      fhir:resource [
        fhir:v "http://hl7.org/fhir/ConceptMap/example-metadata|20210701"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ConceptMap/example-metadata?version=20210701>
+       fhir:l <http://hl7.org/fhir/ConceptMap/example-metadata?version=20210701>
      ]
   ] ) ; # 
   fhir:sourceScope [
      a fhir:uri ;
      fhir:v "http://hl7.org/fhir/ValueSet/address-use"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/address-use>
+     fhir:l <http://hl7.org/fhir/ValueSet/address-use>
   ] ; # 
   fhir:targetScope [
      a fhir:uri ;
      fhir:v "http://terminology.hl7.org/ValueSet/v3-AddressUse"^^xsd:anyURI ;
-     fhir:link <http://terminology.hl7.org/ValueSet/v3-AddressUse>
+     fhir:l <http://terminology.hl7.org/ValueSet/v3-AddressUse>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://hl7.org/fhir/address-use"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/address-use>
+       fhir:l <http://hl7.org/fhir/address-use>
      ] ;
      fhir:target [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-AddressUse"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-AddressUse>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "home" ] ;
@@ -4275,7 +4278,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/example-priority"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/example-priority>
+     fhir:l <http://hl7.org/fhir/ConceptMap/example-priority>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:title [ fhir:v "Example map with priorities"] ; # 
@@ -4295,16 +4298,16 @@
   fhir:sourceScope [
      a fhir:uri ;
      fhir:v "http://snomed.info/sct?fhir_vs"^^xsd:anyURI ;
-     fhir:link <http://snomed.info/sct?fhir_vs>
+     fhir:l <http://snomed.info/sct?fhir_vs>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://snomed.info./sct"^^xsd:anyURI ;
-       fhir:link <http://snomed.info./sct>
+       fhir:l <http://snomed.info./sct>
      ] ;
      fhir:target [
        fhir:v "http://hl7.org/fhir/sid/icd-10"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/icd-10>
+       fhir:l <http://hl7.org/fhir/sid/icd-10>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "429353004" ] ;
@@ -4371,12 +4374,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/uv/v2mappings/message-adt-a04-to-bundle"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/uv/v2mappings/message-adt-a04-to-bundle>
+     fhir:l <http://hl7.org/fhir/uv/v2mappings/message-adt-a04-to-bundle>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.14.2" ]
   ] ) ; # 
@@ -4405,7 +4408,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ]
      ] )

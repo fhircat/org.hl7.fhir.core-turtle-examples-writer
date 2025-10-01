@@ -16,7 +16,7 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
      ] ;
      fhir:value [
        a fhir:integer ;
@@ -25,7 +25,7 @@
   ] [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
      ] ;
      fhir:value [
        a fhir:code ;
@@ -34,7 +34,7 @@
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/OperationDefinition/NamingSystem-translate-id"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/OperationDefinition/NamingSystem-translate-id>
+     fhir:l <http://hl7.org/fhir/OperationDefinition/NamingSystem-translate-id>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "TranslateId"] ; # 
@@ -58,7 +58,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -88,7 +88,7 @@
        fhir:extension ( [
          fhir:url [
            fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName>
          ] ;
          fhir:value [
            a fhir:string ;
@@ -98,7 +98,7 @@
        fhir:strength [ fhir:v "required" ] ;
        fhir:valueSet [
          fhir:v "http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/ValueSet/namingsystem-identifier-type?version=5.0.0>
+         fhir:l <http://hl7.org/fhir/ValueSet/namingsystem-identifier-type?version=5.0.0>
        ]
      ]
   ] [
@@ -111,7 +111,7 @@
        fhir:extension ( [
          fhir:url [
            fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName>
          ] ;
          fhir:value [
            a fhir:string ;
@@ -121,7 +121,7 @@
        fhir:strength [ fhir:v "required" ] ;
        fhir:valueSet [
          fhir:v "http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/ValueSet/namingsystem-identifier-type?version=5.0.0>
+         fhir:l <http://hl7.org/fhir/ValueSet/namingsystem-identifier-type?version=5.0.0>
        ]
      ]
   ] [

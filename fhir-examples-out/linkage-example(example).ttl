@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,20 +24,20 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p>\n     Links\n      defined by <a href=\"practitioner-example-f201-ab.html\">Practitioner/f201</a> \"Dokter Bronsig\" \n     :\n  </p>\n  <ul>\n    \n    <li>source: <a href=\"condition-example.html\">Condition/example: Severe burn of left ear (Date: 24-May 2012)</a> </li>\n    \n    <li>alternate: <a href=\"condition-example-linkage.html\">Condition/example-linkage: Severe burn of left ear (Date: 24-May 2012)</a> </li>\n    \n  </ul>\n</div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:author [
-     fhir:link <http://hl7.org/fhir/Practitioner/f201> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f201> ;
      fhir:reference [ fhir:v "Practitioner/f201" ]
   ] ; # 
   fhir:item ( [
      fhir:type [ fhir:v "source" ] ;
      fhir:resource [
-       fhir:link <http://hl7.org/fhir/Condition/example> ;
+       fhir:l <http://hl7.org/fhir/Condition/example> ;
        fhir:reference [ fhir:v "Condition/example" ] ;
        fhir:display [ fhir:v "Severe burn of left ear (Date: 24-May 2012)" ]
      ]
   ] [
      fhir:type [ fhir:v "alternate" ] ;
      fhir:resource [
-       fhir:link <http://hl7.org/fhir/Condition/example-linkage> ;
+       fhir:l <http://hl7.org/fhir/Condition/example-linkage> ;
        fhir:reference [ fhir:v "Condition/example-linkage" ] ;
        fhir:display [ fhir:v "Severe burn of left ear (Date: 24-May 2012)" ]
      ]

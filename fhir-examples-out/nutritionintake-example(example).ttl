@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org"^^xsd:anyURI ;
-       fhir:link <http://example.org>
+       fhir:l <http://example.org>
      ] ;
      fhir:value [ fhir:v "1144223344" ]
   ] ) ; # 
@@ -38,7 +38,7 @@
      fhir:display [ fhir:v "Paula Patient Chalmers" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:occurrence [
@@ -47,7 +47,7 @@
   ] ; # 
   fhir:reported [
      a fhir:Reference ;
-     fhir:link <http://hl7.org/fhir/PractitionerRole/example> ;
+     fhir:l <http://hl7.org/fhir/PractitionerRole/example> ;
      fhir:reference [ fhir:v "PractitionerRole/example" ]
   ] ; # 
   fhir:consumedItem ( [
@@ -64,7 +64,7 @@
        fhir:unit [ fhir:v "percent" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "%" ]
      ]
@@ -82,7 +82,7 @@
        fhir:unit [ fhir:v "percent" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "%" ]
      ]
@@ -100,7 +100,7 @@
        fhir:unit [ fhir:v "percent" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "%" ]
      ]
@@ -118,7 +118,7 @@
        fhir:unit [ fhir:v "percent" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "%" ]
      ]
@@ -136,7 +136,7 @@
        fhir:unit [ fhir:v "percent" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "%" ]
      ]
@@ -152,7 +152,7 @@
        fhir:unit [ fhir:v "kilocalorie" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "kcal" ]
      ]
@@ -167,7 +167,7 @@
        fhir:unit [ fhir:v "grams" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "g" ]
      ]
@@ -182,7 +182,7 @@
        fhir:unit [ fhir:v "grams" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "g" ]
      ]
@@ -197,7 +197,7 @@
        fhir:unit [ fhir:v "grams" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "g" ]
      ]
@@ -212,7 +212,7 @@
        fhir:unit [ fhir:v "Milligrams" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "mg" ]
      ]

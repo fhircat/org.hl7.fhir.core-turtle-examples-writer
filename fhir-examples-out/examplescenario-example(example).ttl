@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -51,7 +51,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationRequest" ]
      ] ;
@@ -62,7 +62,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationRequest" ]
      ] ;
@@ -73,7 +73,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationRequest" ]
      ] ;
@@ -84,7 +84,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationRequest" ]
      ] ;
@@ -95,7 +95,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationRequest" ]
      ] ;
@@ -106,7 +106,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationRequest" ]
      ] ;
@@ -117,7 +117,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationRequest" ]
      ] ;
@@ -128,7 +128,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationAdministration" ]
      ] ;
@@ -139,7 +139,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationAdministration" ]
      ] ;
@@ -150,7 +150,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationRequest" ]
      ] ;
@@ -174,7 +174,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "MedicationAdministration" ]
      ] ;
@@ -194,7 +194,7 @@
      fhir:structureType [
        fhir:system [
          fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/fhir-types>
+         fhir:l <http://hl7.org/fhir/fhir-types>
        ] ;
        fhir:code [ fhir:v "SearchParameter" ]
      ] ;

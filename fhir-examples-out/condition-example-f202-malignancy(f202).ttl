@@ -14,14 +14,14 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "TBOO" ] ;
        fhir:display [ fhir:v "taboo" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -35,7 +35,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
        ] ;
        fhir:code [ fhir:v "resolved" ]
      ] )
@@ -44,7 +44,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
        ] ;
        fhir:code [ fhir:v "confirmed" ]
      ] )
@@ -53,7 +53,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-category>
        ] ;
        fhir:code [ fhir:v "encounter-diagnosis" ]
      ] )
@@ -63,7 +63,7 @@
        a sct:24484000 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "24484000" ] ;
        fhir:display [ fhir:v "Severe" ]
@@ -74,7 +74,7 @@
        a sct:363346000 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "363346000" ] ;
        fhir:display [ fhir:v "Malignant neoplastic disease" ]
@@ -85,14 +85,14 @@
        a sct:361355005 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "361355005" ] ;
        fhir:display [ fhir:v "Entire head and neck" ]
      ] ) #   Head and neck malignancy  
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f201> ;
+     fhir:l <http://hl7.org/fhir/Patient/f201> ;
      fhir:reference [ fhir:v "Patient/f201" ] ; #   It entails Roel's problem  
      fhir:display [ fhir:v "Roel" ]
   ] ; # 
@@ -102,7 +102,7 @@
      fhir:unit [ fhir:v "years" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "a" ]
   ] ; # 
@@ -112,14 +112,14 @@
      fhir:unit [ fhir:v "years" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "a" ]
   ] ; # 
   fhir:recordedDate [ fhir:v "2012-12-01"^^xsd:date] ; # 
   fhir:evidence ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/DiagnosticReport/f201> ;
+       fhir:l <http://hl7.org/fhir/DiagnosticReport/f201> ;
        fhir:reference [ fhir:v "DiagnosticReport/f201" ] ;
        fhir:display [ fhir:v "Erasmus' diagnostic report of Roel's tumor" ]
      ] #   Problem is confirmed in diagnostic report  

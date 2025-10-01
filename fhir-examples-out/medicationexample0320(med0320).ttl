@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -34,7 +34,7 @@
            a sct:387531004 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "387531004" ] ;
            fhir:display [ fhir:v "Azithromycin (substance)" ]
@@ -47,7 +47,7 @@
        a sct:324252006 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "324252006" ] ;
        fhir:display [ fhir:v "Azithromycin 250mg capsule (product)" ]
@@ -58,7 +58,7 @@
        a sct:385055001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "385055001" ] ;
        fhir:display [ fhir:v "Tablet dose form (qualifier value)" ]
@@ -67,6 +67,7 @@
   fhir:ingredient ( [
      fhir:item [
        fhir:reference [
+         fhir:l <#sub03> ;
          fhir:reference [ fhir:v "#sub03" ]
        ]
      ] ;
@@ -76,7 +77,7 @@
          fhir:value [ fhir:v "250"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ] ;
@@ -84,7 +85,7 @@
          fhir:value [ fhir:v "1"^^xsd:decimal ] ;
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
          ] ;
          fhir:code [ fhir:v "TAB" ]
        ]

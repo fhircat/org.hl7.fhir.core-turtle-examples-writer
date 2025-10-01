@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -39,13 +39,13 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org/shared-ids"^^xsd:anyURI ;
-       fhir:link <http://example.org/shared-ids>
+       fhir:l <http://example.org/shared-ids>
      ] ;
      fhir:value [ fhir:v "HS-12" ]
   ] ) ; # 
   fhir:active [ fhir:v true] ; # 
   fhir:providedBy [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ] ;
      fhir:display [ fhir:v "Burgers University Medical Center" ]
   ] ; # 
@@ -53,7 +53,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/service-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/service-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/service-category>
        ] ;
        fhir:code [ fhir:v "8" ] ;
        fhir:display [ fhir:v "Counselling" ]
@@ -65,7 +65,7 @@
        a sct:394913002 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "394913002" ] ;
        fhir:display [ fhir:v "Psychotherapy" ]
@@ -75,7 +75,7 @@
        a sct:394587001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "394587001" ] ;
        fhir:display [ fhir:v "Psychiatry" ]
@@ -86,14 +86,14 @@
        a sct:47505003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "47505003" ] ;
        fhir:display [ fhir:v "Posttraumatic stress disorder" ]
      ] )
   ] ) ; # 
   fhir:location ( [
-     fhir:link <http://hl7.org/fhir/Location/1> ;
+     fhir:l <http://hl7.org/fhir/Location/1> ;
      fhir:reference [ fhir:v "Location/1" ]
   ] ) ; # 
   fhir:name [ fhir:v "Consulting psychologists and/or psychology services"] ; # 
@@ -111,6 +111,7 @@
      ] )
   ] ) ; # 
   fhir:coverageArea ( [
+     fhir:l <#DenBurg> ;
      fhir:reference [ fhir:v "#DenBurg" ] ;
      fhir:display [ fhir:v "Greater Denburg area" ]
   ] ) ; # 
@@ -118,7 +119,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/service-provision-conditions"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/service-provision-conditions>
+         fhir:l <http://terminology.hl7.org/CodeSystem/service-provision-conditions>
        ] ;
        fhir:code [ fhir:v "cost" ] ;
        fhir:display [ fhir:v "Fees apply" ]
@@ -190,7 +191,7 @@
      ] )
   ] ) ; # 
   fhir:endpoint ( [
-     fhir:link <http://hl7.org/fhir/Endpoint/example> ;
+     fhir:l <http://hl7.org/fhir/Endpoint/example> ;
      fhir:reference [ fhir:v "Endpoint/example" ] #     Endpoint that handles the v2 messaging for the external organization    
   ] ) . # 
 

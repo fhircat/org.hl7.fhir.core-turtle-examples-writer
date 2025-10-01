@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -77,18 +77,18 @@
      fhir:type [ fhir:v "predecessor" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/Measure/measure-predecessor-example"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Measure/measure-predecessor-example>
+       fhir:l <http://example.org/fhir/Measure/measure-predecessor-example>
      ]
   ] [
      fhir:type [ fhir:v "derived-from" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/Measure/measure-predecessor-example"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Measure/measure-predecessor-example>
+       fhir:l <http://example.org/fhir/Measure/measure-predecessor-example>
      ]
   ] ) ; # 
   fhir:library ( [
      fhir:v "http://example.org/fhir/Library/library-exclusive-breastfeeding-cqm-logic"^^xsd:anyURI ;
-     fhir:link <http://example.org/fhir/Library/library-exclusive-breastfeeding-cqm-logic>
+     fhir:l <http://example.org/fhir/Library/library-exclusive-breastfeeding-cqm-logic>
   ] ) ; # 
   fhir:disclaimer [ fhir:v "These performance measures are not clinical guidelines and do not establish a standard of medical care, and have not been tested for all potential applications. The measures and specifications are provided without warranty."] ; # 
   fhir:scoring [
@@ -107,7 +107,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/measure-improvement-notation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/measure-improvement-notation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/measure-improvement-notation>
        ] ;
        fhir:code [ fhir:v "increase" ]
      ] )

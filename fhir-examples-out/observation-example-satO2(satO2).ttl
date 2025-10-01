@@ -13,12 +13,12 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/vitalsigns"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/vitalsigns>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/vitalsigns>
      ] ) ;
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,12 +31,12 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://goodcare.org/observation/id"^^xsd:anyURI ;
-       fhir:link <http://goodcare.org/observation/id>
+       fhir:l <http://goodcare.org/observation/id>
      ] ;
      fhir:value [ fhir:v "o1223435-10" ]
   ] ) ; # 
   fhir:partOf ( [
-     fhir:link <http://hl7.org/fhir/Procedure/ob> ;
+     fhir:l <http://hl7.org/fhir/Procedure/ob> ;
      fhir:reference [ fhir:v "Procedure/ob" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
@@ -44,7 +44,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "vital-signs" ] ;
        fhir:display [ fhir:v "Vital Signs" ]
@@ -56,7 +56,7 @@
        a loinc:2708-6 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "2708-6" ] ; #    LOINC   
        fhir:display [ fhir:v "Oxygen saturation in Arterial blood" ]
@@ -64,21 +64,21 @@
        a loinc:59408-5 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "59408-5" ] ; #    LOINC   
        fhir:display [ fhir:v "Oxygen saturation in Arterial blood by Pulse oximetry" ]
      ] [
        fhir:system [
          fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:11073:10101>
+         fhir:l <urn:iso:std:iso:11073:10101>
        ] ;
        fhir:code [ fhir:v "150456" ] ; #       mdc      
        fhir:display [ fhir:v "MDC_PULS_OXIM_SAT_O2" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -91,7 +91,7 @@
      fhir:unit [ fhir:v "%" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "%" ]
   ] ; # 
@@ -99,7 +99,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "N" ] ;
        fhir:display [ fhir:v "Normal" ]
@@ -107,7 +107,7 @@
      fhir:text [ fhir:v "Normal (applies to non-numeric results)" ]
   ] ) ; # 
   fhir:device [
-     fhir:link <http://hl7.org/fhir/DeviceMetric/example> ;
+     fhir:l <http://hl7.org/fhir/DeviceMetric/example> ;
      fhir:reference [ fhir:v "DeviceMetric/example" ]
   ] ; # 
   fhir:referenceRange ( [
@@ -116,7 +116,7 @@
        fhir:unit [ fhir:v "%" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "%" ]
      ] ;
@@ -125,7 +125,7 @@
        fhir:unit [ fhir:v "%" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "%" ]
      ]

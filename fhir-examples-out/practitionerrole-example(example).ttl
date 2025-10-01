@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.acme.org/practitioners"^^xsd:anyURI ;
-       fhir:link <http://www.acme.org/practitioners>
+       fhir:l <http://www.acme.org/practitioners>
      ] ;
      fhir:value [ fhir:v "23" ]
   ] ) ; # 
@@ -37,19 +37,19 @@
      fhir:end [ fhir:v "2012-03-31"^^xsd:date ]
   ] ; # 
   fhir:practitioner [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr Adam Careful" ]
   ] ; # 
   fhir:organization [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ]
   ] ; # 
   fhir:code ( [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0286"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0286>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0286>
        ] ;
        fhir:code [ fhir:v "RP" ]
      ] )
@@ -59,19 +59,19 @@
        a sct:408443003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "408443003" ] ;
        fhir:display [ fhir:v "General medical practice" ]
      ] )
   ] ) ; # 
   fhir:location ( [
-     fhir:link <http://hl7.org/fhir/Location/1> ;
+     fhir:l <http://hl7.org/fhir/Location/1> ;
      fhir:reference [ fhir:v "Location/1" ] ;
      fhir:display [ fhir:v "South Wing, second floor" ]
   ] ) ; # 
   fhir:healthcareService ( [
-     fhir:link <http://hl7.org/fhir/HealthcareService/example> ;
+     fhir:l <http://hl7.org/fhir/HealthcareService/example> ;
      fhir:reference [ fhir:v "HealthcareService/example" ]
   ] ) ; # 
   fhir:contact ( [
@@ -89,14 +89,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/service-mode"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/service-mode>
+         fhir:l <http://hl7.org/fhir/service-mode>
        ] ;
        fhir:code [ fhir:v "in-person" ] ;
        fhir:display [ fhir:v "In Person" ]
      ] [
        fhir:system [
          fhir:v "http://hl7.org/fhir/service-mode"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/service-mode>
+         fhir:l <http://hl7.org/fhir/service-mode>
        ] ;
        fhir:code [ fhir:v "videoconference" ] ;
        fhir:display [ fhir:v "Video Conference" ]
@@ -106,7 +106,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-         fhir:link <urn:ietf:bcp:47>
+         fhir:l <urn:ietf:bcp:47>
        ] ;
        fhir:code [ fhir:v "en" ]
      ] )
@@ -132,7 +132,7 @@
      ] )
   ] ) ; # 
   fhir:endpoint ( [
-     fhir:link <http://hl7.org/fhir/Endpoint/example> ;
+     fhir:l <http://hl7.org/fhir/Endpoint/example> ;
      fhir:reference [ fhir:v "Endpoint/example" ] #   Endpoint that handles the v2 messaging for the external organization  
   ] ) . # 
 

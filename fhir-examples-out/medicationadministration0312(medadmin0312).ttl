@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://www.bmc.nl/portal/administrations"^^xsd:anyURI ;
-       fhir:link <http://www.bmc.nl/portal/administrations>
+       fhir:l <http://www.bmc.nl/portal/administrations>
      ] ;
      fhir:value [ fhir:v "12345689" ]
   ] ) ; # 
@@ -39,7 +39,7 @@
          a sct:333919005 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "333919005" ] ;
          fhir:display [ fhir:v "Fentanyl 25micrograms/hour patch (product)" ]
@@ -47,7 +47,7 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
@@ -59,14 +59,14 @@
   fhir:performer ( [
      fhir:actor [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Practitioner/f007> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f007> ;
          fhir:reference [ fhir:v "Practitioner/f007" ] ;
          fhir:display [ fhir:v "Patrick Pump" ]
        ]
      ]
   ] ) ; # 
   fhir:request [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0305> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0305> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0305" ]
   ] ; # 
   fhir:dosage [
@@ -76,7 +76,7 @@
        fhir:unit [ fhir:v "patch" ] ;
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
        ] ;
        fhir:code [ fhir:v "PATCH" ]
      ]

@@ -15,7 +15,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/CompartmentDefinition/practitioner"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/CompartmentDefinition/practitioner>
+     fhir:l <http://hl7.org/fhir/CompartmentDefinition/practitioner>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "Base FHIR compartment definition for Practitioner"] ; # 

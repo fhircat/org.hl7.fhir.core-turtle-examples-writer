@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://nema.org/fhir/extensions#0010:1010"^^xsd:anyURI ;
-       fhir:link <http://nema.org/fhir/extensions#0010:1010>
+       fhir:l <http://nema.org/fhir/extensions#0010:1010>
      ] ;
      fhir:value [
        a fhir:Quantity ;
@@ -36,7 +36,7 @@
   ] [
      fhir:url [
        fhir:v "http://nema.org/fhir/extensions#0010:1020"^^xsd:anyURI ;
-       fhir:link <http://nema.org/fhir/extensions#0010:1020>
+       fhir:l <http://nema.org/fhir/extensions#0010:1020>
      ] ;
      fhir:value [
        a fhir:Quantity ;
@@ -46,7 +46,7 @@
   ] [
      fhir:url [
        fhir:v "http://nema.org/fhir/extensions#0010:1030"^^xsd:anyURI ;
-       fhir:link <http://nema.org/fhir/extensions#0010:1030>
+       fhir:l <http://nema.org/fhir/extensions#0010:1030>
      ] ;
      fhir:value [
        a fhir:Quantity ;
@@ -57,7 +57,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://nema.org/examples/patients"^^xsd:anyURI ;
-       fhir:link <http://nema.org/examples/patients>
+       fhir:l <http://nema.org/examples/patients>
      ] ;
      fhir:value [ fhir:v "MINT1234" ]
   ] ) ; # 
@@ -70,20 +70,20 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://nema.org/examples/extensions#gender"^^xsd:anyURI ;
-         fhir:link <http://nema.org/examples/extensions#gender>
+         fhir:l <http://nema.org/examples/extensions#gender>
        ] ;
        fhir:value [
          a fhir:Coding ;
          fhir:system [
            fhir:v "http://nema.org/examples/gender"^^xsd:anyURI ;
-           fhir:link <http://nema.org/examples/gender>
+           fhir:l <http://nema.org/examples/gender>
          ] ;
          fhir:code [ fhir:v "M" ]
        ]
      ] )
   ] ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/1> ;
+     fhir:l <http://hl7.org/fhir/Organization/1> ;
      fhir:reference [ fhir:v "Organization/1" ]
   ] . # 
 

@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -36,7 +36,7 @@
          a loinc:39156-5 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "39156-5" ] ;
          fhir:display [ fhir:v "Body mass index (BMI) [Ratio]" ]
@@ -48,7 +48,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/practitioner-role"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/practitioner-role>
+             fhir:l <http://terminology.hl7.org/CodeSystem/practitioner-role>
            ] ;
            fhir:code [ fhir:v "doctor" ] ;
            fhir:display [ fhir:v "Doctor" ]
@@ -59,7 +59,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://acme.org"^^xsd:anyURI ;
-       fhir:link <http://acme.org>
+       fhir:l <http://acme.org>
      ] ;
      fhir:value [ fhir:v "example-1" ]
   ] ) ; # 
@@ -82,7 +82,7 @@
          a sct:414916001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "414916001" ] ;
          fhir:display [ fhir:v "Obesity (disorder)" ]
@@ -103,7 +103,7 @@
      fhir:document [
        fhir:url [
          fhir:v "http://www.nhlbi.nih.gov/health-pro/guidelines/current/obesity-guidelines/e_textbook/txgd/algorthm/algorthm.htm"^^xsd:anyURI ;
-         fhir:link <http://www.nhlbi.nih.gov/health-pro/guidelines/current/obesity-guidelines/e_textbook/txgd/algorthm/algorthm.htm>
+         fhir:l <http://www.nhlbi.nih.gov/health-pro/guidelines/current/obesity-guidelines/e_textbook/txgd/algorthm/algorthm.htm>
        ]
      ]
   ] ) ; # 
@@ -126,7 +126,7 @@
          a sct:414916001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "414916001" ] ;
          fhir:display [ fhir:v "Obesity (disorder)" ]
@@ -138,7 +138,7 @@
        fhir:document [
          fhir:url [
            fhir:v "https://www.nhlbi.nih.gov/health-pro/guidelines/current/obesity-guidelines/e_textbook/txgd/42.htm"^^xsd:anyURI ;
-           fhir:link <https://www.nhlbi.nih.gov/health-pro/guidelines/current/obesity-guidelines/e_textbook/txgd/42.htm>
+           fhir:l <https://www.nhlbi.nih.gov/health-pro/guidelines/current/obesity-guidelines/e_textbook/txgd/42.htm>
          ]
        ]
      ] ) ;
@@ -148,7 +148,7 @@
            a loinc:39156-5 ;
            fhir:system [
              fhir:v "http://loinc.org"^^xsd:anyURI ;
-             fhir:link <http://loinc.org>
+             fhir:l <http://loinc.org>
            ] ;
            fhir:code [ fhir:v "39156-5" ] ;
            fhir:display [ fhir:v "Body mass index (BMI) [Ratio]" ]
@@ -184,7 +184,8 @@
      fhir:cardinalityBehavior [ fhir:v "single" ] ;
      fhir:definition [
        a fhir:canonical ;
-       fhir:v "#procedure"^^xsd:anyURI
+       fhir:v "#procedure"^^xsd:anyURI ;
+       fhir:l <#procedure>
      ]
   ] ) . # 
 

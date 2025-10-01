@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-           fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+           fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
          ] ;
          fhir:code [ fhir:v "1594660" ] ;
          fhir:display [ fhir:v "Alemtuzumab 10mg/ml (Lemtrada)" ]
@@ -44,7 +44,7 @@
        a sct:373147003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "373147003" ] ;
        fhir:display [ fhir:v "Administration of medication not done due to a contraindication (situation)" ]
@@ -52,20 +52,21 @@
   ] ) ; # 
   fhir:medication [
      fhir:reference [
+       fhir:l <#med0303> ;
        fhir:reference [ fhir:v "#med0303" ]
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/f001> ;
+     fhir:l <http://hl7.org/fhir/Encounter/f001> ;
      fhir:reference [ fhir:v "Encounter/f001" ]
   ] ; # 
   fhir:supportingInformation ( [
-     fhir:link <http://hl7.org/fhir/Condition/f204> ;
+     fhir:l <http://hl7.org/fhir/Condition/f204> ;
      fhir:reference [ fhir:v "Condition/f204" ]
   ] ) ; # 
   fhir:occurence [
@@ -74,7 +75,7 @@
      fhir:end [ fhir:v "2015-01-15T14:30:00+01:00"^^xsd:dateTime ]
   ] ; # 
   fhir:request [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0317> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0317> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0317" ]
   ] ; # 
   fhir:note ( [

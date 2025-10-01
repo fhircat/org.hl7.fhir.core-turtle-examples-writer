@@ -25,7 +25,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -39,11 +39,11 @@
      fhir:deviceIdentifier [ fhir:v "A4599XQZ990T0474" ] ;
      fhir:issuer [
        fhir:v "http://hl7.org/fhir/NamingSystem/iccbba-blood"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/NamingSystem/iccbba-blood>
+       fhir:l <http://hl7.org/fhir/NamingSystem/iccbba-blood>
      ] ;
      fhir:jurisdiction [
        fhir:v "http://hl7.org/fhir/NamingSystem/fda-udi"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/NamingSystem/fda-udi>
+       fhir:l <http://hl7.org/fhir/NamingSystem/fda-udi>
      ] ;
      fhir:carrierHRF [ fhir:v "=)1TE123456A&)RZ12345678" ]
   ] ) ; # 

@@ -12,12 +12,12 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] ) ;
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,12 +29,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ValueSet/example-expansion"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ValueSet/example-expansion>
+     fhir:l <http://hl7.org/fhir/ValueSet/example-expansion>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.3.3141" ]
   ] ) ; # 
@@ -57,7 +57,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:filter ( [
          fhir:property [ fhir:v "parent" ] ;
@@ -70,17 +70,17 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/valueset-expansionSource"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/valueset-expansionSource>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/valueset-expansionSource>
        ] ;
        fhir:value [
          a fhir:uri ;
          fhir:v "http://hl7.org/fhir/ValueSet/example"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/ValueSet/example>
+         fhir:l <http://hl7.org/fhir/ValueSet/example>
        ]
      ] ) ;
      fhir:identifier [
        fhir:v "urn:uuid:42316ff8-2714-4680-9980-f37a6d1a71bc"^^xsd:anyURI ;
-       fhir:link <urn:uuid:42316ff8-2714-4680-9980-f37a6d1a71bc>
+       fhir:l <urn:uuid:42316ff8-2714-4680-9980-f37a6d1a71bc>
      ] ;
      fhir:timestamp [ fhir:v "2015-06-22T13:56:07Z"^^xsd:dateTime ] ;
      fhir:total [ fhir:v 8 ] ;
@@ -96,13 +96,13 @@
        fhir:code [ fhir:v "PROPERTY" ] ;
        fhir:uri [
          fhir:v "http://loinc.org/property/PROPERTY"^^xsd:anyURI ;
-         fhir:link <http://loinc.org/property/PROPERTY>
+         fhir:l <http://loinc.org/property/PROPERTY>
        ]
      ] ) ;
      fhir:contains ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:version [ fhir:v "2.50" ] ;
        fhir:code [ fhir:v "14647-2" ] ;
@@ -120,7 +120,7 @@
        fhir:contains ( [
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:version [ fhir:v "2.50" ] ;
          fhir:code [ fhir:v "2093-3" ] ;
@@ -135,7 +135,7 @@
        ] [
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:version [ fhir:v "2.50" ] ;
          fhir:code [ fhir:v "48620-9" ] ;
@@ -150,7 +150,7 @@
        ] [
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:version [ fhir:v "2.50" ] ;
          fhir:code [ fhir:v "9342-7" ] ;
@@ -169,7 +169,7 @@
        fhir:contains ( [
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:version [ fhir:v "2.50" ] ;
          fhir:code [ fhir:v "2096-6" ] ;
@@ -184,7 +184,7 @@
        ] [
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:version [ fhir:v "2.50" ] ;
          fhir:code [ fhir:v "35200-5" ] ;
@@ -199,7 +199,7 @@
        ] [
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:version [ fhir:v "2.50" ] ;
          fhir:code [ fhir:v "48089-7" ] ;
@@ -214,7 +214,7 @@
        ] [
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:version [ fhir:v "2.50" ] ;
          fhir:code [ fhir:v "55838-7" ] ;

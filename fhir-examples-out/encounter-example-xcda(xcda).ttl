@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://healthcare.example.org/identifiers/enocunter"^^xsd:anyURI ;
-       fhir:link <http://healthcare.example.org/identifiers/enocunter>
+       fhir:l <http://healthcare.example.org/identifiers/enocunter>
      ] ;
      fhir:value [ fhir:v "1234213.52345873" ]
   ] ) ; # 
@@ -36,19 +36,19 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "AMB" ] ;
        fhir:display [ fhir:v "ambulatory" ] #    outpatient   
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/xcda> ;
+     fhir:l <http://hl7.org/fhir/Patient/xcda> ;
      fhir:reference [ fhir:v "Patient/xcda" ]
   ] ; # 
   fhir:participant ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/xcda1> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/xcda1> ;
        fhir:reference [ fhir:v "Practitioner/xcda1" ]
      ]
   ] ) ; # 
@@ -58,7 +58,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://ihe.net/xds/connectathon/eventCodes"^^xsd:anyURI ;
-             fhir:link <http://ihe.net/xds/connectathon/eventCodes>
+             fhir:l <http://ihe.net/xds/connectathon/eventCodes>
            ] ;
            fhir:code [ fhir:v "T-D8200" ] ;
            fhir:display [ fhir:v "Arm" ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -33,7 +33,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/library-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/library-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/library-type>
        ] ;
        fhir:code [ fhir:v "logic-library" ] ;
        fhir:display [ fhir:v "Logic Library" ]
@@ -46,7 +46,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ] ;
        fhir:display [ fhir:v "Clinical Focus" ]
@@ -57,7 +57,7 @@
          a sct:182888003 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "182888003" ] ;
          fhir:display [ fhir:v "Medication requested (situation)" ]
@@ -67,7 +67,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ] ;
        fhir:display [ fhir:v "Clinical Focus" ]
@@ -78,7 +78,7 @@
          a sct:82423001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "82423001" ] ;
          fhir:display [ fhir:v "Chronic pain (finding)" ]
@@ -89,7 +89,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ] ;
        fhir:display [ fhir:v "United States of America" ]
@@ -116,14 +116,14 @@
      fhir:document [
        fhir:url [
          fhir:v "https://guidelines.gov/summaries/summary/50153/cdc-guideline-for-prescribing-opioids-for-chronic-pain---united-states-2016#420"^^xsd:anyURI ;
-         fhir:link <https://guidelines.gov/summaries/summary/50153/cdc-guideline-for-prescribing-opioids-for-chronic-pain---united-states-2016#420>
+         fhir:l <https://guidelines.gov/summaries/summary/50153/cdc-guideline-for-prescribing-opioids-for-chronic-pain---united-states-2016#420>
        ]
      ]
   ] [
      fhir:type [ fhir:v "depends-on" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/Library/opioidcds-common"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Library/opioidcds-common>
+       fhir:l <http://example.org/fhir/Library/opioidcds-common>
      ]
   ] ) ; # 
   fhir:dataRequirement ( [
@@ -132,7 +132,7 @@
        fhir:path [ fhir:v "medicationCodeableConcept" ] ;
        fhir:valueSet [
          fhir:v "http://example.org/fhir/ValueSet/benzodiazepines"^^xsd:anyURI ;
-         fhir:link <http://example.org/fhir/ValueSet/benzodiazepines>
+         fhir:l <http://example.org/fhir/ValueSet/benzodiazepines>
        ]
      ] )
   ] [
@@ -141,7 +141,7 @@
        fhir:path [ fhir:v "medicationCodeableConcept" ] ;
        fhir:valueSet [
          fhir:v "http://example.org/fhir/ValueSet/opioids-abused-in-ambulatory-care"^^xsd:anyURI ;
-         fhir:link <http://example.org/fhir/ValueSet/opioids-abused-in-ambulatory-care>
+         fhir:l <http://example.org/fhir/ValueSet/opioids-abused-in-ambulatory-care>
        ]
      ] )
   ] ) ; # 

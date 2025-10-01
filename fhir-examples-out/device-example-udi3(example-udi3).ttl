@@ -25,7 +25,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -40,7 +40,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SNO" ]
        ] )
@@ -51,11 +51,11 @@
      fhir:deviceIdentifier [ fhir:v "007444534255003288" ] ;
      fhir:issuer [
        fhir:v "http://hl7.org/fhir/NamingSystem/hibcc"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/NamingSystem/hibcc>
+       fhir:l <http://hl7.org/fhir/NamingSystem/hibcc>
      ] ;
      fhir:jurisdiction [
        fhir:v "http://hl7.org/fhir/NamingSystem/fda-udi"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/NamingSystem/fda-udi>
+       fhir:l <http://hl7.org/fhir/NamingSystem/fda-udi>
      ] ;
      fhir:carrierHRF [ fhir:v "+H123PARTNO1234567890120/$$420020216LOT123456789012345/SXYZ456789012345678/16D20130202C" ] ;
      fhir:entryType [ fhir:v "manual" ]

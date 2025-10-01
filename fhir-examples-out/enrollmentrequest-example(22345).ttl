@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,26 +26,26 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://happyvalley.com/enrollmentrequest"^^xsd:anyURI ;
-       fhir:link <http://happyvalley.com/enrollmentrequest>
+       fhir:l <http://happyvalley.com/enrollmentrequest>
      ] ;
      fhir:value [ fhir:v "EN22345" ]
   ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:created [ fhir:v "2014-08-16"^^xsd:date] ; # 
   fhir:insurer [
-     fhir:link <http://hl7.org/fhir/Organization/2> ;
+     fhir:l <http://hl7.org/fhir/Organization/2> ;
      fhir:reference [ fhir:v "Organization/2" ]
   ] ; # 
   fhir:provider [
-     fhir:link <http://hl7.org/fhir/Organization/1> ;
+     fhir:l <http://hl7.org/fhir/Organization/1> ;
      fhir:reference [ fhir:v "Organization/1" ]
   ] ; # 
   fhir:candidate [
-     fhir:link <http://hl7.org/fhir/Patient/1> ;
+     fhir:l <http://hl7.org/fhir/Patient/1> ;
      fhir:reference [ fhir:v "Patient/1" ]
   ] ; # 
   fhir:coverage [
-     fhir:link <http://hl7.org/fhir/Coverage/9876B1> ;
+     fhir:l <http://hl7.org/fhir/Coverage/9876B1> ;
      fhir:reference [ fhir:v "Coverage/9876B1" ]
   ] . # 
 

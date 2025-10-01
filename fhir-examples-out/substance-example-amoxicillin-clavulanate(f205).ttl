@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -34,7 +34,7 @@
            a sct:372687004 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "372687004" ] ;
            fhir:display [ fhir:v "Amoxicillin (substance)" ]
@@ -51,7 +51,7 @@
            a sct:395938000 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "395938000" ] ;
            fhir:display [ fhir:v "Clavulanate potassium (substance)" ]
@@ -64,7 +64,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/substance-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/substance-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/substance-category>
        ] ;
        fhir:code [ fhir:v "drug" ] ;
        fhir:display [ fhir:v "Drug or Medicament" ]
@@ -76,7 +76,7 @@
          a sct:392259005 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "392259005" ] ;
          fhir:display [ fhir:v "Amoxicillin + clavulanate potassium 875mg/125mg tablet (product)" ]
@@ -91,7 +91,7 @@
          fhir:unit [ fhir:v "mg" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ] ;
@@ -100,13 +100,14 @@
          fhir:unit [ fhir:v "mg" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ]
      ] ;
      fhir:substance [
        a fhir:Reference ;
+       fhir:l <#ingr1> ;
        fhir:reference [ fhir:v "#ingr1" ]
      ]
   ] [
@@ -116,7 +117,7 @@
          fhir:unit [ fhir:v "mg" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ] ;
@@ -125,13 +126,14 @@
          fhir:unit [ fhir:v "mg" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ]
      ] ;
      fhir:substance [
        a fhir:Reference ;
+       fhir:l <#ingr2> ;
        fhir:reference [ fhir:v "#ingr2" ]
      ]
   ] ) . # 

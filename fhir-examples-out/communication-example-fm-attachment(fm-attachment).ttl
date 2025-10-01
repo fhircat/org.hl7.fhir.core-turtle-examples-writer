@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.providerco.com/communication"^^xsd:anyURI ;
-       fhir:link <http://www.providerco.com/communication>
+       fhir:l <http://www.providerco.com/communication>
      ] ;
      fhir:value [ fhir:v "12345" ]
   ] ) ; #   insert contents here  ,  
@@ -84,20 +84,20 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://acme.org/messagetypes"^^xsd:anyURI ;
-         fhir:link <http://acme.org/messagetypes>
+         fhir:l <http://acme.org/messagetypes>
        ] ;
        fhir:code [ fhir:v "SolicitedAttachment" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/1> ;
+     fhir:l <http://hl7.org/fhir/Patient/1> ;
      fhir:reference [ fhir:v "Patient/1" ]
   ] ; # 
   fhir:about ( [
      fhir:identifier [
        fhir:system [
          fhir:v "http://happyvalley.com/claim"^^xsd:anyURI ;
-         fhir:link <http://happyvalley.com/claim>
+         fhir:l <http://happyvalley.com/claim>
        ] ;
        fhir:value [ fhir:v "12345" ]
      ] #   reference value=\"#claim\"\/  
@@ -105,7 +105,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://www.BenefitsInc.com/fhir/claimresponse"^^xsd:anyURI ;
-         fhir:link <http://www.BenefitsInc.com/fhir/claimresponse>
+         fhir:l <http://www.BenefitsInc.com/fhir/claimresponse>
        ] ;
        fhir:value [ fhir:v "R3500" ]
      ] #   reference value=\"#claimresponse\"\/  
@@ -115,7 +115,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://www.jurisdiction.com/insurer"^^xsd:anyURI ;
-         fhir:link <http://www.jurisdiction.com/insurer>
+         fhir:l <http://www.jurisdiction.com/insurer>
        ] ;
        fhir:value [ fhir:v "123456" ]
      ] #   reference value=\"#payor\"\/  
@@ -124,7 +124,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://www.jurisdiction.com/provideroffices"^^xsd:anyURI ;
-         fhir:link <http://www.jurisdiction.com/provideroffices>
+         fhir:l <http://www.jurisdiction.com/provideroffices>
        ] ;
        fhir:value [ fhir:v "3456" ]
      ] #   reference value=\"#provider\"\/  
@@ -143,7 +143,7 @@
        fhir:contentType [ fhir:v "application/pdf" ] ;
        fhir:url [
          fhir:v "http://example.org/docs/AB12345"^^xsd:anyURI ;
-         fhir:link <http://example.org/docs/AB12345>
+         fhir:l <http://example.org/docs/AB12345>
        ] ;
        fhir:size [ fhir:v "104274"^^xsd:long ] ;
        fhir:hash [ fhir:v "SGVsbG8gdGhlcmU="^^xsd:base64Binary ] ;

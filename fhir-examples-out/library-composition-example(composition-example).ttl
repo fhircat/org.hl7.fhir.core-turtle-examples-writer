@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://example.org"^^xsd:anyURI ;
-       fhir:link <http://example.org>
+       fhir:l <http://example.org>
      ] ;
      fhir:value [ fhir:v "Zika Artifacts" ]
   ] ) ; # 
@@ -49,44 +49,44 @@
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/ActivityDefinition/administer-zika-virus-exposure-assessment"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/ActivityDefinition/administer-zika-virus-exposure-assessment>
+       fhir:l <http://example.org/fhir/ActivityDefinition/administer-zika-virus-exposure-assessment>
      ]
   ] [
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/ActivityDefinition/order-serum-zika-dengue-virus-igm"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/ActivityDefinition/order-serum-zika-dengue-virus-igm>
+       fhir:l <http://example.org/fhir/ActivityDefinition/order-serum-zika-dengue-virus-igm>
      ]
   ] [
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/ActivityDefinition/provide-mosquito-prevention-advice"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/ActivityDefinition/provide-mosquito-prevention-advice>
+       fhir:l <http://example.org/fhir/ActivityDefinition/provide-mosquito-prevention-advice>
      ]
   ] [
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/Library/zika-virus-intervention-logic"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Library/zika-virus-intervention-logic>
+       fhir:l <http://example.org/fhir/Library/zika-virus-intervention-logic>
      ]
   ] [
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/PlanDefinition/zika-virus-intervention"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/PlanDefinition/zika-virus-intervention>
+       fhir:l <http://example.org/fhir/PlanDefinition/zika-virus-intervention>
      ]
   ] [
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://hl7.org/fhir/Questionnaire/zika-virus-exposure-assessment"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Questionnaire/zika-virus-exposure-assessment>
+       fhir:l <http://hl7.org/fhir/Questionnaire/zika-virus-exposure-assessment>
      ]
   ] [
      fhir:type [ fhir:v "derived-from" ] ;
      fhir:document [
        fhir:url [
          fhir:v "https://www.cdc.gov/mmwr/volumes/65/wr/mm6539e1.htm?s_cid=mm6539e1_w"^^xsd:anyURI ;
-         fhir:link <https://www.cdc.gov/mmwr/volumes/65/wr/mm6539e1.htm?s_cid=mm6539e1_w>
+         fhir:l <https://www.cdc.gov/mmwr/volumes/65/wr/mm6539e1.htm?s_cid=mm6539e1_w>
        ]
      ]
   ] ) . # 

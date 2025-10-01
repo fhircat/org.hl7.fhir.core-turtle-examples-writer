@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical>
+         fhir:l <http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical>
        ] ;
        fhir:code [ fhir:v "active" ] ;
        fhir:display [ fhir:v "Active" ]
@@ -38,7 +38,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/allergyintolerance-verification>
+         fhir:l <http://terminology.hl7.org/CodeSystem/allergyintolerance-verification>
        ] ;
        fhir:code [ fhir:v "unconfirmed" ] ;
        fhir:display [ fhir:v "Unconfirmed" ]
@@ -50,14 +50,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-         fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+         fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
        ] ;
        fhir:code [ fhir:v "7980" ] ;
        fhir:display [ fhir:v "Penicillin G" ]
      ] )
   ] ; #    subtance, coded from RxNorm   
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; #    the patient that actually has the risk of adverse reaction   
   fhir:recordedDate [ fhir:v "2010-03-01"^^xsd:date] ; #    the date that this entry was recorded   
@@ -66,14 +66,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/provenance-participant-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
          ] ;
          fhir:code [ fhir:v "author" ] ;
          fhir:display [ fhir:v "Author" ]
        ] )
      ] ;
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/example> ;
        fhir:reference [ fhir:v "Practitioner/example" ]
      ]
   ] ) ; #    who made the record / last updated it   
@@ -84,7 +84,7 @@
            a sct:247472004 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "247472004" ] ;
            fhir:display [ fhir:v "Hives" ]

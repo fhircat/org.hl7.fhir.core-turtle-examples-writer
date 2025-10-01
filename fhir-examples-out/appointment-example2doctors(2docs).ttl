@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org/service-category"^^xsd:anyURI ;
-         fhir:link <http://example.org/service-category>
+         fhir:l <http://example.org/service-category>
        ] ;
        fhir:code [ fhir:v "gp" ] ;
        fhir:display [ fhir:v "General Practice" ]
@@ -48,7 +48,7 @@
        a sct:394814009 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "394814009" ] ;
        fhir:display [ fhir:v "General practice" ]
@@ -58,7 +58,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0276"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0276>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0276>
        ] ;
        fhir:code [ fhir:v "FOLLOWUP" ] ;
        fhir:display [ fhir:v "A follow up visit from a previous appointment" ]
@@ -66,7 +66,7 @@
   ] ; # 
   fhir:description [ fhir:v "Discussion about Peter Chalmers ultrasound results"] ; # 
   fhir:supportingInformation ( [
-     fhir:link <http://hl7.org/fhir/DiagnosticReport/ultrasound> ;
+     fhir:l <http://hl7.org/fhir/DiagnosticReport/ultrasound> ;
      fhir:reference [ fhir:v "DiagnosticReport/ultrasound" ]
   ] ) ; # 
   fhir:start [ fhir:v "2013-12-09T09:00:00Z"^^xsd:dateTime] ; # 
@@ -75,13 +75,13 @@
      fhir:text [ fhir:v "Clarify the results of the ultrasound to ensure context of test was correct" ]
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; # 
   fhir:participant ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/example> ;
        fhir:reference [ fhir:v "Practitioner/example" ] ;
        fhir:display [ fhir:v "Dr Adam Careful" ]
      ] ;
@@ -89,7 +89,7 @@
      fhir:status [ fhir:v "accepted" ]
   ] [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f202> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f202> ;
        fhir:reference [ fhir:v "Practitioner/f202" ] ;
        fhir:display [ fhir:v "Luigi Maas" ]
      ] ;

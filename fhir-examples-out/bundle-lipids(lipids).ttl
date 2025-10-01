@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,31 +24,31 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "https://example.com/base/DiagnosticReport/lipids"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/DiagnosticReport/lipids>
+       fhir:l <https://example.com/base/DiagnosticReport/lipids>
      ] ;
      fhir:resource ( <https://example.com/base/DiagnosticReport/lipids> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/cholesterol"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/cholesterol>
+       fhir:l <https://example.com/base/Observation/cholesterol>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/cholesterol> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/triglyceride"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/triglyceride>
+       fhir:l <https://example.com/base/Observation/triglyceride>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/triglyceride> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/hdlcholesterol"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/hdlcholesterol>
+       fhir:l <https://example.com/base/Observation/hdlcholesterol>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/hdlcholesterol> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/ldlcholesterol"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/ldlcholesterol>
+       fhir:l <https://example.com/base/Observation/ldlcholesterol>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/ldlcholesterol> )
   ] ) . # 
@@ -62,7 +62,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://acme.com/lab/reports"^^xsd:anyURI ;
-       fhir:link <http://acme.com/lab/reports>
+       fhir:l <http://acme.com/lab/reports>
      ] ;
      fhir:value [ fhir:v "5234342" ]
   ] ) ; # 
@@ -71,7 +71,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "HM" ]
      ] )
@@ -81,7 +81,7 @@
        a loinc:57698-3 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "57698-3" ] ;
        fhir:display [ fhir:v "Lipid panel with direct LDL - Serum or Plasma" ]
@@ -89,7 +89,7 @@
      fhir:text [ fhir:v "Lipid Panel" ]
   ] ; #       first, various administrative/context stuff      
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:effective [
@@ -98,24 +98,24 @@
   ] ; # 
   fhir:issued [ fhir:v "2013-01-27T11:45:33+11:00"^^xsd:dateTime] ; #       all this report is final      
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
   fhir:result ( [
-     fhir:link <http://hl7.org/fhir/Observation/cholesterol> ;
+     fhir:l <http://hl7.org/fhir/Observation/cholesterol> ;
      fhir:id [ fhir:v "1" ] ;
      fhir:reference [ fhir:v "Observation/cholesterol" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/triglyceride> ;
+     fhir:l <http://hl7.org/fhir/Observation/triglyceride> ;
      fhir:id [ fhir:v "2" ] ;
      fhir:reference [ fhir:v "Observation/triglyceride" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/hdlcholesterol> ;
+     fhir:l <http://hl7.org/fhir/Observation/hdlcholesterol> ;
      fhir:id [ fhir:v "3" ] ;
      fhir:reference [ fhir:v "Observation/hdlcholesterol" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/ldlcholesterol> ;
+     fhir:l <http://hl7.org/fhir/Observation/ldlcholesterol> ;
      fhir:id [ fhir:v "4" ] ;
      fhir:reference [ fhir:v "Observation/ldlcholesterol" ]
   ] ) . #       now the atomic results      
@@ -150,7 +150,7 @@
        a loinc:35200-5 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "35200-5" ] ;
        fhir:display [ fhir:v "Cholesterol [Moles/​volume] in Serum or Plasma" ]
@@ -158,11 +158,11 @@
      fhir:text [ fhir:v "Cholesterol" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -172,7 +172,7 @@
      fhir:unit [ fhir:v "mmol/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "mmol/L" ]
   ] ; # 
@@ -182,7 +182,7 @@
        fhir:unit [ fhir:v "mmol/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "mmol/L" ]
      ]
@@ -200,7 +200,7 @@
        a loinc:35217-9 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "35217-9" ] ;
        fhir:display [ fhir:v "Triglyceride [Moles/​volume] in Serum or Plasma" ]
@@ -208,11 +208,11 @@
      fhir:text [ fhir:v "Triglyceride" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -222,7 +222,7 @@
      fhir:unit [ fhir:v "mmol/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "mmol/L" ]
   ] ; # 
@@ -232,7 +232,7 @@
        fhir:unit [ fhir:v "mmol/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "mmol/L" ]
      ]
@@ -250,7 +250,7 @@
        a loinc:2085-9 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "2085-9" ] ;
        fhir:display [ fhir:v "HDL Cholesterol" ]
@@ -258,11 +258,11 @@
      fhir:text [ fhir:v "Cholesterol in HDL" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -272,7 +272,7 @@
      fhir:unit [ fhir:v "mmol/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "mmol/L" ]
   ] ; # 
@@ -282,7 +282,7 @@
        fhir:unit [ fhir:v "mmol/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "mmol/L" ]
      ]
@@ -300,7 +300,7 @@
        a loinc:13457-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "13457-7" ] ;
        fhir:display [ fhir:v "Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation" ]
@@ -308,11 +308,11 @@
      fhir:text [ fhir:v "LDL Chol. (Calc)" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -322,7 +322,7 @@
      fhir:unit [ fhir:v "mmol/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "mmol/L" ]
   ] ; # 
@@ -332,7 +332,7 @@
        fhir:unit [ fhir:v "mmol/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "mmol/L" ]
      ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://example.org/StructureDefinition/trials"^^xsd:anyURI ;
-       fhir:link <http://example.org/StructureDefinition/trials>
+       fhir:l <http://example.org/StructureDefinition/trials>
      ] ;
      fhir:value [
        a fhir:code ;
@@ -40,14 +40,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "MR" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "http://www.goodhealth.org/identifiers/mrn"^^xsd:anyURI ;
-       fhir:link <http://www.goodhealth.org/identifiers/mrn>
+       fhir:l <http://www.goodhealth.org/identifiers/mrn>
      ] ;
      fhir:value [ fhir:v "123456" ]
   ] ) ; # 
@@ -60,12 +60,12 @@
   fhir:gender [ fhir:v "male"] ; # 
   fhir:birthDate [ fhir:v "1932-09-24"^^xsd:date] ; # 
   fhir:generalPractitioner ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr Adam Careful" ]
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/2> ;
+     fhir:l <http://hl7.org/fhir/Organization/2> ;
      fhir:reference [ fhir:v "Organization/2" ] ;
      fhir:display [ fhir:v "Good Health Clinic" ]
   ] . # 

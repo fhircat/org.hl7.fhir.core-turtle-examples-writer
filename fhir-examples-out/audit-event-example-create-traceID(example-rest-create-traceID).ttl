@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/audit-event-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/audit-event-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/audit-event-type>
        ] ;
        fhir:code [ fhir:v "rest" ] ;
        fhir:display [ fhir:v "Restful Operation" ]
@@ -37,7 +37,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/restful-interaction"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/restful-interaction>
+         fhir:l <http://hl7.org/fhir/restful-interaction>
        ] ;
        fhir:code [ fhir:v "create" ] ;
        fhir:display [ fhir:v "create" ]
@@ -49,7 +49,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/audit-event-outcome"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/audit-event-outcome>
+         fhir:l <http://terminology.hl7.org/CodeSystem/audit-event-outcome>
        ] ;
        fhir:code [ fhir:v "0" ] ;
        fhir:display [ fhir:v "Success" ]
@@ -60,7 +60,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/extra-security-role-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/extra-security-role-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/extra-security-role-type>
          ] ;
          fhir:code [ fhir:v "humanuser" ] ;
          fhir:display [ fhir:v "human user" ]
@@ -76,7 +76,7 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/auditevent-AlternativeUserID"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/auditevent-AlternativeUserID>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/auditevent-AlternativeUserID>
        ] ;
        fhir:value [
          a fhir:Identifier ;
@@ -90,7 +90,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-           fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+           fhir:l <http://dicom.nema.org/resources/ontology/DCM>
          ] ;
          fhir:code [ fhir:v "110153" ] ;
          fhir:display [ fhir:v "Source Role ID" ]
@@ -100,7 +100,7 @@
        fhir:identifier [
          fhir:system [
            fhir:v "urn:oid:2.16.840.1.113883.4.2"^^xsd:anyURI ;
-           fhir:link <urn:oid:2.16.840.1.113883.4.2>
+           fhir:l <urn:oid:2.16.840.1.113883.4.2>
          ] ;
          fhir:value [ fhir:v "2.16.840.1.113883.4.2" ]
        ]
@@ -121,7 +121,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/security-source-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/security-source-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/security-source-type>
          ] ;
          fhir:code [ fhir:v "3" ] ;
          fhir:display [ fhir:v "Web Server" ]
@@ -130,14 +130,14 @@
   ] ; # 
   fhir:entity ( [
      fhir:what [
-       fhir:link <http://hl7.org/fhir/Patient/example/_history/1> ;
+       fhir:l <http://hl7.org/fhir/Patient/example/_history/1> ;
        fhir:reference [ fhir:v "Patient/example/_history/1" ]
      ] ;
      fhir:role [
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/object-role"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/object-role>
+           fhir:l <http://terminology.hl7.org/CodeSystem/object-role>
          ] ;
          fhir:code [ fhir:v "1" ] ;
          fhir:display [ fhir:v "Patient" ]
@@ -151,7 +151,7 @@
          ] ;
          fhir:system [
            fhir:v "http://example.com/server"^^xsd:anyURI ;
-           fhir:link <http://example.com/server>
+           fhir:l <http://example.com/server>
          ] ;
          fhir:value [ fhir:v "6b507ee2d716780372c255df69ece653" ]
        ]
@@ -160,7 +160,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/object-role"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/object-role>
+           fhir:l <http://terminology.hl7.org/CodeSystem/object-role>
          ] ;
          fhir:code [ fhir:v "21" ] ;
          fhir:display [ fhir:v "Job Stream" ]

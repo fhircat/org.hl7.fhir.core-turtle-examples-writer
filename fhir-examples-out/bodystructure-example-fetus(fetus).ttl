@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://goodhealth.org/bodystructure/identifiers"^^xsd:anyURI ;
-       fhir:link <http://goodhealth.org/bodystructure/identifiers>
+       fhir:l <http://goodhealth.org/bodystructure/identifiers>
      ] ;
      fhir:value [ fhir:v "12345" ]
   ] ) ; # 
@@ -37,7 +37,7 @@
          a sct:83418008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "83418008" ] ;
          fhir:display [ fhir:v "Entire fetus (body structure)" ]
@@ -47,7 +47,7 @@
   ] ) ; # 
   fhir:description [ fhir:v "EDD 1/1/2017 confirmation by LMP"] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] . # 
 

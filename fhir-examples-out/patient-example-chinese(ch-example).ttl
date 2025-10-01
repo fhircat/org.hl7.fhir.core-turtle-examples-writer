@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,14 +31,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "MR" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "urn:oid:1.2.36.146.595.217.0.1"^^xsd:anyURI ;
-       fhir:link <urn:oid:1.2.36.146.595.217.0.1>
+       fhir:l <urn:oid:1.2.36.146.595.217.0.1>
      ] ;
      fhir:value [ fhir:v "3112219680806371X" ] ;
      fhir:period [
@@ -78,7 +78,7 @@
      ]
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/1> ;
+     fhir:l <http://hl7.org/fhir/Organization/1> ;
      fhir:reference [ fhir:v "Organization/1" ] ;
      fhir:display [ fhir:v "上海东方医院" ]
   ] . # 

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,11 +29,11 @@
   fhir:status [ fhir:v "completed"] ; # 
   fhir:description [ fhir:v "This 26 yo male patient is brought into ER by ambulance after being involved in a motor vehicle accident"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:effective [
@@ -43,7 +43,7 @@
   ] ; # 
   fhir:date [ fhir:v "2014-12-06T22:33:00+11:00"^^xsd:dateTime] ; # 
   fhir:performer [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ]
   ] ; # 
   fhir:problem ( [
@@ -74,7 +74,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/sid/icd-9"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/sid/icd-9>
+             fhir:l <http://hl7.org/fhir/sid/icd-9>
            ] ;
            fhir:code [ fhir:v "850.0" ]
          ] )

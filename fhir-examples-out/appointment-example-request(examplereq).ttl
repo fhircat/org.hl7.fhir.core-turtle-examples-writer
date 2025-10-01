@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org/sampleappointment-identifier"^^xsd:anyURI ;
-       fhir:link <http://example.org/sampleappointment-identifier>
+       fhir:l <http://example.org/sampleappointment-identifier>
      ] ;
      fhir:value [ fhir:v "123" ]
   ] ) ; # 
@@ -36,7 +36,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org/service-category"^^xsd:anyURI ;
-         fhir:link <http://example.org/service-category>
+         fhir:l <http://example.org/service-category>
        ] ;
        fhir:code [ fhir:v "gp" ] ;
        fhir:display [ fhir:v "General Practice" ]
@@ -47,7 +47,7 @@
        a sct:394814009 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "394814009" ] ;
        fhir:display [ fhir:v "General practice" ]
@@ -57,7 +57,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0276"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0276>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0276>
        ] ;
        fhir:code [ fhir:v "WALKIN" ] ;
        fhir:display [ fhir:v "A previously unscheduled walk-in visit" ]
@@ -69,7 +69,7 @@
          a sct:413095006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "413095006" ]
        ] ) ;
@@ -83,7 +83,7 @@
      fhir:end [ fhir:v "2016-06-09"^^xsd:date ]
   ] ) ; # 
   fhir:slot ( [
-     fhir:link <http://hl7.org/fhir/Slot/example> ;
+     fhir:l <http://hl7.org/fhir/Slot/example> ;
      fhir:reference [ fhir:v "Slot/example" ]
   ] ) ; # 
   fhir:created [ fhir:v "2015-12-02"^^xsd:date] ; # 
@@ -91,13 +91,13 @@
      fhir:text [ fhir:v "Further expand on the results of the MRI and determine the next actions that may be appropriate." ]
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; # 
   fhir:participant ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Patient/example> ;
+       fhir:l <http://hl7.org/fhir/Patient/example> ;
        fhir:reference [ fhir:v "Patient/example" ] ;
        fhir:display [ fhir:v "Peter James Chalmers" ]
      ] ;
@@ -108,7 +108,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
          ] ;
          fhir:code [ fhir:v "ATND" ]
        ] )
@@ -117,7 +117,7 @@
      fhir:status [ fhir:v "needs-action" ]
   ] [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Location/1> ;
+       fhir:l <http://hl7.org/fhir/Location/1> ;
        fhir:reference [ fhir:v "Location/1" ] ;
        fhir:display [ fhir:v "South Wing, second floor" ]
      ] ;

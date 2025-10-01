@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,14 +25,14 @@
   ] ; # 
   fhir:type [ fhir:v "dna"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:formatted ( [
      fhir:contentType [ fhir:v "application/json" ] ;
      fhir:url [
        fhir:v "http://grch37.rest.ensembl.org/ga4gh/variants/3:rs1333049?content-type=application/json"^^xsd:anyURI ;
-       fhir:link <http://grch37.rest.ensembl.org/ga4gh/variants/3:rs1333049?content-type=application/json>
+       fhir:l <http://grch37.rest.ensembl.org/ga4gh/variants/3:rs1333049?content-type=application/json>
      ] ;
      fhir:title [ fhir:v "GA4GH API" ]
   ] ) . # 

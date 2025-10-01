@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/ConceptMap/example-priority"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/ConceptMap/example-priority>
+     fhir:l <http://hl7.org/fhir/ConceptMap/example-priority>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:title [ fhir:v "Example map with priorities"] ; # 
@@ -45,16 +45,16 @@
   fhir:sourceScope [
      a fhir:uri ;
      fhir:v "http://snomed.info/sct?fhir_vs"^^xsd:anyURI ;
-     fhir:link <http://snomed.info/sct?fhir_vs>
+     fhir:l <http://snomed.info/sct?fhir_vs>
   ] ; # 
   fhir:group ( [
      fhir:source [
        fhir:v "http://snomed.info./sct"^^xsd:anyURI ;
-       fhir:link <http://snomed.info./sct>
+       fhir:l <http://snomed.info./sct>
      ] ;
      fhir:target [
        fhir:v "http://hl7.org/fhir/sid/icd-10"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/sid/icd-10>
+       fhir:l <http://hl7.org/fhir/sid/icd-10>
      ] ;
      fhir:element ( [
        fhir:code [ fhir:v "429353004" ] ;

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,7 +24,7 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "urn:uuid:c2d70315-c34c-4f44-981b-6f16775477f3"^^xsd:anyURI ;
-       fhir:link <urn:uuid:c2d70315-c34c-4f44-981b-6f16775477f3>
+       fhir:l <urn:uuid:c2d70315-c34c-4f44-981b-6f16775477f3>
      ] ;
      fhir:resource ( <urn:uuid:c2d70315-c34c-4f44-981b-6f16775477f3> )
   ] ) . # 
@@ -39,12 +39,12 @@
   fhir:type [ fhir:v "query-status"] ; # 
   fhir:eventsSinceSubscriptionStart [ fhir:v "310"^^xsd:long] ; # 
   fhir:subscription [
-     fhir:link <http://example.org/FHIR/R5/Subscription/123> ;
+     fhir:l <http://example.org/FHIR/R5/Subscription/123> ;
      fhir:reference [ fhir:v "http://example.org/FHIR/R5/Subscription/123" ]
   ] ; # 
   fhir:topic [
      fhir:v "http://example.org/FHIR/R5/SubscriptionTopic/admission"^^xsd:anyURI ;
-     fhir:link <http://example.org/FHIR/R5/SubscriptionTopic/admission>
+     fhir:l <http://example.org/FHIR/R5/SubscriptionTopic/admission>
   ] . # 
 
 # -------------------------------------------------------------------------------------

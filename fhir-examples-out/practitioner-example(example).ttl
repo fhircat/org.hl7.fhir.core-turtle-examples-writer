@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.acme.org/practitioners"^^xsd:anyURI ;
-       fhir:link <http://www.acme.org/practitioners>
+       fhir:l <http://www.acme.org/practitioners>
      ] ;
      fhir:value [ fhir:v "23" ]
   ] ) ; # 
@@ -47,7 +47,7 @@
      fhir:identifier ( [
        fhir:system [
          fhir:v "http://example.org/UniversityIdentifier"^^xsd:anyURI ;
-         fhir:link <http://example.org/UniversityIdentifier>
+         fhir:l <http://example.org/UniversityIdentifier>
        ] ;
        fhir:value [ fhir:v "12345" ]
      ] ) ;
@@ -55,7 +55,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0360/2.7"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0360/2.7>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0360/2.7>
          ] ;
          fhir:code [ fhir:v "BS" ] ;
          fhir:display [ fhir:v "Bachelor of Science" ]

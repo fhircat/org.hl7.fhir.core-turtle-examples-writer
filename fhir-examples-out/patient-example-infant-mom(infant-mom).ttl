@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -38,14 +38,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-MaritalStatus>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-MaritalStatus>
        ] ;
        fhir:code [ fhir:v "M" ] ;
        fhir:display [ fhir:v "Married" ]
      ] )
   ] ; # 
   fhir:generalPractitioner ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/f202> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f202> ;
      fhir:reference [ fhir:v "Practitioner/f202" ] ;
      fhir:display [ fhir:v "Luigi Maas" ]
   ] ) . # 

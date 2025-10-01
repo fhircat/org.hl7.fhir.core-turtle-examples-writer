@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -39,7 +39,7 @@
      fhir:description [ fhir:v "Acme Message endpoint" ] ;
      fhir:url [
        fhir:v "http://acem.com/fhir/message-drop"^^xsd:anyURI ;
-       fhir:link <http://acem.com/fhir/message-drop>
+       fhir:l <http://acem.com/fhir/message-drop>
      ]
   ] ; # 
   fhir:fhirVersion [ fhir:v "5.0.0"] ; #    while the FHIR infrastructure is turning over prior to development, a version is 
@@ -50,11 +50,14 @@
        fhir:protocol [
          fhir:system [
            fhir:v "http://hl7.org/fhir/message-transport"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/message-transport>
+           fhir:l <http://hl7.org/fhir/message-transport>
          ] ;
          fhir:code [ fhir:v "mllp" ]
        ] ;
-       fhir:address [ fhir:v "mllp:10.1.1.10:9234"^^xsd:anyURI ] #   LLP server at 10.1.1.10 on port 9234  
+       fhir:address [
+         fhir:v "mllp:10.1.1.10:9234"^^xsd:anyURI ;
+         fhir:l fhir:mllp:10.1.1.10:9234
+       ] #   LLP server at 10.1.1.10 on port 9234  
      ] ) ;
      fhir:reliableCache [ fhir:v "30"^^xsd:nonNegativeInteger ] ;
      fhir:documentation [ fhir:v "ADT A08 equivalent for external system notifications" ] ;
@@ -62,7 +65,7 @@
        fhir:mode [ fhir:v "receiver" ] ;
        fhir:definition [
          fhir:v "http://hl7.org/fhir/MessageDefinition/example"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/MessageDefinition/example>
+         fhir:l <http://hl7.org/fhir/MessageDefinition/example>
        ]
      ] )
   ] ) . # 

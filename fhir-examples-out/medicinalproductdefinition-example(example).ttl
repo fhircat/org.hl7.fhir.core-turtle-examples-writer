@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://ema.europa.eu/example/MPID"^^xsd:anyURI ;
-       fhir:link <http://ema.europa.eu/example/MPID>
+       fhir:l <http://ema.europa.eu/example/MPID>
      ] ;
      fhir:value [ fhir:v "{mpid}" ]
   ] ) ; # 
@@ -34,17 +34,17 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://ema.europa.eu/example/WHOAnatomicalTherapeuticChemicalATCClassificationSystem"^^xsd:anyURI ;
-         fhir:link <http://ema.europa.eu/example/WHOAnatomicalTherapeuticChemicalATCClassificationSystem>
+         fhir:l <http://ema.europa.eu/example/WHOAnatomicalTherapeuticChemicalATCClassificationSystem>
        ] ;
        fhir:code [ fhir:v "B01AF02" ]
      ] )
   ] ) ; # 
   fhir:attachedDocument ( [
-     fhir:link <http://hl7.org/fhir/DocumentReference/example> ;
+     fhir:l <http://hl7.org/fhir/DocumentReference/example> ;
      fhir:reference [ fhir:v "DocumentReference/example" ]
   ] ) ; # 
   fhir:masterFile ( [
-     fhir:link <http://hl7.org/fhir/DocumentReference/example> ;
+     fhir:l <http://hl7.org/fhir/DocumentReference/example> ;
      fhir:reference [ fhir:v "DocumentReference/example" ]
   ] ) ; # 
   fhir:name ( [
@@ -76,7 +76,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://ema.europa.eu/example/countryCode"^^xsd:anyURI ;
-             fhir:link <http://ema.europa.eu/example/countryCode>
+             fhir:l <http://ema.europa.eu/example/countryCode>
            ] ;
            fhir:code [ fhir:v "EU" ]
          ] )
@@ -85,7 +85,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://ema.europa.eu/example/jurisdictionCode"^^xsd:anyURI ;
-             fhir:link <http://ema.europa.eu/example/jurisdictionCode>
+             fhir:l <http://ema.europa.eu/example/jurisdictionCode>
            ] ;
            fhir:code [ fhir:v "EU" ]
          ] )
@@ -94,7 +94,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-             fhir:link <urn:ietf:bcp:47>
+             fhir:l <urn:ietf:bcp:47>
            ] ;
            fhir:code [ fhir:v "en" ]
          ] )
@@ -107,7 +107,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://ema.europa.eu/example/manufacturingOperationType"^^xsd:anyURI ;
-             fhir:link <http://ema.europa.eu/example/manufacturingOperationType>
+             fhir:l <http://ema.europa.eu/example/manufacturingOperationType>
            ] ;
            fhir:code [ fhir:v "Batchrelease" ]
          ] )

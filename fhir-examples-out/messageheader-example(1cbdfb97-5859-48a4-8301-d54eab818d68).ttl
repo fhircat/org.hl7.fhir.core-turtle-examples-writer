@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,37 +27,39 @@
      a fhir:Coding ;
      fhir:system [
        fhir:v "http://example.org/fhir/message-events"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/message-events>
+       fhir:l <http://example.org/fhir/message-events>
      ] ;
      fhir:code [ fhir:v "admin-notify" ]
   ] ; # 
   fhir:destination ( [
      fhir:endpoint [
        a fhir:url ;
-       fhir:v "llp:10.11.12.14:5432"^^xsd:anyURI
+       fhir:v "llp:10.11.12.14:5432"^^xsd:anyURI ;
+       fhir:l fhir:llp:10.11.12.14:5432
      ] ;
      fhir:name [ fhir:v "Acme Message Gateway" ] ;
      fhir:target [
-       fhir:link <http://hl7.org/fhir/Device/example> ;
+       fhir:l <http://hl7.org/fhir/Device/example> ;
        fhir:reference [ fhir:v "Device/example" ]
      ] ; #   this is to indicate to the Acme Message Gateway that this particular message \n       is intended for Practitioner \"xcda\"  
      fhir:receiver [
-       fhir:link <http://acme.com/ehr/fhir/Practitioner/2323-33-4> ;
+       fhir:l <http://acme.com/ehr/fhir/Practitioner/2323-33-4> ;
        fhir:reference [ fhir:v "http://acme.com/ehr/fhir/Practitioner/2323-33-4" ]
      ]
   ] ) ; # 
   fhir:sender [
-     fhir:link <http://hl7.org/fhir/Organization/1> ;
+     fhir:l <http://hl7.org/fhir/Organization/1> ;
      fhir:reference [ fhir:v "Organization/1" ]
   ] ; # 
   fhir:author [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ]
   ] ; #     <timestamp value="2012-01-04T09:10:14Z"/>  
   fhir:source [
      fhir:endpoint [
        a fhir:url ;
-       fhir:v "llp:10.11.12.13:5432"^^xsd:anyURI
+       fhir:v "llp:10.11.12.13:5432"^^xsd:anyURI ;
+       fhir:l fhir:llp:10.11.12.13:5432
      ] ;
      fhir:name [ fhir:v "Acme Central Patient Registry" ] ;
      fhir:software [ fhir:v "FooBar Patient Manager" ] ;
@@ -71,7 +73,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/message-reasons-encounter"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/message-reasons-encounter>
+         fhir:l <http://terminology.hl7.org/CodeSystem/message-reasons-encounter>
        ] ;
        fhir:code [ fhir:v "admit" ]
      ] )
@@ -83,12 +85,12 @@
      fhir:code [ fhir:v "ok" ]
   ] ; # 
   fhir:focus ( [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ) ; #   Here's the payload, the resource that this admin-update concerns  
   fhir:definition [
      fhir:v "http:////acme.com/ehr/fhir/messagedefinition/patientrequest"^^xsd:anyURI ;
-     fhir:link <http:////acme.com/ehr/fhir/messagedefinition/patientrequest>
+     fhir:l <http:////acme.com/ehr/fhir/messagedefinition/patientrequest>
   ] . # 
 
 <http://hl7.org/fhir/Device/example> a fhir:Device .

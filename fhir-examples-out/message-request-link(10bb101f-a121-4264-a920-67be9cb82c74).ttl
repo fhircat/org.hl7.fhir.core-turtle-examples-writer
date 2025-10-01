@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -22,7 +22,7 @@
   fhir:identifier [
      fhir:system [
        fhir:v "urn:example-org:sender.identifiers"^^xsd:anyURI ;
-       fhir:link <urn:example-org:sender.identifiers>
+       fhir:l <urn:example-org:sender.identifiers>
      ] ;
      fhir:value [ fhir:v "efdd254b-0e09-4164-883e-35cf3871715f" ]
   ] ; # 
@@ -31,19 +31,19 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "urn:uuid:267b18ce-3d37-4581-9baa-6fada338038b"^^xsd:anyURI ;
-       fhir:link <urn:uuid:267b18ce-3d37-4581-9baa-6fada338038b>
+       fhir:l <urn:uuid:267b18ce-3d37-4581-9baa-6fada338038b>
      ] ;
      fhir:resource ( <urn:uuid:267b18ce-3d37-4581-9baa-6fada338038b> )
   ] [
      fhir:fullUrl [
        fhir:v "http://acme.com/ehr/fhir/Patient/pat1"^^xsd:anyURI ;
-       fhir:link <http://acme.com/ehr/fhir/Patient/pat1>
+       fhir:l <http://acme.com/ehr/fhir/Patient/pat1>
      ] ;
      fhir:resource ( <http://acme.com/ehr/fhir/Patient/pat1> )
   ] [
      fhir:fullUrl [
        fhir:v "http://acme.com/ehr/fhir/Patient/pat12"^^xsd:anyURI ;
-       fhir:link <http://acme.com/ehr/fhir/Patient/pat12>
+       fhir:l <http://acme.com/ehr/fhir/Patient/pat12>
      ] ;
      fhir:resource ( <http://acme.com/ehr/fhir/Patient/pat12> )
   ] ) . # 
@@ -68,7 +68,7 @@
      a fhir:Coding ;
      fhir:system [
        fhir:v "http://example.org/fhir/message-events"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/message-events>
+       fhir:l <http://example.org/fhir/message-events>
      ] ;
      fhir:code [ fhir:v "patient-link" ]
   ] ; # 
@@ -76,14 +76,14 @@
      fhir:endpoint [
        a fhir:url ;
        fhir:v "http://example.org/clients/ehr-lite"^^xsd:anyURI ;
-       fhir:link <http://example.org/clients/ehr-lite>
+       fhir:l <http://example.org/clients/ehr-lite>
      ]
   ] ; # 
   fhir:focus ( [
-     fhir:link <http://acme.com/ehr/fhir/Patient/pat1> ;
+     fhir:l <http://acme.com/ehr/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "http://acme.com/ehr/fhir/Patient/pat1" ]
   ] [
-     fhir:link <http://acme.com/ehr/fhir/Patient/pat12> ;
+     fhir:l <http://acme.com/ehr/fhir/Patient/pat12> ;
      fhir:reference [ fhir:v "http://acme.com/ehr/fhir/Patient/pat12" ]
   ] ) . #    this message is posted to http://acme.com/ehr/fhir, 
 #             with an event 'link' to link 2 patient records, and nominates
@@ -101,14 +101,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "MR" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "urn:oid:0.1.2.3.4.5.6.7"^^xsd:anyURI ;
-       fhir:link <urn:oid:0.1.2.3.4.5.6.7>
+       fhir:l <urn:oid:0.1.2.3.4.5.6.7>
      ] ;
      fhir:value [ fhir:v "654321" ]
   ] ) ; # 
@@ -124,19 +124,19 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.org/fhir/CodeSystem/patient-contact-relationship"^^xsd:anyURI ;
-           fhir:link <http://example.org/fhir/CodeSystem/patient-contact-relationship>
+           fhir:l <http://example.org/fhir/CodeSystem/patient-contact-relationship>
          ] ;
          fhir:code [ fhir:v "E" ]
        ] )
      ] ) ;
      fhir:organization [
-       fhir:link <http://hl7.org/fhir/Organization/1> ;
+       fhir:l <http://hl7.org/fhir/Organization/1> ;
        fhir:reference [ fhir:v "Organization/1" ] ;
        fhir:display [ fhir:v "Walt Disney Corporation" ]
      ]
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/1> ;
+     fhir:l <http://hl7.org/fhir/Organization/1> ;
      fhir:reference [ fhir:v "Organization/1" ] ;
      fhir:display [ fhir:v "ACME Healthcare, Inc" ]
   ] . # 
@@ -155,14 +155,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "MR" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "urn:oid:0.1.2.3.4.5.6.7"^^xsd:anyURI ;
-       fhir:link <urn:oid:0.1.2.3.4.5.6.7>
+       fhir:l <urn:oid:0.1.2.3.4.5.6.7>
      ] ;
      fhir:value [ fhir:v "123456" ]
   ] ) ; # 
@@ -177,14 +177,14 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://example.org/Profile/administrative-status"^^xsd:anyURI ;
-         fhir:link <http://example.org/Profile/administrative-status>
+         fhir:l <http://example.org/Profile/administrative-status>
        ] ;
        fhir:value [
          a fhir:CodeableConcept ;
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/v2-0001"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/v2-0001>
+             fhir:l <http://terminology.hl7.org/CodeSystem/v2-0001>
            ] ;
            fhir:code [ fhir:v "A" ] ;
            fhir:display [ fhir:v "Ambiguous" ]
@@ -193,7 +193,7 @@
      ] )
   ] ; # 
   fhir:managingOrganization [
-     fhir:link <http://hl7.org/fhir/Organization/1> ;
+     fhir:l <http://hl7.org/fhir/Organization/1> ;
      fhir:reference [ fhir:v "Organization/1" ] ;
      fhir:display [ fhir:v "ACME Healthcare, Inc" ]
   ] . # 

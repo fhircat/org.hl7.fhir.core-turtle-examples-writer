@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,10 +29,10 @@
   ] ) ; # 
   fhir:instantiatesUri ( [
      fhir:v "http://example.org/protocol-for-hypertension-during-pregnancy"^^xsd:anyURI ;
-     fhir:link <http://example.org/protocol-for-hypertension-during-pregnancy>
+     fhir:l <http://example.org/protocol-for-hypertension-during-pregnancy>
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/CarePlan/preg> ;
+     fhir:l <http://hl7.org/fhir/CarePlan/preg> ;
      fhir:reference [ fhir:v "CarePlan/preg" ] ;
      fhir:display [ fhir:v "Maternity care plan" ]
   ] ) ; # 
@@ -42,7 +42,7 @@
        a sct:398254007 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "398254007" ] ;
        fhir:display [ fhir:v "  Pre-eclampsia (disorder)" ]
@@ -54,7 +54,7 @@
        a sct:62013009 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "62013009" ] ;
        fhir:display [ fhir:v "Ambulating patient (procedure)" ]
@@ -62,29 +62,29 @@
      fhir:text [ fhir:v "Ambulation" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:performer ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/CareTeam/example> ;
+       fhir:l <http://hl7.org/fhir/CareTeam/example> ;
        fhir:reference [ fhir:v "CareTeam/example" ] ;
        fhir:display [ fhir:v "Maternity CareTeam" ]
      ] ;
      fhir:onBehalfOf [
-       fhir:link <http://hl7.org/fhir/Organization/f001> ;
+       fhir:l <http://hl7.org/fhir/Organization/f001> ;
        fhir:reference [ fhir:v "Organization/f001" ] ;
        fhir:display [ fhir:v "University Medical Hospital" ]
      ]
   ] ) ; # 
   fhir:location [
-     fhir:link <http://hl7.org/fhir/Location/1> ;
+     fhir:l <http://hl7.org/fhir/Location/1> ;
      fhir:reference [ fhir:v "Location/1" ] ;
      fhir:display [ fhir:v "Burgers University Medical Center, South Wing, second floor" ]
   ] ; # 
   fhir:reason ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Observation/blood-pressure> ;
+       fhir:l <http://hl7.org/fhir/Observation/blood-pressure> ;
        fhir:reference [ fhir:v "Observation/blood-pressure" ] ;
        fhir:display [ fhir:v "Blood Pressure" ]
      ]

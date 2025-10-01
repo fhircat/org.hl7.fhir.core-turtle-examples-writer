@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,12 +25,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/Evidence/example-ASTRAL-12-alteplase-mRS3-6"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/Evidence/example-ASTRAL-12-alteplase-mRS3-6>
+     fhir:l <http://hl7.org/fhir/Evidence/example-ASTRAL-12-alteplase-mRS3-6>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.10.2" ]
   ] ) ; # 
@@ -45,7 +45,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://doi.org/10.1161/STROKEAHA.116.012802"^^xsd:anyURI ;
-         fhir:link <https://doi.org/10.1161/STROKEAHA.116.012802>
+         fhir:l <https://doi.org/10.1161/STROKEAHA.116.012802>
        ]
      ]
   ] ) ; # 
@@ -55,22 +55,28 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/variable-role"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/variable-role>
+           fhir:l <http://terminology.hl7.org/CodeSystem/variable-role>
          ] ;
          fhir:code [ fhir:v "population" ] ;
          fhir:display [ fhir:v "population" ]
        ] )
      ] ;
      fhir:observed [
-       fhir:link <http://hl7.org/fhir/Group/ASTRAL-Cooray-validation-cohort> ;
+       fhir:l <http://hl7.org/fhir/Group/ASTRAL-Cooray-validation-cohort> ;
        fhir:reference [ fhir:v "Group/ASTRAL-Cooray-validation-cohort" ] ;
-       fhir:type [ fhir:v "Group"^^xsd:anyURI ] ;
+       fhir:type [
+         fhir:v "Group"^^xsd:anyURI ;
+         fhir:l fhir:Group
+       ] ;
        fhir:display [ fhir:v "ASTRAL validation cohort" ]
      ] ;
      fhir:intended [
-       fhir:link <http://hl7.org/fhir/Group/ASTRAL-12> ;
+       fhir:l <http://hl7.org/fhir/Group/ASTRAL-12> ;
        fhir:reference [ fhir:v "Group/ASTRAL-12" ] ;
-       fhir:type [ fhir:v "Group"^^xsd:anyURI ] ;
+       fhir:type [
+         fhir:v "Group"^^xsd:anyURI ;
+         fhir:l fhir:Group
+       ] ;
        fhir:display [ fhir:v "patients 0-4.5 hours after acute ischemic stroke onset with ASTRAL score = 12" ]
      ]
   ] [
@@ -79,29 +85,35 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/variable-role"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/variable-role>
+           fhir:l <http://terminology.hl7.org/CodeSystem/variable-role>
          ] ;
          fhir:code [ fhir:v "measuredVariable" ] ;
          fhir:display [ fhir:v "measured variable" ]
        ] )
      ] ;
      fhir:observed [
-       fhir:link <http://hl7.org/fhir/EvidenceVariable/example-mRS3-6-at-90days> ;
+       fhir:l <http://hl7.org/fhir/EvidenceVariable/example-mRS3-6-at-90days> ;
        fhir:reference [ fhir:v "EvidenceVariable/example-mRS3-6-at-90days" ] ;
-       fhir:type [ fhir:v "EvidenceVariable"^^xsd:anyURI ] ;
+       fhir:type [
+         fhir:v "EvidenceVariable"^^xsd:anyURI ;
+         fhir:l fhir:EvidenceVariable
+       ] ;
        fhir:display [ fhir:v "mRS 3-6 at 90 days" ]
      ] ;
      fhir:intended [
-       fhir:link <http://hl7.org/fhir/EvidenceVariable/example-dead-or-dependent-90day> ;
+       fhir:l <http://hl7.org/fhir/EvidenceVariable/example-dead-or-dependent-90day> ;
        fhir:reference [ fhir:v "EvidenceVariable/example-dead-or-dependent-90day" ] ;
-       fhir:type [ fhir:v "EvidenceVariable"^^xsd:anyURI ] ;
+       fhir:type [
+         fhir:v "EvidenceVariable"^^xsd:anyURI ;
+         fhir:l fhir:EvidenceVariable
+       ] ;
        fhir:display [ fhir:v "Dead or functionally dependent at 90 days" ]
      ] ;
      fhir:directnessMatch [
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/directness"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/directness>
+           fhir:l <http://terminology.hl7.org/CodeSystem/directness>
          ] ;
          fhir:code [ fhir:v "high" ] ;
          fhir:display [ fhir:v "High quality match" ]
@@ -112,29 +124,35 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/variable-role"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/variable-role>
+           fhir:l <http://terminology.hl7.org/CodeSystem/variable-role>
          ] ;
          fhir:code [ fhir:v "exposure" ] ;
          fhir:display [ fhir:v "exposure" ]
        ] )
      ] ;
      fhir:observed [
-       fhir:link <http://hl7.org/fhir/EvidenceVariable/example-alteplase-for-stroke> ;
+       fhir:l <http://hl7.org/fhir/EvidenceVariable/example-alteplase-for-stroke> ;
        fhir:reference [ fhir:v "EvidenceVariable/example-alteplase-for-stroke" ] ;
-       fhir:type [ fhir:v "EvidenceVariable"^^xsd:anyURI ] ;
+       fhir:type [
+         fhir:v "EvidenceVariable"^^xsd:anyURI ;
+         fhir:l fhir:EvidenceVariable
+       ] ;
        fhir:display [ fhir:v "Alteplase for Stroke" ]
      ] ;
      fhir:intended [
-       fhir:link <http://hl7.org/fhir/EvidenceVariable/example-alteplase-for-stroke> ;
+       fhir:l <http://hl7.org/fhir/EvidenceVariable/example-alteplase-for-stroke> ;
        fhir:reference [ fhir:v "EvidenceVariable/example-alteplase-for-stroke" ] ;
-       fhir:type [ fhir:v "EvidenceVariable"^^xsd:anyURI ] ;
+       fhir:type [
+         fhir:v "EvidenceVariable"^^xsd:anyURI ;
+         fhir:l fhir:EvidenceVariable
+       ] ;
        fhir:display [ fhir:v "Alteplase for Stroke" ]
      ] ;
      fhir:directnessMatch [
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/directness"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/directness>
+           fhir:l <http://terminology.hl7.org/CodeSystem/directness>
          ] ;
          fhir:code [ fhir:v "exact" ] ;
          fhir:display [ fhir:v "Exact match" ]
@@ -145,7 +163,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/study-design>
+         fhir:l <http://hl7.org/fhir/study-design>
        ] ;
        fhir:code [ fhir:v "SEVCO:01016" ] ;
        fhir:display [ fhir:v "Uncontrolled cohort design" ]
@@ -157,7 +175,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/statistic-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/statistic-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/statistic-type>
          ] ;
          fhir:code [ fhir:v "C44256" ] ;
          fhir:display [ fhir:v "Proportion" ]
@@ -179,7 +197,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/certainty-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/certainty-type>
+           fhir:l <http://hl7.org/fhir/certainty-type>
          ] ;
          fhir:code [ fhir:v "Overall" ] ;
          fhir:display [ fhir:v "Overall quality" ]
@@ -189,7 +207,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/certainty-rating"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/certainty-rating>
+           fhir:l <http://hl7.org/fhir/certainty-rating>
          ] ;
          fhir:code [ fhir:v "high" ] ;
          fhir:display [ fhir:v "High quality" ]
@@ -200,7 +218,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-type>
+             fhir:l <http://hl7.org/fhir/certainty-type>
            ] ;
            fhir:code [ fhir:v "RiskOfBias" ] ;
            fhir:display [ fhir:v "Risk of bias" ]
@@ -210,7 +228,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-rating"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-rating>
+             fhir:l <http://hl7.org/fhir/certainty-rating>
            ] ;
            fhir:code [ fhir:v "no-concern" ] ;
            fhir:display [ fhir:v "no serious concern" ]
@@ -222,7 +240,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-type>
+             fhir:l <http://hl7.org/fhir/certainty-type>
            ] ;
            fhir:code [ fhir:v "Inconsistency" ] ;
            fhir:display [ fhir:v "Inconsistency" ]
@@ -232,7 +250,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-rating"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-rating>
+             fhir:l <http://hl7.org/fhir/certainty-rating>
            ] ;
            fhir:code [ fhir:v "no-concern" ] ;
            fhir:display [ fhir:v "no serious concern" ]
@@ -243,7 +261,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-type>
+             fhir:l <http://hl7.org/fhir/certainty-type>
            ] ;
            fhir:code [ fhir:v "Indirectness" ] ;
            fhir:display [ fhir:v "Indirectness" ]
@@ -253,7 +271,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-rating"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-rating>
+             fhir:l <http://hl7.org/fhir/certainty-rating>
            ] ;
            fhir:code [ fhir:v "no-concern" ] ;
            fhir:display [ fhir:v "no serious concern" ]
@@ -265,7 +283,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-type>
+             fhir:l <http://hl7.org/fhir/certainty-type>
            ] ;
            fhir:code [ fhir:v "Imprecision" ] ;
            fhir:display [ fhir:v "Imprecision" ]
@@ -275,7 +293,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-rating"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-rating>
+             fhir:l <http://hl7.org/fhir/certainty-rating>
            ] ;
            fhir:code [ fhir:v "no-concern" ] ;
            fhir:display [ fhir:v "no serious concern" ]
@@ -286,7 +304,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-type>
+             fhir:l <http://hl7.org/fhir/certainty-type>
            ] ;
            fhir:code [ fhir:v "PublicationBias" ] ;
            fhir:display [ fhir:v "Publication bias" ]
@@ -296,7 +314,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/certainty-rating"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/certainty-rating>
+             fhir:l <http://hl7.org/fhir/certainty-rating>
            ] ;
            fhir:code [ fhir:v "no-concern" ] ;
            fhir:display [ fhir:v "no serious concern" ]

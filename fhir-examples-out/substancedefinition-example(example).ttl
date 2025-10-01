@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.europa.eu/fhir/SMSId"^^xsd:anyURI ;
-       fhir:link <http://example.europa.eu/fhir/SMSId>
+       fhir:l <http://example.europa.eu/fhir/SMSId>
      ] ;
      fhir:value [ fhir:v "100000099270" ]
   ] ) ; # 
@@ -34,7 +34,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.europa.eu/fhir/Status"^^xsd:anyURI ;
-         fhir:link <http://example.europa.eu/fhir/Status>
+         fhir:l <http://example.europa.eu/fhir/Status>
        ] ;
        fhir:code [ fhir:v "200000005004" ] ;
        fhir:display [ fhir:v "Current" ]
@@ -44,7 +44,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.europa.eu/fhir/SubstanceType"^^xsd:anyURI ;
-         fhir:link <http://example.europa.eu/fhir/SubstanceType>
+         fhir:l <http://example.europa.eu/fhir/SubstanceType>
        ] ;
        fhir:code [ fhir:v "100000075670" ] ;
        fhir:display [ fhir:v "Chemical" ]
@@ -54,7 +54,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.europa.eu/fhir/Domain"^^xsd:anyURI ;
-         fhir:link <http://example.europa.eu/fhir/Domain>
+         fhir:l <http://example.europa.eu/fhir/Domain>
        ] ;
        fhir:code [ fhir:v "100000000012" ] ;
        fhir:display [ fhir:v "Human use" ]
@@ -65,7 +65,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.europa.eu/fhir/Substance"^^xsd:anyURI ;
-           fhir:link <http://example.europa.eu/fhir/Substance>
+           fhir:l <http://example.europa.eu/fhir/Substance>
          ] ;
          fhir:code [ fhir:v "SUB99611MIG" ]
        ] )
@@ -77,7 +77,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.europa.eu/fhir/Status"^^xsd:anyURI ;
-           fhir:link <http://example.europa.eu/fhir/Status>
+           fhir:l <http://example.europa.eu/fhir/Status>
          ] ;
          fhir:code [ fhir:v "200000005004" ] ;
          fhir:display [ fhir:v "Current" ]
@@ -88,7 +88,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-           fhir:link <urn:ietf:bcp:47>
+           fhir:l <urn:ietf:bcp:47>
          ] ;
          fhir:code [ fhir:v "en" ] ;
          fhir:display [ fhir:v "English" ]
@@ -100,7 +100,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.europa.eu/fhir/Status"^^xsd:anyURI ;
-           fhir:link <http://example.europa.eu/fhir/Status>
+           fhir:l <http://example.europa.eu/fhir/Status>
          ] ;
          fhir:code [ fhir:v "200000005004" ] ;
          fhir:display [ fhir:v "Current" ]
@@ -111,7 +111,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-           fhir:link <urn:ietf:bcp:47>
+           fhir:l <urn:ietf:bcp:47>
          ] ;
          fhir:code [ fhir:v "el" ] ;
          fhir:display [ fhir:v "Greek" ]
@@ -123,7 +123,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.europa.eu/fhir/Status"^^xsd:anyURI ;
-           fhir:link <http://example.europa.eu/fhir/Status>
+           fhir:l <http://example.europa.eu/fhir/Status>
          ] ;
          fhir:code [ fhir:v "200000005004" ] ;
          fhir:display [ fhir:v "Current" ]
@@ -134,7 +134,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-           fhir:link <urn:ietf:bcp:47>
+           fhir:l <urn:ietf:bcp:47>
          ] ;
          fhir:code [ fhir:v "bg" ] ;
          fhir:display [ fhir:v "Bulgarian" ]
@@ -146,7 +146,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.europa.eu/fhir/Status"^^xsd:anyURI ;
-           fhir:link <http://example.europa.eu/fhir/Status>
+           fhir:l <http://example.europa.eu/fhir/Status>
          ] ;
          fhir:code [ fhir:v "200000005004" ] ;
          fhir:display [ fhir:v "Current" ]
@@ -157,7 +157,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-           fhir:link <urn:ietf:bcp:47>
+           fhir:l <urn:ietf:bcp:47>
          ] ;
          fhir:code [ fhir:v "en" ] ;
          fhir:display [ fhir:v "English" ]

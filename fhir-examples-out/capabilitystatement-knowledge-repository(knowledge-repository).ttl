@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/knowledge-repository"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/knowledge-repository>
+     fhir:l <http://hl7.org/fhir/knowledge-repository>
   ] ; # 
   fhir:name [ fhir:v "KnowledgeRepositoryServiceConformanceStatement"] ; # 
   fhir:title [ fhir:v "Knowledge Repository Service Conformance Statement"] ; # 
@@ -55,7 +55,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/restful-security-service"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/restful-security-service>
+             fhir:l <http://hl7.org/fhir/restful-security-service>
            ] ;
            fhir:code [ fhir:v "Certificates" ]
          ] )
@@ -65,7 +65,7 @@
        fhir:type [ fhir:v "Library" ] ;
        fhir:profile [
          fhir:v "http://hl7.org/fhir/StructureDefinition/Library"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/Library>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/Library>
        ] ;
        fhir:interaction ( [
          fhir:code [ fhir:v "read" ] ;
@@ -78,77 +78,77 @@
          fhir:name [ fhir:v "description" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-description"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-description>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-description>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "identifier" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-identifier"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-identifier>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-identifier>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "status" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-status"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-status>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-status>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "title" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-title"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-title>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-title>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "topic" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-topic"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-topic>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-topic>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "version" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-version"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-version>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-version>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "composed-of" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-composed-of"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-composed-of>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-composed-of>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "depends-on" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-depends-on"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-depends-on>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-depends-on>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "derived-from" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-derived-from"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-derived-from>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-derived-from>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "predecessor" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-predecessor"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-predecessor>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-predecessor>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "successor" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Library-successor"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Library-successor>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Library-successor>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] )
@@ -156,7 +156,7 @@
        fhir:type [ fhir:v "PlanDefinition" ] ;
        fhir:profile [
          fhir:v "http://hl7.org/fhir/StructureDefinition/PlanDefinition"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/PlanDefinition>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/PlanDefinition>
        ] ;
        fhir:interaction ( [
          fhir:code [ fhir:v "read" ] ;
@@ -169,77 +169,77 @@
          fhir:name [ fhir:v "description" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-description"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-description>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-description>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "identifier" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-identifier"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-identifier>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-identifier>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "status" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-status"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-status>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-status>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "title" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-title"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-title>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-title>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "topic" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-topic"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-topic>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-topic>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "version" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-version"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-version>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-version>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "composed-of" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-composed-of"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-composed-of>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-composed-of>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "depends-on" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-depends-on"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-depends-on>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-depends-on>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "derived-from" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-derived-from"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-derived-from>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-derived-from>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "predecessor" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-predecessor"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-predecessor>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-predecessor>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "successor" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/PlanDefinition-successor"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/PlanDefinition-successor>
+           fhir:l <http://hl7.org/fhir/SearchParameter/PlanDefinition-successor>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] )
@@ -247,7 +247,7 @@
        fhir:type [ fhir:v "ActivityDefinition" ] ;
        fhir:profile [
          fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
        ] ;
        fhir:interaction ( [
          fhir:code [ fhir:v "read" ] ;
@@ -260,77 +260,77 @@
          fhir:name [ fhir:v "description" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-description"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-description>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-description>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "identifier" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-identifier"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-identifier>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-identifier>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "status" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-status"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-status>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-status>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "title" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-title"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-title>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-title>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "topic" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-topic"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-topic>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-topic>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "version" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-version"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-version>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-version>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "composed-of" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-composed-of"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-composed-of>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-composed-of>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "depends-on" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-depends-on"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-depends-on>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-depends-on>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "derived-from" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-derived-from"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-derived-from>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-derived-from>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "predecessor" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-predecessor"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-predecessor>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-predecessor>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "successor" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/ActivityDefinition-successor"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/ActivityDefinition-successor>
+           fhir:l <http://hl7.org/fhir/SearchParameter/ActivityDefinition-successor>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] )
@@ -338,7 +338,7 @@
        fhir:type [ fhir:v "Measure" ] ;
        fhir:profile [
          fhir:v "http://hl7.org/fhir/StructureDefinition/Measure"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/Measure>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/Measure>
        ] ;
        fhir:interaction ( [
          fhir:code [ fhir:v "read" ] ;
@@ -351,77 +351,77 @@
          fhir:name [ fhir:v "description" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-description"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-description>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-description>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "identifier" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-identifier"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-identifier>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-identifier>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "status" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-status"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-status>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-status>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "title" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-title"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-title>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-title>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "topic" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-topic"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-topic>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-topic>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "version" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-version"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-version>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-version>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "composed-of" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-composed-of"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-composed-of>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-composed-of>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "depends-on" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-depends-on"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-depends-on>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-depends-on>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "derived-from" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-derived-from"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-derived-from>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-derived-from>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "predecessor" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-predecessor"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-predecessor>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-predecessor>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] [
          fhir:name [ fhir:v "successor" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Measure-successor"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Measure-successor>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Measure-successor>
          ] ;
          fhir:type [ fhir:v "reference" ]
        ] )
@@ -429,7 +429,7 @@
        fhir:type [ fhir:v "Questionnaire" ] ;
        fhir:profile [
          fhir:v "http://hl7.org/fhir/StructureDefinition/Questionnaire"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/Questionnaire>
        ] ;
        fhir:interaction ( [
          fhir:code [ fhir:v "read" ] ;
@@ -442,56 +442,56 @@
          fhir:name [ fhir:v "code" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Questionnaire-code"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Questionnaire-code>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Questionnaire-code>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "context" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Questionnaire-context"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Questionnaire-context>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Questionnaire-context>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "date" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Questionnaire-date"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Questionnaire-date>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Questionnaire-date>
          ] ;
          fhir:type [ fhir:v "date" ]
        ] [
          fhir:name [ fhir:v "identifier" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Questionnaire-identifier"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Questionnaire-identifier>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Questionnaire-identifier>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "publisher" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Questionnaire-publisher"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Questionnaire-publisher>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Questionnaire-publisher>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "status" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Questionnaire-status"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Questionnaire-status>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Questionnaire-status>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] [
          fhir:name [ fhir:v "title" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Questionnaire-title"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Questionnaire-title>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Questionnaire-title>
          ] ;
          fhir:type [ fhir:v "string" ]
        ] [
          fhir:name [ fhir:v "version" ] ;
          fhir:definition [
            fhir:v "http://hl7.org/fhir/SearchParameter/Questionnaire-version"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/SearchParameter/Questionnaire-version>
+           fhir:l <http://hl7.org/fhir/SearchParameter/Questionnaire-version>
          ] ;
          fhir:type [ fhir:v "token" ]
        ] )
@@ -500,7 +500,7 @@
        fhir:name [ fhir:v "data-requirements" ] ;
        fhir:definition [
          fhir:v "http://hl7.org/fhir/OperationDefinition/Library-data-requirements"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/OperationDefinition/Library-data-requirements>
+         fhir:l <http://hl7.org/fhir/OperationDefinition/Library-data-requirements>
        ]
      ] )
   ] ) . # 

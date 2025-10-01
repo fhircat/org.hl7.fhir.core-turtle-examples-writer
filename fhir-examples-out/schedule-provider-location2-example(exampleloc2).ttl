@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:use [ fhir:v "usual" ] ;
      fhir:system [
        fhir:v "http://example.org/scheduleid"^^xsd:anyURI ;
-       fhir:link <http://example.org/scheduleid>
+       fhir:l <http://example.org/scheduleid>
      ] ;
      fhir:value [ fhir:v "47" ]
   ] ) ; # 
@@ -37,7 +37,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/service-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/service-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/service-category>
        ] ;
        fhir:code [ fhir:v "31" ] ;
        fhir:display [ fhir:v "Specialist Surgical" ]
@@ -48,7 +48,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/service-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/service-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/service-type>
          ] ;
          fhir:code [ fhir:v "221" ] ;
          fhir:display [ fhir:v "Surgery - General" ]
@@ -60,18 +60,18 @@
        a sct:394610002 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "394610002" ] ;
        fhir:display [ fhir:v "Surgery-Neurosurgery" ]
      ] )
   ] ) ; # 
   fhir:actor ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/1> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/1> ;
      fhir:reference [ fhir:v "Practitioner/1" ] ;
      fhir:display [ fhir:v "Dr. Beverly Crusher" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Location/2> ;
+     fhir:l <http://hl7.org/fhir/Location/2> ;
      fhir:reference [ fhir:v "Location/2" ] ;
      fhir:display [ fhir:v "Starfleet HQ Sickbay" ]
   ] ) ; # 

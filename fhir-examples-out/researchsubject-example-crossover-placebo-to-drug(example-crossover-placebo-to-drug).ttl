@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -32,7 +32,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/research-subject-state-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/research-subject-state-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/research-subject-state-type>
          ] ;
          fhir:code [ fhir:v "Enrollment" ]
        ] ) ;
@@ -43,7 +43,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/research-subject-state-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/research-subject-state-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/research-subject-state-type>
          ] ;
          fhir:code [ fhir:v "Enrollment" ]
        ] ) ;
@@ -53,7 +53,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/research-subject-state"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/research-subject-state>
+           fhir:l <http://terminology.hl7.org/CodeSystem/research-subject-state>
          ] ;
          fhir:code [ fhir:v "on-study" ]
        ] ) ;
@@ -71,9 +71,11 @@
      fhir:start [ fhir:v "2022-06-10"^^xsd:date ]
   ] ; # 
   fhir:study [
+     fhir:l fhir:example-ctgov-study-record ;
      fhir:reference [ fhir:v "example-ctgov-study-record" ]
   ] ; # 
   fhir:subject [
+     fhir:l fhir:cfsb1676546565857 ;
      fhir:reference [ fhir:v "cfsb1676546565857" ]
   ] ; # 
   fhir:assignedComparisonGroup [ fhir:v "placebo"] ; # 

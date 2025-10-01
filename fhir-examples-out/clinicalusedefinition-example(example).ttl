@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://ema.europa.eu/example/contraindicationsasdisease-symptom-procedure"^^xsd:anyURI ;
-             fhir:link <http://ema.europa.eu/example/contraindicationsasdisease-symptom-procedure>
+             fhir:l <http://ema.europa.eu/example/contraindicationsasdisease-symptom-procedure>
            ] ;
            fhir:code [ fhir:v "Coagulopathiesandbleedingdiatheses(exclthrombocytopenic)" ]
          ] ) ;
@@ -42,7 +42,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://ema.europa.eu/example/comorbidity"^^xsd:anyURI ;
-             fhir:link <http://ema.europa.eu/example/comorbidity>
+             fhir:l <http://ema.europa.eu/example/comorbidity>
            ] ;
            fhir:code [ fhir:v "Hepaticdisease" ]
          ] )

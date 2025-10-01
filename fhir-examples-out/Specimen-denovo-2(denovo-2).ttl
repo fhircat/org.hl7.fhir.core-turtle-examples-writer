@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.somesystemabc.net/identifiers/specimens"^^xsd:anyURI ;
-       fhir:link <http://www.somesystemabc.net/identifiers/specimens>
+       fhir:l <http://www.somesystemabc.net/identifiers/specimens>
      ] ;
      fhir:value [ fhir:v "2" ]
   ] ) ; # 
@@ -37,25 +37,25 @@
        a sct:122555007 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "122555007" ] ;
        fhir:display [ fhir:v "Venous blood specimen" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/denovoMother> ;
+     fhir:l <http://hl7.org/fhir/Patient/denovoMother> ;
      fhir:reference [ fhir:v "Patient/denovoMother" ] ;
      fhir:display [ fhir:v "Jane Doe" ]
   ] ; # 
   fhir:receivedTime [ fhir:v "2021-01-01T01:01:01Z"^^xsd:dateTime] ; # 
   fhir:request ( [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/genomicServiceRequest> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/genomicServiceRequest> ;
      fhir:reference [ fhir:v "ServiceRequest/genomicServiceRequest" ]
   ] ) ; # 
   fhir:collection [
      fhir:collector [
-       fhir:link <http://hl7.org/fhir/Practitioner/practitioner01> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/practitioner01> ;
        fhir:reference [ fhir:v "Practitioner/practitioner01" ]
      ] ;
      fhir:collected [
@@ -70,7 +70,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0488>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
          ] ;
          fhir:code [ fhir:v "LNV" ]
        ] )

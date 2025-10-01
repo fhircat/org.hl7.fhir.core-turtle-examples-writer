@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http:/goodhealth.org/identifiers"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/http:/goodhealth.org/identifiers>
+       fhir:l <http://hl7.org/fhir/http:/goodhealth.org/identifiers>
      ] ;
      fhir:value [ fhir:v "20170201-001" ]
   ] ) ; # 
@@ -38,7 +38,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http:/goodhealth.org/accession/identifiers"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/http:/goodhealth.org/accession/identifiers>
+       fhir:l <http://hl7.org/fhir/http:/goodhealth.org/accession/identifiers>
      ] ;
      fhir:value [ fhir:v "G20170201-001" ]
   ] ; # 
@@ -52,25 +52,25 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/CodeSystem/task-code"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/CodeSystem/task-code>
+         fhir:l <http://hl7.org/fhir/CodeSystem/task-code>
        ] ;
        fhir:code [ fhir:v "fulfill" ]
      ] )
   ] ; #   fictive code and description elements populated for this example   
   fhir:description [ fhir:v "Create order for getting specimen, Set up inhouse testing,  generate order for any sendouts and submit with specimen"] ; # 
   fhir:focus [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/lipid> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/lipid> ;
      fhir:reference [ fhir:v "ServiceRequest/lipid" ] ;
      fhir:display [ fhir:v "Lipid Panel Request" ]
   ] ; #   	Use the lipid servicerequest example   
   fhir:for [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; #   	who the task is for
 #  
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ] ;
      fhir:display [ fhir:v "Example In-Patient Encounter" ]
   ] ; # 
@@ -80,18 +80,18 @@
   fhir:authoredOn [ fhir:v "2016-10-31T08:25:05+10:00"^^xsd:dateTime] ; # 
   fhir:lastModified [ fhir:v "2016-10-31T16:45:05+10:00"^^xsd:dateTime] ; #   	updated last modified date to track task activity  
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr Adam Careful" ]
   ] ; # 
   fhir:requestedPerformer ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/PractitionerRole/f202> ;
+       fhir:l <http://hl7.org/fhir/PractitionerRole/f202> ;
        fhir:reference [ fhir:v "PractitionerRole/f202" ]
      ]
   ] ) ; # 
   fhir:owner [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Clinical Laboratory @ Acme Hospital" ]
   ] ; # 
@@ -119,7 +119,7 @@
      ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:link <http://hl7.org/fhir/Specimen/101> ;
+       fhir:l <http://hl7.org/fhir/Specimen/101> ;
        fhir:reference [ fhir:v "Specimen/101" ]
      ]
   ] ) . #   The expected output of this task is a DiagnosticRequest and will generated once the task is near completion   

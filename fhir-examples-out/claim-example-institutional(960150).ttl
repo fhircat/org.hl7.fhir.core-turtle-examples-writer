@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://happyhospital.com/claim"^^xsd:anyURI ;
-       fhir:link <http://happyhospital.com/claim>
+       fhir:l <http://happyhospital.com/claim>
      ] ;
      fhir:value [ fhir:v "9612345" ]
   ] ) ; # 
@@ -35,7 +35,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/claim-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/claim-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/claim-type>
        ] ;
        fhir:code [ fhir:v "institutional" ]
      ] )
@@ -44,14 +44,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/ex-claimsubtype"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/ex-claimsubtype>
+         fhir:l <http://terminology.hl7.org/CodeSystem/ex-claimsubtype>
        ] ;
        fhir:code [ fhir:v "emergency" ]
      ] )
   ] ; # 
   fhir:use [ fhir:v "claim"] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/1> ;
+     fhir:l <http://hl7.org/fhir/Patient/1> ;
      fhir:reference [ fhir:v "Patient/1" ]
   ] ; # 
   fhir:created [ fhir:v "2014-08-16"^^xsd:date] ; # 
@@ -59,17 +59,17 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://jurisdiction.org/facilities/HOSP1234/users"^^xsd:anyURI ;
-         fhir:link <http://jurisdiction.org/facilities/HOSP1234/users>
+         fhir:l <http://jurisdiction.org/facilities/HOSP1234/users>
        ] ;
        fhir:value [ fhir:v "UC1234" ]
      ]
   ] ; # 
   fhir:insurer [
-     fhir:link <http://hl7.org/fhir/Organization/2> ;
+     fhir:l <http://hl7.org/fhir/Organization/2> ;
      fhir:reference [ fhir:v "Organization/2" ]
   ] ; # 
   fhir:provider [
-     fhir:link <http://hl7.org/fhir/Organization/1> ;
+     fhir:l <http://hl7.org/fhir/Organization/1> ;
      fhir:reference [ fhir:v "Organization/1" ]
   ] ; # 
   fhir:priority [
@@ -88,7 +88,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://jurisdiction.org/facilities"^^xsd:anyURI ;
-         fhir:link <http://jurisdiction.org/facilities>
+         fhir:l <http://jurisdiction.org/facilities>
        ] ;
        fhir:value [ fhir:v "HOSP1234" ]
      ]
@@ -96,7 +96,7 @@
   fhir:careTeam ( [
      fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
      fhir:provider [
-       fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/example> ;
        fhir:reference [ fhir:v "Practitioner/example" ]
      ]
   ] ) ; # 
@@ -125,7 +125,7 @@
        fhir:text [ fhir:v "Subcutaneous diagnostic implant" ]
      ] ;
      fhir:udi ( [
-       fhir:link <http://hl7.org/fhir/Device/example> ;
+       fhir:l <http://hl7.org/fhir/Device/example> ;
        fhir:reference [ fhir:v "Device/example" ]
      ] )
   ] ) ; # 
@@ -133,7 +133,7 @@
      fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
      fhir:focal [ fhir:v true ] ;
      fhir:coverage [
-       fhir:link <http://hl7.org/fhir/Coverage/9876B1> ;
+       fhir:l <http://hl7.org/fhir/Coverage/9876B1> ;
        fhir:reference [ fhir:v "Coverage/9876B1" ]
      ]
   ] ) ; # 
@@ -144,7 +144,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/ex-serviceproduct"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ex-serviceproduct>
+           fhir:l <http://hl7.org/fhir/ex-serviceproduct>
          ] ;
          fhir:code [ fhir:v "exam" ]
        ] )
@@ -162,7 +162,7 @@
        fhir:currency [ fhir:v "USD" ]
      ] ;
      fhir:encounter ( [
-       fhir:link <http://hl7.org/fhir/Encounter/example> ;
+       fhir:l <http://hl7.org/fhir/Encounter/example> ;
        fhir:reference [ fhir:v "Encounter/example" ]
      ] )
   ] ) ; # 

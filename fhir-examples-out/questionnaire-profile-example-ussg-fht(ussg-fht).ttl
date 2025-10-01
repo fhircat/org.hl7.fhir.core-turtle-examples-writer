@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,144 +25,144 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/Questionnaire/54127-6"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/Questionnaire/54127-6>
+       fhir:l <http://hl7.org/fhir/us/sdc/Questionnaire/54127-6>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/Questionnaire/54127-6> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/Questionnaire/54127-6"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/Questionnaire/54127-6>
+         fhir:l <http://hl7.org/fhir/us/sdc/Questionnaire/54127-6>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL1-9"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL1-9>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL1-9>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL1-9> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL1-9"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL1-9>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL1-9>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL623-0"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL623-0"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL361-7"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL361-7"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL629-7"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL629-7>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL629-7>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL629-7> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL629-7"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL629-7>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL629-7>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL628-9"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL628-9>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL628-9>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL628-9> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL628-9"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL628-9>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL628-9>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL626-3"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL626-3>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL626-3>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL626-3> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL626-3"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL626-3>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL626-3>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL619-8"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL619-8"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL621-4"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL621-4>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL621-4>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL621-4> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL621-4"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL621-4>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL621-4>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL624-8"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL624-8>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL624-8>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL624-8> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL624-8"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL624-8>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL624-8>
        ]
      ]
   ] [
      fhir:fullUrl [
        fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL627-1"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL627-1>
+       fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL627-1>
      ] ;
      fhir:resource ( <http://hl7.org/fhir/us/sdc/ValueSet/LL627-1> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL627-1"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL627-1>
+         fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL627-1>
        ]
      ]
   ] ) . # 
@@ -172,7 +172,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-questionnaire"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-questionnaire>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-questionnaire>
      ] )
   ] ; # 
   fhir:text [
@@ -185,7 +185,7 @@
      fhir:meta [
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+         fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
        ] )
      ] ;
      fhir:name [ fhir:v "Length Units" ] ;
@@ -196,7 +196,7 @@
        fhir:include ( [
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:concept ( [
            fhir:code [ fhir:v "[in_i]" ] ;
@@ -213,7 +213,7 @@
      fhir:meta [
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+         fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
        ] )
      ] ;
      fhir:name [ fhir:v "Weight Units" ] ;
@@ -224,7 +224,7 @@
        fhir:include ( [
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:concept ( [
            fhir:code [ fhir:v "[lb_i]" ] ;
@@ -238,12 +238,12 @@
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/us/sdc/Questionnaire/54127-6"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/us/sdc/Questionnaire/54127-6>
+     fhir:l <http://hl7.org/fhir/us/sdc/Questionnaire/54127-6>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.org/panel-id"^^xsd:anyURI ;
-       fhir:link <http://example.org/panel-id>
+       fhir:l <http://example.org/panel-id>
      ] ;
      fhir:value [ fhir:v "54127-6" ]
   ] ) ; # 
@@ -264,7 +264,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "species" ]
      ] ;
@@ -274,7 +274,7 @@
          a sct:337915000 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "337915000" ] ;
          fhir:display [ fhir:v "Homo sapiens" ]
@@ -285,7 +285,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ]
      ] )
@@ -298,7 +298,7 @@
      a loinc:54127-6 ;
      fhir:system [
        fhir:v "http://loinc.org"^^xsd:anyURI ;
-       fhir:link <http://loinc.org>
+       fhir:l <http://loinc.org>
      ] ;
      fhir:code [ fhir:v "54127-6" ] ;
      fhir:display [ fhir:v "US Surgeon General family health portrait [USSG-FHT]" ]
@@ -327,7 +327,7 @@
      fhir:linkId [ fhir:v "1" ] ;
      fhir:definition [
        fhir:v "http://loinc.org/rdf#54126-8"^^xsd:anyURI ;
-       fhir:link <http://loinc.org/rdf#54126-8>
+       fhir:l <http://loinc.org/rdf#54126-8>
      ] ;
      fhir:text [ fhir:v "Your health information" ] ;
      fhir:type [ fhir:v "group" ] ;
@@ -339,7 +339,7 @@
          fhir:linkId [ fhir:v "1.1.1" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54125-0"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54125-0>
+           fhir:l <http://loinc.org/rdf#54125-0>
          ] ;
          fhir:text [ fhir:v "Name" ] ;
          fhir:type [ fhir:v "string" ] ;
@@ -348,14 +348,14 @@
          fhir:linkId [ fhir:v "1.1.2" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54131-8"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54131-8>
+           fhir:l <http://loinc.org/rdf#54131-8>
          ] ;
          fhir:text [ fhir:v "Gender" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:required [ fhir:v true ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL1-9"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL1-9>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL1-9>
          ] ;
          fhir:item ( [
            fhir:linkId [ fhir:v "1.1.2.1.1" ] ;
@@ -367,7 +367,7 @@
          fhir:linkId [ fhir:v "1.1.3" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#21112-8"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#21112-8>
+           fhir:l <http://loinc.org/rdf#21112-8>
          ] ;
          fhir:text [ fhir:v "Date of Birth" ] ;
          fhir:type [ fhir:v "date" ]
@@ -375,20 +375,20 @@
          fhir:linkId [ fhir:v "1.1.4" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54132-6"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54132-6>
+           fhir:l <http://loinc.org/rdf#54132-6>
          ] ;
          fhir:text [ fhir:v "Were you born a twin?" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL623-0"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
          ] ;
          fhir:initial ( [
            fhir:value [
              a fhir:Coding, loinc:LA32-8 ;
              fhir:system [
                fhir:v "http://loinc.org"^^xsd:anyURI ;
-               fhir:link <http://loinc.org>
+               fhir:l <http://loinc.org>
              ] ;
              fhir:code [ fhir:v "LA32-8" ] ;
              fhir:display [ fhir:v "No" ]
@@ -398,31 +398,31 @@
          fhir:linkId [ fhir:v "1.1.5" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54128-4"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54128-4>
+           fhir:l <http://loinc.org/rdf#54128-4>
          ] ;
          fhir:text [ fhir:v "Were you adopted?" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL361-7"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
          ]
        ] [
          fhir:linkId [ fhir:v "1.1.6" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54135-9"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54135-9>
+           fhir:l <http://loinc.org/rdf#54135-9>
          ] ;
          fhir:text [ fhir:v "Are your parents related to each other in any way other than marriage?" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL361-7"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
          ]
        ] [
          fhir:linkId [ fhir:v "1.1.7" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#8302-2"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#8302-2>
+           fhir:l <http://loinc.org/rdf#8302-2>
          ] ;
          fhir:text [ fhir:v "Height" ] ;
          fhir:type [ fhir:v "decimal" ] ;
@@ -431,13 +431,16 @@
            fhir:linkId [ fhir:v "1.1.7.1.1" ] ;
            fhir:text [ fhir:v "Units" ] ;
            fhir:type [ fhir:v "coding" ] ;
-           fhir:answerValueSet [ fhir:v "#length"^^xsd:anyURI ]
+           fhir:answerValueSet [
+             fhir:v "#length"^^xsd:anyURI ;
+             fhir:l <#length>
+           ]
          ] )
        ] [
          fhir:linkId [ fhir:v "1.1.8" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#29463-7"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#29463-7>
+           fhir:l <http://loinc.org/rdf#29463-7>
          ] ;
          fhir:text [ fhir:v "Weight" ] ;
          fhir:type [ fhir:v "decimal" ] ;
@@ -445,13 +448,16 @@
            fhir:linkId [ fhir:v "1.1.8.1.1" ] ;
            fhir:text [ fhir:v "Units" ] ;
            fhir:type [ fhir:v "coding" ] ;
-           fhir:answerValueSet [ fhir:v "#weight"^^xsd:anyURI ]
+           fhir:answerValueSet [
+             fhir:v "#weight"^^xsd:anyURI ;
+             fhir:l <#weight>
+           ]
          ] )
        ] [
          fhir:linkId [ fhir:v "1.1.9" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#39156-5"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#39156-5>
+           fhir:l <http://loinc.org/rdf#39156-5>
          ] ;
          fhir:text [ fhir:v "Body mass index (BMI) [Ratio]" ] ;
          fhir:type [ fhir:v "decimal" ] ;
@@ -460,34 +466,34 @@
          fhir:linkId [ fhir:v "1.1.10" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54134-2"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54134-2>
+           fhir:l <http://loinc.org/rdf#54134-2>
          ] ;
          fhir:text [ fhir:v "Race" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:required [ fhir:v true ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL629-7"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL629-7>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL629-7>
          ]
        ] [
          fhir:linkId [ fhir:v "1.1.11" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54133-4"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54133-4>
+           fhir:l <http://loinc.org/rdf#54133-4>
          ] ;
          fhir:text [ fhir:v "Ethnicity" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:repeats [ fhir:v true ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL628-9"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL628-9>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL628-9>
          ]
        ] )
      ] [
        fhir:linkId [ fhir:v "1.2" ] ;
        fhir:definition [
          fhir:v "http://loinc.org/rdf#54137-5"^^xsd:anyURI ;
-         fhir:link <http://loinc.org/rdf#54137-5>
+         fhir:l <http://loinc.org/rdf#54137-5>
        ] ;
        fhir:text [ fhir:v "Your diseases history" ] ;
        fhir:type [ fhir:v "group" ] ;
@@ -496,25 +502,25 @@
          fhir:linkId [ fhir:v "1.2.1" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54140-9"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54140-9>
+           fhir:l <http://loinc.org/rdf#54140-9>
          ] ;
          fhir:text [ fhir:v "Disease or Condition" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL626-3"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL626-3>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL626-3>
          ]
        ] [
          fhir:linkId [ fhir:v "1.2.2" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54130-0"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54130-0>
+           fhir:l <http://loinc.org/rdf#54130-0>
          ] ;
          fhir:text [ fhir:v "Age at Diagnosis" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL619-8"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
          ]
        ] )
      ] )
@@ -522,7 +528,7 @@
      fhir:linkId [ fhir:v "2" ] ;
      fhir:definition [
        fhir:v "http://loinc.org/rdf#54114-4"^^xsd:anyURI ;
-       fhir:link <http://loinc.org/rdf#54114-4>
+       fhir:l <http://loinc.org/rdf#54114-4>
      ] ;
      fhir:text [ fhir:v "Family member health information" ] ;
      fhir:type [ fhir:v "group" ] ;
@@ -534,7 +540,7 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/questionnaire-referenceResource"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/questionnaire-referenceResource>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/questionnaire-referenceResource>
            ] ;
            fhir:value [
              a fhir:code ;
@@ -548,19 +554,19 @@
          fhir:linkId [ fhir:v "2.1.1.1" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54136-7"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54136-7>
+           fhir:l <http://loinc.org/rdf#54136-7>
          ] ;
          fhir:text [ fhir:v "Relationship to you" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL621-4"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL621-4>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL621-4>
          ]
        ] [
          fhir:linkId [ fhir:v "2.1.1.2" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54138-3"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54138-3>
+           fhir:l <http://loinc.org/rdf#54138-3>
          ] ;
          fhir:text [ fhir:v "Name" ] ;
          fhir:type [ fhir:v "string" ]
@@ -568,13 +574,13 @@
          fhir:linkId [ fhir:v "2.1.1.3" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54123-5"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54123-5>
+           fhir:l <http://loinc.org/rdf#54123-5>
          ] ;
          fhir:text [ fhir:v "Gender" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL1-9"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL1-9>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL1-9>
          ] ;
          fhir:item ( [
            fhir:linkId [ fhir:v "2.1.1.3.1.1" ] ;
@@ -586,13 +592,13 @@
          fhir:linkId [ fhir:v "2.1.1.4" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54139-1"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54139-1>
+           fhir:l <http://loinc.org/rdf#54139-1>
          ] ;
          fhir:text [ fhir:v "Living?" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL361-7"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL361-7>
          ] ;
          fhir:item ( [
            fhir:linkId [ fhir:v "2.1.1.4.1" ] ;
@@ -601,13 +607,13 @@
              fhir:linkId [ fhir:v "2.1.1.4.1.1" ] ;
              fhir:definition [
                fhir:v "http://loinc.org/rdf#54112-8"^^xsd:anyURI ;
-               fhir:link <http://loinc.org/rdf#54112-8>
+               fhir:l <http://loinc.org/rdf#54112-8>
              ] ;
              fhir:text [ fhir:v "Cause of Death" ] ;
              fhir:type [ fhir:v "coding" ] ;
              fhir:answerValueSet [
                fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL627-1"^^xsd:anyURI ;
-               fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL627-1>
+               fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL627-1>
              ] ;
              fhir:item ( [
                fhir:linkId [ fhir:v "2.1.1.4.1.1.1" ] ;
@@ -618,13 +624,13 @@
              fhir:linkId [ fhir:v "2.1.1.4.1.2" ] ;
              fhir:definition [
                fhir:v "http://loinc.org/rdf#54113-6"^^xsd:anyURI ;
-               fhir:link <http://loinc.org/rdf#54113-6>
+               fhir:l <http://loinc.org/rdf#54113-6>
              ] ;
              fhir:text [ fhir:v "Age at Death" ] ;
              fhir:type [ fhir:v "coding" ] ;
              fhir:answerValueSet [
                fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL619-8"^^xsd:anyURI ;
-               fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
+               fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
              ]
            ] )
          ] [
@@ -634,7 +640,7 @@
              fhir:linkId [ fhir:v "2.1.1.4.2.1" ] ;
              fhir:definition [
                fhir:v "http://loinc.org/rdf#54124-3"^^xsd:anyURI ;
-               fhir:link <http://loinc.org/rdf#54124-3>
+               fhir:l <http://loinc.org/rdf#54124-3>
              ] ;
              fhir:text [ fhir:v "Date of Birth" ] ;
              fhir:type [ fhir:v "date" ]
@@ -642,7 +648,7 @@
              fhir:linkId [ fhir:v "2.1.1.4.2.2" ] ;
              fhir:definition [
                fhir:v "http://loinc.org/rdf#54141-7"^^xsd:anyURI ;
-               fhir:link <http://loinc.org/rdf#54141-7>
+               fhir:l <http://loinc.org/rdf#54141-7>
              ] ;
              fhir:text [ fhir:v "Age" ] ;
              fhir:type [ fhir:v "decimal" ]
@@ -652,57 +658,57 @@
          fhir:linkId [ fhir:v "2.1.1.5" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54121-9"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54121-9>
+           fhir:l <http://loinc.org/rdf#54121-9>
          ] ;
          fhir:text [ fhir:v "Was this person born a twin?" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL623-0"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
          ]
        ] [
          fhir:linkId [ fhir:v "2.1.1.6" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54122-7"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54122-7>
+           fhir:l <http://loinc.org/rdf#54122-7>
          ] ;
          fhir:text [ fhir:v "Was this person adopted?" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL623-0"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL623-0>
          ]
        ] [
          fhir:linkId [ fhir:v "2.1.1.7" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54119-3"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54119-3>
+           fhir:l <http://loinc.org/rdf#54119-3>
          ] ;
          fhir:text [ fhir:v "Race" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:repeats [ fhir:v true ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL629-7"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL629-7>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL629-7>
          ]
        ] [
          fhir:linkId [ fhir:v "2.1.1.8" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54120-1"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54120-1>
+           fhir:l <http://loinc.org/rdf#54120-1>
          ] ;
          fhir:text [ fhir:v "Ethnicity" ] ;
          fhir:type [ fhir:v "coding" ] ;
          fhir:repeats [ fhir:v true ] ;
          fhir:answerValueSet [
            fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL628-9"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL628-9>
+           fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL628-9>
          ]
        ] [
          fhir:linkId [ fhir:v "2.1.2" ] ;
          fhir:definition [
            fhir:v "http://loinc.org/rdf#54117-7"^^xsd:anyURI ;
-           fhir:link <http://loinc.org/rdf#54117-7>
+           fhir:l <http://loinc.org/rdf#54117-7>
          ] ;
          fhir:text [ fhir:v "This family member's history of disease" ] ;
          fhir:type [ fhir:v "group" ] ;
@@ -711,26 +717,26 @@
            fhir:linkId [ fhir:v "2.1.2.1" ] ;
            fhir:definition [
              fhir:v "http://loinc.org/rdf#54116-9"^^xsd:anyURI ;
-             fhir:link <http://loinc.org/rdf#54116-9>
+             fhir:l <http://loinc.org/rdf#54116-9>
            ] ;
            fhir:text [ fhir:v "Disease or Condition" ] ;
            fhir:type [ fhir:v "coding" ] ;
            fhir:required [ fhir:v true ] ;
            fhir:answerValueSet [
              fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL626-3"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL626-3>
+             fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL626-3>
            ]
          ] [
            fhir:linkId [ fhir:v "2.1.2.2" ] ;
            fhir:definition [
              fhir:v "http://loinc.org/rdf#54115-1"^^xsd:anyURI ;
-             fhir:link <http://loinc.org/rdf#54115-1>
+             fhir:l <http://loinc.org/rdf#54115-1>
            ] ;
            fhir:text [ fhir:v "Age at Diagnosis" ] ;
            fhir:type [ fhir:v "coding" ] ;
            fhir:answerValueSet [
              fhir:v "http://hl7.org/fhir/us/sdc/ValueSet/LL619-8"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
+             fhir:l <http://hl7.org/fhir/us/sdc/ValueSet/LL619-8>
            ]
          ] [
            fhir:linkId [ fhir:v "2.1.2.3" ] ;
@@ -754,7 +760,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -763,7 +769,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL1-9"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL1-9>
+     fhir:l <http://details.loinc.org/AnswerList/LL1-9>
   ] ; # 
   fhir:name [ fhir:v "Gender_M/F"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -775,7 +781,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA2-8" ] ;
@@ -795,7 +801,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -804,7 +810,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL623-0"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL623-0>
+     fhir:l <http://details.loinc.org/AnswerList/LL623-0>
   ] ; # 
   fhir:name [ fhir:v "USSG-FHT twin"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -816,7 +822,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA10427-5" ] ;
@@ -836,7 +842,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -845,7 +851,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL361-7"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL361-7>
+     fhir:l <http://details.loinc.org/AnswerList/LL361-7>
   ] ; # 
   fhir:name [ fhir:v "Y/N1"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -857,7 +863,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA33-6" ] ;
@@ -874,7 +880,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -883,7 +889,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL629-7"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL629-7>
+     fhir:l <http://details.loinc.org/AnswerList/LL629-7>
   ] ; # 
   fhir:name [ fhir:v "USSG-FHT race"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -895,7 +901,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA10608-0" ] ;
@@ -960,7 +966,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -969,7 +975,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL628-9"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL628-9>
+     fhir:l <http://details.loinc.org/AnswerList/LL628-9>
   ] ; # 
   fhir:name [ fhir:v "USSG-FHT ethnicity"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -981,7 +987,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA6214-6" ] ;
@@ -1028,7 +1034,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -1037,7 +1043,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL626-3"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL626-3>
+     fhir:l <http://details.loinc.org/AnswerList/LL626-3>
   ] ; # 
   fhir:name [ fhir:v "USSG-FHT diseases"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -1049,7 +1055,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA10533-0" ] ;
@@ -1258,7 +1264,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -1267,7 +1273,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL619-8"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL619-8>
+     fhir:l <http://details.loinc.org/AnswerList/LL619-8>
   ] ; # 
   fhir:name [ fhir:v "USSG-FHT age"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -1279,7 +1285,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA10402-8" ] ;
@@ -1323,7 +1329,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -1332,7 +1338,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL621-4"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL621-4>
+     fhir:l <http://details.loinc.org/AnswerList/LL621-4>
   ] ; # 
   fhir:name [ fhir:v "USSG-FHT relationship"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -1344,7 +1350,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA10405-1" ] ;
@@ -1421,7 +1427,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -1430,7 +1436,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL624-8"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL624-8>
+     fhir:l <http://details.loinc.org/AnswerList/LL624-8>
   ] ; # 
   fhir:name [ fhir:v "USSG-FHT living"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -1442,7 +1448,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA33-6" ] ;
@@ -1462,7 +1468,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
+       fhir:l <http://hl7.org/fhir/us/sdc/StructureDefinition/sdc-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -1471,7 +1477,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://details.loinc.org/AnswerList/LL627-1"^^xsd:anyURI ;
-     fhir:link <http://details.loinc.org/AnswerList/LL627-1>
+     fhir:l <http://details.loinc.org/AnswerList/LL627-1>
   ] ; # 
   fhir:name [ fhir:v "USSG-FHT diseases & cause of death"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -1483,7 +1489,7 @@
      fhir:include ( [
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "LA10533-0" ] ;

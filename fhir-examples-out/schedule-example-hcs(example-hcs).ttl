@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/service-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/service-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/service-category>
        ] ;
        fhir:code [ fhir:v "8" ] ;
        fhir:display [ fhir:v "Counselling" ]
@@ -37,7 +37,7 @@
   ] ) ; # 
   fhir:serviceType ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/HealthcareService/example> ;
+       fhir:l <http://hl7.org/fhir/HealthcareService/example> ;
        fhir:reference [ fhir:v "HealthcareService/example" ] ;
        fhir:display [ fhir:v "Burgers UMC, Posttraumatic Stress Disorder Clinic" ]
      ]
@@ -47,7 +47,7 @@
        a sct:47505003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "47505003" ] ;
        fhir:display [ fhir:v "Posttraumatic stress disorder" ]
@@ -55,7 +55,7 @@
   ] ) ; # 
   fhir:name [ fhir:v "Burgers UMC, Posttraumatic Stress Disorder counselling"] ; # 
   fhir:actor ( [
-     fhir:link <http://hl7.org/fhir/Location/1> ;
+     fhir:l <http://hl7.org/fhir/Location/1> ;
      fhir:reference [ fhir:v "Location/1" ] ;
      fhir:display [ fhir:v "Burgers UMC, South Wing, second floor" ]
   ] ) ; # 

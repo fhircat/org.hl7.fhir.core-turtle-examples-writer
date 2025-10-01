@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,20 +24,20 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "urn:uuid:d195d9b8-6f78-4d71-9d22-3c1a923bfea5"^^xsd:anyURI ;
-       fhir:link <urn:uuid:d195d9b8-6f78-4d71-9d22-3c1a923bfea5>
+       fhir:l <urn:uuid:d195d9b8-6f78-4d71-9d22-3c1a923bfea5>
      ] ;
      fhir:resource ( <urn:uuid:d195d9b8-6f78-4d71-9d22-3c1a923bfea5> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.org/FHIR/R5/Encounter/2"^^xsd:anyURI ;
-       fhir:link <https://example.org/FHIR/R5/Encounter/2>
+       fhir:l <https://example.org/FHIR/R5/Encounter/2>
      ] ;
      fhir:resource ( <https://example.org/FHIR/R5/Encounter/2> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
          fhir:v "Encounter/2"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/Encounter/2>
+         fhir:l <http://hl7.org/fhir/Encounter/2>
        ]
      ] ;
      fhir:response [
@@ -57,17 +57,17 @@
   fhir:notificationEvent ( [
      fhir:eventNumber [ fhir:v "2"^^xsd:long ] ;
      fhir:focus [
-       fhir:link <http://example.org/FHIR/R5/Encounter/2> ;
+       fhir:l <http://example.org/FHIR/R5/Encounter/2> ;
        fhir:reference [ fhir:v "http://example.org/FHIR/R5/Encounter/2" ]
      ]
   ] ) ; # 
   fhir:subscription [
-     fhir:link <http://example.org/FHIR/R5/Subscription/123> ;
+     fhir:l <http://example.org/FHIR/R5/Subscription/123> ;
      fhir:reference [ fhir:v "http://example.org/FHIR/R5/Subscription/123" ]
   ] ; # 
   fhir:topic [
      fhir:v "http://example.org/FHIR/R5/SubscriptionTopic/admission"^^xsd:anyURI ;
-     fhir:link <http://example.org/FHIR/R5/SubscriptionTopic/admission>
+     fhir:l <http://example.org/FHIR/R5/SubscriptionTopic/admission>
   ] . # 
 
 <https://example.org/FHIR/R5/Encounter/2> a fhir:Encounter ;
@@ -85,14 +85,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "VR" ] ;
        fhir:display [ fhir:v "virtual" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/ABC> ;
+     fhir:l <http://hl7.org/fhir/Patient/ABC> ;
      fhir:reference [ fhir:v "Patient/ABC" ]
   ] . # 
 

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://michigan.gov/state-dept-ids"^^xsd:anyURI ;
-       fhir:link <http://michigan.gov/state-dept-ids>
+       fhir:l <http://michigan.gov/state-dept-ids>
      ] ;
      fhir:value [ fhir:v "25" ]
   ] ) ; # 

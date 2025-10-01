@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,19 +30,19 @@
        a loinc:59284-0 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "59284-0" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/mom> ;
+     fhir:l <http://hl7.org/fhir/Patient/mom> ;
      fhir:reference [ fhir:v "Patient/mom" ] ;
      fhir:display [ fhir:v "Eve Everywoman" ]
   ] ; # 
   fhir:date [ fhir:v "2018-12-24"^^xsd:date] ; # 
   fhir:controller ( [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ]
   ] ) ; # 
   fhir:sourceAttachment ( [
@@ -52,7 +52,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "INFA" ]
      ] )
@@ -60,11 +60,11 @@
   fhir:verification ( [
      fhir:verified [ fhir:v true ] ;
      fhir:verifiedBy [
-       fhir:link <http://hl7.org/fhir/Organization/f001> ;
+       fhir:l <http://hl7.org/fhir/Organization/f001> ;
        fhir:reference [ fhir:v "Organization/f001" ]
      ] ;
      fhir:verifiedWith [
-       fhir:link <http://hl7.org/fhir/RelatedPerson/benedicte> ;
+       fhir:l <http://hl7.org/fhir/RelatedPerson/benedicte> ;
        fhir:reference [ fhir:v "RelatedPerson/benedicte" ]
      ] ;
      fhir:verificationDate ( [ fhir:v "2021-11-11"^^xsd:date ] )
@@ -76,13 +76,13 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+             fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
            ] ;
            fhir:code [ fhir:v "PRCP" ]
          ] ) #   PRCP: recipient of the information  
        ] ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Practitioner/f204> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f204> ;
          fhir:reference [ fhir:v "Practitioner/f204" ] ;
          fhir:display [ fhir:v "Carla Espinosa" ]
        ]
@@ -91,7 +91,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+           fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
          ] ;
          fhir:code [ fhir:v "access" ]
        ] )
@@ -99,7 +99,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+           fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
          ] ;
          fhir:code [ fhir:v "correct" ]
        ] )

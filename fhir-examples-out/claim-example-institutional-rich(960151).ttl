@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://happyhospital.com/claim"^^xsd:anyURI ;
-       fhir:link <http://happyhospital.com/claim>
+       fhir:l <http://happyhospital.com/claim>
      ] ;
      fhir:value [ fhir:v "96123451" ]
   ] ) ; # 
@@ -35,14 +35,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/claim-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/claim-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/claim-type>
        ] ;
        fhir:code [ fhir:v "institutional" ]
      ] )
   ] ; # 
   fhir:use [ fhir:v "claim"] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/1> ;
+     fhir:l <http://hl7.org/fhir/Patient/1> ;
      fhir:reference [ fhir:v "Patient/1" ]
   ] ; # 
   fhir:billablePeriod [
@@ -54,20 +54,20 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://jurisdiction.org/facilities/HOSP1234/users"^^xsd:anyURI ;
-         fhir:link <http://jurisdiction.org/facilities/HOSP1234/users>
+         fhir:l <http://jurisdiction.org/facilities/HOSP1234/users>
        ] ;
        fhir:value [ fhir:v "UC1234" ]
      ]
   ] ; # 
   fhir:insurer [
-     fhir:link <http://hl7.org/fhir/Organization/2> ;
+     fhir:l <http://hl7.org/fhir/Organization/2> ;
      fhir:reference [ fhir:v "Organization/2" ]
   ] ; # 
   fhir:provider [
      fhir:identifier [
        fhir:system [
          fhir:v "http://npid.org/providerid"^^xsd:anyURI ;
-         fhir:link <http://npid.org/providerid>
+         fhir:l <http://npid.org/providerid>
        ] ;
        fhir:value [ fhir:v "NJ12345" ]
      ]
@@ -88,7 +88,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://jurisdiction.org/facilities"^^xsd:anyURI ;
-         fhir:link <http://jurisdiction.org/facilities>
+         fhir:l <http://jurisdiction.org/facilities>
        ] ;
        fhir:value [ fhir:v "HOSP1234" ]
      ]
@@ -97,7 +97,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup>
+         fhir:l <http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup>
        ] ;
        fhir:code [ fhir:v "400" ] ;
        fhir:display [ fhir:v "Head trauma - concussion" ]
@@ -106,7 +106,7 @@
   fhir:careTeam ( [
      fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
      fhir:provider [
-       fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/example> ;
        fhir:reference [ fhir:v "Practitioner/example" ]
      ] ;
      fhir:responsible [ fhir:v true ] ;
@@ -114,7 +114,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.org/fhir/CodeSystem/claim-careteamrole"^^xsd:anyURI ;
-           fhir:link <http://example.org/fhir/CodeSystem/claim-careteamrole>
+           fhir:l <http://example.org/fhir/CodeSystem/claim-careteamrole>
          ] ;
          fhir:code [ fhir:v "primary" ]
        ] )
@@ -123,7 +123,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.org/fhir/CodeSystem/provider-qualification"^^xsd:anyURI ;
-           fhir:link <http://example.org/fhir/CodeSystem/provider-qualification>
+           fhir:l <http://example.org/fhir/CodeSystem/provider-qualification>
          ] ;
          fhir:code [ fhir:v "physician" ]
        ] )
@@ -135,7 +135,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/claiminformationcategory"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/claiminformationcategory>
+           fhir:l <http://terminology.hl7.org/CodeSystem/claiminformationcategory>
          ] ;
          fhir:code [ fhir:v "employmentimpacted" ]
        ] )
@@ -151,7 +151,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/claiminformationcategory"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/claiminformationcategory>
+           fhir:l <http://terminology.hl7.org/CodeSystem/claiminformationcategory>
          ] ;
          fhir:code [ fhir:v "hospitalized" ]
        ] )
@@ -174,7 +174,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ex-diagnosistype"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ex-diagnosistype>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ex-diagnosistype>
          ] ;
          fhir:code [ fhir:v "admitting" ]
        ] )
@@ -184,7 +184,7 @@
      fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
      fhir:focal [ fhir:v true ] ;
      fhir:coverage [
-       fhir:link <http://hl7.org/fhir/Coverage/9876B1> ;
+       fhir:l <http://hl7.org/fhir/Coverage/9876B1> ;
        fhir:reference [ fhir:v "Coverage/9876B1" ]
      ] ;
      fhir:businessArrangement [ fhir:v "BA987123" ] ;
@@ -196,7 +196,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActIncidentCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActIncidentCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActIncidentCode>
          ] ;
          fhir:code [ fhir:v "SPT" ] ;
          fhir:display [ fhir:v "Sporting Accident" ]
@@ -214,7 +214,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/ex-serviceproduct"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ex-serviceproduct>
+           fhir:l <http://hl7.org/fhir/ex-serviceproduct>
          ] ;
          fhir:code [ fhir:v "exam" ]
        ] )

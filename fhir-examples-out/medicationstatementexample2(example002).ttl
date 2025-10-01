@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/sid/ndc"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/sid/ndc>
+           fhir:l <http://hl7.org/fhir/sid/ndc>
          ] ;
          fhir:code [ fhir:v "50580-608-02" ] ;
          fhir:display [ fhir:v "Tylenol PM" ]
@@ -42,7 +42,7 @@
          a sct:385057009 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "385057009" ] ;
          fhir:display [ fhir:v "Film-coated tablet (qualifier value)" ]
@@ -54,7 +54,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-               fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+               fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
              ] ;
              fhir:code [ fhir:v "315266" ] ;
              fhir:display [ fhir:v "Acetaminophen 500 MG" ]
@@ -67,7 +67,7 @@
            fhir:value [ fhir:v "500"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mg" ]
          ] ;
@@ -75,7 +75,7 @@
            fhir:value [ fhir:v "1"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+             fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
            ] ;
            fhir:code [ fhir:v "TAB" ]
          ]
@@ -86,7 +86,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-               fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+               fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
              ] ;
              fhir:code [ fhir:v "901813" ] ;
              fhir:display [ fhir:v "Diphenhydramine Hydrochloride 25 mg" ]
@@ -99,7 +99,7 @@
            fhir:value [ fhir:v "25"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mg" ]
          ] ;
@@ -107,7 +107,7 @@
            fhir:value [ fhir:v "1"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+             fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
            ] ;
            fhir:code [ fhir:v "TAB" ]
          ]
@@ -121,11 +121,12 @@
   fhir:status [ fhir:v "recorded"] ; # 
   fhir:medication [
      fhir:reference [
+       fhir:l <#med0309> ;
        fhir:reference [ fhir:v "#med0309" ]
      ] #    Linked to a RESOURCE Medication   
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
@@ -135,7 +136,7 @@
   ] ; # 
   fhir:dateAsserted [ fhir:v "2015-02-22"^^xsd:date] ; # 
   fhir:informationSource ( [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ) ; # 
@@ -145,7 +146,7 @@
          a sct:166643006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "166643006" ] ;
          fhir:display [ fhir:v "Liver enzymes abnormal" ]
@@ -160,7 +161,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/CodeSystem/medication-statement-adherence"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/CodeSystem/medication-statement-adherence>
+           fhir:l <http://hl7.org/fhir/CodeSystem/medication-statement-adherence>
          ] ;
          fhir:code [ fhir:v "not-taking" ] ;
          fhir:display [ fhir:v "Not Taking" ]
@@ -171,7 +172,7 @@
          a sct:266710000 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "266710000" ] ;
          fhir:display [ fhir:v "Drugs not taken/completed" ]

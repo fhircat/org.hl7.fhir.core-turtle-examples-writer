@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+           fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
          ] ;
          fhir:code [ fhir:v "active" ]
        ] )
@@ -40,7 +40,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+           fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
          ] ;
          fhir:code [ fhir:v "confirmed" ]
        ] )
@@ -49,7 +49,7 @@
        fhir:text [ fhir:v "Obesity" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/example> ;
+       fhir:l <http://hl7.org/fhir/Patient/example> ;
        fhir:reference [ fhir:v "Patient/example" ] ;
        fhir:display [ fhir:v "Peter James Chalmers" ]
      ]
@@ -59,7 +59,7 @@
   ] ) ; # 
   fhir:instantiatesUri ( [
      fhir:v "http://example.org/protocol-for-obesity"^^xsd:anyURI ;
-     fhir:link <http://example.org/protocol-for-obesity>
+     fhir:l <http://example.org/protocol-for-obesity>
   ] ) ; # 
   fhir:basedOn ( [
      fhir:display [ fhir:v "Management of Type 2 Diabetes" ]
@@ -77,12 +77,12 @@
   ] ) ; # 
   fhir:description [ fhir:v "Manage obesity and weight loss"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/home> ;
+     fhir:l <http://hl7.org/fhir/Encounter/home> ;
      fhir:reference [ fhir:v "Encounter/home" ]
   ] ; # 
   fhir:period [
@@ -90,22 +90,23 @@
   ] ; # 
   fhir:created [ fhir:v "2016-01-01"^^xsd:date] ; # 
   fhir:custodian [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr Adam Careful" ]
   ] ; # 
   fhir:careTeam ( [
-     fhir:link <http://hl7.org/fhir/CareTeam/example> ;
+     fhir:l <http://hl7.org/fhir/CareTeam/example> ;
      fhir:reference [ fhir:v "CareTeam/example" ]
   ] ) ; # 
   fhir:addresses ( [
      fhir:reference [
+       fhir:l <#p1> ;
        fhir:reference [ fhir:v "#p1" ] ;
        fhir:display [ fhir:v "obesity" ]
      ]
   ] ) ; # 
   fhir:goal ( [
-     fhir:link <http://hl7.org/fhir/Goal/example> ;
+     fhir:l <http://hl7.org/fhir/Goal/example> ;
      fhir:reference [ fhir:v "Goal/example" ]
   ] ) ; #   weight loss goal where the goal's outcome is the body weight observation 
   fhir:activity ( [
@@ -115,7 +116,7 @@
            a sct:6397004 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "6397004" ] ;
            fhir:display [ fhir:v "Muscular strength development exercise" ]
@@ -123,7 +124,7 @@
        ]
      ] ) ; #   exercise activity completed  
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/ServiceRequest/benchpress> ;
+       fhir:l <http://hl7.org/fhir/ServiceRequest/benchpress> ;
        fhir:reference [ fhir:v "ServiceRequest/benchpress" ]
      ] #   planned exercise plan  
   ] ) . #   exercise activity  

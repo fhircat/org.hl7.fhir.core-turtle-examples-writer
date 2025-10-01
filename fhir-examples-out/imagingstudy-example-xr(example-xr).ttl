@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,14 +28,14 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "urn:dicom:uid"^^xsd:anyURI ;
-       fhir:link <urn:dicom:uid>
+       fhir:l <urn:dicom:uid>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.124.113543.6003.1154777499.30246.19789.3503430046" ]
   ] [
      fhir:use [ fhir:v "secondary" ] ;
      fhir:value [ fhir:v "55551234" ] ;
      fhir:assigner [
-       fhir:link <http://hl7.org/fhir/Organization/dicom-organization> ;
+       fhir:l <http://hl7.org/fhir/Organization/dicom-organization> ;
        fhir:reference [ fhir:v "Organization/dicom-organization" ]
      ]
   ] ) ; # 
@@ -44,55 +44,58 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-         fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
        ] ;
        fhir:code [ fhir:v "DX" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/dicom> ;
+     fhir:l <http://hl7.org/fhir/Patient/dicom> ;
      fhir:reference [ fhir:v "Patient/dicom" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:started [ fhir:v "2017-01-01T11:01:20+03:00"^^xsd:dateTime] ; # 
   fhir:basedOn ( [
-     fhir:type [ fhir:v "ServiceRequest"^^xsd:anyURI ] ;
+     fhir:type [
+       fhir:v "ServiceRequest"^^xsd:anyURI ;
+       fhir:l fhir:ServiceRequest
+     ] ;
      fhir:identifier [
        fhir:type [
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+             fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
            ] ;
            fhir:code [ fhir:v "ACSN" ]
          ] )
        ] ;
        fhir:value [ fhir:v "W12342398" ] ;
        fhir:assigner [
-         fhir:link <http://hl7.org/fhir/Organization/dicom-organization> ;
+         fhir:l <http://hl7.org/fhir/Organization/dicom-organization> ;
          fhir:reference [ fhir:v "Organization/dicom-organization" ]
        ]
      ]
   ] [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/example> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/example> ;
      fhir:reference [ fhir:v "ServiceRequest/example" ]
   ] ) ; # 
   fhir:referrer [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ]
   ] ; # 
   fhir:endpoint ( [
-     fhir:link <http://hl7.org/fhir/Endpoint/example-wadors> ;
+     fhir:l <http://hl7.org/fhir/Endpoint/example-wadors> ;
      fhir:reference [ fhir:v "Endpoint/example-wadors" ]
   ] ) ; # 
   fhir:numberOfSeries [ fhir:v "1"^^xsd:nonNegativeInteger] ; # 
   fhir:numberOfInstances [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
   fhir:procedure ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Procedure/example> ;
+       fhir:l <http://hl7.org/fhir/Procedure/example> ;
        fhir:reference [ fhir:v "Procedure/example" ]
      ]
   ] [
@@ -100,7 +103,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.radlex.org"^^xsd:anyURI ;
-           fhir:link <http://www.radlex.org>
+           fhir:l <http://www.radlex.org>
          ] ;
          fhir:code [ fhir:v "RPID2589" ] ;
          fhir:display [ fhir:v "XR Wrist 3+ Views" ]
@@ -114,7 +117,7 @@
          a sct:357009 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "357009" ] ;
          fhir:display [ fhir:v "Closed fracture of trapezoidal bone of wrist" ]
@@ -131,7 +134,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-           fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+           fhir:l <http://dicom.nema.org/resources/ontology/DCM>
          ] ;
          fhir:code [ fhir:v "DX" ]
        ] )
@@ -139,7 +142,7 @@
      fhir:description [ fhir:v "XR Wrist 3+ Views" ] ;
      fhir:numberOfInstances [ fhir:v "2"^^xsd:nonNegativeInteger ] ;
      fhir:endpoint ( [
-       fhir:link <http://hl7.org/fhir/Endpoint/example-wadors> ;
+       fhir:l <http://hl7.org/fhir/Endpoint/example-wadors> ;
        fhir:reference [ fhir:v "Endpoint/example-wadors" ]
      ] ) ;
      fhir:bodySite [
@@ -148,7 +151,7 @@
            a sct:T-15460 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ; #       Added body site to support duplicate checking example      
            fhir:code [ fhir:v "T-15460" ] ;
            fhir:display [ fhir:v "Wrist Joint" ]
@@ -160,7 +163,7 @@
          a sct:419161000 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "419161000" ] ;
          fhir:display [ fhir:v "Unilateral left" ]
@@ -172,13 +175,13 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+             fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
            ] ;
            fhir:code [ fhir:v "PRF" ]
          ] )
        ] ;
        fhir:actor [
-         fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/example> ;
          fhir:reference [ fhir:v "Practitioner/example" ]
        ]
      ] ) ;
@@ -187,7 +190,7 @@
        fhir:sopClass [
          fhir:system [
            fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-           fhir:link <urn:ietf:rfc:3986>
+           fhir:l <urn:ietf:rfc:3986>
          ] ;
          fhir:code [ fhir:v "urn:oid:1.2.840.10008.5.1.4.1.1.2" ]
        ] ;
@@ -198,7 +201,7 @@
        fhir:sopClass [
          fhir:system [
            fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-           fhir:link <urn:ietf:rfc:3986>
+           fhir:l <urn:ietf:rfc:3986>
          ] ;
          fhir:code [ fhir:v "urn:oid:1.2.840.10008.5.1.4.1.1.2" ]
        ] ;

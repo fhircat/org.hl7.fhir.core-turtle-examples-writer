@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/CompartmentDefinition/example"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/CompartmentDefinition/example>
+     fhir:l <http://hl7.org/fhir/CompartmentDefinition/example>
   ] ; # 
   fhir:name [ fhir:v "EXAMPLE"] ; # 
   fhir:title [ fhir:v "E X A M P L E"] ; # 
@@ -45,7 +45,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -54,7 +54,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/fhir-types>
+           fhir:l <http://hl7.org/fhir/fhir-types>
          ] ;
          fhir:code [ fhir:v "Device" ]
        ] )

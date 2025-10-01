@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme.com/devices/pacemakers/octane/serial"^^xsd:anyURI ;
-           fhir:link <http://acme.com/devices/pacemakers/octane/serial>
+           fhir:l <http://acme.com/devices/pacemakers/octane/serial>
          ]
        ] )
      ] ;
@@ -39,7 +39,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "SNO" ]
        ] )
@@ -50,11 +50,11 @@
      fhir:deviceIdentifier [ fhir:v "00844588003288" ] ;
      fhir:issuer [
        fhir:v "http://hl7.org/fhir/NamingSystem/gs1"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/NamingSystem/gs1>
+       fhir:l <http://hl7.org/fhir/NamingSystem/gs1>
      ] ;
      fhir:jurisdiction [
        fhir:v "http://hl7.org/fhir/NamingSystem/fda-udi"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/NamingSystem/fda-udi>
+       fhir:l <http://hl7.org/fhir/NamingSystem/fda-udi>
      ] ;
      fhir:carrierAIDC [ fhir:v "XWQyMDExMDg1NzY3NDAwMjAxNzE3MTQxMTIwMTBOWUZVTDAx4oaUMjExOTI4MzfihpQ3MTNBMUIyQzNENEU1RjZH"^^xsd:base64Binary ] ;
      fhir:carrierHRF [ fhir:v "{01}00844588003288{17}141120{10}7654321D{21}10987654d321" ] ;
@@ -73,7 +73,7 @@
        a sct:468063009 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "468063009" ] ;
        fhir:display [ fhir:v "Coated femoral stem prosthesis, modular" ]
@@ -84,7 +84,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.3.26.1.1"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.3.26.1.1>
+         fhir:l <urn:oid:2.16.840.1.113883.3.26.1.1>
        ] ;
        fhir:code [ fhir:v "mr-unsafe" ] ;
        fhir:display [ fhir:v "MR Unsafe" ]

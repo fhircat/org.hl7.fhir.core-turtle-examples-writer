@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://h7.org/fhir/GraphDefinition/example"^^xsd:anyURI ;
-     fhir:link <http://h7.org/fhir/GraphDefinition/example>
+     fhir:l <http://h7.org/fhir/GraphDefinition/example>
   ] ; # 
   fhir:name [ fhir:v "DocumentGenerationTemplate"] ; # 
   fhir:title [ fhir:v "Document Generation Template"] ; # 
@@ -46,7 +46,7 @@
      fhir:type [ fhir:v "Composition" ] ;
      fhir:profile [
        fhir:v "http://hl7.org/fhir/StructureDefinition/clinicaldocument"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/clinicaldocument>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/clinicaldocument>
      ]
   ] [
      fhir:nodeId [ fhir:v "list1" ] ;

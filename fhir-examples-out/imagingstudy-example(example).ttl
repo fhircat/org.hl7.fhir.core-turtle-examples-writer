@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,13 +27,13 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:dicom:uid"^^xsd:anyURI ;
-       fhir:link <urn:dicom:uid>
+       fhir:l <urn:dicom:uid>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.124.113543.6003.1154777499.30246.19789.3503430045" ]
   ] ) ; # 
   fhir:status [ fhir:v "available"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/dicom> ;
+     fhir:l <http://hl7.org/fhir/Patient/dicom> ;
      fhir:reference [ fhir:v "Patient/dicom" ]
   ] ; # 
   fhir:started [ fhir:v "2011-01-01T11:01:20+03:00"^^xsd:dateTime] ; # 
@@ -46,7 +46,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-           fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+           fhir:l <http://dicom.nema.org/resources/ontology/DCM>
          ] ;
          fhir:code [ fhir:v "CT" ]
        ] )
@@ -59,7 +59,7 @@
            a sct:67734004 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ; #   Added body site to support duplicate checking example  
            fhir:code [ fhir:v "67734004" ] ;
            fhir:display [ fhir:v "Upper Trunk Structure" ]
@@ -71,7 +71,7 @@
        fhir:sopClass [
          fhir:system [
            fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-           fhir:link <urn:ietf:rfc:3986>
+           fhir:l <urn:ietf:rfc:3986>
          ] ;
          fhir:code [ fhir:v "urn:oid:1.2.840.10008.5.1.4.1.1.2" ]
        ] ;

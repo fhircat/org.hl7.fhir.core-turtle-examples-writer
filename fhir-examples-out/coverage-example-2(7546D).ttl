@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://xyz.com/codes/identifier"^^xsd:anyURI ;
-       fhir:link <http://xyz.com/codes/identifier>
+       fhir:l <http://xyz.com/codes/identifier>
      ] ;
      fhir:value [ fhir:v "AB98761" ]
   ] ) ; # 
@@ -36,21 +36,21 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "EHCPOL" ] ;
        fhir:display [ fhir:v "extended healthcare" ]
      ] )
   ] ; # 
   fhir:subscriber [
-     fhir:link <http://hl7.org/fhir/Patient/5> ;
+     fhir:l <http://hl7.org/fhir/Patient/5> ;
      fhir:reference [ fhir:v "Patient/5" ]
   ] ; # 
   fhir:subscriberId ( [
      fhir:value [ fhir:v "AB9876" ]
   ] ) ; # 
   fhir:beneficiary [
-     fhir:link <http://hl7.org/fhir/Patient/5> ;
+     fhir:l <http://hl7.org/fhir/Patient/5> ;
      fhir:reference [ fhir:v "Patient/5" ]
   ] ; # 
   fhir:dependent [ fhir:v "1"] ; # 
@@ -64,7 +64,7 @@
      fhir:end [ fhir:v "2012-03-17"^^xsd:date ]
   ] ; # 
   fhir:insurer [
-     fhir:link <http://hl7.org/fhir/Organization/2> ;
+     fhir:l <http://hl7.org/fhir/Organization/2> ;
      fhir:reference [ fhir:v "Organization/2" ]
   ] ; # 
   fhir:class ( [
@@ -72,7 +72,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "group" ]
        ] )
@@ -86,7 +86,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "plan" ]
        ] )
@@ -100,7 +100,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "subplan" ]
        ] )
@@ -117,7 +117,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-copay-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-copay-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-copay-type>
          ] ;
          fhir:code [ fhir:v "gpvisit" ]
        ] ) #   normally $40.00  
@@ -132,7 +132,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/ex-coverage-financial-exception"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/ex-coverage-financial-exception>
+             fhir:l <http://terminology.hl7.org/CodeSystem/ex-coverage-financial-exception>
            ] ;
            fhir:code [ fhir:v "retired" ]
          ] )
@@ -144,7 +144,7 @@
      ] )
   ] ) ; # 
   fhir:contract ( [
-     fhir:link <http://hl7.org/fhir/Contract/INS-101> ;
+     fhir:l <http://hl7.org/fhir/Contract/INS-101> ;
      fhir:reference [ fhir:v "Contract/INS-101" ]
   ] ) . # 
 

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -32,7 +32,7 @@
          a sct:108761006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "108761006" ] ;
          fhir:display [ fhir:v "Capecitabine (product)" ]
@@ -43,7 +43,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://www.bmc.nl/portal/prescriptions"^^xsd:anyURI ;
-       fhir:link <http://www.bmc.nl/portal/prescriptions>
+       fhir:l <http://www.bmc.nl/portal/prescriptions>
      ] ;
      fhir:value [ fhir:v "12345689" ]
   ] ) ; # 
@@ -51,22 +51,23 @@
   fhir:intent [ fhir:v "order"] ; # 
   fhir:medication [
      fhir:reference [
+       fhir:l <#med0321> ;
        fhir:reference [ fhir:v "#med0321" ]
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ; #    Linked to the resource patient who needs the medication   
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/f001> ;
+     fhir:l <http://hl7.org/fhir/Encounter/f001> ;
      fhir:reference [ fhir:v "Encounter/f001" ] ; #    Linked to a resource Encounter between patient and practitioner  
      fhir:display [ fhir:v "encounter who leads to this prescription" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2015-01-15"^^xsd:date] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Practitioner/f007> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f007> ;
      fhir:reference [ fhir:v "Practitioner/f007" ] ;
      fhir:display [ fhir:v "Patrick Pump" ]
   ] ; # 
@@ -90,7 +91,7 @@
          a sct:26643006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "26643006" ] ;
          fhir:display [ fhir:v "Oral Route" ]
@@ -101,7 +102,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -113,7 +114,7 @@
          fhir:unit [ fhir:v "mg/m2" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg/m2" ]
        ]

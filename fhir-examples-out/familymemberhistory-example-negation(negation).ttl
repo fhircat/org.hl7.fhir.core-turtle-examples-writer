@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   ] ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/100> ;
+     fhir:l <http://hl7.org/fhir/Patient/100> ;
      fhir:reference [ fhir:v "Patient/100" ] ;
      fhir:display [ fhir:v "Peter Patient" ]
   ] ; # 
@@ -34,7 +34,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
        ] ;
        fhir:code [ fhir:v "MTH" ] ;
        fhir:display [ fhir:v "mother" ]
@@ -46,7 +46,7 @@
          a sct:700146008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "700146008" ] ;
          fhir:display [ fhir:v "No history of malignant neoplasm of breast" ]

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://ema.europa.eu/example/phpididentifiersets"^^xsd:anyURI ;
-       fhir:link <http://ema.europa.eu/example/phpididentifiersets>
+       fhir:l <http://ema.europa.eu/example/phpididentifiersets>
      ] ;
      fhir:value [ fhir:v "{PhPID}" ]
   ] ) ; # 
@@ -35,7 +35,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://ema.europa.eu/example/administrabledoseform"^^xsd:anyURI ;
-         fhir:link <http://ema.europa.eu/example/administrabledoseform>
+         fhir:l <http://ema.europa.eu/example/administrabledoseform>
        ] ;
        fhir:code [ fhir:v "Film-coatedtablet" ]
      ] )
@@ -44,7 +44,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://ema.europa.eu/example/unitofpresentation"^^xsd:anyURI ;
-         fhir:link <http://ema.europa.eu/example/unitofpresentation>
+         fhir:l <http://ema.europa.eu/example/unitofpresentation>
        ] ;
        fhir:code [ fhir:v "Tablet" ]
      ] )
@@ -54,7 +54,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://ema.europa.eu/example/routeofadministration"^^xsd:anyURI ;
-           fhir:link <http://ema.europa.eu/example/routeofadministration>
+           fhir:l <http://ema.europa.eu/example/routeofadministration>
          ] ;
          fhir:code [ fhir:v "OralUse" ]
        ] )

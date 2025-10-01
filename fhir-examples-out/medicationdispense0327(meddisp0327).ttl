@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-           fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+           fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
          ] ;
          fhir:code [ fhir:v "746763" ] ;
          fhir:display [ fhir:v "Proventil 0.09mg/actuat (Albuterol sulfate 0.108mg/actuat from mouthpiece)" ]
@@ -37,25 +37,25 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:performer ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f006> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f006> ;
        fhir:reference [ fhir:v "Practitioner/f006" ]
      ]
   ] ) ; # 
   fhir:authorizingPrescription ( [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0321> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0321> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0321" ]
   ] ) ; # 
   fhir:type [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "TF" ] ;
        fhir:display [ fhir:v "Trial Fill" ]
@@ -65,7 +65,7 @@
      fhir:value [ fhir:v "30"^^xsd:decimal ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "ml" ]
   ] ; # 
@@ -74,7 +74,7 @@
      fhir:unit [ fhir:v "Day" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "d" ]
   ] ; # 
@@ -98,7 +98,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -110,7 +110,7 @@
          fhir:unit [ fhir:v "ea" ] ;
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
          ] ;
          fhir:code [ fhir:v "ORINHL" ]
        ]

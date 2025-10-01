@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/sid/ndc"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/sid/ndc>
+           fhir:l <http://hl7.org/fhir/sid/ndc>
          ] ;
          fhir:code [ fhir:v "0169-7501-11" ] ;
          fhir:display [ fhir:v "Novolog 100u/ml" ]
@@ -42,7 +42,7 @@
          a sct:385219001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "385219001" ] ;
          fhir:display [ fhir:v "Injection solution (qualifier value)" ]
@@ -55,7 +55,7 @@
              a sct:325072002 ;
              fhir:system [
                fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-               fhir:link <http://snomed.info/sct>
+               fhir:l <http://snomed.info/sct>
              ] ;
              fhir:code [ fhir:v "325072002" ] ;
              fhir:display [ fhir:v "Insulin Aspart (substance)" ]
@@ -68,7 +68,7 @@
            fhir:value [ fhir:v "100"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "U" ]
          ] ;
@@ -76,7 +76,7 @@
            fhir:value [ fhir:v "1"^^xsd:decimal ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mL" ]
          ]
@@ -90,12 +90,13 @@
   fhir:status [ fhir:v "in-progress"] ; # 
   fhir:medication [
      fhir:reference [
+       fhir:l <#med0360> ;
        fhir:reference [ fhir:v "#med0360" ] ;
        fhir:display [ fhir:v "Novolog 100u/ml" ]
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
@@ -104,26 +105,26 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function>
+           fhir:l <http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function>
          ] ;
          fhir:code [ fhir:v "finalchecker" ] ;
          fhir:display [ fhir:v "Final Checker" ]
        ] )
      ] ;
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f006> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f006> ;
        fhir:reference [ fhir:v "Practitioner/f006" ]
      ]
   ] ) ; # 
   fhir:authorizingPrescription ( [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0321> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0321> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0321" ]
   ] ) ; # 
   fhir:type [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "RFP" ] ;
        fhir:display [ fhir:v "Refill - Part Fill" ]
@@ -133,7 +134,7 @@
      fhir:value [ fhir:v "10"^^xsd:decimal ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "ml" ]
   ] ; # 
@@ -142,7 +143,7 @@
      fhir:unit [ fhir:v "Day" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "d" ]
   ] ; # 
@@ -166,7 +167,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -178,7 +179,7 @@
          fhir:unit [ fhir:v "U" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "U" ]
        ]
@@ -201,7 +202,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -213,7 +214,7 @@
          fhir:unit [ fhir:v "U" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "U" ]
        ]
@@ -236,7 +237,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -248,7 +249,7 @@
          fhir:unit [ fhir:v "U" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "U" ]
        ]

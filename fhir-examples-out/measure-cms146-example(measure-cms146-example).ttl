@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,26 +26,26 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/Measure/measure-cms146-example"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/Measure/measure-cms146-example>
+     fhir:l <http://hl7.org/fhir/Measure/measure-cms146-example>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.28.1" ]
   ] [
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/cqi/ecqm/Measure/Identifier/cms"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/cqi/ecqm/Measure/Identifier/cms>
+       fhir:l <http://hl7.org/fhir/cqi/ecqm/Measure/Identifier/cms>
      ] ;
      fhir:value [ fhir:v "146" ]
   ] [
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://hl7.org/fhir/cqi/ecqm/Measure/Identifier/nqf"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/cqi/ecqm/Measure/Identifier/nqf>
+       fhir:l <http://hl7.org/fhir/cqi/ecqm/Measure/Identifier/nqf>
      ] ;
      fhir:value [ fhir:v "0002" ]
   ] ) ; # 
@@ -67,7 +67,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "program" ]
      ] ;
@@ -79,7 +79,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "age" ]
      ] ;
@@ -99,7 +99,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ]
      ] )
@@ -117,7 +117,7 @@
        a loinc:57024-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "57024-2" ]
      ] )
@@ -137,14 +137,14 @@
   ] ) ; # 
   fhir:library ( [
      fhir:v "http://hl7.org/fhir/Library/library-cms146-example"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/Library/library-cms146-example>
+     fhir:l <http://hl7.org/fhir/Library/library-cms146-example>
   ] ) ; # 
   fhir:disclaimer [ fhir:v "These performance Measures are not clinical guidelines and do not establish a standard of medical care, and have not been tested for all potential applications. THE MEASURES AND SPECIFICATIONS ARE PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND. Due to technical limitations, registered trademarks are indicated by (R) or [R] and unregistered trademarks are indicated by (TM) or [TM]."] ; # 
   fhir:scoring [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/measure-scoring"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/measure-scoring>
+         fhir:l <http://terminology.hl7.org/CodeSystem/measure-scoring>
        ] ;
        fhir:code [ fhir:v "proportion" ]
      ] )
@@ -153,7 +153,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/measure-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/measure-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/measure-type>
        ] ;
        fhir:code [ fhir:v "process" ]
      ] )
@@ -164,7 +164,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/measure-improvement-notation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/measure-improvement-notation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/measure-improvement-notation>
        ] ;
        fhir:code [ fhir:v "increase" ]
      ] )
@@ -177,7 +177,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/measure-population>
+             fhir:l <http://terminology.hl7.org/CodeSystem/measure-population>
            ] ;
            fhir:code [ fhir:v "initial-population" ]
          ] )
@@ -191,7 +191,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/measure-population>
+             fhir:l <http://terminology.hl7.org/CodeSystem/measure-population>
            ] ;
            fhir:code [ fhir:v "numerator" ]
          ] )
@@ -205,7 +205,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/measure-population>
+             fhir:l <http://terminology.hl7.org/CodeSystem/measure-population>
            ] ;
            fhir:code [ fhir:v "denominator" ]
          ] )
@@ -219,7 +219,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/measure-population>
+             fhir:l <http://terminology.hl7.org/CodeSystem/measure-population>
            ] ;
            fhir:code [ fhir:v "denominator-exclusion" ]
          ] )

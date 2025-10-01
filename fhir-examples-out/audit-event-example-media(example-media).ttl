@@ -23,7 +23,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -37,7 +37,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-         fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
        ] ;
        fhir:code [ fhir:v "110106" ] ;
        fhir:display [ fhir:v "Export" ]
@@ -47,7 +47,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:ihe:event-type-code"^^xsd:anyURI ;
-         fhir:link <urn:ihe:event-type-code>
+         fhir:l <urn:ihe:event-type-code>
        ] ;
        fhir:code [ fhir:v "ITI-32" ] ;
        fhir:display [ fhir:v "Distribute Document Set on Media" ]
@@ -59,7 +59,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/audit-event-outcome"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/audit-event-outcome>
+         fhir:l <http://terminology.hl7.org/CodeSystem/audit-event-outcome>
        ] ;
        fhir:code [ fhir:v "0" ] ;
        fhir:display [ fhir:v "Success" ]
@@ -70,7 +70,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-           fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+           fhir:l <http://dicom.nema.org/resources/ontology/DCM>
          ] ;
          fhir:code [ fhir:v "110153" ] ;
          fhir:display [ fhir:v "Source Role ID" ]
@@ -85,7 +85,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/extra-security-role-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/extra-security-role-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/extra-security-role-type>
          ] ;
          fhir:code [ fhir:v "humanuser" ] ;
          fhir:display [ fhir:v "human user" ]
@@ -103,7 +103,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
-           fhir:link <http://dicom.nema.org/resources/ontology/DCM>
+           fhir:l <http://dicom.nema.org/resources/ontology/DCM>
          ] ;
          fhir:code [ fhir:v "110154" ] ;
          fhir:display [ fhir:v "Destination Media" ]
@@ -132,7 +132,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/object-role"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/object-role>
+           fhir:l <http://terminology.hl7.org/CodeSystem/object-role>
          ] ;
          fhir:code [ fhir:v "1" ] ;
          fhir:display [ fhir:v "Patient" ]
@@ -145,7 +145,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd"^^xsd:anyURI ;
-               fhir:link <urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd>
+               fhir:l <urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd>
              ] ;
              fhir:code [ fhir:v "IHE XDS Metadata" ] ;
              fhir:display [ fhir:v "submission set classificationNode" ]
@@ -158,7 +158,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/object-role"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/object-role>
+           fhir:l <http://terminology.hl7.org/CodeSystem/object-role>
          ] ;
          fhir:code [ fhir:v "20" ] ;
          fhir:display [ fhir:v "Job" ]
@@ -166,7 +166,7 @@
      ]
   ] [
      fhir:what [
-       fhir:link <http://hl7.org/fhir/DocumentReference/example> ;
+       fhir:l <http://hl7.org/fhir/DocumentReference/example> ;
        fhir:reference [ fhir:v "DocumentReference/example" ]
      ] #    The Document Manifest exported   
   ] ) . # 

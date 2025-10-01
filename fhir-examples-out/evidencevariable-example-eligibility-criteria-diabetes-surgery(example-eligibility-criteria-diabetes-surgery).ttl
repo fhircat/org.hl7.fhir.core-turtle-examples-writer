@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
      ] ;
      fhir:system [
        fhir:v "https://fevir.net"^^xsd:anyURI ;
-       fhir:link <https://fevir.net>
+       fhir:l <https://fevir.net>
      ] ;
      fhir:value [ fhir:v "32120" ] ;
      fhir:assigner [
@@ -67,7 +67,7 @@
            a sct:397669002 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "397669002" ] ;
            fhir:display [ fhir:v "Age" ]
@@ -80,7 +80,7 @@
            fhir:unit [ fhir:v "years" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "a" ]
          ] ;
@@ -89,7 +89,7 @@
            fhir:unit [ fhir:v "years" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "a" ]
          ]
@@ -119,14 +119,14 @@
                a sct:64572001 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "64572001" ] ;
                fhir:display [ fhir:v "Disease (disorder)" ]
              ] [
                fhir:system [
                  fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ;
-                 fhir:link <http://hl7.org/fhir/resource-types>
+                 fhir:l <http://hl7.org/fhir/resource-types>
                ] ;
                fhir:code [ fhir:v "Condition" ] ;
                fhir:display [ fhir:v "Condition" ]
@@ -138,7 +138,7 @@
                a sct:44054006 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "44054006" ] ;
                fhir:display [ fhir:v "Diabetes mellitus type 2 (disorder)" ]
@@ -157,7 +157,7 @@
              fhir:unit [ fhir:v "months" ] ;
              fhir:system [
                fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-               fhir:link <http://unitsofmeasure.org>
+               fhir:l <http://unitsofmeasure.org>
              ] ;
              fhir:code [ fhir:v "mo" ]
            ]
@@ -173,7 +173,7 @@
              a sct:305450004 ;
              fhir:system [
                fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-               fhir:link <http://snomed.info/sct>
+               fhir:l <http://snomed.info/sct>
              ] ;
              fhir:code [ fhir:v "305450004" ] ;
              fhir:display [ fhir:v "Under care of doctor (finding)" ]
@@ -191,7 +191,7 @@
                a sct:450332002 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "450332002" ] ;
                fhir:display [ fhir:v "Assessment of eligibility for clinical trial" ]
@@ -203,7 +203,7 @@
                fhir:unit [ fhir:v "months" ] ;
                fhir:system [
                  fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-                 fhir:link <http://unitsofmeasure.org>
+                 fhir:l <http://unitsofmeasure.org>
                ] ;
                fhir:code [ fhir:v "mo" ]
              ] ;
@@ -212,7 +212,7 @@
                fhir:unit [ fhir:v "months" ] ;
                fhir:system [
                  fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-                 fhir:link <http://unitsofmeasure.org>
+                 fhir:l <http://unitsofmeasure.org>
                ] ;
                fhir:code [ fhir:v "mo" ]
              ]
@@ -230,7 +230,7 @@
                a loinc:59261-8 ;
                fhir:system [
                  fhir:v "http://loinc.org"^^xsd:anyURI ;
-                 fhir:link <http://loinc.org>
+                 fhir:l <http://loinc.org>
                ] ;
                fhir:code [ fhir:v "59261-8" ] ;
                fhir:display [ fhir:v "Hemoglobin A1c/Hemoglobin.total in Blood" ]
@@ -243,7 +243,7 @@
              fhir:unit [ fhir:v "%" ] ;
              fhir:system [
                fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-               fhir:link <http://unitsofmeasure.org>
+               fhir:l <http://unitsofmeasure.org>
              ] ;
              fhir:code [ fhir:v "%" ]
            ]
@@ -259,7 +259,7 @@
            a loinc:39156-5 ;
            fhir:system [
              fhir:v "http://loinc.org"^^xsd:anyURI ;
-             fhir:link <http://loinc.org>
+             fhir:l <http://loinc.org>
            ] ;
            fhir:code [ fhir:v "39156-5" ] ;
            fhir:display [ fhir:v "Body mass index (BMI) [Ratio]" ]
@@ -272,7 +272,7 @@
            fhir:unit [ fhir:v "kg/m2" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "kg/m2" ]
          ] ;
@@ -281,7 +281,7 @@
            fhir:unit [ fhir:v "kg/m2" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "kg/m2" ]
          ]
@@ -320,7 +320,7 @@
            a sct:450332002 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "450332002" ] ;
            fhir:display [ fhir:v "Assessment of eligibility for clinical trial (procedure)" ]
@@ -340,14 +340,14 @@
                a sct:64572001 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "64572001" ] ;
                fhir:display [ fhir:v "Disease (disorder)" ]
              ] [
                fhir:system [
                  fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ;
-                 fhir:link <http://hl7.org/fhir/resource-types>
+                 fhir:l <http://hl7.org/fhir/resource-types>
                ] ;
                fhir:code [ fhir:v "Condition" ] ;
                fhir:display [ fhir:v "Condition" ]
@@ -359,7 +359,7 @@
                a sct:22298006 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "22298006" ] ;
                fhir:display [ fhir:v "Myocardial infarction (disorder)" ]
@@ -374,14 +374,14 @@
                a sct:64572001 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "64572001" ] ;
                fhir:display [ fhir:v "Disease (disorder)" ]
              ] [
                fhir:system [
                  fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ;
-                 fhir:link <http://hl7.org/fhir/resource-types>
+                 fhir:l <http://hl7.org/fhir/resource-types>
                ] ;
                fhir:code [ fhir:v "Condition" ] ;
                fhir:display [ fhir:v "Condition" ]
@@ -393,7 +393,7 @@
                a sct:394659003 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "394659003" ] ;
                fhir:display [ fhir:v "Acute coronary syndrome (disorder)" ]
@@ -408,7 +408,7 @@
                a sct:71388002 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "71388002" ] ;
                fhir:display [ fhir:v "Procedure (procedure)" ]
@@ -420,7 +420,7 @@
                a sct:81266008 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "81266008" ] ;
                fhir:display [ fhir:v "Heart revascularization (procedure)" ]
@@ -435,14 +435,14 @@
                a sct:64572001 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "64572001" ] ;
                fhir:display [ fhir:v "Disease (disorder)" ]
              ] [
                fhir:system [
                  fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ;
-                 fhir:link <http://hl7.org/fhir/resource-types>
+                 fhir:l <http://hl7.org/fhir/resource-types>
                ] ;
                fhir:code [ fhir:v "Condition" ] ;
                fhir:display [ fhir:v "Condition" ]
@@ -454,7 +454,7 @@
                a sct:230690007 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "230690007" ] ;
                fhir:display [ fhir:v "Cerebrovascular accident (disorder)" ]
@@ -478,7 +478,7 @@
            fhir:unit [ fhir:v "months" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mo" ]
          ] ;
@@ -487,7 +487,7 @@
            fhir:unit [ fhir:v "months" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mo" ]
          ]
@@ -511,14 +511,14 @@
            a sct:64572001 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "64572001" ] ;
            fhir:display [ fhir:v "Disease (disorder)" ]
          ] [
            fhir:system [
              fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/resource-types>
+             fhir:l <http://hl7.org/fhir/resource-types>
            ] ;
            fhir:code [ fhir:v "Condition" ] ;
            fhir:display [ fhir:v "Condition" ]
@@ -530,7 +530,7 @@
            a sct:59282003 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "59282003" ] ;
            fhir:display [ fhir:v "Pulmonary embolism (disorder)" ]
@@ -552,7 +552,7 @@
            fhir:unit [ fhir:v "months" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mo" ]
          ] ;
@@ -561,7 +561,7 @@
            fhir:unit [ fhir:v "months" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mo" ]
          ]
@@ -576,14 +576,14 @@
            a sct:64572001 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "64572001" ] ;
            fhir:display [ fhir:v "Disease (disorder)" ]
          ] [
            fhir:system [
              fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/resource-types>
+             fhir:l <http://hl7.org/fhir/resource-types>
            ] ;
            fhir:code [ fhir:v "Condition" ] ;
            fhir:display [ fhir:v "Condition" ]
@@ -595,7 +595,7 @@
            a sct:64156001 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "64156001" ] ;
            fhir:display [ fhir:v "Thrombophlebitis (disorder)" ]
@@ -617,7 +617,7 @@
            fhir:unit [ fhir:v "months" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mo" ]
          ] ;
@@ -626,7 +626,7 @@
            fhir:unit [ fhir:v "months" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "mo" ]
          ]
@@ -646,14 +646,14 @@
                a sct:64572001 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "64572001" ] ;
                fhir:display [ fhir:v "Disease (disorder)" ]
              ] [
                fhir:system [
                  fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ;
-                 fhir:link <http://hl7.org/fhir/resource-types>
+                 fhir:l <http://hl7.org/fhir/resource-types>
                ] ;
                fhir:code [ fhir:v "Condition" ] ;
                fhir:display [ fhir:v "Condition" ]
@@ -665,7 +665,7 @@
                a sct:363346000 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "363346000" ] ;
                fhir:display [ fhir:v "Malignant neoplastic disease (disorder)" ]
@@ -681,14 +681,14 @@
                a sct:64572001 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "64572001" ] ;
                fhir:display [ fhir:v "Disease (disorder)" ]
              ] [
                fhir:system [
                  fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ;
-                 fhir:link <http://hl7.org/fhir/resource-types>
+                 fhir:l <http://hl7.org/fhir/resource-types>
                ] ;
                fhir:code [ fhir:v "Condition" ] ;
                fhir:display [ fhir:v "Condition" ]
@@ -700,7 +700,7 @@
                a sct:254701007 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "254701007" ] ;
                fhir:display [ fhir:v "Basal cell carcinoma of skin (disorder)" ]
@@ -716,14 +716,14 @@
                a sct:64572001 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "64572001" ] ;
                fhir:display [ fhir:v "Disease (disorder)" ]
              ] [
                fhir:system [
                  fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ;
-                 fhir:link <http://hl7.org/fhir/resource-types>
+                 fhir:l <http://hl7.org/fhir/resource-types>
                ] ;
                fhir:code [ fhir:v "Condition" ] ;
                fhir:display [ fhir:v "Condition" ]
@@ -735,7 +735,7 @@
                a sct:109355002 ;
                fhir:system [
                  fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-                 fhir:link <http://snomed.info/sct>
+                 fhir:l <http://snomed.info/sct>
                ] ;
                fhir:code [ fhir:v "109355002" ] ;
                fhir:display [ fhir:v "Carcinoma in situ (disorder)" ]
@@ -750,7 +750,7 @@
              a sct:395100000 ;
              fhir:system [
                fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-               fhir:link <http://snomed.info/sct>
+               fhir:l <http://snomed.info/sct>
              ] ;
              fhir:code [ fhir:v "395100000" ] ;
              fhir:display [ fhir:v "No evidence of cancer found (situation)" ]
@@ -771,7 +771,7 @@
                fhir:unit [ fhir:v "years" ] ;
                fhir:system [
                  fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-                 fhir:link <http://unitsofmeasure.org>
+                 fhir:l <http://unitsofmeasure.org>
                ] ;
                fhir:code [ fhir:v "a" ]
              ] ;
@@ -780,7 +780,7 @@
                fhir:unit [ fhir:v "years" ] ;
                fhir:system [
                  fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-                 fhir:link <http://unitsofmeasure.org>
+                 fhir:l <http://unitsofmeasure.org>
                ] ;
                fhir:code [ fhir:v "a" ]
              ]
@@ -800,7 +800,7 @@
            a loinc:718-7 ;
            fhir:system [
              fhir:v "http://loinc.org"^^xsd:anyURI ;
-             fhir:link <http://loinc.org>
+             fhir:l <http://loinc.org>
            ] ;
            fhir:code [ fhir:v "718-7" ] ;
            fhir:display [ fhir:v "Hemoglobin [Mass/volume] in Blood" ]
@@ -813,7 +813,7 @@
          fhir:unit [ fhir:v "g/dL" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "g/dL" ]
        ] ;
@@ -821,7 +821,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/characteristic-offset"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/characteristic-offset>
+             fhir:l <http://hl7.org/fhir/characteristic-offset>
            ] ;
            fhir:code [ fhir:v "LNL" ] ;
            fhir:display [ fhir:v "Lower Normal Limit" ]
@@ -837,7 +837,7 @@
            a loinc:2160-0 ;
            fhir:system [
              fhir:v "http://loinc.org"^^xsd:anyURI ;
-             fhir:link <http://loinc.org>
+             fhir:l <http://loinc.org>
            ] ;
            fhir:code [ fhir:v "2160-0" ] ;
            fhir:display [ fhir:v "Creatinine [Mass/volume] in Serum or Plasma" ]
@@ -850,7 +850,7 @@
          fhir:unit [ fhir:v "mg/dl" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg/dL" ]
        ]
@@ -864,7 +864,7 @@
            a loinc:59261-8 ;
            fhir:system [
              fhir:v "http://loinc.org"^^xsd:anyURI ;
-             fhir:link <http://loinc.org>
+             fhir:l <http://loinc.org>
            ] ;
            fhir:code [ fhir:v "59261-8" ] ;
            fhir:display [ fhir:v "Hemoglobin A1c/Hemoglobin.total in Blood" ]
@@ -877,7 +877,7 @@
          fhir:unit [ fhir:v "%" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "%" ]
        ]

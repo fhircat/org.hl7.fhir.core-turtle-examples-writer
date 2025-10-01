@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,12 +25,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/MessageDefinition/patient-link-response"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/MessageDefinition/patient-link-response>
+     fhir:l <http://hl7.org/fhir/MessageDefinition/patient-link-response>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.15.1" ]
   ] ) ; # 
@@ -52,7 +52,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -61,7 +61,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/variant-state"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/variant-state>
+           fhir:l <http://terminology.hl7.org/CodeSystem/variant-state>
          ] ;
          fhir:code [ fhir:v "positive" ]
        ] )
@@ -71,7 +71,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ] ;
        fhir:display [ fhir:v "United States of America (the)" ]
@@ -81,13 +81,13 @@
   fhir:copyright [ fhir:v "� HL7.org 2011+"] ; # 
   fhir:base [
      fhir:v "http://hl7.org/fhir/MessageDefinition/example"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/MessageDefinition/example>
+     fhir:l <http://hl7.org/fhir/MessageDefinition/example>
   ] ; # 
   fhir:event [
      a fhir:Coding ;
      fhir:system [
        fhir:v "http://example.org/fhir/message-events"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/message-events>
+       fhir:l <http://example.org/fhir/message-events>
      ] ;
      fhir:code [ fhir:v "admin-notify" ]
   ] ; # 
@@ -96,7 +96,7 @@
      fhir:code [ fhir:v "Patient" ] ;
      fhir:profile [
        fhir:v "http://hl7.org/fhir/StructureDefinition/example"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/example>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/example>
      ] ;
      fhir:min [ fhir:v "2"^^xsd:nonNegativeInteger ] ;
      fhir:max [ fhir:v "2" ]

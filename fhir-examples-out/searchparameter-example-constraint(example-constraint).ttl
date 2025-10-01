@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/SearchParameter/example-constraint"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/SearchParameter/example-constraint>
+     fhir:l <http://hl7.org/fhir/SearchParameter/example-constraint>
   ] ; # 
   fhir:name [ fhir:v "Exampleconstraint"] ; # 
   fhir:title [ fhir:v "example-constraint"] ; # 

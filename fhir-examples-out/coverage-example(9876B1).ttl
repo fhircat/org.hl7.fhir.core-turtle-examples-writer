@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://benefitsinc.com/certificate"^^xsd:anyURI ;
-       fhir:link <http://benefitsinc.com/certificate>
+       fhir:l <http://benefitsinc.com/certificate>
      ] ;
      fhir:value [ fhir:v "12345" ]
   ] ) ; # 
@@ -36,22 +36,22 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "EHCPOL" ] ;
        fhir:display [ fhir:v "extended healthcare" ]
      ] )
   ] ; # 
   fhir:policyHolder [
-     fhir:link <http://benefitsinc.com/FHIR/Organization/CBI35> ;
+     fhir:l <http://benefitsinc.com/FHIR/Organization/CBI35> ;
      fhir:reference [ fhir:v "http://benefitsinc.com/FHIR/Organization/CBI35" ]
   ] ; # 
   fhir:subscriber [
-     fhir:link <http://hl7.org/fhir/Patient/4> ;
+     fhir:l <http://hl7.org/fhir/Patient/4> ;
      fhir:reference [ fhir:v "Patient/4" ]
   ] ; # 
   fhir:beneficiary [
-     fhir:link <http://hl7.org/fhir/Patient/4> ;
+     fhir:l <http://hl7.org/fhir/Patient/4> ;
      fhir:reference [ fhir:v "Patient/4" ]
   ] ; # 
   fhir:dependent [ fhir:v "0"] ; # 
@@ -65,7 +65,7 @@
      fhir:end [ fhir:v "2012-05-23"^^xsd:date ]
   ] ; # 
   fhir:insurer [
-     fhir:link <http://hl7.org/fhir/Organization/2> ;
+     fhir:l <http://hl7.org/fhir/Organization/2> ;
      fhir:reference [ fhir:v "Organization/2" ]
   ] ; # 
   fhir:class ( [
@@ -73,7 +73,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "group" ]
        ] )
@@ -87,7 +87,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "subgroup" ]
        ] )
@@ -101,7 +101,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "plan" ]
        ] )
@@ -115,7 +115,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "subplan" ]
        ] )
@@ -129,7 +129,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "class" ]
        ] )
@@ -143,7 +143,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "subclass" ]
        ] )
@@ -157,7 +157,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "sequence" ]
        ] )
@@ -170,7 +170,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "rxid" ]
        ] )
@@ -183,7 +183,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "rxbin" ]
        ] )
@@ -196,7 +196,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "rxgroup" ]
        ] )
@@ -209,7 +209,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "rxpcn" ]
        ] )
@@ -222,7 +222,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/coverage-class>
+           fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
          ] ;
          fhir:code [ fhir:v "sequence" ]
        ] )

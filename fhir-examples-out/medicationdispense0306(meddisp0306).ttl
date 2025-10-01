@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-           fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+           fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
          ] ;
          fhir:code [ fhir:v "1594660" ] ;
          fhir:display [ fhir:v "Alemtuzumab 10mg/ml (Lemtrada)" ]
@@ -41,30 +41,31 @@
   fhir:status [ fhir:v "in-progress"] ; # 
   fhir:medication [
      fhir:reference [
+       fhir:l <#med0303> ;
        fhir:reference [ fhir:v "#med0303" ] ; #    Linked to a RESOURCE Medication   
        fhir:display [ fhir:v "Alemtuzumab 10mg/ml (Lemtrada)" ]
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:performer ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f006> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f006> ;
        fhir:reference [ fhir:v "Practitioner/f006" ]
      ]
   ] ) ; # 
   fhir:authorizingPrescription ( [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0317> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0317> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0317" ]
   ] ) ; # 
   fhir:type [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "DF" ] ;
        fhir:display [ fhir:v "Daily Fill" ]
@@ -74,7 +75,7 @@
      fhir:value [ fhir:v "5"^^xsd:decimal ] ;
      fhir:system [
        fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-       fhir:link <http://snomed.info/sct>
+       fhir:l <http://snomed.info/sct>
      ] ;
      fhir:code [ fhir:v "415818006" ]
   ] ; # 
@@ -83,7 +84,7 @@
      fhir:unit [ fhir:v "Day" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "d" ]
   ] ; # 
@@ -110,7 +111,7 @@
          a sct:47625008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "47625008" ] ;
          fhir:display [ fhir:v "Intravenous route (qualifier value)" ]
@@ -121,7 +122,7 @@
          a sct:422145002 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "422145002" ] ;
          fhir:display [ fhir:v "Inject - dosing instruction imperative (qualifier value)" ]
@@ -132,7 +133,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "calculated" ] ;
            fhir:display [ fhir:v "Calculated" ]
@@ -144,7 +145,7 @@
          fhir:unit [ fhir:v "mg" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ]
@@ -171,7 +172,7 @@
          a sct:47625008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "47625008" ] ;
          fhir:display [ fhir:v "Intravenous route (qualifier value)" ]
@@ -182,7 +183,7 @@
          a sct:422145002 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "422145002" ] ;
          fhir:display [ fhir:v "Inject - dosing instruction imperative (qualifier value)" ]
@@ -193,7 +194,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "calculated" ] ;
            fhir:display [ fhir:v "Calculated" ]
@@ -205,7 +206,7 @@
          fhir:unit [ fhir:v "mg" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ]
@@ -232,7 +233,7 @@
          a sct:47625008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "47625008" ] ;
          fhir:display [ fhir:v "Intravenous route (qualifier value)" ]
@@ -243,7 +244,7 @@
          a sct:422145002 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "422145002" ] ;
          fhir:display [ fhir:v "Inject - dosing instruction imperative (qualifier value)" ]
@@ -254,7 +255,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "calculated" ] ;
            fhir:display [ fhir:v "Calculated" ]
@@ -266,7 +267,7 @@
          fhir:unit [ fhir:v "mg" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mg" ]
        ]

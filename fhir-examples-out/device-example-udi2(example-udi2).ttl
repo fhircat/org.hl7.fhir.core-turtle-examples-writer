@@ -26,7 +26,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -41,7 +41,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/NamingSystem/iccbba-din"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/NamingSystem/iccbba-din>
+           fhir:l <http://hl7.org/fhir/NamingSystem/iccbba-din>
          ]
        ] )
      ] ;
@@ -51,11 +51,11 @@
      fhir:deviceIdentifier [ fhir:v "A9999XYZ100T0474" ] ;
      fhir:issuer [
        fhir:v "http://hl7.org/fhir/NamingSystem/iccbba-other"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/NamingSystem/iccbba-other>
+       fhir:l <http://hl7.org/fhir/NamingSystem/iccbba-other>
      ] ;
      fhir:jurisdiction [
        fhir:v "http://hl7.org/fhir/NamingSystem/fda-udi"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/NamingSystem/fda-udi>
+       fhir:l <http://hl7.org/fhir/NamingSystem/fda-udi>
      ]
   ] ) ; # 
   fhir:status [ fhir:v "inactive"] ; # 

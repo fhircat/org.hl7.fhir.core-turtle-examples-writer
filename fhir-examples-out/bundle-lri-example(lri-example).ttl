@@ -17,7 +17,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,103 +27,103 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/DiagnosticReport/lri-example"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/DiagnosticReport/lri-example>
+       fhir:l <http://test.fhir.org/r5/DiagnosticReport/lri-example>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/DiagnosticReport/lri-example> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-gramstain1"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-gramstain1>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-gramstain1>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-gramstain1> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-gramstain2"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-gramstain2>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-gramstain2>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-gramstain2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-gramstain3"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-gramstain3>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-gramstain3>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-gramstain3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-gramstain4"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-gramstain4>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-gramstain4>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-gramstain4> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-growth1"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-growth1>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-growth1>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-growth1> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-growth2"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-growth2>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-growth2>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-growth2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-growth3"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-growth3>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-growth3>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-growth3> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-org2-amp"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-org2-amp>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-org2-amp>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-org2-amp> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-org2-cip"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-org2-cip>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-org2-cip>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-org2-cip> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-org2-gent"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-org2-gent>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-org2-gent>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-org2-gent> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-org3-amp"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-org3-amp>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-org3-amp>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-org3-amp> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-org3-cip"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-org3-cip>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-org3-cip>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-org3-cip> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-org3-gent"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-org3-gent>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-org3-gent>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-org3-gent> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-organism1"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-organism1>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-organism1>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-organism1> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-organism2"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-organism2>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-organism2>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-organism2> )
   ] [
      fhir:fullUrl [
        fhir:v "http://test.fhir.org/r5/Observation/lri-organism3"^^xsd:anyURI ;
-       fhir:link <http://test.fhir.org/r5/Observation/lri-organism3>
+       fhir:l <http://test.fhir.org/r5/Observation/lri-organism3>
      ] ;
      fhir:resource ( <http://test.fhir.org/r5/Observation/lri-organism3> )
   ] ) . # 
@@ -139,7 +139,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "PLAC" ] ;
          fhir:display [ fhir:v "Placer Identifier" ]
@@ -147,7 +147,7 @@
      ] ;
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "RP723234" ]
   ] [
@@ -155,7 +155,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "FILL" ] ;
          fhir:display [ fhir:v "Filler Identifier" ]
@@ -163,7 +163,7 @@
      ] ;
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "250401" ]
   ] [
@@ -171,7 +171,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-           fhir:link <https://acme.org/identifiers>
+           fhir:l <https://acme.org/identifiers>
          ] ;
          fhir:code [ fhir:v "GRP" ] ;
          fhir:display [ fhir:v "Group" ]
@@ -179,12 +179,12 @@
      ] ;
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "RFP 123456" ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/example> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/example> ;
      fhir:reference [ fhir:v "ServiceRequest/example" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
@@ -192,14 +192,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "LAB" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -210,7 +210,7 @@
        a loinc:624-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "624-7" ] ;
        fhir:display [ fhir:v "Bacteria Spt Resp Cul" ]
@@ -218,7 +218,7 @@
      fhir:text [ fhir:v "Aerobic Respiratory Culture, Sputum" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -227,39 +227,39 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T18:14:35Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:specimen ( [
-     fhir:link <http://hl7.org/fhir/Specimen/example> ;
+     fhir:l <http://hl7.org/fhir/Specimen/example> ;
      fhir:reference [ fhir:v "Specimen/example" ]
   ] ) ; # 
   fhir:result ( [
-     fhir:link <http://hl7.org/fhir/Observation/organism1> ;
+     fhir:l <http://hl7.org/fhir/Observation/organism1> ;
      fhir:reference [ fhir:v "Observation/organism1" ] ;
      fhir:display [ fhir:v "Normal Flora" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/organism2> ;
+     fhir:l <http://hl7.org/fhir/Observation/organism2> ;
      fhir:reference [ fhir:v "Observation/organism2" ] ;
      fhir:display [ fhir:v "Klebsiella pneumoniae" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/organism3> ;
+     fhir:l <http://hl7.org/fhir/Observation/organism3> ;
      fhir:reference [ fhir:v "Observation/organism3" ] ;
      fhir:display [ fhir:v "Staphlyococcuc aureus" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/gramstain1> ;
+     fhir:l <http://hl7.org/fhir/Observation/gramstain1> ;
      fhir:reference [ fhir:v "Observation/gramstain1" ] ;
      fhir:display [ fhir:v "Many WBCs" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/gramstain2> ;
+     fhir:l <http://hl7.org/fhir/Observation/gramstain2> ;
      fhir:reference [ fhir:v "Observation/gramstain2" ] ;
      fhir:display [ fhir:v "Moderate Gram Positive Rods" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/gramstain3> ;
+     fhir:l <http://hl7.org/fhir/Observation/gramstain3> ;
      fhir:reference [ fhir:v "Observation/gramstain3" ] ;
      fhir:display [ fhir:v "Moderate Gram Positive Cocci in Chains" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/gramstain4> ;
+     fhir:l <http://hl7.org/fhir/Observation/gramstain4> ;
      fhir:reference [ fhir:v "Observation/gramstain4" ] ;
      fhir:display [ fhir:v "Many Gram Negative Rods" ]
   ] ) . # 
@@ -295,7 +295,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "gramstain1" ]
   ] ) ; # 
@@ -304,14 +304,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -321,7 +321,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -332,14 +332,14 @@
        a loinc:664-3 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "664-3" ] ;
        fhir:display [ fhir:v "Gram Stn XXX" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "GMST" ] ;
        fhir:display [ fhir:v "Gram Stain" ]
@@ -347,7 +347,7 @@
      fhir:text [ fhir:v "Gram Stain" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -356,7 +356,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:component ( [
@@ -365,7 +365,7 @@
          a loinc:664-3 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "664-3" ] ;
          fhir:display [ fhir:v "Gram Stn XXX" ]
@@ -377,7 +377,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-           fhir:link <https://acme.org/codes>
+           fhir:l <https://acme.org/codes>
          ] ;
          fhir:code [ fhir:v "MNY" ] ;
          fhir:display [ fhir:v "Many" ]
@@ -390,7 +390,7 @@
          a loinc:664-3 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "664-3" ] ;
          fhir:display [ fhir:v "Gram Stn XXX" ]
@@ -402,7 +402,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-           fhir:link <https://acme.org/codes>
+           fhir:l <https://acme.org/codes>
          ] ;
          fhir:code [ fhir:v "WBCS" ] ;
          fhir:display [ fhir:v "WBCS" ]
@@ -420,7 +420,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "gramstain2" ]
   ] ) ; # 
@@ -429,14 +429,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -446,7 +446,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -457,14 +457,14 @@
        a loinc:664-3 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "664-3" ] ;
        fhir:display [ fhir:v "Gram Stn XXX" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "GMST" ] ;
        fhir:display [ fhir:v "Gram Stain" ]
@@ -472,7 +472,7 @@
      fhir:text [ fhir:v "Gram Stain" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -481,7 +481,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:component ( [
@@ -490,7 +490,7 @@
          a loinc:664-3 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "664-3" ] ;
          fhir:display [ fhir:v "Gram Stn XXX" ]
@@ -502,7 +502,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-           fhir:link <https://acme.org/codes>
+           fhir:l <https://acme.org/codes>
          ] ;
          fhir:code [ fhir:v "MOD" ] ;
          fhir:display [ fhir:v "Moderate" ]
@@ -515,7 +515,7 @@
          a loinc:664-3 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "664-3" ] ;
          fhir:display [ fhir:v "Gram Stn XXX" ]
@@ -527,7 +527,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-           fhir:link <https://acme.org/codes>
+           fhir:l <https://acme.org/codes>
          ] ;
          fhir:code [ fhir:v "GPR" ] ;
          fhir:display [ fhir:v "Moderate" ]
@@ -545,7 +545,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "gramstain3" ]
   ] ) ; # 
@@ -554,14 +554,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -571,7 +571,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -582,14 +582,14 @@
        a loinc:664-3 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "664-3" ] ;
        fhir:display [ fhir:v "Gram Stn XXX" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "GMST" ] ;
        fhir:display [ fhir:v "Gram Stain" ]
@@ -597,7 +597,7 @@
      fhir:text [ fhir:v "Gram Stain" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -606,7 +606,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:component ( [
@@ -615,7 +615,7 @@
          a loinc:664-3 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "664-3" ] ;
          fhir:display [ fhir:v "Gram Stn XXX" ]
@@ -627,7 +627,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-           fhir:link <https://acme.org/codes>
+           fhir:l <https://acme.org/codes>
          ] ;
          fhir:code [ fhir:v "MOD" ] ;
          fhir:display [ fhir:v "Moderate" ]
@@ -640,7 +640,7 @@
          a loinc:664-3 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "664-3" ] ;
          fhir:display [ fhir:v "Gram Stn XXX" ]
@@ -652,7 +652,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-           fhir:link <https://acme.org/codes>
+           fhir:l <https://acme.org/codes>
          ] ;
          fhir:code [ fhir:v "GPCCH" ] ;
          fhir:display [ fhir:v "Gram Positive Cocci in Chains" ]
@@ -670,7 +670,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "gramstain4" ]
   ] ) ; # 
@@ -679,14 +679,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -696,7 +696,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -707,14 +707,14 @@
        a loinc:664-3 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "664-3" ] ;
        fhir:display [ fhir:v "Gram Stn XXX" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "GMST" ] ;
        fhir:display [ fhir:v "Gram Stain" ]
@@ -722,7 +722,7 @@
      fhir:text [ fhir:v "Gram Stain" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -731,7 +731,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:component ( [
@@ -740,7 +740,7 @@
          a loinc:664-3 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "664-3" ] ;
          fhir:display [ fhir:v "Gram Stn XXX" ]
@@ -752,7 +752,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-           fhir:link <https://acme.org/codes>
+           fhir:l <https://acme.org/codes>
          ] ;
          fhir:code [ fhir:v "MNY" ] ;
          fhir:display [ fhir:v "Many" ]
@@ -765,7 +765,7 @@
          a loinc:664-3 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "664-3" ] ;
          fhir:display [ fhir:v "Gram Stn XXX" ]
@@ -777,7 +777,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-           fhir:link <https://acme.org/codes>
+           fhir:l <https://acme.org/codes>
          ] ;
          fhir:code [ fhir:v "GNR" ] ;
          fhir:display [ fhir:v "Gram Negative Rods" ]
@@ -795,7 +795,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "growth1" ]
   ] ) ; # 
@@ -804,14 +804,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -821,7 +821,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -832,14 +832,14 @@
        a loinc:624-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "624-7" ] ;
        fhir:display [ fhir:v "Bacteria Spt Resp Cul" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "GROWTH" ] ;
        fhir:display [ fhir:v "Growth" ]
@@ -847,7 +847,7 @@
      fhir:text [ fhir:v "Aerobic Respiratory Culture, Sputum" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -856,7 +856,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -865,7 +865,7 @@
        a sct:263812008 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "263812008" ] ;
        fhir:display [ fhir:v "Moderate Growth" ]
@@ -882,7 +882,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "growth2" ]
   ] ) ; # 
@@ -891,14 +891,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -908,7 +908,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -919,14 +919,14 @@
        a loinc:624-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "624-7" ] ;
        fhir:display [ fhir:v "Bacteria Spt Resp Cul" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "GROWTH" ] ;
        fhir:display [ fhir:v "Growth" ]
@@ -934,7 +934,7 @@
      fhir:text [ fhir:v "Aerobic Respiratory Culture, Sputum" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -943,7 +943,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -952,7 +952,7 @@
        a sct:263776006 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "263776006" ] ;
        fhir:display [ fhir:v "Heavy growth" ]
@@ -969,7 +969,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "growth3" ]
   ] ) ; # 
@@ -978,14 +978,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -995,7 +995,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -1006,14 +1006,14 @@
        a loinc:624-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "624-7" ] ;
        fhir:display [ fhir:v "Bacteria Spt Resp Cul" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "GROWTH" ] ;
        fhir:display [ fhir:v "Growth" ]
@@ -1021,7 +1021,7 @@
      fhir:text [ fhir:v "Aerobic Respiratory Culture, Sputum" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1030,7 +1030,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1039,7 +1039,7 @@
        a sct:263776006 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "263776006" ] ;
        fhir:display [ fhir:v "Heavy growth" ]
@@ -1056,7 +1056,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "org2-amp" ]
   ] ) ; # 
@@ -1065,14 +1065,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -1082,7 +1082,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -1093,14 +1093,14 @@
        a loinc:28-1 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "28-1" ] ;
        fhir:display [ fhir:v "Ampicilin Islt MIC" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "AMPMIC" ] ;
        fhir:display [ fhir:v "Ampicilin MIC" ]
@@ -1108,7 +1108,7 @@
      fhir:text [ fhir:v "Ampicilin MIC" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1117,7 +1117,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1127,7 +1127,7 @@
      fhir:unit [ fhir:v "ug/ml" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "ug/mL" ]
   ] ; # 
@@ -1135,7 +1135,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "S" ] ;
        fhir:display [ fhir:v "Susceptible" ]
@@ -1151,7 +1151,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "org2-cip" ]
   ] ) ; # 
@@ -1160,14 +1160,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -1177,7 +1177,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -1188,14 +1188,14 @@
        a loinc:185-9 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "185-9" ] ;
        fhir:display [ fhir:v "Ciprofloxacin Islt MIC" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "CIPMIC" ] ;
        fhir:display [ fhir:v "Ciprofloxacin MIC" ]
@@ -1203,7 +1203,7 @@
      fhir:text [ fhir:v "Ciprofloxacin MIC" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1212,7 +1212,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1222,7 +1222,7 @@
      fhir:unit [ fhir:v "ug/ml" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "ug/mL" ]
   ] ; # 
@@ -1230,7 +1230,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "S" ] ;
        fhir:display [ fhir:v "Susceptible" ]
@@ -1246,7 +1246,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "org2-gent" ]
   ] ) ; # 
@@ -1255,14 +1255,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -1272,7 +1272,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -1283,14 +1283,14 @@
        a loinc:267-5 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "267-5" ] ;
        fhir:display [ fhir:v "Gentamicin Islt MIC" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "CIPMIC" ] ;
        fhir:display [ fhir:v "Gentamicin MIC" ]
@@ -1298,7 +1298,7 @@
      fhir:text [ fhir:v "Gentamicin MIC" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1307,7 +1307,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1317,7 +1317,7 @@
      fhir:unit [ fhir:v "ug/ml" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "ug/mL" ]
   ] ; # 
@@ -1325,7 +1325,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "S" ] ;
        fhir:display [ fhir:v "Susceptible" ]
@@ -1341,7 +1341,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "org3-amp" ]
   ] ) ; # 
@@ -1350,14 +1350,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -1367,7 +1367,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -1378,14 +1378,14 @@
        a loinc:28-1 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "28-1" ] ;
        fhir:display [ fhir:v "Ampicilin Islt MIC" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "AMPMIC" ] ;
        fhir:display [ fhir:v "Ampicilin MIC" ]
@@ -1393,7 +1393,7 @@
      fhir:text [ fhir:v "Ampicilin MIC" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1402,7 +1402,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1412,7 +1412,7 @@
      fhir:unit [ fhir:v "ug/ml" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "ug/mL" ]
   ] ; # 
@@ -1420,7 +1420,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "S" ] ;
        fhir:display [ fhir:v "Susceptible" ]
@@ -1436,7 +1436,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "org3-cip" ]
   ] ) ; # 
@@ -1445,14 +1445,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -1462,7 +1462,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -1473,14 +1473,14 @@
        a loinc:185-9 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "185-9" ] ;
        fhir:display [ fhir:v "Ciprofloxacin Islt MIC" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "CIPMIC" ] ;
        fhir:display [ fhir:v "Ciprofloxacin MIC" ]
@@ -1488,7 +1488,7 @@
      fhir:text [ fhir:v "Ciprofloxacin MIC" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1497,7 +1497,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1507,7 +1507,7 @@
      fhir:unit [ fhir:v "ug/ml" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "ug/mL" ]
   ] ; # 
@@ -1515,7 +1515,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "S" ] ;
        fhir:display [ fhir:v "Susceptible" ]
@@ -1531,7 +1531,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "org3-gent" ]
   ] ) ; # 
@@ -1540,14 +1540,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -1559,7 +1559,7 @@
        a loinc:267-5 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "267-5" ] ;
        fhir:display [ fhir:v "Gentamicin Islt MIC" ]
@@ -1567,7 +1567,7 @@
      fhir:text [ fhir:v "Gentamicin MIC" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1576,7 +1576,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1586,7 +1586,7 @@
      fhir:unit [ fhir:v "ug/ml" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "ug/mL" ]
   ] ; # 
@@ -1594,7 +1594,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "S" ] ;
        fhir:display [ fhir:v "Susceptible" ]
@@ -1610,7 +1610,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "organism1" ]
   ] ) ; # 
@@ -1619,14 +1619,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -1636,7 +1636,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -1647,14 +1647,14 @@
        a loinc:624-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "624-7" ] ;
        fhir:display [ fhir:v "Bacteria Spt Resp Cul" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "CULTID" ] ;
        fhir:display [ fhir:v "Culture ID" ]
@@ -1662,7 +1662,7 @@
      fhir:text [ fhir:v "Aerobic Respiratory Culture, Sputum" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1671,7 +1671,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1680,7 +1680,7 @@
        a sct:23506009 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "23506009" ] ;
        fhir:display [ fhir:v "Normal flora" ]
@@ -1688,7 +1688,7 @@
      fhir:text [ fhir:v "Normal flora" ]
   ] ; # 
   fhir:hasMember ( [
-     fhir:link <http://hl7.org/fhir/Observation/growth1> ;
+     fhir:l <http://hl7.org/fhir/Observation/growth1> ;
      fhir:reference [ fhir:v "Observation/growth1" ] ;
      fhir:display [ fhir:v "Moderate growth" ]
   ] ) . # 
@@ -1704,7 +1704,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "organism2" ]
   ] ) ; # 
@@ -1713,14 +1713,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -1730,7 +1730,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -1741,14 +1741,14 @@
        a loinc:624-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "624-7" ] ;
        fhir:display [ fhir:v "Bacteria Spt Resp Cul" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "CULTID" ] ;
        fhir:display [ fhir:v "Culture ID" ]
@@ -1756,7 +1756,7 @@
      fhir:text [ fhir:v "Aerobic Respiratory Culture, Sputum" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1765,7 +1765,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1774,7 +1774,7 @@
        a sct:56415008 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "56415008" ] ;
        fhir:display [ fhir:v "Klebsiella pneumonia" ]
@@ -1782,19 +1782,19 @@
      fhir:text [ fhir:v "Klebsiella pneumonia" ]
   ] ; # 
   fhir:hasMember ( [
-     fhir:link <http://hl7.org/fhir/Observation/growth2> ;
+     fhir:l <http://hl7.org/fhir/Observation/growth2> ;
      fhir:reference [ fhir:v "Observation/growth2" ] ;
      fhir:display [ fhir:v "Heavy growth" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/org2-amp> ;
+     fhir:l <http://hl7.org/fhir/Observation/org2-amp> ;
      fhir:reference [ fhir:v "Observation/org2-amp" ] ;
      fhir:display [ fhir:v "Ampicillin MIC - Susceptible" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/org2-cip> ;
+     fhir:l <http://hl7.org/fhir/Observation/org2-cip> ;
      fhir:reference [ fhir:v "Observation/org2-cip" ] ;
      fhir:display [ fhir:v "Ciprofloxacin MIC - Susceptible" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/org2-gent> ;
+     fhir:l <http://hl7.org/fhir/Observation/org2-gent> ;
      fhir:reference [ fhir:v "Observation/org2-gent" ] ;
      fhir:display [ fhir:v "Gentamicin MIC  - Susceptible" ]
   ] ) . # 
@@ -1816,7 +1816,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://acme.org/identifiers"^^xsd:anyURI ;
-       fhir:link <https://acme.org/identifiers>
+       fhir:l <https://acme.org/identifiers>
      ] ;
      fhir:value [ fhir:v "organism3" ]
   ] ) ; # 
@@ -1825,14 +1825,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "MB" ] ;
        fhir:display [ fhir:v "microbiology" ]
@@ -1842,7 +1842,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:oid:2.16.840.1.113883.9.195.4.61"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.9.195.4.61>
+         fhir:l <urn:oid:2.16.840.1.113883.9.195.4.61>
        ] ;
        fhir:code [ fhir:v "RSLT" ] ;
        fhir:display [ fhir:v "Result" ]
@@ -1853,14 +1853,14 @@
        a loinc:624-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "624-7" ] ;
        fhir:display [ fhir:v "Bacteria Spt Resp Cul" ]
      ] [
        fhir:system [
          fhir:v "https://acme.org/codes"^^xsd:anyURI ;
-         fhir:link <https://acme.org/codes>
+         fhir:l <https://acme.org/codes>
        ] ;
        fhir:code [ fhir:v "CULTID" ] ;
        fhir:display [ fhir:v "Culture ID" ]
@@ -1868,7 +1868,7 @@
      fhir:text [ fhir:v "Aerobic Respiratory Culture, Sputum" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:effective [
@@ -1877,7 +1877,7 @@
   ] ; # 
   fhir:issued [ fhir:v "2016-08-18T23:06:32Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:value [
@@ -1886,7 +1886,7 @@
        a sct:3092008 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "3092008" ] ;
        fhir:display [ fhir:v "Staphlyococcuc aureus" ]
@@ -1894,19 +1894,19 @@
      fhir:text [ fhir:v "Staphlyococcuc aureus" ]
   ] ; # 
   fhir:hasMember ( [
-     fhir:link <http://hl7.org/fhir/Observation/growth3> ;
+     fhir:l <http://hl7.org/fhir/Observation/growth3> ;
      fhir:reference [ fhir:v "Observation/growth3" ] ;
      fhir:display [ fhir:v "Heavy growth" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/org3-amp> ;
+     fhir:l <http://hl7.org/fhir/Observation/org3-amp> ;
      fhir:reference [ fhir:v "Observation/org3-amp" ] ;
      fhir:display [ fhir:v "Ampicillin MIC - Susceptible" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/org3-cip> ;
+     fhir:l <http://hl7.org/fhir/Observation/org3-cip> ;
      fhir:reference [ fhir:v "Observation/org3-cip" ] ;
      fhir:display [ fhir:v "Ciprofloxacin MIC - Susceptible" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/org3-gent> ;
+     fhir:l <http://hl7.org/fhir/Observation/org3-gent> ;
      fhir:reference [ fhir:v "Observation/org3-gent" ] ;
      fhir:display [ fhir:v "Gentamicin MIC  - Susceptible" ]
   ] ) . # 

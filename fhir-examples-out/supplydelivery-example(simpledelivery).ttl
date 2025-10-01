@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:value [ fhir:v "Order10284" ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/SupplyRequest/simpleorder> ;
+     fhir:l <http://hl7.org/fhir/SupplyRequest/simpleorder> ;
      fhir:reference [ fhir:v "SupplyRequest/simpleorder" ]
   ] ) ; # 
   fhir:partOf ( [
@@ -40,7 +40,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/supplydelivery-supplyitemtype"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/supplydelivery-supplyitemtype>
+         fhir:l <http://hl7.org/fhir/supplydelivery-supplyitemtype>
        ] ;
        fhir:code [ fhir:v "device" ]
      ] ) ;

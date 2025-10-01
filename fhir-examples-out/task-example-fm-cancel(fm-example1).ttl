@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http:/happyvalley.com/task"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/http:/happyvalley.com/task>
+       fhir:l <http://hl7.org/fhir/http:/happyvalley.com/task>
      ] ;
      fhir:value [ fhir:v "20181012-001" ]
   ] ) ; # 
@@ -38,7 +38,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/financialtaskcode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/financialtaskcode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/financialtaskcode>
        ] ;
        fhir:code [ fhir:v "cancel" ]
      ] )
@@ -47,7 +47,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://happyvalley.com/claim"^^xsd:anyURI ;
-         fhir:link <http://happyvalley.com/claim>
+         fhir:l <http://happyvalley.com/claim>
        ] ;
        fhir:value [ fhir:v "1500" ]
      ]
@@ -55,7 +55,7 @@
   fhir:authoredOn [ fhir:v "2018-10-04T08:25:05+10:00"^^xsd:dateTime] ; # 
   fhir:lastModified [ fhir:v "2018-10-04T08:25:05+10:00"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ] ;
      fhir:display [ fhir:v "Happy Valley Clinic" ]
   ] ; # 
@@ -63,7 +63,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://nationalinsurers.com/identifiers"^^xsd:anyURI ;
-         fhir:link <http://nationalinsurers.com/identifiers>
+         fhir:l <http://nationalinsurers.com/identifiers>
        ] ;
        fhir:value [ fhir:v "12345" ]
      ]

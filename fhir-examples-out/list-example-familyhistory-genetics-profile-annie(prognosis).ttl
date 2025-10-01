@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -35,57 +35,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#2> ;
            fhir:reference [ fhir:v "#2" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#3> ;
            fhir:reference [ fhir:v "#3" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -94,7 +108,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "ONESELF" ] ;
          fhir:display [ fhir:v "self" ]
@@ -106,7 +120,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -116,57 +130,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#4> ;
            fhir:reference [ fhir:v "#4" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#5> ;
            fhir:reference [ fhir:v "#5" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -175,7 +203,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "NMTH" ] ;
          fhir:display [ fhir:v "natural mother" ]
@@ -187,7 +215,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ] ;
@@ -196,7 +224,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:oid:2.16.840.1.113883.3.26.1.1"^^xsd:anyURI ;
-             fhir:link <urn:oid:2.16.840.1.113883.3.26.1.1>
+             fhir:l <urn:oid:2.16.840.1.113883.3.26.1.1>
            ] ;
            fhir:code [ fhir:v "C4908" ] ;
            fhir:display [ fhir:v "Ovarian Carcinoma" ]
@@ -208,7 +236,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -219,57 +247,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#6> ;
            fhir:reference [ fhir:v "#6" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#7> ;
            fhir:reference [ fhir:v "#7" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -278,7 +320,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "NFTH" ] ;
          fhir:display [ fhir:v "natural father" ]
@@ -290,7 +332,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -299,7 +341,7 @@
      fhir:id [ fhir:v "4" ] ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -308,7 +350,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "MGRMTH" ] ;
          fhir:display [ fhir:v "maternal grandmother" ]
@@ -320,7 +362,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ] ;
@@ -329,7 +371,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:oid:2.16.840.1.113883.3.26.1.1"^^xsd:anyURI ;
-             fhir:link <urn:oid:2.16.840.1.113883.3.26.1.1>
+             fhir:l <urn:oid:2.16.840.1.113883.3.26.1.1>
            ] ;
            fhir:code [ fhir:v "C4872" ] ;
            fhir:display [ fhir:v "Breast Carcinoma" ]
@@ -341,7 +383,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -351,7 +393,7 @@
      fhir:id [ fhir:v "5" ] ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -360,7 +402,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "MGRFTH" ] ;
          fhir:display [ fhir:v "maternal grandfather" ]
@@ -372,7 +414,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -381,7 +423,7 @@
      fhir:id [ fhir:v "6" ] ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -390,7 +432,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "PGRMTH" ] ;
          fhir:display [ fhir:v "paternal grandmother" ]
@@ -402,7 +444,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -411,7 +453,7 @@
      fhir:id [ fhir:v "7" ] ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -420,7 +462,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "PGRFTH" ] ;
          fhir:display [ fhir:v "paternal grandfather" ]
@@ -432,7 +474,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ] ;
@@ -441,7 +483,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:oid:2.16.840.1.113883.3.26.1.1"^^xsd:anyURI ;
-             fhir:link <urn:oid:2.16.840.1.113883.3.26.1.1>
+             fhir:l <urn:oid:2.16.840.1.113883.3.26.1.1>
            ] ;
            fhir:code [ fhir:v "C2955" ] ;
            fhir:display [ fhir:v "Colorectal Carcinoma" ]
@@ -453,7 +495,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -464,57 +506,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#2> ;
            fhir:reference [ fhir:v "#2" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#3> ;
            fhir:reference [ fhir:v "#3" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -523,7 +579,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "NBRO" ] ;
          fhir:display [ fhir:v "natural brother" ]
@@ -535,7 +591,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ] ;
@@ -544,7 +600,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:oid:2.16.840.1.113883.3.26.1.1"^^xsd:anyURI ;
-             fhir:link <urn:oid:2.16.840.1.113883.3.26.1.1>
+             fhir:l <urn:oid:2.16.840.1.113883.3.26.1.1>
            ] ;
            fhir:code [ fhir:v "C2955" ] ;
            fhir:display [ fhir:v "Rectal Carcinoma" ]
@@ -556,7 +612,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -567,57 +623,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#2> ;
            fhir:reference [ fhir:v "#2" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#3> ;
            fhir:reference [ fhir:v "#3" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -626,7 +696,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "NSIS" ] ;
          fhir:display [ fhir:v "natural sister" ]
@@ -638,7 +708,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ] ; #  Age was 31 in source, but 36 in diagram  
@@ -647,7 +717,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:oid:2.16.840.1.113883.3.26.1.1"^^xsd:anyURI ;
-             fhir:link <urn:oid:2.16.840.1.113883.3.26.1.1>
+             fhir:l <urn:oid:2.16.840.1.113883.3.26.1.1>
            ] ;
            fhir:code [ fhir:v "C2924" ] ;
            fhir:display [ fhir:v "Ductal Carcinoma In Situ of the Breast" ]
@@ -659,7 +729,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -669,7 +739,7 @@
      fhir:id [ fhir:v "10" ] ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -677,7 +747,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "BROINLAW" ] ;
          fhir:display [ fhir:v "brother-in-law" ]
@@ -689,7 +759,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -699,57 +769,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#9> ;
            fhir:reference [ fhir:v "#9" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#10> ;
            fhir:reference [ fhir:v "#10" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -758,7 +842,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "NEPHEW" ] ;
          fhir:display [ fhir:v "Nephew" ]
@@ -770,7 +854,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -780,57 +864,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#9> ;
            fhir:reference [ fhir:v "#9" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#10> ;
            fhir:reference [ fhir:v "#10" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -839,7 +937,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "NIECE" ] ;
          fhir:display [ fhir:v "niece" ]
@@ -851,7 +949,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ] ;
@@ -863,7 +961,7 @@
          ] [
            fhir:system [
              fhir:v "urn:oid:2.16.840.1.113883.6.133"^^xsd:anyURI ;
-             fhir:link <urn:oid:2.16.840.1.113883.6.133>
+             fhir:l <urn:oid:2.16.840.1.113883.6.133>
            ] ;
            fhir:code [ fhir:v "1101" ] ;
            fhir:display [ fhir:v "BRCA2" ]
@@ -876,7 +974,7 @@
      fhir:id [ fhir:v "13" ] ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -884,7 +982,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "SIGOTHR" ] ;
          fhir:display [ fhir:v "significant other" ]
@@ -896,7 +994,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -906,57 +1004,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#1> ;
            fhir:reference [ fhir:v "#1" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#13> ;
            fhir:reference [ fhir:v "#13" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -965,7 +1077,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "DAU" ] ;
          fhir:display [ fhir:v "natural daughter" ]
@@ -977,7 +1089,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -987,57 +1099,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#6> ;
            fhir:reference [ fhir:v "#6" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#7> ;
            fhir:reference [ fhir:v "#7" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -1045,7 +1171,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "PUNCLE" ] ;
          fhir:display [ fhir:v "paternal uncle" ]
@@ -1057,7 +1183,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -1067,57 +1193,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#6> ;
            fhir:reference [ fhir:v "#6" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#7> ;
            fhir:reference [ fhir:v "#7" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -1125,7 +1265,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "PAUNT" ] ;
          fhir:display [ fhir:v "paternal aunt" ]
@@ -1137,7 +1277,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ] ;
@@ -1146,7 +1286,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:oid:2.16.840.1.113883.3.26.1.1"^^xsd:anyURI ;
-             fhir:link <urn:oid:2.16.840.1.113883.3.26.1.1>
+             fhir:l <urn:oid:2.16.840.1.113883.3.26.1.1>
            ] ;
            fhir:code [ fhir:v "C3224" ] ;
            fhir:display [ fhir:v "Melanoma" ]
@@ -1159,57 +1299,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#4> ;
            fhir:reference [ fhir:v "#4" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#5> ;
            fhir:reference [ fhir:v "#5" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -1217,7 +1371,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "MUNCLE" ] ;
          fhir:display [ fhir:v "maternal uncle" ]
@@ -1229,7 +1383,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -1239,57 +1393,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#4> ;
            fhir:reference [ fhir:v "#4" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#5> ;
            fhir:reference [ fhir:v "#5" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -1297,7 +1465,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "MAUNT" ] ;
          fhir:display [ fhir:v "maternal aunt" ]
@@ -1309,7 +1477,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -1318,7 +1486,7 @@
      fhir:id [ fhir:v "19" ] ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -1326,7 +1494,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "EXT" ] ;
          fhir:display [ fhir:v "extended family member" ]
@@ -1338,57 +1506,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#18> ;
            fhir:reference [ fhir:v "#18" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#19> ;
            fhir:reference [ fhir:v "#19" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -1396,7 +1578,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "MCOUSN" ] ;
          fhir:display [ fhir:v "maternal cousin" ]
@@ -1406,7 +1588,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/administrative-gender"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/administrative-gender>
+           fhir:l <http://hl7.org/fhir/administrative-gender>
          ] ;
          fhir:code [ fhir:v "female" ] ;
          fhir:display [ fhir:v "Female" ]
@@ -1418,7 +1600,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ] ;
@@ -1427,7 +1609,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:oid:2.16.840.1.113883.3.26.1.1"^^xsd:anyURI ;
-             fhir:link <urn:oid:2.16.840.1.113883.3.26.1.1>
+             fhir:l <urn:oid:2.16.840.1.113883.3.26.1.1>
            ] ;
            fhir:code [ fhir:v "C4872" ] ;
            fhir:display [ fhir:v "Breast Carcinoma" ]
@@ -1439,7 +1621,7 @@
          fhir:unit [ fhir:v "years" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -1450,57 +1632,71 @@
      fhir:extension ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NMTH" ] ;
              fhir:display [ fhir:v "natural mother" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#18> ;
            fhir:reference [ fhir:v "#18" ]
          ]
        ] )
      ] [
        fhir:url [
          fhir:v "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
+         fhir:l <http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent>
        ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "type"^^xsd:anyURI ;
+           fhir:l fhir:type
+         ] ;
          fhir:value [
            a fhir:CodeableConcept ;
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+               fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
              ] ;
              fhir:code [ fhir:v "NFTH" ] ;
              fhir:display [ fhir:v "natural father" ]
            ] )
          ]
        ] [
-         fhir:url [ fhir:v "reference"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "reference"^^xsd:anyURI ;
+           fhir:l fhir:reference
+         ] ;
          fhir:value [
            a fhir:Reference ;
+           fhir:l <#19> ;
            fhir:reference [ fhir:v "#19" ]
          ]
        ] )
      ] ) ;
      fhir:status [ fhir:v "completed" ] ;
      fhir:patient [
-       fhir:link <http://hl7.org/fhir/Patient/proband> ;
+       fhir:l <http://hl7.org/fhir/Patient/proband> ;
        fhir:reference [ fhir:v "Patient/proband" ] ;
        fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
      ] ;
@@ -1508,7 +1704,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
          ] ;
          fhir:code [ fhir:v "MCOUSN" ] ;
          fhir:display [ fhir:v "maternal cousin" ]
@@ -1518,7 +1714,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/administrative-gender"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/administrative-gender>
+           fhir:l <http://hl7.org/fhir/administrative-gender>
          ] ;
          fhir:code [ fhir:v "female" ] ;
          fhir:display [ fhir:v "Female" ]
@@ -1530,7 +1726,7 @@
        fhir:unit [ fhir:v "years" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "a" ]
      ]
@@ -1542,99 +1738,120 @@
        a loinc:8670-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "8670-2" ] ;
        fhir:display [ fhir:v "History of family member diseases" ]
      ] )
   ] ; # 
   fhir:subject ( [
-     fhir:link <http://hl7.org/fhir/Patient/proband> ;
+     fhir:l <http://hl7.org/fhir/Patient/proband> ;
      fhir:reference [ fhir:v "Patient/proband" ] ;
      fhir:display [ fhir:v "Annie Proband, female, born 1966" ]
   ] ) ; #  Age said 33, but diagram shows 42, so adjusted DOB  
   fhir:entry ( [
      fhir:item [
+       fhir:l <#image> ;
        fhir:reference [ fhir:v "#image" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#2> ;
        fhir:reference [ fhir:v "#2" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#3> ;
        fhir:reference [ fhir:v "#3" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#4> ;
        fhir:reference [ fhir:v "#4" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#5> ;
        fhir:reference [ fhir:v "#5" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#6> ;
        fhir:reference [ fhir:v "#6" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#7> ;
        fhir:reference [ fhir:v "#7" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#8> ;
        fhir:reference [ fhir:v "#8" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#9> ;
        fhir:reference [ fhir:v "#9" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#10> ;
        fhir:reference [ fhir:v "#10" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#11> ;
        fhir:reference [ fhir:v "#11" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#12> ;
        fhir:reference [ fhir:v "#12" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#13> ;
        fhir:reference [ fhir:v "#13" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#14> ;
        fhir:reference [ fhir:v "#14" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#15> ;
        fhir:reference [ fhir:v "#15" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#16> ;
        fhir:reference [ fhir:v "#16" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#17> ;
        fhir:reference [ fhir:v "#17" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#18> ;
        fhir:reference [ fhir:v "#18" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#19> ;
        fhir:reference [ fhir:v "#19" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#20> ;
        fhir:reference [ fhir:v "#20" ]
      ]
   ] [
      fhir:item [
+       fhir:l <#21> ;
        fhir:reference [ fhir:v "#21" ]
      ]
   ] ) . # 

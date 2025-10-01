@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
   ] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:asserter [
-     fhir:link <http://hl7.org/fhir/Organization/f203> ;
+     fhir:l <http://hl7.org/fhir/Organization/f203> ;
      fhir:reference [ fhir:v "Organization/f203" ]
   ] ; # 
   fhir:date ( [ fhir:v "2018-12-24"^^xsd:date] ) ; # 
@@ -40,14 +40,14 @@
      ] ) ;
      fhir:activity ( [
        fhir:actor ( [
-         fhir:link <http://hl7.org/fhir/Organization/f203> ;
+         fhir:l <http://hl7.org/fhir/Organization/f203> ;
          fhir:reference [ fhir:v "Organization/f203" ]
        ] ) ;
        fhir:action ( [
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/consentaction>
+             fhir:l <http://terminology.hl7.org/CodeSystem/consentaction>
            ] ;
            fhir:code [ fhir:v "access" ]
          ] )
@@ -56,7 +56,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+             fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
            ] ;
            fhir:code [ fhir:v "HCOMPL" ]
          ] )
@@ -66,7 +66,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "AUDIT" ]
        ] )

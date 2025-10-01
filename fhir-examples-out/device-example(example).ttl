@@ -18,7 +18,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://goodcare.org/devices/id"^^xsd:anyURI ;
-       fhir:link <http://goodcare.org/devices/id>
+       fhir:l <http://goodcare.org/devices/id>
      ] ;
      fhir:value [ fhir:v "345675" ]
   ] ) . # 

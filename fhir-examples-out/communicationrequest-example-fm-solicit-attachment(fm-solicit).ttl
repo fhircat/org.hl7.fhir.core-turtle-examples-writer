@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:identifier ( [
        fhir:system [
          fhir:v "http://www.jurisdiction.com/provideroffices"^^xsd:anyURI ;
-         fhir:link <http://www.jurisdiction.com/provideroffices>
+         fhir:l <http://www.jurisdiction.com/provideroffices>
        ] ;
        fhir:value [ fhir:v "3456" ]
      ] )
@@ -39,7 +39,7 @@
      fhir:identifier ( [
        fhir:system [
          fhir:v "http://www.jurisdiction.com/insurer"^^xsd:anyURI ;
-         fhir:link <http://www.jurisdiction.com/insurer>
+         fhir:l <http://www.jurisdiction.com/insurer>
        ] ;
        fhir:value [ fhir:v "123456" ]
      ] )
@@ -53,7 +53,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.jurisdiction.com/insurer/123456"^^xsd:anyURI ;
-       fhir:link <http://www.jurisdiction.com/insurer/123456>
+       fhir:l <http://www.jurisdiction.com/insurer/123456>
      ] ;
      fhir:value [ fhir:v "ABC123" ]
   ] ) ; #   body of the resource  ,   this is the value to which the response will refer  
@@ -72,7 +72,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://acme.org/messagetypes"^^xsd:anyURI ;
-         fhir:link <http://acme.org/messagetypes>
+         fhir:l <http://acme.org/messagetypes>
        ] ;
        fhir:code [ fhir:v "SolicitedAttachmentRequest" ]
      ] )
@@ -82,7 +82,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationMode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationMode>
        ] ;
        fhir:code [ fhir:v "WRITTEN" ] ;
        fhir:display [ fhir:v "written" ]
@@ -90,7 +90,7 @@
      fhir:text [ fhir:v "written" ]
   ] ) ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:payload ( [
@@ -105,12 +105,15 @@
   ] ; # 
   fhir:authoredOn [ fhir:v "2016-06-10T11:01:10-08:00"^^xsd:dateTime] ; # 
   fhir:requester [
+     fhir:l <#requester> ;
      fhir:reference [ fhir:v "#requester" ]
   ] ; # 
   fhir:recipient ( [
+     fhir:l <#provider> ;
      fhir:reference [ fhir:v "#provider" ]
   ] ) ; # 
   fhir:informationProvider ( [
+     fhir:l <#payor> ;
      fhir:reference [ fhir:v "#payor" ]
   ] ) . # 
 

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -37,7 +37,7 @@
   ] ) ; # 
   fhir:instantiatesCanonical ( [
      fhir:v "http://motivemi.com/artifacts/PlanDefinition/low-suicide-risk-order-set"^^xsd:anyURI ;
-     fhir:link <http://motivemi.com/artifacts/PlanDefinition/low-suicide-risk-order-set>
+     fhir:l <http://motivemi.com/artifacts/PlanDefinition/low-suicide-risk-order-set>
   ] ) ; # 
   fhir:basedOn ( [
      fhir:display [ fhir:v "Homecare - DM follow-up" ]
@@ -57,7 +57,7 @@
          a loinc:43148-6 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "43148-6" ]
        ] ) ;
@@ -65,7 +65,7 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/dicom> ;
+     fhir:l <http://hl7.org/fhir/Patient/dicom> ;
      fhir:reference [ fhir:v "Patient/dicom" ]
   ] ; # 
   fhir:encounter [
@@ -77,7 +77,7 @@
   ] ; # 
   fhir:authoredOn [ fhir:v "2013-05-08T09:33:27+07:00"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Dr. Adam Careful" ]
   ] ; # 

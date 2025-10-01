@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://happyvalley.com/claim"^^xsd:anyURI ;
-       fhir:link <http://happyvalley.com/claim>
+       fhir:l <http://happyvalley.com/claim>
      ] ;
      fhir:value [ fhir:v "12347" ]
   ] ) ; # 
@@ -35,7 +35,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/claim-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/claim-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/claim-type>
        ] ;
        fhir:code [ fhir:v "oral" ]
      ] )
@@ -45,7 +45,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://www.jurisdiction.com/nationalId"^^xsd:anyURI ;
-         fhir:link <http://www.jurisdiction.com/nationalId>
+         fhir:l <http://www.jurisdiction.com/nationalId>
        ] ;
        fhir:value [ fhir:v "123AB345" ]
      ]
@@ -55,7 +55,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://www.jurisdiction.com/insurers"^^xsd:anyURI ;
-         fhir:link <http://www.jurisdiction.com/insurers>
+         fhir:l <http://www.jurisdiction.com/insurers>
        ] ;
        fhir:value [ fhir:v "123456" ]
      ]
@@ -64,7 +64,7 @@
      fhir:identifier [
        fhir:system [
          fhir:v "http://www.jurisdiction.com/careorganizations"^^xsd:anyURI ;
-         fhir:link <http://www.jurisdiction.com/careorganizations>
+         fhir:l <http://www.jurisdiction.com/careorganizations>
        ] ;
        fhir:value [ fhir:v "HOSP12345" ]
      ]
@@ -87,7 +87,7 @@
        fhir:identifier [
          fhir:system [
            fhir:v "http://www.jurisdiction.com/providerId"^^xsd:anyURI ;
-           fhir:link <http://www.jurisdiction.com/providerId>
+           fhir:l <http://www.jurisdiction.com/providerId>
          ] ;
          fhir:value [ fhir:v "MD98765" ]
        ]
@@ -109,7 +109,7 @@
        fhir:identifier [
          fhir:system [
            fhir:v "http://www.jurisdiction.com/nationalplan"^^xsd:anyURI ;
-           fhir:link <http://www.jurisdiction.com/nationalplan>
+           fhir:l <http://www.jurisdiction.com/nationalplan>
          ] ;
          fhir:value [ fhir:v "123AB345" ]
        ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,12 +26,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://example.org/PlanDefinition/zika-virus-intervention"^^xsd:anyURI ;
-     fhir:link <http://example.org/PlanDefinition/zika-virus-intervention>
+     fhir:l <http://example.org/PlanDefinition/zika-virus-intervention>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.11.5" ]
   ] [
@@ -48,7 +48,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "age" ]
      ] ;
@@ -63,7 +63,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "user" ]
      ] ;
@@ -73,7 +73,7 @@
          a sct:309343006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "309343006" ] ;
          fhir:display [ fhir:v "Physician" ]
@@ -88,19 +88,19 @@
      fhir:document [
        fhir:url [
          fhir:v "https://www.cdc.gov/mmwr/volumes/65/wr/mm6539e1.htm?s_cid=mm6539e1_w"^^xsd:anyURI ;
-         fhir:link <https://www.cdc.gov/mmwr/volumes/65/wr/mm6539e1.htm?s_cid=mm6539e1_w>
+         fhir:l <https://www.cdc.gov/mmwr/volumes/65/wr/mm6539e1.htm?s_cid=mm6539e1_w>
        ]
      ]
   ] [
      fhir:type [ fhir:v "predecessor" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/PlanDefinition/zika-virus-intervention-initial"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/PlanDefinition/zika-virus-intervention-initial>
+       fhir:l <http://example.org/fhir/PlanDefinition/zika-virus-intervention-initial>
      ]
   ] ) ; # 
   fhir:library ( [
      fhir:v "http://example.org/fhir/Library/zika-virus-intervention-logic"^^xsd:anyURI ;
-     fhir:link <http://example.org/fhir/Library/zika-virus-intervention-logic>
+     fhir:l <http://example.org/fhir/Library/zika-virus-intervention-logic>
   ] ) ; # 
   fhir:action ( [
      fhir:title [ fhir:v "Zika Virus Assessment" ] ;
@@ -126,7 +126,7 @@
        fhir:definition [
          a fhir:canonical ;
          fhir:v "http://example.org/fhir/ActivityDefinition/administer-zika-virus-exposure-assessment"^^xsd:anyURI ;
-         fhir:link <http://example.org/fhir/ActivityDefinition/administer-zika-virus-exposure-assessment>
+         fhir:l <http://example.org/fhir/ActivityDefinition/administer-zika-virus-exposure-assessment>
        ]
      ] [
        fhir:condition ( [
@@ -139,7 +139,7 @@
        fhir:definition [
          a fhir:canonical ;
          fhir:v "http://example.org/fhir/ActivityDefinition/order-serum-urine-rrt-pcr-test"^^xsd:anyURI ;
-         fhir:link <http://example.org/fhir/ActivityDefinition/order-serum-urine-rrt-pcr-test>
+         fhir:l <http://example.org/fhir/ActivityDefinition/order-serum-urine-rrt-pcr-test>
        ]
      ] [
        fhir:condition ( [
@@ -152,7 +152,7 @@
        fhir:definition [
          a fhir:canonical ;
          fhir:v "http://example.org/fhir/ActivityDefinition/order-serum-zika-dengue-virus-igm"^^xsd:anyURI ;
-         fhir:link <http://example.org/fhir/ActivityDefinition/order-serum-zika-dengue-virus-igm>
+         fhir:l <http://example.org/fhir/ActivityDefinition/order-serum-zika-dengue-virus-igm>
        ]
      ] [
        fhir:condition ( [
@@ -165,7 +165,7 @@
        fhir:definition [
          a fhir:canonical ;
          fhir:v "http://example.org/fhir/ActivityDefinition/consider-igm-antibody-testing"^^xsd:anyURI ;
-         fhir:link <http://example.org/fhir/ActivityDefinition/consider-igm-antibody-testing>
+         fhir:l <http://example.org/fhir/ActivityDefinition/consider-igm-antibody-testing>
        ]
      ] [
        fhir:condition ( [
@@ -179,13 +179,13 @@
          fhir:definition [
            a fhir:canonical ;
            fhir:v "http://example.org/fhir/ActivityDefinition/provide-mosquito-prevention-advice"^^xsd:anyURI ;
-           fhir:link <http://example.org/fhir/ActivityDefinition/provide-mosquito-prevention-advice>
+           fhir:l <http://example.org/fhir/ActivityDefinition/provide-mosquito-prevention-advice>
          ]
        ] [
          fhir:definition [
            a fhir:canonical ;
            fhir:v "http://example.org/fhir/ActivityDefinition/provide-contraception-advice"^^xsd:anyURI ;
-           fhir:link <http://example.org/fhir/ActivityDefinition/provide-contraception-advice>
+           fhir:l <http://example.org/fhir/ActivityDefinition/provide-contraception-advice>
          ]
        ] )
      ] )

@@ -16,7 +16,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -32,7 +32,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://acme.com/list-codes"^^xsd:anyURI ;
-         fhir:link <http://acme.com/list-codes>
+         fhir:l <http://acme.com/list-codes>
        ] ;
        fhir:code [ fhir:v "346638" ] ;
        fhir:display [ fhir:v "Patient Admission List" ]

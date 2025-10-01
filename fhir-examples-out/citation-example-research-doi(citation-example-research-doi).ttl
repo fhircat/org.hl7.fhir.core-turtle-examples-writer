@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
      ] ;
      fhir:system [
        fhir:v "https://fevir.net"^^xsd:anyURI ;
-       fhir:link <https://fevir.net>
+       fhir:l <https://fevir.net>
      ] ;
      fhir:value [ fhir:v "60" ] ;
      fhir:assigner [
@@ -60,7 +60,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/ValueSet/citation-summary-style"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/ValueSet/citation-summary-style>
+           fhir:l <http://terminology.hl7.org/ValueSet/citation-summary-style>
          ] ;
          fhir:code [ fhir:v "comppub" ] ;
          fhir:display [ fhir:v "Computable Publishing" ]
@@ -72,14 +72,14 @@
      fhir:identifier ( [
        fhir:system [
          fhir:v "https://doi.org"^^xsd:anyURI ;
-         fhir:link <https://doi.org>
+         fhir:l <https://doi.org>
        ] ;
        fhir:value [ fhir:v "10.13026/c4n5-3b04" ]
      ] ) ;
      fhir:relatedIdentifier ( [
        fhir:system [
          fhir:v "https://doi.org"^^xsd:anyURI ;
-         fhir:link <https://doi.org>
+         fhir:l <https://doi.org>
        ] ;
        fhir:value [ fhir:v "10.1038/s41597-021-00811-3" ]
      ] ) ;
@@ -95,7 +95,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-             fhir:link <urn:ietf:bcp:47>
+             fhir:l <urn:ietf:bcp:47>
            ] ;
            fhir:version [ fhir:v "4.0.1" ] ;
            fhir:code [ fhir:v "en" ] ;
@@ -109,7 +109,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/cited-artifact-abstract-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/cited-artifact-abstract-type>
+             fhir:l <http://hl7.org/fhir/cited-artifact-abstract-type>
            ] ;
            fhir:code [ fhir:v "primary-human-use" ] ;
            fhir:display [ fhir:v "Primary human use" ]
@@ -119,7 +119,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-             fhir:link <urn:ietf:bcp:47>
+             fhir:l <urn:ietf:bcp:47>
            ] ;
            fhir:code [ fhir:v "en" ] ;
            fhir:display [ fhir:v "English" ]
@@ -136,7 +136,7 @@
        fhir:document [
          fhir:url [
            fhir:v "https://doi.org/10.1038/s41597-021-00811-3"^^xsd:anyURI ;
-           fhir:link <https://doi.org/10.1038/s41597-021-00811-3>
+           fhir:l <https://doi.org/10.1038/s41597-021-00811-3>
          ]
        ]
      ] [
@@ -148,7 +148,7 @@
        fhir:document [
          fhir:url [
            fhir:v "http://data.bioontology.org/ontologies/EFO"^^xsd:anyURI ;
-           fhir:link <http://data.bioontology.org/ontologies/EFO>
+           fhir:l <http://data.bioontology.org/ontologies/EFO>
          ]
        ]
      ] ) ;
@@ -158,7 +158,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://hl7.org/fhir/published-in-type"^^xsd:anyURI ;
-               fhir:link <http://hl7.org/fhir/published-in-type>
+               fhir:l <http://hl7.org/fhir/published-in-type>
              ] ;
              fhir:version [ fhir:v "5.0.0" ] ;
              fhir:code [ fhir:v "D019991" ] ;
@@ -175,7 +175,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
-             fhir:link <urn:ietf:bcp:47>
+             fhir:l <urn:ietf:bcp:47>
            ] ;
            fhir:version [ fhir:v "4.0.1" ] ;
            fhir:code [ fhir:v "en" ] ;
@@ -189,7 +189,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/artifact-url-classifier>
+             fhir:l <http://hl7.org/fhir/artifact-url-classifier>
            ] ;
            fhir:version [ fhir:v "5.0.0" ] ;
            fhir:code [ fhir:v "webpage" ] ;
@@ -198,14 +198,14 @@
        ] ) ;
        fhir:url [
          fhir:v "https://physionet.org/content/ninfea/1.0.0/"^^xsd:anyURI ;
-         fhir:link <https://physionet.org/content/ninfea/1.0.0/>
+         fhir:l <https://physionet.org/content/ninfea/1.0.0/>
        ]
      ] [
        fhir:classifier ( [
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/artifact-url-classifier>
+             fhir:l <http://hl7.org/fhir/artifact-url-classifier>
            ] ;
            fhir:version [ fhir:v "5.0.0" ] ;
            fhir:code [ fhir:v "doi-based" ] ;
@@ -214,14 +214,14 @@
        ] ) ;
        fhir:url [
          fhir:v "https://doi.org/10.13026/c4n5-3b04"^^xsd:anyURI ;
-         fhir:link <https://doi.org/10.13026/c4n5-3b04>
+         fhir:l <https://doi.org/10.13026/c4n5-3b04>
        ]
      ] [
        fhir:classifier ( [
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/artifact-url-classifier>
+             fhir:l <http://hl7.org/fhir/artifact-url-classifier>
            ] ;
            fhir:version [ fhir:v "5.0.0" ] ;
            fhir:code [ fhir:v "doi-based" ] ;
@@ -231,14 +231,14 @@
        ] ) ;
        fhir:url [
          fhir:v "https://doi.org/10.1038/s41597-021-00811-3"^^xsd:anyURI ;
-         fhir:link <https://doi.org/10.1038/s41597-021-00811-3>
+         fhir:l <https://doi.org/10.1038/s41597-021-00811-3>
        ]
      ] [
        fhir:classifier ( [
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/artifact-url-classifier>
+             fhir:l <http://hl7.org/fhir/artifact-url-classifier>
            ] ;
            fhir:version [ fhir:v "5.0.0" ] ;
            fhir:code [ fhir:v "compressed-file" ] ;
@@ -247,7 +247,7 @@
        ] ) ;
        fhir:url [
          fhir:v "https://physionet.org/static/published-projects/ninfea/ninfea-non-invasive-multimodal-foetal-ecg-doppler-dataset-for-antenatal-cardiology-research-1.0.0.zip"^^xsd:anyURI ;
-         fhir:link <https://physionet.org/static/published-projects/ninfea/ninfea-non-invasive-multimodal-foetal-ecg-doppler-dataset-for-antenatal-cardiology-research-1.0.0.zip>
+         fhir:l <https://physionet.org/static/published-projects/ninfea/ninfea-non-invasive-multimodal-foetal-ecg-doppler-dataset-for-antenatal-cardiology-research-1.0.0.zip>
        ]
      ] [
        fhir:classifier ( [
@@ -255,7 +255,7 @@
        ] ) ;
        fhir:url [
          fhir:v "https://doi.org/10.6084/m9.figshare.13283492"^^xsd:anyURI ;
-         fhir:link <https://doi.org/10.6084/m9.figshare.13283492>
+         fhir:l <https://doi.org/10.6084/m9.figshare.13283492>
        ]
      ] ) ;
      fhir:classification ( [
@@ -263,7 +263,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/cited-artifact-classification-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/cited-artifact-classification-type>
+             fhir:l <http://hl7.org/fhir/cited-artifact-classification-type>
            ] ;
            fhir:code [ fhir:v "knowledge-artifact-type" ] ;
            fhir:display [ fhir:v "Knowledge Artifact Type" ]
@@ -272,7 +272,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://hl7.org/fhir/citation-artifact-classifier"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/citation-artifact-classifier>
+             fhir:l <http://hl7.org/fhir/citation-artifact-classifier>
            ] ;
            fhir:version [ fhir:v "5.0.0" ] ;
            fhir:code [ fhir:v "D064886" ] ;
@@ -287,7 +287,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.ebi.ac.uk/efo"^^xsd:anyURI ;
-             fhir:link <http://www.ebi.ac.uk/efo>
+             fhir:l <http://www.ebi.ac.uk/efo>
            ] ;
            fhir:code [ fhir:v "EFO_0004327" ] ;
            fhir:display [ fhir:v "electrocardiography" ]
@@ -302,7 +302,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://purl.obolibrary.org/obo"^^xsd:anyURI ;
-             fhir:link <http://purl.obolibrary.org/obo>
+             fhir:l <http://purl.obolibrary.org/obo>
            ] ;
            fhir:code [ fhir:v "FMA_63919" ] ;
            fhir:display [ fhir:v "foetus" ]
@@ -360,7 +360,7 @@
            a sct:394579002 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "394579002" ] ;
            fhir:display [ fhir:v "Cardiology (qualifier value)" ]
@@ -376,7 +376,7 @@
            a sct:314204000 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "314204000" ] ;
            fhir:display [ fhir:v "Early stage of pregnancy (finding)" ]
@@ -399,7 +399,7 @@
            a sct:75444003 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "75444003" ] ;
            fhir:display [ fhir:v "Fetal electrocardiogram (procedure)" ]
@@ -414,7 +414,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://purl.bioontology.org/ontology/NCBITAXON"^^xsd:anyURI ;
-             fhir:link <http://purl.bioontology.org/ontology/NCBITAXON>
+             fhir:l <http://purl.bioontology.org/ontology/NCBITAXON>
            ] ;
            fhir:code [ fhir:v "9606" ] ;
            fhir:display [ fhir:v "Homo sapiens" ]
@@ -428,7 +428,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.ebi.ac.uk/efo"^^xsd:anyURI ;
-             fhir:link <http://www.ebi.ac.uk/efo>
+             fhir:l <http://www.ebi.ac.uk/efo>
            ] ;
            fhir:code [ fhir:v "EFO_0005112" ] ;
            fhir:display [ fhir:v "gestational age" ]
@@ -442,7 +442,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.ebi.ac.uk/efo"^^xsd:anyURI ;
-             fhir:link <http://www.ebi.ac.uk/efo>
+             fhir:l <http://www.ebi.ac.uk/efo>
            ] ;
            fhir:code [ fhir:v "EFO_0004327" ] ;
            fhir:display [ fhir:v "electrocardiography" ]
@@ -456,7 +456,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://purl.obolibrary.org/obo"^^xsd:anyURI ;
-             fhir:link <http://purl.obolibrary.org/obo>
+             fhir:l <http://purl.obolibrary.org/obo>
            ] ;
            fhir:code [ fhir:v "VT_2000017" ] ;
            fhir:display [ fhir:v "heart electrical impulse conduction trait" ]
@@ -469,7 +469,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://hl7.org/fhir/contributor-summary-type"^^xsd:anyURI ;
-               fhir:link <http://hl7.org/fhir/contributor-summary-type>
+               fhir:l <http://hl7.org/fhir/contributor-summary-type>
              ] ;
              fhir:version [ fhir:v "5.0.0" ] ;
              fhir:code [ fhir:v "author-string" ] ;

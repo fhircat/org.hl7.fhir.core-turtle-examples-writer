@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
        ] ;
        fhir:code [ fhir:v "active" ]
      ] )
@@ -37,7 +37,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
        ] ;
        fhir:code [ fhir:v "confirmed" ]
      ] )
@@ -47,7 +47,7 @@
        a sct:439401001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "439401001" ] ;
        fhir:display [ fhir:v "diagnosis" ]
@@ -58,7 +58,7 @@
        a sct:371923003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "371923003" ] ;
        fhir:display [ fhir:v "Mild to moderate" ]
@@ -69,7 +69,7 @@
        a sct:18099001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "18099001" ] ;
        fhir:display [ fhir:v "Retropharyngeal abscess" ]
@@ -80,19 +80,19 @@
        a sct:280193007 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "280193007" ] ;
        fhir:display [ fhir:v "Entire retropharyngeal area" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f001> ;
+     fhir:l <http://hl7.org/fhir/Patient/f001> ;
      fhir:reference [ fhir:v "Patient/f001" ] ;
      fhir:display [ fhir:v "P. van de Heuvel" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/f003> ;
+     fhir:l <http://hl7.org/fhir/Encounter/f003> ;
      fhir:reference [ fhir:v "Encounter/f003" ]
   ] ; # 
   fhir:onset [
@@ -105,14 +105,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/provenance-participant-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
          ] ;
          fhir:code [ fhir:v "informant" ] ;
          fhir:display [ fhir:v "Informant" ]
        ] )
      ] ;
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Patient/f001> ;
+       fhir:l <http://hl7.org/fhir/Patient/f001> ;
        fhir:reference [ fhir:v "Patient/f001" ] ;
        fhir:display [ fhir:v "P. van de Heuvel" ]
      ]
@@ -123,7 +123,7 @@
          a sct:169068008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "169068008" ] ;
          fhir:display [ fhir:v "CT of neck" ]

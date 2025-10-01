@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,14 +29,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0203>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
          ] ;
          fhir:code [ fhir:v "MR" ]
        ] )
      ] ;
      fhir:system [
        fhir:v "urn:oid:0.1.2.3.4.5.6.7"^^xsd:anyURI ;
-       fhir:link <urn:oid:0.1.2.3.4.5.6.7>
+       fhir:l <urn:oid:0.1.2.3.4.5.6.7>
      ] ;
      fhir:value [ fhir:v "123458" ]
   ] ) ; # 
@@ -54,12 +54,12 @@
   ] ; # 
   fhir:link ( [
      fhir:target [
-       fhir:link <http://hl7.org/fhir/Patient/pat4> ;
+       fhir:l <http://hl7.org/fhir/Patient/pat4> ;
        fhir:reference [ fhir:v "Patient/pat4" ]
      ]
   ] [
      fhir:target [
-       fhir:link <http://hl7.org/fhir/Practitioner/prac4> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/prac4> ;
        fhir:reference [ fhir:v "Practitioner/prac4" ]
      ]
   ] ) . # 

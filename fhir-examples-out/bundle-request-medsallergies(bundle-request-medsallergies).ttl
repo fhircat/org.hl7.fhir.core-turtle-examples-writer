@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
        fhir:method [ fhir:v "GET" ] ;
        fhir:url [
          fhir:v "/Patient/example"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir//Patient/example>
+         fhir:l <http://hl7.org/fhir//Patient/example>
        ]
      ]
   ] [
@@ -33,7 +33,7 @@
        fhir:method [ fhir:v "GET" ] ;
        fhir:url [
          fhir:v "/MedicationStatement?patient=example&_list=$current-medications"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir//MedicationStatement?patient=example&_list=$current-medications>
+         fhir:l <http://hl7.org/fhir//MedicationStatement?patient=example&_list=$current-medications>
        ]
      ]
   ] [
@@ -41,7 +41,7 @@
        fhir:method [ fhir:v "GET" ] ;
        fhir:url [
          fhir:v "/AllergyIntolerance?patient=example&_list=$current-allergies"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir//AllergyIntolerance?patient=example&_list=$current-allergies>
+         fhir:l <http://hl7.org/fhir//AllergyIntolerance?patient=example&_list=$current-allergies>
        ]
      ]
   ] [
@@ -49,7 +49,7 @@
        fhir:method [ fhir:v "GET" ] ;
        fhir:url [
          fhir:v "/Condition?patient=example&_list=$current-problems"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir//Condition?patient=example&_list=$current-problems>
+         fhir:l <http://hl7.org/fhir//Condition?patient=example&_list=$current-problems>
        ]
      ]
   ] [
@@ -57,7 +57,7 @@
        fhir:method [ fhir:v "GET" ] ;
        fhir:url [
          fhir:v "/MedicationStatement?patient=example&notgiven:not=true"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir//MedicationStatement?patient=example&notgiven:not=true>
+         fhir:l <http://hl7.org/fhir//MedicationStatement?patient=example&notgiven:not=true>
        ]
      ]
   ] ) . #   Each entry is used to represent a RESTful API request

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   ] ; # 
   fhir:type [ fhir:v "dna"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:relative ( [
@@ -35,7 +35,7 @@
          a loinc:LA30102-0 ;
          fhir:system [
            fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:link <http://loinc.org>
+           fhir:l <http://loinc.org>
          ] ;
          fhir:code [ fhir:v "LA30102-0" ] ;
          fhir:display [ fhir:v "1-based character counting" ]
@@ -47,7 +47,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.ncbi.nlm.nih.gov/nuccore"^^xsd:anyURI ;
-             fhir:link <http://www.ncbi.nlm.nih.gov/nuccore>
+             fhir:l <http://www.ncbi.nlm.nih.gov/nuccore>
            ] ;
            fhir:code [ fhir:v "NT_007592.15" ]
          ] )

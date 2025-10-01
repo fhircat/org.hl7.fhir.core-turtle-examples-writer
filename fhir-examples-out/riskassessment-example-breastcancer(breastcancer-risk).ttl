@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://example.org"^^xsd:anyURI ;
-       fhir:link <http://example.org>
+       fhir:l <http://example.org>
      ] ;
      fhir:value [ fhir:v "risk-assessment-breastcancer1" ]
   ] ) ; # 
@@ -36,22 +36,22 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://browser.ihtsdotools.org/"^^xsd:anyURI ;
-         fhir:link <http://browser.ihtsdotools.org/>
+         fhir:l <http://browser.ihtsdotools.org/>
        ] ;
        fhir:code [ fhir:v "709510001" ] ;
        fhir:display [ fhir:v "Assessment of risk for disease (procedure)" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:performer [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ]
   ] ; # 
   fhir:basis ( [
-     fhir:link <http://hl7.org/fhir/Observation/example-genetics-brcapat> ;
+     fhir:l <http://hl7.org/fhir/Observation/example-genetics-brcapat> ;
      fhir:reference [ fhir:v "Observation/example-genetics-brcapat" ]
   ] ) ; # 
   fhir:prediction ( [

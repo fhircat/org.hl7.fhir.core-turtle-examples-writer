@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://www.bmc.nl/portal/dispenses"^^xsd:anyURI ;
-       fhir:link <http://www.bmc.nl/portal/dispenses>
+       fhir:l <http://www.bmc.nl/portal/dispenses>
      ] ;
      fhir:value [ fhir:v "12345689" ]
   ] ) ; # 
@@ -38,7 +38,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/sid/ndc"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/sid/ndc>
+           fhir:l <http://hl7.org/fhir/sid/ndc>
          ] ;
          fhir:code [ fhir:v "0378-1800-10" ] ;
          fhir:display [ fhir:v "Levothyroxine Sodium Tablets, USP (75mcg)" ]
@@ -46,29 +46,29 @@
      ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/f001> ;
+     fhir:l <http://hl7.org/fhir/Encounter/f001> ;
      fhir:reference [ fhir:v "Encounter/f001" ]
   ] ; # 
   fhir:performer ( [
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/f006> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f006> ;
        fhir:reference [ fhir:v "Practitioner/f006" ]
      ]
   ] ) ; # 
   fhir:authorizingPrescription ( [
-     fhir:link <http://hl7.org/fhir/MedicationRequest/medrx0314> ;
+     fhir:l <http://hl7.org/fhir/MedicationRequest/medrx0314> ;
      fhir:reference [ fhir:v "MedicationRequest/medrx0314" ]
   ] ) ; # 
   fhir:type [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "RFP" ] ;
        fhir:display [ fhir:v "Refill - Part Fill" ]
@@ -78,7 +78,7 @@
      fhir:value [ fhir:v "100"^^xsd:decimal ] ;
      fhir:system [
        fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
      ] ;
      fhir:code [ fhir:v "TAB" ]
   ] ; # 
@@ -87,7 +87,7 @@
      fhir:unit [ fhir:v "Day" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "d" ]
   ] ; # 
@@ -107,7 +107,7 @@
          a sct:26643006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "26643006" ] ;
          fhir:display [ fhir:v "Oral Route (qualifier value)" ]
@@ -118,7 +118,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+             fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
            ] ;
            fhir:code [ fhir:v "ordered" ] ;
            fhir:display [ fhir:v "Ordered" ]
@@ -130,7 +130,7 @@
          fhir:unit [ fhir:v "mcg" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "ug" ]
        ]
@@ -142,7 +142,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution>
          ] ;
          fhir:code [ fhir:v "F" ] ;
          fhir:display [ fhir:v "formulary" ]
@@ -152,14 +152,14 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
          ] ;
          fhir:code [ fhir:v "FP" ] ;
          fhir:display [ fhir:v "Formulary Policy" ]
        ] )
      ] ) ;
      fhir:responsibleParty [
-       fhir:link <http://hl7.org/fhir/Practitioner/f006> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f006> ;
        fhir:reference [ fhir:v "Practitioner/f006" ]
      ]
   ] . # 

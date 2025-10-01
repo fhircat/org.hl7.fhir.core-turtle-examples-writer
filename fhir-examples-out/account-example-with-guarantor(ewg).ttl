@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:oid:0.1.2.3.4.5.6.7"^^xsd:anyURI ;
-       fhir:link <urn:oid:0.1.2.3.4.5.6.7>
+       fhir:l <urn:oid:0.1.2.3.4.5.6.7>
      ] ;
      fhir:value [ fhir:v "654321" ]
   ] ) ; # 
@@ -35,7 +35,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ;
        fhir:code [ fhir:v "PBILLACCT" ] ;
        fhir:display [ fhir:v "patient billing account" ]
@@ -44,7 +44,7 @@
   ] ; # 
   fhir:name [ fhir:v "Inpatient: Peter James Chalmers"] ; # 
   fhir:subject ( [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ) ; # 
@@ -54,26 +54,26 @@
   ] ; # 
   fhir:coverage ( [
      fhir:coverage [
-       fhir:link <http://hl7.org/fhir/Coverage/9876B1> ;
+       fhir:l <http://hl7.org/fhir/Coverage/9876B1> ;
        fhir:reference [ fhir:v "Coverage/9876B1" ]
      ] ;
      fhir:priority [ fhir:v "1"^^xsd:positiveInteger ]
   ] [
      fhir:coverage [
-       fhir:link <http://hl7.org/fhir/Coverage/7546D> ;
+       fhir:l <http://hl7.org/fhir/Coverage/7546D> ;
        fhir:reference [ fhir:v "Coverage/7546D" ]
      ] ;
      fhir:priority [ fhir:v "2"^^xsd:positiveInteger ]
   ] ) ; # 
   fhir:owner [
-     fhir:link <http://hl7.org/fhir/Organization/f001> ;
+     fhir:l <http://hl7.org/fhir/Organization/f001> ;
      fhir:reference [ fhir:v "Organization/f001" ] ;
      fhir:display [ fhir:v "Burgers University Medical Center" ]
   ] ; # 
   fhir:description [ fhir:v "Hospital charges"] ; # 
   fhir:guarantor ( [
      fhir:party [
-       fhir:link <http://hl7.org/fhir/RelatedPerson/benedicte> ;
+       fhir:l <http://hl7.org/fhir/RelatedPerson/benedicte> ;
        fhir:reference [ fhir:v "RelatedPerson/benedicte" ] ;
        fhir:display [ fhir:v "Bénédicte du Marché" ]
      ] ;

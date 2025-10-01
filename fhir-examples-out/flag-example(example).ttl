@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/flag-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/flag-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/flag-category>
        ] ;
        fhir:code [ fhir:v "safety" ] ;
        fhir:display [ fhir:v "Safety" ]
@@ -42,7 +42,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org/local"^^xsd:anyURI ;
-         fhir:link <http://example.org/local>
+         fhir:l <http://example.org/local>
        ] ;
        fhir:code [ fhir:v "bigdog" ] ;
        fhir:display [ fhir:v "Big dog" ]
@@ -50,7 +50,7 @@
      fhir:text [ fhir:v "Patient has a big dog at his home. Always always wear a suit of armor or take other active counter-measures" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter Patient" ]
   ] ; # 
@@ -59,7 +59,7 @@
      fhir:end [ fhir:v "2016-12-01"^^xsd:date ]
   ] ; # 
   fhir:author [
-     fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/example> ;
      fhir:reference [ fhir:v "Practitioner/example" ] ;
      fhir:display [ fhir:v "Nancy Nurse" ]
   ] . # 

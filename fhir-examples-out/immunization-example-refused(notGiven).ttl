@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "MEDPREC" ] ;
        fhir:display [ fhir:v "medical precaution" ]
@@ -38,14 +38,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/sid/cvx"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/sid/cvx>
+         fhir:l <http://hl7.org/fhir/sid/cvx>
        ] ;
        fhir:code [ fhir:v "01" ] ;
        fhir:display [ fhir:v "DTP" ]
      ] )
   ] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ]
   ] ; # 
   fhir:occurrence [

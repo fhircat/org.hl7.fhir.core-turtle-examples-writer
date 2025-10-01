@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,14 +31,14 @@
        a loinc:38269-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "38269-7" ]
      ] ) ;
      fhir:text [ fhir:v "DXA BONE DENSITOMETRY" ]
   ] ; #        femur, laterality = left       ,        first, various administrative/context stuff       
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:effective [
@@ -47,12 +47,12 @@
   ] ; # 
   fhir:issued [ fhir:v "2008-06-18T09:23:00+10:00"^^xsd:dateTime] ; #        all this report is final       
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/3ad0687e-f477-468c-afd5-fcc2bf897809> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/3ad0687e-f477-468c-afd5-fcc2bf897809> ;
      fhir:reference [ fhir:v "Practitioner/3ad0687e-f477-468c-afd5-fcc2bf897809" ] ;
      fhir:display [ fhir:v "Dr Henry Seven" ]
   ] ) ; #        well, actually. this isn't the patient, but it'll do for now       
   fhir:result ( [
-     fhir:link <http://hl7.org/fhir/Observation/bmd> ;
+     fhir:l <http://hl7.org/fhir/Observation/bmd> ;
      fhir:reference [ fhir:v "Observation/bmd" ]
   ] ) ; #  	 but just one for now,  but for this example there should be more as listed here 
 #<reference value="Observation/bmd1"/>      (LEFT  24701-5  Femur DXA Bone densityO g/cm2) 
@@ -69,7 +69,7 @@
        a sct:391040000 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "391040000" ] ;
        fhir:display [ fhir:v "At risk of osteoporotic fracture" ]

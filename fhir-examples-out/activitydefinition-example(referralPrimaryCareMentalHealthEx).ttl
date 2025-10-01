@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,19 +26,19 @@
   ] ; # 
   fhir:url [
      fhir:v "http://motivemi.com/artifacts/ActivityDefinition/referralPrimaryCareMentalHealthEx"^^xsd:anyURI ;
-     fhir:link <http://motivemi.com/artifacts/ActivityDefinition/referralPrimaryCareMentalHealthEx>
+     fhir:l <http://motivemi.com/artifacts/ActivityDefinition/referralPrimaryCareMentalHealthEx>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.19.8" ]
   ] [
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://motivemi.com/artifacts"^^xsd:anyURI ;
-       fhir:link <http://motivemi.com/artifacts>
+       fhir:l <http://motivemi.com/artifacts>
      ] ;
      fhir:value [ fhir:v "referralPrimaryCareMentalHealth" ]
   ] ) ; # 
@@ -65,7 +65,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "age" ]
      ] ;
@@ -74,7 +74,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://meshb.nlm.nih.gov"^^xsd:anyURI ;
-           fhir:link <https://meshb.nlm.nih.gov>
+           fhir:l <https://meshb.nlm.nih.gov>
          ] ;
          fhir:code [ fhir:v "D000328" ] ;
          fhir:display [ fhir:v "Adult" ]
@@ -84,7 +84,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -94,7 +94,7 @@
          a sct:87512008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "87512008" ] ;
          fhir:display [ fhir:v "Mild major depression" ]
@@ -104,7 +104,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -114,7 +114,7 @@
          a sct:40379007 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "40379007" ] ;
          fhir:display [ fhir:v "Major depression, recurrent, mild" ]
@@ -124,7 +124,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -134,7 +134,7 @@
          a sct:225444004 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "225444004" ] ;
          fhir:display [ fhir:v "At risk for suicide (finding)" ]
@@ -144,7 +144,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -154,7 +154,7 @@
          a sct:306206005 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "306206005" ] ;
          fhir:display [ fhir:v "Referral to service (procedure)" ]
@@ -164,7 +164,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "user" ]
      ] ;
@@ -174,7 +174,7 @@
          a sct:309343006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "309343006" ] ;
          fhir:display [ fhir:v "Physician" ]
@@ -184,7 +184,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "venue" ]
      ] ;
@@ -194,7 +194,7 @@
          a sct:440655000 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "440655000" ] ;
          fhir:display [ fhir:v "Outpatient environment" ]
@@ -205,7 +205,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ]
      ] )
@@ -240,14 +240,14 @@
      fhir:document [
        fhir:url [
          fhir:v "http://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/mdd.pdf"^^xsd:anyURI ;
-         fhir:link <http://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/mdd.pdf>
+         fhir:l <http://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/mdd.pdf>
        ]
      ]
   ] [
      fhir:type [ fhir:v "predecessor" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/ActivityDefinition/referralPrimaryCareMentalHealth-initial"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/ActivityDefinition/referralPrimaryCareMentalHealth-initial>
+       fhir:l <http://example.org/fhir/ActivityDefinition/referralPrimaryCareMentalHealth-initial>
      ]
   ] ) ; # 
   fhir:kind [ fhir:v "ServiceRequest"] ; #   Kind indicates the type of resource that is defined by this activity, a ServiceRequest in this case  
@@ -256,7 +256,7 @@
        a sct:306206005 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "306206005" ]
      ] ) ;
@@ -268,7 +268,7 @@
        fhir:extension ( [
          fhir:url [
            fhir:v "http://hl7.org/fhir/StructureDefinition/cqf-expression"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/cqf-expression>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/cqf-expression>
          ] ;
          fhir:value [
            a fhir:Expression ;

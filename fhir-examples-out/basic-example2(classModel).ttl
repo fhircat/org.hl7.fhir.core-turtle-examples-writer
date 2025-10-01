@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,51 +26,78 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://example.org/do-not-use/fhir-extensions/UMLclass"^^xsd:anyURI ;
-       fhir:link <http://example.org/do-not-use/fhir-extensions/UMLclass>
+       fhir:l <http://example.org/do-not-use/fhir-extensions/UMLclass>
      ] ;
      fhir:extension ( [
-       fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "name"^^xsd:anyURI ;
+         fhir:l fhir:name
+       ] ;
        fhir:value [
          a fhir:string ;
          fhir:v "Class1"
        ]
      ] [
-       fhir:url [ fhir:v "attribute"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "attribute"^^xsd:anyURI ;
+         fhir:l fhir:attribute
+       ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "name"^^xsd:anyURI ;
+           fhir:l fhir:name
+         ] ;
          fhir:value [
            a fhir:string ;
            fhir:v "attribute1"
          ]
        ] [
-         fhir:url [ fhir:v "minOccurs"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "minOccurs"^^xsd:anyURI ;
+           fhir:l fhir:minOccurs
+         ] ;
          fhir:value [
            a fhir:integer ;
            fhir:v 1
          ]
        ] [
-         fhir:url [ fhir:v "maxOccurs"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "maxOccurs"^^xsd:anyURI ;
+           fhir:l fhir:maxOccurs
+         ] ;
          fhir:value [
            a fhir:code ;
            fhir:v "*"
          ]
        ] )
      ] [
-       fhir:url [ fhir:v "attribute"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "attribute"^^xsd:anyURI ;
+         fhir:l fhir:attribute
+       ] ;
        fhir:extension ( [
-         fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "name"^^xsd:anyURI ;
+           fhir:l fhir:name
+         ] ;
          fhir:value [
            a fhir:string ;
            fhir:v "attribute2"
          ]
        ] [
-         fhir:url [ fhir:v "minOccurs"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "minOccurs"^^xsd:anyURI ;
+           fhir:l fhir:minOccurs
+         ] ;
          fhir:value [
            a fhir:integer ;
            fhir:v 0
          ]
        ] [
-         fhir:url [ fhir:v "maxOccurs"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "maxOccurs"^^xsd:anyURI ;
+           fhir:l fhir:maxOccurs
+         ] ;
          fhir:value [
            a fhir:integer ;
            fhir:v 1
@@ -82,7 +109,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://example.org/do-not-use/fhir-codes#resourceTypes"^^xsd:anyURI ;
-         fhir:link <http://example.org/do-not-use/fhir-codes#resourceTypes>
+         fhir:l <http://example.org/do-not-use/fhir-codes#resourceTypes>
        ] ;
        fhir:code [ fhir:v "UMLCLASSMODEL" ]
      ] )

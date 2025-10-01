@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://example.org/Questionnaire/child-rel-demo"^^xsd:anyURI ;
-     fhir:link <http://example.org/Questionnaire/child-rel-demo>
+     fhir:l <http://example.org/Questionnaire/child-rel-demo>
   ] ; # 
   fhir:title [ fhir:v "Demo form on R5 spec QR page"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

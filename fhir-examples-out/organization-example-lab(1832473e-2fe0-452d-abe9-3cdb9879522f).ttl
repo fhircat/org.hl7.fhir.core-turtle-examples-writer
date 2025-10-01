@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.acme.org.au/units"^^xsd:anyURI ;
-       fhir:link <http://www.acme.org.au/units>
+       fhir:l <http://www.acme.org.au/units>
      ] ;
      fhir:value [ fhir:v "ClinLab" ]
   ] ) ; #    Clinical Lab at Acme Hospital   

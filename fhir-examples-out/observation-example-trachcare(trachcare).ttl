@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "exam" ] ;
        fhir:display [ fhir:v "Exam" ]
@@ -41,18 +41,18 @@
        a sct:410211008 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "410211008" ] ;
        fhir:display [ fhir:v "Tracheostomy care assessment (procedure)" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/infant> ;
+     fhir:l <http://hl7.org/fhir/Patient/infant> ;
      fhir:reference [ fhir:v "Patient/infant" ]
   ] ; # 
   fhir:focus ( [
-     fhir:link <http://hl7.org/fhir/Patient/infant-mom> ;
+     fhir:l <http://hl7.org/fhir/Patient/infant-mom> ;
      fhir:reference [ fhir:v "Patient/infant-mom" ]
   ] ) ; # 
   fhir:effective [

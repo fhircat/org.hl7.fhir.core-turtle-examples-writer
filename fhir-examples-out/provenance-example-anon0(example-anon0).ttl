@@ -15,19 +15,19 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
        ] ; #    Bundle confidentiality at high water mark of most sensitive   
        fhir:code [ fhir:v "V" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
        ] ;
        fhir:code [ fhir:v "PSEUDED" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -38,13 +38,13 @@
      fhir:relation [ fhir:v "self" ] ;
      fhir:url [
        fhir:v "https://example.com/fhir/Patient/anon0/$everything"^^xsd:anyURI ;
-       fhir:link <https://example.com/fhir/Patient/anon0/$everything>
+       fhir:l <https://example.com/fhir/Patient/anon0/$everything>
      ]
   ] ) ; # 
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "http://example.org/fhir/Provenance/anon0"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Provenance/anon0>
+       fhir:l <http://example.org/fhir/Provenance/anon0>
      ] ;
      fhir:resource ( <http://example.org/fhir/Provenance/anon0> ) ;
      fhir:search [
@@ -53,7 +53,7 @@
   ] [
      fhir:fullUrl [
        fhir:v "http://example.org/fhir/Patient/anon0"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Patient/anon0>
+       fhir:l <http://example.org/fhir/Patient/anon0>
      ] ;
      fhir:resource ( <http://example.org/fhir/Patient/anon0> ) ;
      fhir:search [
@@ -62,7 +62,7 @@
   ] [
      fhir:fullUrl [
        fhir:v "http://example.org/fhir/Condition/anon0"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Condition/anon0>
+       fhir:l <http://example.org/fhir/Condition/anon0>
      ] ;
      fhir:resource ( <http://example.org/fhir/Condition/anon0> ) ;
      fhir:search [
@@ -76,13 +76,13 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
        ] ; #    Provenance is the link between real-world and anon, so is highest possible confidentiality   
        fhir:code [ fhir:v "V" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
        ] ;
        fhir:code [ fhir:v "PSEUDED" ]
      ] )
@@ -92,19 +92,19 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Provenance</b><a name=\"anon0\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Provenance \"anon0\" </p><p style=\"margin-bottom: 0px\">Security Labels: <span title=\"{http://terminology.hl7.org/CodeSystem/v3-Confidentiality http://terminology.hl7.org/CodeSystem/v3-Confidentiality}\">http://terminology.hl7.org/CodeSystem/v3-Confidentiality</span>, <span title=\"{http://terminology.hl7.org/CodeSystem/v3-ObservationValue http://terminology.hl7.org/CodeSystem/v3-ObservationValue}\">http://terminology.hl7.org/CodeSystem/v3-ObservationValue</span></p></div><p><b>target</b>: <a href=\"broken-link.html\">http://example.org/fhir/Patient/anon0</a></p><p><b>recorded</b>: 27 June 2015, 8:39:24 am</p><p><b>policy</b>: <span title=\"  policy would indicate the rules used for De-Identification, and appropriate purposes of use of the data  \"><a href=\"http://example.org/policies/666\">http://example.org/policies/666</a></span></p><p><b>activity</b>: De-Identify (Anononymize) Record Lifecycle Event <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.1.0/CodeSystem-iso-21089-lifecycle.html\">ISO 21089 2017 Health Record Lifecycle Events</a>#deidentify)</span></p><h3>Agents</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Who</b></td></tr><tr><td>*</td><td>Assembler <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.1.0/CodeSystem-provenance-participant-type.html\">Provenance participant type</a>#assembler)</span></td><td><span>: Device/software</span></td></tr></table><h3>Entities</h3><table class=\"grid\"><tr><td>-</td><td><b>Role</b></td><td><b>What</b></td></tr><tr><td>*</td><td>source</td><td><a href=\"patient-example.html\">Patient/example</a> \"Peter CHALMERS\"</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:target ( [
-     fhir:link <http://example.org/fhir/Patient/anon0> ;
+     fhir:l <http://example.org/fhir/Patient/anon0> ;
      fhir:reference [ fhir:v "http://example.org/fhir/Patient/anon0" ]
   ] ) ; # 
   fhir:recorded [ fhir:v "2015-06-27T08:39:24+10:00"^^xsd:dateTime] ; # 
   fhir:policy ( [
      fhir:v "http://example.org/policies/666"^^xsd:anyURI ;
-     fhir:link <http://example.org/policies/666>
+     fhir:l <http://example.org/policies/666>
   ] ) ; #    policy would indicate the rules used for De-Identification, and appropriate purposes of use of the data   
   fhir:activity [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle>
+         fhir:l <http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle>
        ] ;
        fhir:code [ fhir:v "deidentify" ]
      ] )
@@ -114,7 +114,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/provenance-participant-type"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
+           fhir:l <http://terminology.hl7.org/CodeSystem/provenance-participant-type>
          ] ;
          fhir:code [ fhir:v "assembler" ]
        ] )
@@ -126,7 +126,7 @@
   fhir:entity ( [
      fhir:role [ fhir:v "source" ] ;
      fhir:what [
-       fhir:link <http://hl7.org/fhir/Patient/example> ;
+       fhir:l <http://hl7.org/fhir/Patient/example> ;
        fhir:reference [ fhir:v "Patient/example" ]
      ]
   ] ) . # 
@@ -139,13 +139,13 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
        ] ;
        fhir:code [ fhir:v "L" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
        ] ;
        fhir:code [ fhir:v "PSEUDED" ]
      ] )
@@ -167,13 +167,13 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
        ] ;
        fhir:code [ fhir:v "L" ]
      ] [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
        ] ;
        fhir:code [ fhir:v "PSEUDED" ]
      ] )
@@ -186,7 +186,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-clinical>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
        ] ;
        fhir:code [ fhir:v "active" ]
      ] )
@@ -195,7 +195,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
        ] ;
        fhir:code [ fhir:v "confirmed" ]
      ] )
@@ -204,7 +204,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/condition-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-category>
        ] ;
        fhir:code [ fhir:v "encounter-diagnosis" ] ;
        fhir:display [ fhir:v "Encounter Diagnosis" ]
@@ -212,7 +212,7 @@
        a sct:439401001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "439401001" ] ;
        fhir:display [ fhir:v "Diagnosis" ]
@@ -223,7 +223,7 @@
        a sct:24484000 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "24484000" ] ;
        fhir:display [ fhir:v "Severe" ]
@@ -234,7 +234,7 @@
        a sct:39065001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "39065001" ] ;
        fhir:display [ fhir:v "Burn of ear" ]
@@ -245,14 +245,14 @@
        a sct:49521004 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "49521004" ] ;
        fhir:display [ fhir:v "Left external ear structure" ]
      ] )
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/anon0> ;
+     fhir:l <http://hl7.org/fhir/Patient/anon0> ;
      fhir:reference [ fhir:v "Patient/anon0" ] #    patient as anon0 id   
   ] ; # 
   fhir:onset [

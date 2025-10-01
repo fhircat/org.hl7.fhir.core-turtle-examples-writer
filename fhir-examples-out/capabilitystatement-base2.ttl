@@ -15,7 +15,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/CapabilityStatement/base2"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/CapabilityStatement/base2>
+     fhir:l <http://hl7.org/fhir/CapabilityStatement/base2>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "Base FHIR Capability Statement (Empty)"] ; # 
@@ -45,7 +45,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://terminology.hl7.org/CodeSystem/restful-security-service"^^xsd:anyURI ;
-             fhir:link <http://terminology.hl7.org/CodeSystem/restful-security-service>
+             fhir:l <http://terminology.hl7.org/CodeSystem/restful-security-service>
            ] ;
            fhir:code [ fhir:v "SMART-on-FHIR" ] ;
            fhir:display [ fhir:v "SMART-on-FHIR" ]

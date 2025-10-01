@@ -16,7 +16,7 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
      ] ;
      fhir:value [
        a fhir:integer ;
@@ -25,7 +25,7 @@
   ] [
      fhir:url [
        fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
      ] ;
      fhir:value [
        a fhir:code ;
@@ -34,7 +34,7 @@
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/OperationDefinition/ConceptMap-translate>
+     fhir:l <http://hl7.org/fhir/OperationDefinition/ConceptMap-translate>
   ] ; # 
   fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "Translate"] ; # 
@@ -58,7 +58,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
-         fhir:link <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
        ] ;
        fhir:code [ fhir:v "001" ] ;
        fhir:display [ fhir:v "World" ]
@@ -188,47 +188,52 @@
        fhir:extension ( [
          fhir:url [
            fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
          ] ;
          fhir:value [
            a fhir:uri ;
-           fhir:v "code"^^xsd:anyURI
+           fhir:v "code"^^xsd:anyURI ;
+           fhir:l fhir:code
          ]
        ] [
          fhir:url [
            fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
          ] ;
          fhir:value [
            a fhir:uri ;
-           fhir:v "Coding"^^xsd:anyURI
+           fhir:v "Coding"^^xsd:anyURI ;
+           fhir:l fhir:Coding
          ]
        ] [
          fhir:url [
            fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
          ] ;
          fhir:value [
            a fhir:uri ;
-           fhir:v "string"^^xsd:anyURI
+           fhir:v "string"^^xsd:anyURI ;
+           fhir:l fhir:string
          ]
        ] [
          fhir:url [
            fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
          ] ;
          fhir:value [
            a fhir:uri ;
-           fhir:v "boolean"^^xsd:anyURI
+           fhir:v "boolean"^^xsd:anyURI ;
+           fhir:l fhir:boolean
          ]
        ] [
          fhir:url [
            fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+           fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
          ] ;
          fhir:value [
            a fhir:uri ;
-           fhir:v "Quantity"^^xsd:anyURI
+           fhir:v "Quantity"^^xsd:anyURI ;
+           fhir:l fhir:Quantity
          ]
        ] ) ;
        fhir:name [ fhir:v "value" ] ;
@@ -289,65 +294,72 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "Coding"^^xsd:anyURI
+             fhir:v "Coding"^^xsd:anyURI ;
+             fhir:l fhir:Coding
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "string"^^xsd:anyURI
+             fhir:v "string"^^xsd:anyURI ;
+             fhir:l fhir:string
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "integer"^^xsd:anyURI
+             fhir:v "integer"^^xsd:anyURI ;
+             fhir:l fhir:integer
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "boolean"^^xsd:anyURI
+             fhir:v "boolean"^^xsd:anyURI ;
+             fhir:l fhir:boolean
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "dateTime"^^xsd:anyURI
+             fhir:v "dateTime"^^xsd:anyURI ;
+             fhir:l fhir:dateTime
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "decimal"^^xsd:anyURI
+             fhir:v "decimal"^^xsd:anyURI ;
+             fhir:l fhir:decimal
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "code"^^xsd:anyURI
+             fhir:v "code"^^xsd:anyURI ;
+             fhir:l fhir:code
            ]
          ] ) ;
          fhir:name [ fhir:v "value" ] ;
@@ -374,47 +386,52 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "code"^^xsd:anyURI
+             fhir:v "code"^^xsd:anyURI ;
+             fhir:l fhir:code
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "Coding"^^xsd:anyURI
+             fhir:v "Coding"^^xsd:anyURI ;
+             fhir:l fhir:Coding
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "string"^^xsd:anyURI
+             fhir:v "string"^^xsd:anyURI ;
+             fhir:l fhir:string
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "boolean"^^xsd:anyURI
+             fhir:v "boolean"^^xsd:anyURI ;
+             fhir:l fhir:boolean
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "Quantity"^^xsd:anyURI
+             fhir:v "Quantity"^^xsd:anyURI ;
+             fhir:l fhir:Quantity
            ]
          ] ) ;
          fhir:name [ fhir:v "value" ] ;
@@ -441,83 +458,92 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "code"^^xsd:anyURI
+             fhir:v "code"^^xsd:anyURI ;
+             fhir:l fhir:code
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "Coding"^^xsd:anyURI
+             fhir:v "Coding"^^xsd:anyURI ;
+             fhir:l fhir:Coding
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "string"^^xsd:anyURI
+             fhir:v "string"^^xsd:anyURI ;
+             fhir:l fhir:string
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "integer"^^xsd:anyURI
+             fhir:v "integer"^^xsd:anyURI ;
+             fhir:l fhir:integer
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "boolean"^^xsd:anyURI
+             fhir:v "boolean"^^xsd:anyURI ;
+             fhir:l fhir:boolean
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "dateTime"^^xsd:anyURI
+             fhir:v "dateTime"^^xsd:anyURI ;
+             fhir:l fhir:dateTime
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "decimal"^^xsd:anyURI
+             fhir:v "decimal"^^xsd:anyURI ;
+             fhir:l fhir:decimal
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "uri"^^xsd:anyURI
+             fhir:v "uri"^^xsd:anyURI ;
+             fhir:l fhir:uri
            ]
          ] [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type>
            ] ;
            fhir:value [
              a fhir:uri ;
-             fhir:v "id"^^xsd:anyURI
+             fhir:v "id"^^xsd:anyURI ;
+             fhir:l fhir:id
            ]
          ] ) ;
          fhir:name [ fhir:v "value" ] ;

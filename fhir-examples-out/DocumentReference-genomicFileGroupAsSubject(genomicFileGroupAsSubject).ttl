@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,14 +26,14 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://www.somesystemabc.net/identifiers/files"^^xsd:anyURI ;
-       fhir:link <http://www.somesystemabc.net/identifiers/files>
+       fhir:l <http://www.somesystemabc.net/identifiers/files>
      ] ;
      fhir:value [ fhir:v "11115" ]
   ] ) ; # 
   fhir:status [ fhir:v "current"] ; # 
   fhir:docStatus [ fhir:v "preliminary"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Group/groupDenovoFamily> ;
+     fhir:l <http://hl7.org/fhir/Group/groupDenovoFamily> ;
      fhir:reference [ fhir:v "Group/groupDenovoFamily" ] ;
      fhir:display [ fhir:v "Denovo mutation study members" ]
   ] ; # 
@@ -42,7 +42,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
        ] ;
        fhir:code [ fhir:v "R" ] ;
        fhir:display [ fhir:v "Restricted" ]
@@ -52,7 +52,7 @@
      fhir:attachment [
        fhir:url [
          fhir:v "http://www.somesystemabc.net/identifiers/files/11115"^^xsd:anyURI ;
-         fhir:link <http://www.somesystemabc.net/identifiers/files/11115>
+         fhir:l <http://www.somesystemabc.net/identifiers/files/11115>
        ] ;
        fhir:title [ fhir:v "Combined VCF File of a Proband and Parents" ] ;
        fhir:creation [ fhir:v "2021-01-01T01:02:01+01:00"^^xsd:dateTime ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,11 +27,11 @@
   fhir:extension ( [
      fhir:url [
        fhir:v "http://example.org/fhir/StructureDefinition/owner"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/StructureDefinition/owner>
+       fhir:l <http://example.org/fhir/StructureDefinition/owner>
      ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:link <http://hl7.org/fhir/RelatedPerson/peter> ;
+       fhir:l <http://hl7.org/fhir/RelatedPerson/peter> ;
        fhir:reference [ fhir:v "RelatedPerson/peter" ] ;
        fhir:display [ fhir:v "Peter Chalmers" ]
      ]
@@ -39,7 +39,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "https://vetmed.iastate.edu/vdl"^^xsd:anyURI ;
-       fhir:link <https://vetmed.iastate.edu/vdl>
+       fhir:l <https://vetmed.iastate.edu/vdl>
      ] ;
      fhir:value [ fhir:v "20171120-1234" ]
   ] ) ; #    diagnostic lab's identifier   
@@ -51,14 +51,14 @@
        a sct:388393002 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "388393002" ] ;
        fhir:display [ fhir:v "Genus Sus (organism)" ]
      ] [
        fhir:system [
          fhir:v "https://www.aphis.usda.gov"^^xsd:anyURI ;
-         fhir:link <https://www.aphis.usda.gov>
+         fhir:l <https://www.aphis.usda.gov>
        ] ;
        fhir:code [ fhir:v "POR" ] ;
        fhir:display [ fhir:v "porcine" ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "social-history" ] ;
        fhir:display [ fhir:v "Social History" ]
@@ -46,7 +46,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://acme-rehab.org"^^xsd:anyURI ;
-         fhir:link <http://acme-rehab.org>
+         fhir:l <http://acme-rehab.org>
        ] ;
        fhir:code [ fhir:v "alcohol-type" ] ;
        fhir:display [ fhir:v "Type of alcohol consumed" ]
@@ -54,7 +54,7 @@
      fhir:text [ fhir:v "Type of alcohol consumed" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/example> ;
+     fhir:l <http://hl7.org/fhir/Patient/example> ;
      fhir:reference [ fhir:v "Patient/example" ] ;
      fhir:display [ fhir:v "Peter James Chalmers" ]
   ] ; # 
@@ -67,7 +67,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme-rehab.org"^^xsd:anyURI ;
-           fhir:link <http://acme-rehab.org>
+           fhir:l <http://acme-rehab.org>
          ] ;
          fhir:code [ fhir:v "alcohol-type" ]
        ] ) #     Local - unable to identify a proper LOINC code    
@@ -78,7 +78,7 @@
          a sct:35748005 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "35748005" ] ;
          fhir:display [ fhir:v "Wine (substance)" ]
@@ -90,7 +90,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme-rehab.org"^^xsd:anyURI ;
-           fhir:link <http://acme-rehab.org>
+           fhir:l <http://acme-rehab.org>
          ] ;
          fhir:code [ fhir:v "alcohol-type" ]
        ] ) #     Local - unable to identify a proper LOINC code    
@@ -101,7 +101,7 @@
          a sct:53410008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "53410008" ] ;
          fhir:display [ fhir:v "Beer (substance)" ]
@@ -113,7 +113,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://acme-rehab.org"^^xsd:anyURI ;
-           fhir:link <http://acme-rehab.org>
+           fhir:l <http://acme-rehab.org>
          ] ;
          fhir:code [ fhir:v "alcohol-type" ]
        ] ) #     Local - unable to identify a proper LOINC code    
@@ -124,7 +124,7 @@
          a sct:6524003 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "6524003" ] ;
          fhir:display [ fhir:v "Distilled spirits (substance)" ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:id [ fhir:v "careteam" ] ;
      fhir:participant ( [
        fhir:member [
-         fhir:link <http://hl7.org/fhir/Practitioner/f002> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f002> ;
          fhir:reference [ fhir:v "Practitioner/f002" ] ;
          fhir:display [ fhir:v "P. Voigt" ]
        ]
@@ -42,7 +42,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/goal-achievement"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/goal-achievement>
+           fhir:l <http://terminology.hl7.org/CodeSystem/goal-achievement>
          ] ;
          fhir:code [ fhir:v "achieved" ] ;
          fhir:display [ fhir:v "Achieved" ]
@@ -53,7 +53,7 @@
        fhir:text [ fhir:v "recovery surgery on heart of patient" ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/f001> ;
+       fhir:l <http://hl7.org/fhir/Patient/f001> ;
        fhir:reference [ fhir:v "Patient/f001" ] ;
        fhir:display [ fhir:v "P. van de Heuvel" ]
      ] ;
@@ -71,7 +71,7 @@
            a sct:64915003 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "64915003" ] ;
            fhir:display [ fhir:v "Operation on heart" ]
@@ -79,7 +79,7 @@
        ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/f001> ;
+       fhir:l <http://hl7.org/fhir/Patient/f001> ;
        fhir:reference [ fhir:v "Patient/f001" ] ;
        fhir:display [ fhir:v "P. van de Heuvel" ]
      ] ;
@@ -88,7 +88,7 @@
        fhir:v "2011-06-27T09:30:10+01:00"^^xsd:dateTime
      ] ;
      fhir:performer ( [
-       fhir:link <http://hl7.org/fhir/Practitioner/f002> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/f002> ;
        fhir:reference [ fhir:v "Practitioner/f002" ] ;
        fhir:display [ fhir:v "P. Voigt" ]
      ] )
@@ -97,14 +97,14 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://www.bmc.nl/zorgportal/identifiers/careplans"^^xsd:anyURI ;
-       fhir:link <http://www.bmc.nl/zorgportal/identifiers/careplans>
+       fhir:l <http://www.bmc.nl/zorgportal/identifiers/careplans>
      ] ; #    urn:oid:2.16.840.1.113883.4.642.1.36   
      fhir:value [ fhir:v "CP2903" ]
   ] ) ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:intent [ fhir:v "plan"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f001> ;
+     fhir:l <http://hl7.org/fhir/Patient/f001> ;
      fhir:reference [ fhir:v "Patient/f001" ] ;
      fhir:display [ fhir:v "P. van de Heuvel" ]
   ] ; # 
@@ -113,20 +113,23 @@
      fhir:end [ fhir:v "2011-06-27"^^xsd:date ]
   ] ; # 
   fhir:careTeam ( [
+     fhir:l <#careteam> ;
      fhir:reference [ fhir:v "#careteam" ]
   ] ) ; # 
   fhir:addresses ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Condition/f201> ;
+       fhir:l <http://hl7.org/fhir/Condition/f201> ;
        fhir:reference [ fhir:v "Condition/f201" ] ;
        fhir:display [ fhir:v "?????" ] #   TODO Correcte referentie  
      ]
   ] ) ; # 
   fhir:goal ( [
+     fhir:l <#goal> ;
      fhir:reference [ fhir:v "#goal" ]
   ] ) ; # 
   fhir:activity ( [
      fhir:plannedActivityReference [
+       fhir:l <#activity> ;
        fhir:reference [ fhir:v "#activity" ]
      ]
   ] ) . #    moved to contained

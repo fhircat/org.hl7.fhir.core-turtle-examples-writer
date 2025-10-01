@@ -17,7 +17,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -32,7 +32,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://acmelabs.org"^^xsd:anyURI ;
-         fhir:link <http://acmelabs.org>
+         fhir:l <http://acmelabs.org>
        ] ;
        fhir:code [ fhir:v "104177" ] ;
        fhir:display [ fhir:v "Blood culture" ]
@@ -40,20 +40,20 @@
        a loinc:600-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "600-7" ] ;
        fhir:display [ fhir:v "Bacteria identified in Blood by Culture" ]
      ] ) #    Kind of observation = Blood culture   
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f201> ;
+     fhir:l <http://hl7.org/fhir/Patient/f201> ;
      fhir:reference [ fhir:v "Patient/f201" ] ;
      fhir:display [ fhir:v "Roel" ]
   ] ; #    No identifier could be provided to this observation   
   fhir:issued [ fhir:v "2013-03-11T10:28:00+01:00"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Practitioner/f202> ;
+     fhir:l <http://hl7.org/fhir/Practitioner/f202> ;
      fhir:reference [ fhir:v "Practitioner/f202" ] ;
      fhir:display [ fhir:v "Luigi Maas" ]
   ] ) ; # 
@@ -63,7 +63,7 @@
        a sct:3092008 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "3092008" ] ;
        fhir:display [ fhir:v "Staphylococcus aureus" ]
@@ -73,7 +73,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "POS" ]
      ] )
@@ -83,7 +83,7 @@
        a sct:104177005 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "104177005" ] ;
        fhir:display [ fhir:v "Blood culture for bacteria, including anaerobic screen" ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Health education - breast examination for early detection of breast mass</div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/ServiceRequest/education> ;
+     fhir:l <http://hl7.org/fhir/ServiceRequest/education> ;
      fhir:reference [ fhir:v "ServiceRequest/education" ] ;
      fhir:display [ fhir:v "Order for health education" ]
   ] ) ; # 
@@ -35,7 +35,7 @@
        a sct:311401005 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "311401005" ] ;
        fhir:display [ fhir:v "Patient education (procedure)" ]
@@ -47,7 +47,7 @@
        a sct:48023004 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "48023004" ] ;
        fhir:display [ fhir:v "Breast self-examination technique education (procedure)" ]

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://ema.europa.eu/example/manufactureddoseform"^^xsd:anyURI ;
-         fhir:link <http://ema.europa.eu/example/manufactureddoseform>
+         fhir:l <http://ema.europa.eu/example/manufactureddoseform>
        ] ;
        fhir:code [ fhir:v "Film-coatedtablet" ]
      ] )
@@ -37,13 +37,13 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://ema.europa.eu/example/unitofpresentation"^^xsd:anyURI ;
-         fhir:link <http://ema.europa.eu/example/unitofpresentation>
+         fhir:l <http://ema.europa.eu/example/unitofpresentation>
        ] ;
        fhir:code [ fhir:v "Tablet" ]
      ] )
   ] ; # 
   fhir:manufacturer ( [
-     fhir:link <http://hl7.org/fhir/Organization/example> ;
+     fhir:l <http://hl7.org/fhir/Organization/example> ;
      fhir:reference [ fhir:v "Organization/example" ]
   ] ) ; # 
   fhir:property ( [

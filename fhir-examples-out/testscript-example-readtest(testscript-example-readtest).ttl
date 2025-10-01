@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,12 +25,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/TestScript/testscript-example-readtest"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/TestScript/testscript-example-readtest>
+     fhir:l <http://hl7.org/fhir/TestScript/testscript-example-readtest>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.12.2" ]
   ] ) ; # 
@@ -53,7 +53,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ] ;
        fhir:display [ fhir:v "United States of America (the)" ]
@@ -65,7 +65,7 @@
      fhir:link ( [
        fhir:url [
          fhir:v "http://hl7.org/fhir/patient.html"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/patient.html>
+         fhir:l <http://hl7.org/fhir/patient.html>
        ] ;
        fhir:description [ fhir:v "Demographics and other administrative information about an individual or animal receiving care or other health-related services." ]
      ] ) ;
@@ -75,24 +75,24 @@
        fhir:description [ fhir:v "Patient Read Operation" ] ;
        fhir:link ( [
          fhir:v "http://hl7.org/fhir/http.html#read"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/http.html#read>
+         fhir:l <http://hl7.org/fhir/http.html#read>
        ] ) ;
        fhir:capabilities [
          fhir:v "http://hl7.org/fhir/CapabilityStatement/example"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/CapabilityStatement/example>
+         fhir:l <http://hl7.org/fhir/CapabilityStatement/example>
        ]
      ] )
   ] ; # 
   fhir:scope ( [
      fhir:artifact [
        fhir:v "http://hl7.org/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Patient>
      ] ;
      fhir:conformance [
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/testscript-scope-conformance-codes"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/testscript-scope-conformance-codes>
+           fhir:l <http://hl7.org/fhir/testscript-scope-conformance-codes>
          ] ;
          fhir:code [ fhir:v "optional" ]
        ] )
@@ -101,7 +101,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://hl7.org/fhir/testscript-scope-phase-codes"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/testscript-scope-phase-codes>
+           fhir:l <http://hl7.org/fhir/testscript-scope-phase-codes>
          ] ;
          fhir:code [ fhir:v "unit" ]
        ] )
@@ -109,7 +109,7 @@
   ] ) ; # 
   fhir:profile ( [
      fhir:v "http://hl7.org/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/StructureDefinition/Patient> ;
+     fhir:l <http://hl7.org/fhir/StructureDefinition/Patient> ;
      fhir:id [ fhir:v "patient-profile" ]
   ] ) ; # 
   fhir:variable ( [
@@ -128,11 +128,14 @@
          fhir:type [
            fhir:system [
              fhir:v "http://hl7.org/fhir/restful-interaction"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/restful-interaction>
+             fhir:l <http://hl7.org/fhir/restful-interaction>
            ] ;
            fhir:code [ fhir:v "read" ]
          ] ;
-         fhir:resource [ fhir:v "Patient"^^xsd:anyURI ] ;
+         fhir:resource [
+           fhir:v "Patient"^^xsd:anyURI ;
+           fhir:l fhir:Patient
+         ] ;
          fhir:description [ fhir:v "Read the known Patient resource on the destination test system using the user defined dynamic variable ${KnownPatientResourceId}." ] ;
          fhir:accept [ fhir:v "xml" ] ;
          fhir:encodeRequestUrl [ fhir:v true ] ;
@@ -163,7 +166,10 @@
      ] [
        fhir:assert [
          fhir:description [ fhir:v "Confirm that the returned resource type is Patient." ] ;
-         fhir:resource [ fhir:v "Patient"^^xsd:anyURI ] ;
+         fhir:resource [
+           fhir:v "Patient"^^xsd:anyURI ;
+           fhir:l fhir:Patient
+         ] ;
          fhir:stopTestOnFail [ fhir:v false ] ;
          fhir:warningOnly [ fhir:v false ]
        ]
@@ -184,11 +190,14 @@
          fhir:type [
            fhir:system [
              fhir:v "http://hl7.org/fhir/restful-interaction"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/restful-interaction>
+             fhir:l <http://hl7.org/fhir/restful-interaction>
            ] ;
            fhir:code [ fhir:v "read" ]
          ] ;
-         fhir:resource [ fhir:v "Patient"^^xsd:anyURI ] ;
+         fhir:resource [
+           fhir:v "Patient"^^xsd:anyURI ;
+           fhir:l fhir:Patient
+         ] ;
          fhir:description [ fhir:v "Attempt to read the Parameters resource type. What we really want here is an illegal type but the build process won't allow that. Parameters is a valid resource which doesn't have an end-point so, this should fail." ] ;
          fhir:accept [ fhir:v "xml" ] ;
          fhir:encodeRequestUrl [ fhir:v true ] ;
@@ -211,11 +220,14 @@
          fhir:type [
            fhir:system [
              fhir:v "http://hl7.org/fhir/restful-interaction"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/restful-interaction>
+             fhir:l <http://hl7.org/fhir/restful-interaction>
            ] ;
            fhir:code [ fhir:v "read" ]
          ] ;
-         fhir:resource [ fhir:v "Patient"^^xsd:anyURI ] ;
+         fhir:resource [
+           fhir:v "Patient"^^xsd:anyURI ;
+           fhir:l fhir:Patient
+         ] ;
          fhir:description [ fhir:v "Attempt to read the non-existing Patient resource on the destination test system using the user defined dynamic variable ${NonExistsPatientResourceId}." ] ;
          fhir:accept [ fhir:v "xml" ] ;
          fhir:encodeRequestUrl [ fhir:v true ] ;
@@ -238,11 +250,14 @@
          fhir:type [
            fhir:system [
              fhir:v "http://hl7.org/fhir/restful-interaction"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/restful-interaction>
+             fhir:l <http://hl7.org/fhir/restful-interaction>
            ] ;
            fhir:code [ fhir:v "read" ]
          ] ;
-         fhir:resource [ fhir:v "Patient"^^xsd:anyURI ] ;
+         fhir:resource [
+           fhir:v "Patient"^^xsd:anyURI ;
+           fhir:l fhir:Patient
+         ] ;
          fhir:description [ fhir:v "Attempt to read a Patient resource on the destination test system using known bad formatted resource id." ] ;
          fhir:accept [ fhir:v "xml" ] ;
          fhir:encodeRequestUrl [ fhir:v true ] ;

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,12 +24,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Auto-Accept Brian MRI results discussion</div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:appointment [
-     fhir:link <http://hl7.org/fhir/Appointment/example> ;
+     fhir:l <http://hl7.org/fhir/Appointment/example> ;
      fhir:reference [ fhir:v "Appointment/example" ] ;
      fhir:display [ fhir:v "Brian MRI results discussion" ]
   ] ; # 
   fhir:actor [
-     fhir:link <http://hl7.org/fhir/Location/1> ;
+     fhir:l <http://hl7.org/fhir/Location/1> ;
      fhir:reference [ fhir:v "Location/1" ] ;
      fhir:display [ fhir:v "South Wing, second floor" ]
   ] ; # 

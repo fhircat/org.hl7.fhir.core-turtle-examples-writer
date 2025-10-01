@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,6 +27,7 @@
      a fhir:PackagedProductDefinition ;
      fhir:id [ fhir:v "Acetamin-pack-20" ] ;
      fhir:packageFor ( [
+       fhir:l <#> ;
        fhir:reference [ fhir:v "#" ]
      ] ) ;
      fhir:packaging [
@@ -38,6 +39,7 @@
        fhir:containedItem ( [
          fhir:item [
            fhir:reference [
+             fhir:l <#Acetamin-tab-500> ;
              fhir:reference [ fhir:v "#Acetamin-tab-500" ]
            ]
          ] ;
@@ -59,7 +61,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://example.nation.org/drugs"^^xsd:anyURI ;
-       fhir:link <http://example.nation.org/drugs>
+       fhir:l <http://example.nation.org/drugs>
      ] ;
      fhir:value [ fhir:v "12345" ]
   ] ) ; #   contained>

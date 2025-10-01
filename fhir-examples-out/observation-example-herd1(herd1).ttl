@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/observation-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
        ] ;
        fhir:code [ fhir:v "laboratory" ] ;
        fhir:display [ fhir:v "Laboratory" ]
@@ -41,14 +41,14 @@
        a loinc:80219-9 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "80219-9" ] ;
        fhir:display [ fhir:v "Mycoplasma hyopneumoniae Ab sample/Positive control in Serum by Immunoassay" ] #   more generic methodless LOINC  
      ] [
        fhir:system [
          fhir:v "http://acme.org/devices/clinical-codes"^^xsd:anyURI ;
-         fhir:link <http://acme.org/devices/clinical-codes>
+         fhir:l <http://acme.org/devices/clinical-codes>
        ] ;
        fhir:code [ fhir:v "Mycoplasma" ] ;
        fhir:display [ fhir:v "Mycoplasma" ]
@@ -61,7 +61,7 @@
 #      - the source system provides its own code, which may be less or more granular than LOINC
 #     
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Group/herd1> ;
+     fhir:l <http://hl7.org/fhir/Group/herd1> ;
      fhir:reference [ fhir:v "Group/herd1" ]
   ] ; #      subject is a herd of 2500 breding sows   
   fhir:encounter [
@@ -77,7 +77,7 @@
      fhir:unit [ fhir:v "% (sample/positive control)" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "%" ]
   ] ; #     In FHIR, units may be represented twice. Once in the
@@ -93,7 +93,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "NEG" ] ;
        fhir:display [ fhir:v "Negative" ]
@@ -101,7 +101,7 @@
      fhir:text [ fhir:v "Negative" ]
   ] ) ; # 
   fhir:specimen [
-     fhir:link <http://hl7.org/fhir/Specimen/pooled-serum> ;
+     fhir:l <http://hl7.org/fhir/Specimen/pooled-serum> ;
      fhir:reference [ fhir:v "Specimen/pooled-serum" ] ;
      fhir:display [ fhir:v "30 serum" ]
   ] ; #    Specimen is a pooled serology sample of 30 animals.  

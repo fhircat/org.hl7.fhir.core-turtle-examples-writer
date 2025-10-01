@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/sid/ndc"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/sid/ndc>
+         fhir:l <http://hl7.org/fhir/sid/ndc>
        ] ;
        fhir:code [ fhir:v "0409-6531-02" ] ;
        fhir:display [ fhir:v "Vancomycin Hydrochloride (VANCOMYCIN HYDROCHLORIDE)" ]
@@ -42,7 +42,7 @@
          a sct:385268001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "385268001" ] ;
          fhir:display [ fhir:v "Oral Dose Form (qualifier value)" ]

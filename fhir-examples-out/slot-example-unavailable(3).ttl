@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -30,7 +30,7 @@
      ] )
   ] ) ; # 
   fhir:schedule [
-     fhir:link <http://hl7.org/fhir/Schedule/example> ;
+     fhir:l <http://hl7.org/fhir/Schedule/example> ;
      fhir:reference [ fhir:v "Schedule/example" ]
   ] ; # 
   fhir:status [ fhir:v "busy-unavailable"] ; # 

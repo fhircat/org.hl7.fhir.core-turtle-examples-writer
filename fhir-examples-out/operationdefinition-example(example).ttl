@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/OperationDefinition/example"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/OperationDefinition/example>
+     fhir:l <http://hl7.org/fhir/OperationDefinition/example>
   ] ; # 
   fhir:version [ fhir:v "B"] ; # 
   fhir:name [ fhir:v "PopulateQuestionnaire"] ; # 
@@ -46,7 +46,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "venue" ] ;
        fhir:display [ fhir:v "Clinical Venue" ]
@@ -56,7 +56,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
          ] ;
          fhir:code [ fhir:v "IMP" ] ;
          fhir:display [ fhir:v "inpatient encounter" ]
@@ -67,7 +67,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "GB" ] ;
        fhir:display [ fhir:v "United Kingdom of Great Britain and Northern Ireland (the)" ]
@@ -77,7 +77,7 @@
   fhir:comment [ fhir:v "Only implemented for Labs and Medications so far"] ; # 
   fhir:base [
      fhir:v "http://hl7.org/fhir/OperationDefinition/Questionnaire-populate"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/OperationDefinition/Questionnaire-populate>
+     fhir:l <http://hl7.org/fhir/OperationDefinition/Questionnaire-populate>
   ] ; # 
   fhir:resource ( [ fhir:v "Questionnaire"] ) ; # 
   fhir:system [ fhir:v false] ; # 

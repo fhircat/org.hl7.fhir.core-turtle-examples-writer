@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://xyz-insurance.com/forms"^^xsd:anyURI ;
-       fhir:link <http://xyz-insurance.com/forms>
+       fhir:l <http://xyz-insurance.com/forms>
      ] ;
      fhir:value [ fhir:v "YCSCWLN(01-2017)" ]
   ] ) ; # 
@@ -34,14 +34,14 @@
      fhir:start [ fhir:v "2017-01-01"^^xsd:date ]
   ] ; # 
   fhir:subject ( [
-     fhir:link <http://hl7.org/fhir/Patient/1> ;
+     fhir:l <http://hl7.org/fhir/Patient/1> ;
      fhir:reference [ fhir:v "Patient/1" ]
   ] ) ; # 
   fhir:type [
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/contract-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/contract-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/contract-type>
        ] ;
        fhir:code [ fhir:v "healthinsurance" ] ;
        fhir:display [ fhir:v "Health Insurance" ]
@@ -56,7 +56,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-             fhir:link <urn:ietf:rfc:3986>
+             fhir:l <urn:ietf:rfc:3986>
            ] ;
            fhir:code [ fhir:v "urn:uuid:3a48c68c-318d-4c68-8471-4a3c10fcb41b" ] ;
            fhir:display [ fhir:v "RicardianContract" ]
@@ -76,7 +76,7 @@
          fhir:identifier [
            fhir:system [
              fhir:v "http://somewhere.motor-vehicle.com/vin"^^xsd:anyURI ;
-             fhir:link <http://somewhere.motor-vehicle.com/vin>
+             fhir:l <http://somewhere.motor-vehicle.com/vin>
            ] ;
            fhir:value [ fhir:v "XXSVT34-7665t952236" ]
          ] ;

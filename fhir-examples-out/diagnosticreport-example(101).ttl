@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -24,109 +24,109 @@
   fhir:entry ( [
      fhir:fullUrl [
        fhir:v "https://example.com/base/DiagnosticReport/101"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/DiagnosticReport/101>
+       fhir:l <https://example.com/base/DiagnosticReport/101>
      ] ;
      fhir:resource ( <https://example.com/base/DiagnosticReport/101> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r1"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r1>
+       fhir:l <https://example.com/base/Observation/r1>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r1> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r2"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r2>
+       fhir:l <https://example.com/base/Observation/r2>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r2> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r3"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r3>
+       fhir:l <https://example.com/base/Observation/r3>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r3> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r4"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r4>
+       fhir:l <https://example.com/base/Observation/r4>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r4> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r5"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r5>
+       fhir:l <https://example.com/base/Observation/r5>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r5> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r6"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r6>
+       fhir:l <https://example.com/base/Observation/r6>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r6> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r7"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r7>
+       fhir:l <https://example.com/base/Observation/r7>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r7> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r8"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r8>
+       fhir:l <https://example.com/base/Observation/r8>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r8> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r9"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r9>
+       fhir:l <https://example.com/base/Observation/r9>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r9> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r10"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r10>
+       fhir:l <https://example.com/base/Observation/r10>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r10> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r11"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r11>
+       fhir:l <https://example.com/base/Observation/r11>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r11> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r12"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r12>
+       fhir:l <https://example.com/base/Observation/r12>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r12> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r13"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r13>
+       fhir:l <https://example.com/base/Observation/r13>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r13> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r14"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r14>
+       fhir:l <https://example.com/base/Observation/r14>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r14> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r15"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r15>
+       fhir:l <https://example.com/base/Observation/r15>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r15> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r16"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r16>
+       fhir:l <https://example.com/base/Observation/r16>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r16> )
   ] [
      fhir:fullUrl [
        fhir:v "https://example.com/base/Observation/r17"^^xsd:anyURI ;
-       fhir:link <https://example.com/base/Observation/r17>
+       fhir:l <https://example.com/base/Observation/r17>
      ] ;
      fhir:resource ( <https://example.com/base/Observation/r17> )
   ] ) . # 
@@ -137,7 +137,7 @@
      fhir:tag ( [
        fhir:system [
          fhir:v "http://example.org/fhir/CodeSystem/workflow-codes"^^xsd:anyURI ;
-         fhir:link <http://example.org/fhir/CodeSystem/workflow-codes>
+         fhir:l <http://example.org/fhir/CodeSystem/workflow-codes>
        ] ;
        fhir:code [ fhir:v "01" ] ;
        fhir:display [ fhir:v "Needs Review" ]
@@ -150,7 +150,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://acme.com/lab/reports"^^xsd:anyURI ;
-       fhir:link <http://acme.com/lab/reports>
+       fhir:l <http://acme.com/lab/reports>
      ] ;
      fhir:value [ fhir:v "5234342" ]
   ] ) ; # 
@@ -159,7 +159,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v2-0074>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
        ] ;
        fhir:code [ fhir:v "HM" ]
      ] )
@@ -169,7 +169,7 @@
        a loinc:58410-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "58410-2" ] ;
        fhir:display [ fhir:v "Complete blood count (hemogram) panel - Blood by Automated count" ]
@@ -180,11 +180,11 @@
      fhir:text [ fhir:v "Complete Blood Count" ]
   ] ; #       first, various administrative/context stuff      
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/Encounter/example> ;
+     fhir:l <http://hl7.org/fhir/Encounter/example> ;
      fhir:reference [ fhir:v "Encounter/example" ]
   ] ; # 
   fhir:effective [
@@ -193,60 +193,60 @@
   ] ; # 
   fhir:issued [ fhir:v "2011-03-04T11:45:33+11:00"^^xsd:dateTime] ; #       all this report is final      
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
   fhir:result ( [
-     fhir:link <http://hl7.org/fhir/Observation/r1> ;
+     fhir:l <http://hl7.org/fhir/Observation/r1> ;
      fhir:reference [ fhir:v "Observation/r1" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r2> ;
+     fhir:l <http://hl7.org/fhir/Observation/r2> ;
      fhir:reference [ fhir:v "Observation/r2" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r3> ;
+     fhir:l <http://hl7.org/fhir/Observation/r3> ;
      fhir:reference [ fhir:v "Observation/r3" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r4> ;
+     fhir:l <http://hl7.org/fhir/Observation/r4> ;
      fhir:reference [ fhir:v "Observation/r4" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r5> ;
+     fhir:l <http://hl7.org/fhir/Observation/r5> ;
      fhir:reference [ fhir:v "Observation/r5" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r6> ;
+     fhir:l <http://hl7.org/fhir/Observation/r6> ;
      fhir:reference [ fhir:v "Observation/r6" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r7> ;
+     fhir:l <http://hl7.org/fhir/Observation/r7> ;
      fhir:reference [ fhir:v "Observation/r7" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r8> ;
+     fhir:l <http://hl7.org/fhir/Observation/r8> ;
      fhir:reference [ fhir:v "Observation/r8" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r9> ;
+     fhir:l <http://hl7.org/fhir/Observation/r9> ;
      fhir:reference [ fhir:v "Observation/r9" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r10> ;
+     fhir:l <http://hl7.org/fhir/Observation/r10> ;
      fhir:reference [ fhir:v "Observation/r10" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r11> ;
+     fhir:l <http://hl7.org/fhir/Observation/r11> ;
      fhir:reference [ fhir:v "Observation/r11" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r12> ;
+     fhir:l <http://hl7.org/fhir/Observation/r12> ;
      fhir:reference [ fhir:v "Observation/r12" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r13> ;
+     fhir:l <http://hl7.org/fhir/Observation/r13> ;
      fhir:reference [ fhir:v "Observation/r13" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r14> ;
+     fhir:l <http://hl7.org/fhir/Observation/r14> ;
      fhir:reference [ fhir:v "Observation/r14" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r15> ;
+     fhir:l <http://hl7.org/fhir/Observation/r15> ;
      fhir:reference [ fhir:v "Observation/r15" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r16> ;
+     fhir:l <http://hl7.org/fhir/Observation/r16> ;
      fhir:reference [ fhir:v "Observation/r16" ]
   ] [
-     fhir:link <http://hl7.org/fhir/Observation/r17> ;
+     fhir:l <http://hl7.org/fhir/Observation/r17> ;
      fhir:reference [ fhir:v "Observation/r17" ]
   ] ) ; #       now the atomic results      
   fhir:presentedForm ( [
@@ -317,7 +317,7 @@
        a loinc:718-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "718-7" ] ;
        fhir:display [ fhir:v "Hemoglobin [Mass/volume] in Blood" ]
@@ -325,11 +325,11 @@
      fhir:text [ fhir:v "Haemoglobin" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -339,7 +339,7 @@
      fhir:unit [ fhir:v "g/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "g/L" ]
   ] ; # 
@@ -349,7 +349,7 @@
        fhir:unit [ fhir:v "g/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "g/L" ]
      ] ;
@@ -358,7 +358,7 @@
        fhir:unit [ fhir:v "g/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "g/L" ]
      ]
@@ -376,7 +376,7 @@
        a loinc:789-8 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "789-8" ] ;
        fhir:display [ fhir:v "Erythrocytes [#/volume] in Blood by Automated count" ]
@@ -384,11 +384,11 @@
      fhir:text [ fhir:v "Red Cell Count" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -398,7 +398,7 @@
      fhir:unit [ fhir:v "x10*12/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "10*12/L" ]
   ] ; # 
@@ -408,7 +408,7 @@
        fhir:unit [ fhir:v "x10*12/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*12/L" ]
      ] ;
@@ -417,7 +417,7 @@
        fhir:unit [ fhir:v "x10*12/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*12/L" ]
      ]
@@ -435,7 +435,7 @@
        a loinc:4544-3 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "4544-3" ] ;
        fhir:display [ fhir:v "Hematocrit [Volume Fraction] of Blood by Automated count" ]
@@ -443,11 +443,11 @@
      fhir:text [ fhir:v "Haematocrit" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -460,7 +460,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "H" ]
      ] )
@@ -488,7 +488,7 @@
        a loinc:787-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "787-2" ] ;
        fhir:display [ fhir:v "Erythrocyte mean corpuscular volume [Entitic volume] by Automated count" ]
@@ -496,11 +496,11 @@
      fhir:text [ fhir:v "Mean Cell Volume" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -510,7 +510,7 @@
      fhir:unit [ fhir:v "fL" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "fL" ]
   ] ; # 
@@ -518,7 +518,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "H" ]
      ] )
@@ -529,7 +529,7 @@
        fhir:unit [ fhir:v "fL" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "fL" ]
      ] ;
@@ -538,7 +538,7 @@
        fhir:unit [ fhir:v "fL" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "fL" ]
      ]
@@ -556,7 +556,7 @@
        a loinc:785-6 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "785-6" ] ;
        fhir:display [ fhir:v "Erythrocyte mean corpuscular hemoglobin [Entitic mass] by Automated count" ]
@@ -564,11 +564,11 @@
      fhir:text [ fhir:v "Mean Cell Haemoglobin" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -578,7 +578,7 @@
      fhir:unit [ fhir:v "pg" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "pg" ]
   ] ; # 
@@ -586,7 +586,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "H" ]
      ] )
@@ -597,7 +597,7 @@
        fhir:unit [ fhir:v "pg" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "pg" ]
      ] ;
@@ -606,7 +606,7 @@
        fhir:unit [ fhir:v "pg" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "pg" ]
      ]
@@ -624,7 +624,7 @@
        a loinc:777-3 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "777-3" ] ;
        fhir:display [ fhir:v "Platelets [#/volume] in Blood by Automated count" ]
@@ -632,11 +632,11 @@
      fhir:text [ fhir:v "Platelet Count" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -646,7 +646,7 @@
      fhir:unit [ fhir:v "x10*9/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "10*9/L" ]
   ] ; # 
@@ -656,7 +656,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ] ;
@@ -665,7 +665,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ]
@@ -683,7 +683,7 @@
        a loinc:6690-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "6690-2" ] ;
        fhir:display [ fhir:v "Leukocytes [#/volume] in Blood by Automated count" ]
@@ -691,11 +691,11 @@
      fhir:text [ fhir:v "White Cell Count" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -705,7 +705,7 @@
      fhir:unit [ fhir:v "x10*9/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "10*9/L" ]
   ] ; # 
@@ -715,7 +715,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ] ;
@@ -724,7 +724,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ]
@@ -742,7 +742,7 @@
        a loinc:770-8 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "770-8" ] ;
        fhir:display [ fhir:v "Neutrophils/100 leukocytes in Blood by Automated count" ]
@@ -750,11 +750,11 @@
      fhir:text [ fhir:v "Neutrophils" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -764,7 +764,7 @@
      fhir:unit [ fhir:v "%" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "%" ]
   ] . # 
@@ -781,7 +781,7 @@
        a loinc:751-8 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "751-8" ] ;
        fhir:display [ fhir:v "Neutrophils [#/volume] in Blood by Automated count" ]
@@ -789,11 +789,11 @@
      fhir:text [ fhir:v "Neutrophils" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -803,7 +803,7 @@
      fhir:unit [ fhir:v "x10*9/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "10*9/L" ]
   ] ; # 
@@ -811,7 +811,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "LL" ]
      ] )
@@ -822,7 +822,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ] ;
@@ -831,7 +831,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ]
@@ -849,7 +849,7 @@
        a loinc:736-9 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "736-9" ] ;
        fhir:display [ fhir:v "Lymphocytes/100 leukocytes in Blood by Automated count" ]
@@ -857,11 +857,11 @@
      fhir:text [ fhir:v "Lymphocytes" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -871,7 +871,7 @@
      fhir:unit [ fhir:v "%" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "%" ]
   ] . # 
@@ -888,7 +888,7 @@
        a loinc:731-0 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "731-0" ] ;
        fhir:display [ fhir:v "Lymphocytes [#/volume] in Blood by Automated count" ]
@@ -896,11 +896,11 @@
      fhir:text [ fhir:v "Lymphocytes" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -910,7 +910,7 @@
      fhir:unit [ fhir:v "x10*9/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "10*9/L" ]
   ] ; # 
@@ -918,7 +918,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "L" ]
      ] )
@@ -929,7 +929,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ] ;
@@ -938,7 +938,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ]
@@ -956,7 +956,7 @@
        a loinc:5905-5 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "5905-5" ] ;
        fhir:display [ fhir:v "Monocytes/100 leukocytes in Blood by Automated count" ]
@@ -964,11 +964,11 @@
      fhir:text [ fhir:v "Monocytes" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -978,7 +978,7 @@
      fhir:unit [ fhir:v "%" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "%" ]
   ] . # 
@@ -995,7 +995,7 @@
        a loinc:742-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "742-7" ] ;
        fhir:display [ fhir:v "Monocytes [#/volume] in Blood by Automated count" ]
@@ -1003,11 +1003,11 @@
      fhir:text [ fhir:v "Monocytes" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -1017,7 +1017,7 @@
      fhir:unit [ fhir:v "x10*9/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "10*9/L" ]
   ] ; # 
@@ -1027,7 +1027,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ] ;
@@ -1036,7 +1036,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ]
@@ -1054,7 +1054,7 @@
        a loinc:713-8 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "713-8" ] ;
        fhir:display [ fhir:v "Eosinophils/100 leukocytes in Blood by Automated count" ]
@@ -1062,11 +1062,11 @@
      fhir:text [ fhir:v "Eosinophils" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -1076,7 +1076,7 @@
      fhir:unit [ fhir:v "%" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "%" ]
   ] . # 
@@ -1093,7 +1093,7 @@
        a loinc:711-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "711-2" ] ;
        fhir:display [ fhir:v "Eosinophils [#/volume] in Blood by Automated count" ]
@@ -1101,11 +1101,11 @@
      fhir:text [ fhir:v "Eosinophils" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -1115,7 +1115,7 @@
      fhir:unit [ fhir:v "x10*9/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "10*9/L" ]
   ] ; # 
@@ -1123,7 +1123,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
        ] ;
        fhir:code [ fhir:v "HH" ]
      ] )
@@ -1134,7 +1134,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ] ;
@@ -1143,7 +1143,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ]
@@ -1161,7 +1161,7 @@
        a loinc:706-2 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "706-2" ] ;
        fhir:display [ fhir:v "Basophils/100 leukocytes in Blood by Automated count" ]
@@ -1169,11 +1169,11 @@
      fhir:text [ fhir:v "Basophils" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -1183,7 +1183,7 @@
      fhir:unit [ fhir:v "%" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "%" ]
   ] . # 
@@ -1200,7 +1200,7 @@
        a loinc:704-7 ;
        fhir:system [
          fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:link <http://loinc.org>
+         fhir:l <http://loinc.org>
        ] ;
        fhir:code [ fhir:v "704-7" ] ;
        fhir:display [ fhir:v "Basophils [#/volume] in Blood by Automated count" ]
@@ -1208,11 +1208,11 @@
      fhir:text [ fhir:v "Basophils" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat2> ;
      fhir:reference [ fhir:v "Patient/pat2" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
+     fhir:l <http://hl7.org/fhir/Organization/1832473e-2fe0-452d-abe9-3cdb9879522f> ;
      fhir:reference [ fhir:v "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f" ] ;
      fhir:display [ fhir:v "Acme Laboratory, Inc" ]
   ] ) ; # 
@@ -1222,7 +1222,7 @@
      fhir:unit [ fhir:v "x10*9/L" ] ;
      fhir:system [
        fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:link <http://unitsofmeasure.org>
+       fhir:l <http://unitsofmeasure.org>
      ] ;
      fhir:code [ fhir:v "10*9/L" ]
   ] ; # 
@@ -1232,7 +1232,7 @@
        fhir:unit [ fhir:v "x10*9/L" ] ;
        fhir:system [
          fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:link <http://unitsofmeasure.org>
+         fhir:l <http://unitsofmeasure.org>
        ] ;
        fhir:code [ fhir:v "10*9/L" ]
      ]

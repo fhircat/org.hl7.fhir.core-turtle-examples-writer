@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -33,14 +33,14 @@
            a sct:425268008 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "425268008" ] ;
            fhir:display [ fhir:v "Review of care plan" ]
          ] )
        ] ;
        fhir:member [
-         fhir:link <http://hl7.org/fhir/Practitioner/f201> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f201> ;
          fhir:reference [ fhir:v "Practitioner/f201" ] ;
          fhir:display [ fhir:v "Dokter Bronsig" ]
        ]
@@ -50,14 +50,14 @@
            a sct:229774002 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "229774002" ] ;
            fhir:display [ fhir:v "Carer" ]
          ] )
        ] ;
        fhir:member [
-         fhir:link <http://hl7.org/fhir/Practitioner/f204> ;
+         fhir:l <http://hl7.org/fhir/Practitioner/f204> ;
          fhir:reference [ fhir:v "Practitioner/f204" ] ;
          fhir:display [ fhir:v "Nurse Carla Espinosa" ]
        ]
@@ -70,7 +70,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/goal-achievement"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/goal-achievement>
+           fhir:l <http://terminology.hl7.org/CodeSystem/goal-achievement>
          ] ;
          fhir:code [ fhir:v "achieved" ] ;
          fhir:display [ fhir:v "Achieved" ]
@@ -81,7 +81,7 @@
        fhir:text [ fhir:v "Re-established renal function with at least healthy nutrients." ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/f201> ;
+       fhir:l <http://hl7.org/fhir/Patient/f201> ;
        fhir:reference [ fhir:v "Patient/f201" ] ;
        fhir:display [ fhir:v "Roel" ]
      ]
@@ -96,7 +96,7 @@
            a sct:306005 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "306005" ] ;
            fhir:display [ fhir:v "Echography of kidney" ]
@@ -104,7 +104,7 @@
        ]
      ] ;
      fhir:subject [
-       fhir:link <http://hl7.org/fhir/Patient/f201> ;
+       fhir:l <http://hl7.org/fhir/Patient/f201> ;
        fhir:reference [ fhir:v "Patient/f201" ] ;
        fhir:display [ fhir:v "Roel" ]
      ]
@@ -112,7 +112,7 @@
   fhir:status [ fhir:v "draft"] ; # 
   fhir:intent [ fhir:v "proposal"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/f201> ;
+     fhir:l <http://hl7.org/fhir/Patient/f201> ;
      fhir:reference [ fhir:v "Patient/f201" ] ; #   It entails Roel's careplan  
      fhir:display [ fhir:v "Roel" ]
   ] ; #   This careplan is "ended", but was never closed in the EHR, wherefore the status is "planned"  
@@ -121,25 +121,28 @@
      fhir:end [ fhir:v "2013-03-13"^^xsd:date ]
   ] ; #   Period is less than nine days because the careplan requires adjustments after evaluation  
   fhir:careTeam ( [
+     fhir:l <#careteam> ;
      fhir:reference [ fhir:v "#careteam" ]
   ] ) ; # 
   fhir:addresses ( [
      fhir:reference [
-       fhir:link <http://hl7.org/fhir/Condition/f204> ;
+       fhir:l <http://hl7.org/fhir/Condition/f204> ;
        fhir:reference [ fhir:v "Condition/f204" ] ;
        fhir:display [ fhir:v "Roel's renal insufficiency" ]
      ]
   ] ) ; # 
   fhir:goal ( [
+     fhir:l <#goal> ;
      fhir:reference [ fhir:v "#goal" ]
   ] ) ; # 
   fhir:activity ( [
      fhir:plannedActivityReference [
-       fhir:link <http://hl7.org/fhir/NutritionOrder/renaldiet> ;
+       fhir:l <http://hl7.org/fhir/NutritionOrder/renaldiet> ;
        fhir:reference [ fhir:v "NutritionOrder/renaldiet" ]
      ] #   Potassium supplement  
   ] [
      fhir:plannedActivityReference [
+       fhir:l <#activity> ;
        fhir:reference [ fhir:v "#activity" ]
      ] #   Echo of the kidney  
   ] ) . #    moved to reference

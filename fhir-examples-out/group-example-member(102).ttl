@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:membership [ fhir:v "enumerated"] ; # 
   fhir:member ( [
      fhir:entity [
-       fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+       fhir:l <http://hl7.org/fhir/Patient/pat1> ;
        fhir:reference [ fhir:v "Patient/pat1" ]
      ] ;
      fhir:period [
@@ -35,7 +35,7 @@
      ]
   ] [
      fhir:entity [
-       fhir:link <http://hl7.org/fhir/Patient/pat2> ;
+       fhir:l <http://hl7.org/fhir/Patient/pat2> ;
        fhir:reference [ fhir:v "Patient/pat2" ]
      ] ;
      fhir:period [
@@ -44,7 +44,7 @@
      fhir:inactive [ fhir:v true ]
   ] [
      fhir:entity [
-       fhir:link <http://hl7.org/fhir/Patient/pat3> ;
+       fhir:l <http://hl7.org/fhir/Patient/pat3> ;
        fhir:reference [ fhir:v "Patient/pat3" ]
      ] ;
      fhir:period [
@@ -52,7 +52,7 @@
      ]
   ] [
      fhir:entity [
-       fhir:link <http://hl7.org/fhir/Patient/pat4> ;
+       fhir:l <http://hl7.org/fhir/Patient/pat4> ;
        fhir:reference [ fhir:v "Patient/pat4" ]
      ] ;
      fhir:period [

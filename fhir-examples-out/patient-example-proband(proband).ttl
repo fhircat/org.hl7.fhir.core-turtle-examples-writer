@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -40,7 +40,7 @@
      ] ;
      fhir:system [
        fhir:v "urn:oid:2.16.840.1.113883.6.117"^^xsd:anyURI ;
-       fhir:link <urn:oid:2.16.840.1.113883.6.117>
+       fhir:l <urn:oid:2.16.840.1.113883.6.117>
      ] ; #     This OID has been used below for illustration purposes only    
      fhir:value [ fhir:v "999999999" ] ;
      fhir:assigner [

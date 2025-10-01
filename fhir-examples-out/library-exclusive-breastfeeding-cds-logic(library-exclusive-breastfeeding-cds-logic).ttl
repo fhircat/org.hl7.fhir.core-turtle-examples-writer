@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -46,13 +46,13 @@
      fhir:type [ fhir:v "depends-on" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/Library/library-quick-model-definition"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Library/library-quick-model-definition>
+       fhir:l <http://example.org/fhir/Library/library-quick-model-definition>
      ]
   ] [
      fhir:type [ fhir:v "derived-from" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/Measure/measure-exclusive-breastfeeding"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/Measure/measure-exclusive-breastfeeding>
+       fhir:l <http://example.org/fhir/Measure/measure-exclusive-breastfeeding>
      ]
   ] ) ; # 
   fhir:dataRequirement ( [
@@ -61,7 +61,7 @@
        fhir:path [ fhir:v "code" ] ;
        fhir:valueSet [
          fhir:v "urn:oid:2.16.840.1.113883.3.117.1.7.1.25"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.3.117.1.7.1.25>
+         fhir:l <urn:oid:2.16.840.1.113883.3.117.1.7.1.25>
        ]
      ] )
   ] ) ; # 
@@ -69,7 +69,7 @@
      fhir:contentType [ fhir:v "text/cql" ] ;
      fhir:url [
        fhir:v "http://cqlrepository.org/CMS9v4_CDS.cql"^^xsd:anyURI ;
-       fhir:link <http://cqlrepository.org/CMS9v4_CDS.cql>
+       fhir:l <http://cqlrepository.org/CMS9v4_CDS.cql>
      ]
   ] ) . # 
 

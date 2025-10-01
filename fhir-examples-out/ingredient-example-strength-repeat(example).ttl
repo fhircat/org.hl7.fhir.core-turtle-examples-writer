@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,14 +28,14 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://ema.europa.eu/example/ingredientRole"^^xsd:anyURI ;
-         fhir:link <http://ema.europa.eu/example/ingredientRole>
+         fhir:l <http://ema.europa.eu/example/ingredientRole>
        ] ;
        fhir:code [ fhir:v "ActiveBase" ]
      ] )
   ] ; # 
   fhir:manufacturer ( [
      fhir:manufacturer [
-       fhir:link <http://hl7.org/fhir/Organization/example> ;
+       fhir:l <http://hl7.org/fhir/Organization/example> ;
        fhir:reference [ fhir:v "Organization/example" ]
      ]
   ] ) ; # 
@@ -45,7 +45,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://ema.europa.eu/example/substance"^^xsd:anyURI ;
-             fhir:link <http://ema.europa.eu/example/substance>
+             fhir:l <http://ema.europa.eu/example/substance>
            ] ;
            fhir:code [ fhir:v "Wizzohaler" ]
          ] )
@@ -59,7 +59,7 @@
            fhir:unit [ fhir:v "mcg" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "ug" ]
          ] ;
@@ -68,7 +68,7 @@
            fhir:unit [ fhir:v "delivered dose" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "{delivered dose}" ]
          ]
@@ -82,7 +82,7 @@
            fhir:unit [ fhir:v "mcg" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "ug" ]
          ] ;
@@ -91,7 +91,7 @@
            fhir:unit [ fhir:v "delivered dose" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "{delivered dose}" ]
          ]

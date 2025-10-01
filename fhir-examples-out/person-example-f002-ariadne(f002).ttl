@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -41,7 +41,7 @@
   ] ) ; # 
   fhir:link ( [
      fhir:target [
-       fhir:link <http://hl7.org/fhir/RelatedPerson/f002> ;
+       fhir:l <http://hl7.org/fhir/RelatedPerson/f002> ;
        fhir:reference [ fhir:v "RelatedPerson/f002" ] ;
        fhir:display [ fhir:v "Ariadne Bor-Jansma" ]
      ]

@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,7 +25,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/us/daf"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/us/daf>
+     fhir:l <http://hl7.org/fhir/us/daf>
   ] ; # 
   fhir:version [ fhir:v "0"] ; # 
   fhir:name [ fhir:v "DataAccessFrameworkDAF"] ; # 
@@ -52,7 +52,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ]
      ] )
@@ -64,14 +64,14 @@
   fhir:dependsOn ( [
      fhir:uri [
        fhir:v "http://hl7.org/fhir/ImplementationGuide/uscore"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/ImplementationGuide/uscore>
+       fhir:l <http://hl7.org/fhir/ImplementationGuide/uscore>
      ]
   ] ) ; # 
   fhir:global ( [
      fhir:type [ fhir:v "Patient" ] ;
      fhir:profile [
        fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/patient"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/patient>
+       fhir:l <http://hl7.org/fhir/us/core/StructureDefinition/patient>
      ]
   ] ) ; # 
   fhir:definition [
@@ -81,22 +81,28 @@
      ] ) ;
      fhir:resource ( [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Patient/test> ;
+         fhir:l <http://hl7.org/fhir/Patient/test> ;
          fhir:reference [ fhir:v "Patient/test" ]
        ] ;
        fhir:name [ fhir:v "Test Example" ] ;
        fhir:description [ fhir:v "A test example to show how an implementation guide works" ] ;
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/patient"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/patient>
+         fhir:l <http://hl7.org/fhir/us/core/StructureDefinition/patient>
        ] )
      ] ) ;
      fhir:page [
-       fhir:name [ fhir:v "patient-example.html"^^xsd:anyURI ] ;
+       fhir:name [
+         fhir:v "patient-example.html"^^xsd:anyURI ;
+         fhir:l fhir:patient-example.html
+       ] ;
        fhir:title [ fhir:v "Example Patient Page" ] ;
        fhir:generation [ fhir:v "html" ] ;
        fhir:page ( [
-         fhir:name [ fhir:v "list.html"^^xsd:anyURI ] ;
+         fhir:name [
+           fhir:v "list.html"^^xsd:anyURI ;
+           fhir:l fhir:list.html
+         ] ;
          fhir:title [ fhir:v "Value Set Page" ] ;
          fhir:generation [ fhir:v "html" ]
        ] )
@@ -105,7 +111,7 @@
        fhir:code [
          fhir:system [
            fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/guide-parameter-code>
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
          ] ;
          fhir:code [ fhir:v "apply" ]
        ] ;
@@ -115,18 +121,21 @@
   fhir:manifest [
      fhir:rendering [
        fhir:v "http://hl7.org/fhir/us/daf"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/daf>
+       fhir:l <http://hl7.org/fhir/us/daf>
      ] ;
      fhir:resource ( [
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/Patient/test> ;
+         fhir:l <http://hl7.org/fhir/Patient/test> ;
          fhir:reference [ fhir:v "Patient/test" ]
        ] ;
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/patient"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/patient>
+         fhir:l <http://hl7.org/fhir/us/core/StructureDefinition/patient>
        ] ) ;
-       fhir:relativePath [ fhir:v "patient-example.html"^^xsd:anyURI ]
+       fhir:relativePath [
+         fhir:v "patient-example.html"^^xsd:anyURI ;
+         fhir:l fhir:patient-example.html
+       ]
      ] ) ;
      fhir:page ( [
        fhir:name [ fhir:v "patient-example.html" ] ;

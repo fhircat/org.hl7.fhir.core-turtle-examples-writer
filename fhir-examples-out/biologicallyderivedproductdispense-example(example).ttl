@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,11 +27,11 @@
   ] ; # 
   fhir:status [ fhir:v "allocated"] ; # 
   fhir:product [
-     fhir:link <http://hl7.org/fhir/BiologicallyDerivedProduct/prod1> ;
+     fhir:l <http://hl7.org/fhir/BiologicallyDerivedProduct/prod1> ;
      fhir:reference [ fhir:v "BiologicallyDerivedProduct/prod1" ]
   ] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/Patient/pat1> ;
+     fhir:l <http://hl7.org/fhir/Patient/pat1> ;
      fhir:reference [ fhir:v "Patient/pat1" ] ;
      fhir:display [ fhir:v "Donald Duck" ]
   ] . # 

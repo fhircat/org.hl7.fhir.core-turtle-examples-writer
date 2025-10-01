@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
        ] ; #   Inpatient encounter for colonoscopy   
        fhir:code [ fhir:v "IMP" ] ;
        fhir:display [ fhir:v "inpatient encounter" ]
@@ -40,7 +40,7 @@
        a sct:73761001 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "73761001" ] ;
        fhir:display [ fhir:v "Colonoscopy (procedure)" ]
@@ -48,7 +48,7 @@
      fhir:text [ fhir:v "Colonoscopy" ]
   ] ) ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/Patient/glossy> ;
+     fhir:l <http://hl7.org/fhir/Patient/glossy> ;
      fhir:reference [ fhir:v "Patient/glossy" ] ;
      fhir:display [ fhir:v "Henry Levin the 7th" ]
   ] ; #    
@@ -57,7 +57,7 @@
 #            gastroenterology services (in this case performed by Dr Adam).
 #          
   fhir:serviceProvider [
-     fhir:link <http://hl7.org/fhir/Organization/1> ;
+     fhir:l <http://hl7.org/fhir/Organization/1> ;
      fhir:reference [ fhir:v "Organization/1" ] ;
      fhir:display [ fhir:v "Gastroenterology @ Acme Hospital" ]
   ] ; # 
@@ -66,13 +66,13 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
          ] ;
          fhir:code [ fhir:v "PART" ]
        ] )
      ] ) ;
      fhir:actor [
-       fhir:link <http://hl7.org/fhir/Practitioner/example> ;
+       fhir:l <http://hl7.org/fhir/Practitioner/example> ;
        fhir:reference [ fhir:v "Practitioner/example" ] ;
        fhir:display [ fhir:v "Dr Adam Careful" ]
      ]

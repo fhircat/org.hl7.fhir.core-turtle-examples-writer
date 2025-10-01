@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ContinuaDeviceIdentifiers"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ContinuaDeviceIdentifiers>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ContinuaDeviceIdentifiers>
          ] ;
          fhir:code [ fhir:v "SYSID" ] ;
          fhir:display [ fhir:v "System Identifier" ]
@@ -36,7 +36,7 @@
      ] ;
      fhir:system [
        fhir:v "urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2680"^^xsd:anyURI ;
-       fhir:link <urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2680>
+       fhir:l <urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2680>
      ] ;
      fhir:value [ fhir:v "4C-4E-49-12-34-56-FF-FF" ]
   ] ) ; # 
@@ -44,7 +44,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:11073:10101>
+         fhir:l <urn:iso:std:iso:11073:10101>
        ] ;
        fhir:code [ fhir:v "531981" ] ;
        fhir:display [ fhir:v "MDC_MOC_VMS_MDS_AHD" ]
@@ -56,7 +56,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "532352" ]
        ] ) ;
@@ -69,7 +69,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "532353" ]
        ] ) ;
@@ -80,7 +80,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ContinuaPAN"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ContinuaPAN>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ContinuaPAN>
          ] ;
          fhir:code [ fhir:v "4" ]
        ] )
@@ -90,7 +90,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "532355" ]
        ] ) ;
@@ -101,7 +101,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ContinuaHFS"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
          ] ;
          fhir:code [ fhir:v "0" ]
        ] )
@@ -111,7 +111,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "532355" ]
        ] ) ;
@@ -122,7 +122,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ContinuaHFS"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
          ] ;
          fhir:code [ fhir:v "3" ]
        ] )
@@ -132,7 +132,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "532355" ]
        ] ) ;
@@ -143,7 +143,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ContinuaHFS"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
          ] ;
          fhir:code [ fhir:v "7" ]
        ] )
@@ -153,7 +153,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "532355" ]
        ] ) ;
@@ -164,7 +164,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ContinuaHFS"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
          ] ;
          fhir:code [ fhir:v "2" ]
        ] )
@@ -174,7 +174,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "532355" ]
        ] ) ;
@@ -185,7 +185,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ContinuaHFS"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ContinuaHFS>
          ] ;
          fhir:code [ fhir:v "6" ]
        ] )
@@ -195,7 +195,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/ASN1ToHL7"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/ASN1ToHL7>
+           fhir:l <http://terminology.hl7.org/CodeSystem/ASN1ToHL7>
          ] ;
          fhir:code [ fhir:v "532354.0" ] ;
          fhir:display [ fhir:v "regulation-status" ]
@@ -206,7 +206,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/v2-0136"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/v2-0136>
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0136>
          ] ;
          fhir:code [ fhir:v "Y" ]
        ] ) ;
@@ -217,7 +217,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "68220" ]
        ] ) ;
@@ -228,7 +228,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "532226" ]
        ] ) ;
@@ -239,7 +239,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "urn:iso:std:iso:11073:10101"^^xsd:anyURI ;
-           fhir:link <urn:iso:std:iso:11073:10101>
+           fhir:l <urn:iso:std:iso:11073:10101>
          ] ;
          fhir:code [ fhir:v "68221" ]
        ] ) ;
@@ -250,7 +250,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "us" ]
        ] ) ;

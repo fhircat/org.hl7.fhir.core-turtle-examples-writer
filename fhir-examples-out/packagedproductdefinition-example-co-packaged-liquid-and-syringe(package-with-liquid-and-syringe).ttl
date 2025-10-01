@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -40,7 +40,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://example.org.uk/fhir/doseform"^^xsd:anyURI ;
-           fhir:link <http://example.org.uk/fhir/doseform>
+           fhir:l <http://example.org.uk/fhir/doseform>
          ] ;
          fhir:code [ fhir:v "solution for injection" ]
        ] )
@@ -50,13 +50,14 @@
 #				<type value="manufacturer-name"/>
 #			</deviceName  
   fhir:packageFor ( [
-     fhir:link <http://hl7.org/fhir/MedicinalProductDefinition/ProductThatHasThisPackType> ;
+     fhir:l <http://hl7.org/fhir/MedicinalProductDefinition/ProductThatHasThisPackType> ;
      fhir:reference [ fhir:v "MedicinalProductDefinition/ProductThatHasThisPackType" ]
   ] ) ; #    the product for which this is one available package type (possibly one package type of several for this product)   
   fhir:packaging [
      fhir:containedItem ( [
        fhir:item [
          fhir:reference [
+           fhir:l <#liquidItem> ;
            fhir:reference [ fhir:v "#liquidItem" ] #    reference an item defined above   
          ]
        ] ;
@@ -65,13 +66,14 @@
          fhir:unit [ fhir:v "ml" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mL" ]
        ]
      ] [
        fhir:item [
          fhir:reference [
+           fhir:l <#syringeDevice> ;
            fhir:reference [ fhir:v "#syringeDevice" ] #    reference an item defined above   
          ]
        ]

@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -27,7 +27,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://acme.org/identifiers/substances"^^xsd:anyURI ;
-       fhir:link <http://acme.org/identifiers/substances>
+       fhir:l <http://acme.org/identifiers/substances>
      ] ;
      fhir:value [ fhir:v "1234" ]
   ] ) ; # 
@@ -36,7 +36,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/substance-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/substance-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/substance-category>
        ] ;
        fhir:code [ fhir:v "chemical" ] ;
        fhir:display [ fhir:v "Chemical" ]
@@ -48,7 +48,7 @@
          a sct:88480006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "88480006" ] ;
          fhir:display [ fhir:v "Potassium" ]

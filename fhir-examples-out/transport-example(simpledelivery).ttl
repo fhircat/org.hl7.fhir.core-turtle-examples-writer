@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -29,7 +29,7 @@
      fhir:value [ fhir:v "Transport1234" ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/SupplyRequest/simpleorder> ;
+     fhir:l <http://hl7.org/fhir/SupplyRequest/simpleorder> ;
      fhir:reference [ fhir:v "SupplyRequest/simpleorder" ]
   ] ) ; # 
   fhir:partOf ( [
@@ -38,12 +38,12 @@
   fhir:status [ fhir:v "completed"] ; # 
   fhir:intent [ fhir:v "order"] ; # 
   fhir:requestedLocation [
-     fhir:link <http://hl7.org/fhir/Transport/location-hospitalLab> ;
+     fhir:l <http://hl7.org/fhir/Transport/location-hospitalLab> ;
      fhir:reference [ fhir:v "Transport/location-hospitalLab" ] ;
      fhir:display [ fhir:v "Requested location for item at City Hospital Lab" ]
   ] ; # 
   fhir:currentLocation [
-     fhir:link <http://hl7.org/fhir/Transport/location-labA> ;
+     fhir:l <http://hl7.org/fhir/Transport/location-labA> ;
      fhir:reference [ fhir:v "Transport/location-labA" ] ;
      fhir:display [ fhir:v "Current location for item at Lab A" ]
   ] . # 

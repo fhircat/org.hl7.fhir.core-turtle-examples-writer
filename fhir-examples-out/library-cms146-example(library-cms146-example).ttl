@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -25,12 +25,12 @@
   ] ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/Library/library-cms146-example"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/Library/library-cms146-example>
+     fhir:l <http://hl7.org/fhir/Library/library-cms146-example>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.17.2" ]
   ] [
@@ -53,7 +53,7 @@
      fhir:type [ fhir:v "depends-on" ] ;
      fhir:resource [
        fhir:v "http://hl7.org/fhir/Library/library-quick-model-definition"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/Library/library-quick-model-definition>
+       fhir:l <http://hl7.org/fhir/Library/library-quick-model-definition>
      ]
   ] ) ; # 
   fhir:dataRequirement ( [
@@ -74,7 +74,7 @@
        fhir:path [ fhir:v "code" ] ;
        fhir:valueSet [
          fhir:v "urn:oid:2.16.840.1.113883.3.464.1003.102.12.1011"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.3.464.1003.102.12.1011>
+         fhir:l <urn:oid:2.16.840.1.113883.3.464.1003.102.12.1011>
        ]
      ] )
   ] [
@@ -93,7 +93,7 @@
        fhir:path [ fhir:v "code" ] ;
        fhir:valueSet [
          fhir:v "urn:oid:2.16.840.1.113883.3.464.1003.102.12.1012"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.3.464.1003.102.12.1012>
+         fhir:l <urn:oid:2.16.840.1.113883.3.464.1003.102.12.1012>
        ]
      ] )
   ] [
@@ -112,7 +112,7 @@
        fhir:path [ fhir:v "type" ] ;
        fhir:valueSet [
          fhir:v "urn:oid:2.16.840.1.113883.3.464.1003.101.12.1061"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.3.464.1003.101.12.1061>
+         fhir:l <urn:oid:2.16.840.1.113883.3.464.1003.101.12.1061>
        ]
      ] )
   ] [
@@ -121,7 +121,7 @@
        fhir:path [ fhir:v "diagnosis" ] ;
        fhir:valueSet [
          fhir:v "urn:oid:2.16.840.1.113883.3.464.1003.198.12.1012"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.3.464.1003.198.12.1012>
+         fhir:l <urn:oid:2.16.840.1.113883.3.464.1003.198.12.1012>
        ]
      ] )
   ] [
@@ -130,7 +130,7 @@
        fhir:path [ fhir:v "code" ] ;
        fhir:valueSet [
          fhir:v "urn:oid:2.16.840.1.113883.3.464.1003.196.12.1001"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.3.464.1003.196.12.1001>
+         fhir:l <urn:oid:2.16.840.1.113883.3.464.1003.196.12.1001>
        ]
      ] )
   ] [
@@ -144,7 +144,7 @@
        fhir:path [ fhir:v "medication.code" ] ;
        fhir:valueSet [
          fhir:v "urn:oid:2.16.840.1.113883.3.464.1003.196.12.1001"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.3.464.1003.196.12.1001>
+         fhir:l <urn:oid:2.16.840.1.113883.3.464.1003.196.12.1001>
        ]
      ] )
   ] [
@@ -158,7 +158,7 @@
        fhir:path [ fhir:v "medication.code" ] ;
        fhir:valueSet [
          fhir:v "urn:oid:2.16.840.1.113883.3.464.1003.196.12.1001"^^xsd:anyURI ;
-         fhir:link <urn:oid:2.16.840.1.113883.3.464.1003.196.12.1001>
+         fhir:l <urn:oid:2.16.840.1.113883.3.464.1003.196.12.1001>
        ]
      ] )
   ] ) ; # 

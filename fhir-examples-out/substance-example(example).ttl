@@ -13,7 +13,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
   fhir:identifier ( [
      fhir:system [
        fhir:v "http://acme.org/identifiers/substances"^^xsd:anyURI ;
-       fhir:link <http://acme.org/identifiers/substances>
+       fhir:l <http://acme.org/identifiers/substances>
      ] ;
      fhir:value [ fhir:v "1463" ]
   ] ) ; # 
@@ -41,7 +41,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/substance-category"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/substance-category>
+         fhir:l <http://terminology.hl7.org/CodeSystem/substance-category>
        ] ;
        fhir:code [ fhir:v "allergen" ] ;
        fhir:display [ fhir:v "Allergen" ]

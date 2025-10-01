@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -35,7 +35,7 @@
          a sct:306206005 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "306206005" ]
        ] ) ;
@@ -47,7 +47,7 @@
          fhir:extension ( [
            fhir:url [
              fhir:v "http://hl7.org/fhir/StructureDefinition/cqf-expression"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/StructureDefinition/cqf-expression>
+             fhir:l <http://hl7.org/fhir/StructureDefinition/cqf-expression>
            ] ;
            fhir:value [
              a fhir:Expression ;
@@ -67,6 +67,7 @@
      fhir:kind [ fhir:v "MedicationRequest" ] ;
      fhir:product [
        a fhir:Reference ;
+       fhir:l <#citalopramMedication> ;
        fhir:reference [ fhir:v "#citalopramMedication" ]
      ] ;
      fhir:dosage ( [
@@ -90,7 +91,7 @@
            fhir:coding ( [
              fhir:system [
                fhir:v "http://terminology.hl7.org/CodeSystem/dose-rate-type"^^xsd:anyURI ;
-               fhir:link <http://terminology.hl7.org/CodeSystem/dose-rate-type>
+               fhir:l <http://terminology.hl7.org/CodeSystem/dose-rate-type>
              ] ;
              fhir:code [ fhir:v "ordered" ] ;
              fhir:display [ fhir:v "Ordered" ]
@@ -123,7 +124,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-           fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+           fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
          ] ;
          fhir:code [ fhir:v "200371" ]
        ] ) ;
@@ -134,7 +135,7 @@
          a sct:385055001 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "385055001" ] ;
          fhir:display [ fhir:v "Tablet dose form" ]
@@ -144,6 +145,7 @@
      fhir:ingredient ( [
        fhir:item [
          fhir:reference [
+           fhir:l <#citalopramSubstance> ;
            fhir:reference [ fhir:v "#citalopramSubstance" ]
          ]
        ] ;
@@ -168,7 +170,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-             fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+             fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
            ] ;
            fhir:code [ fhir:v "2556" ]
          ] ) ;
@@ -178,19 +180,19 @@
   ] ) ; # 
   fhir:url [
      fhir:v "http://motivemi.com/artifacts/PlanDefinition/low-suicide-risk-order-set"^^xsd:anyURI ;
-     fhir:link <http://motivemi.com/artifacts/PlanDefinition/low-suicide-risk-order-set>
+     fhir:l <http://motivemi.com/artifacts/PlanDefinition/low-suicide-risk-order-set>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
        fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:link <urn:ietf:rfc:3986>
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.11.7" ]
   ] [
      fhir:use [ fhir:v "official" ] ;
      fhir:system [
        fhir:v "http://motivemi.com/artifacts"^^xsd:anyURI ;
-       fhir:link <http://motivemi.com/artifacts>
+       fhir:l <http://motivemi.com/artifacts>
      ] ;
      fhir:value [ fhir:v "mmi:low-suicide-risk-order-set" ]
   ] ) ; # 
@@ -217,7 +219,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "age" ]
      ] ;
@@ -226,7 +228,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "https://meshb.nlm.nih.gov"^^xsd:anyURI ;
-           fhir:link <https://meshb.nlm.nih.gov>
+           fhir:l <https://meshb.nlm.nih.gov>
          ] ;
          fhir:code [ fhir:v "D000328" ] ;
          fhir:display [ fhir:v "Adult" ]
@@ -236,7 +238,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -246,7 +248,7 @@
          a sct:87512008 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "87512008" ] ;
          fhir:display [ fhir:v "Mild major depression" ]
@@ -256,7 +258,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -266,7 +268,7 @@
          a sct:40379007 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "40379007" ] ;
          fhir:display [ fhir:v "Major depression, recurrent, mild" ]
@@ -276,7 +278,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -286,7 +288,7 @@
          a sct:394687007 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "394687007" ] ;
          fhir:display [ fhir:v "Low suicide risk" ]
@@ -296,7 +298,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "focus" ]
      ] ;
@@ -306,7 +308,7 @@
          a sct:225337009 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "225337009" ] ;
          fhir:display [ fhir:v "Suicide risk assessment" ]
@@ -316,7 +318,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "user" ]
      ] ;
@@ -326,7 +328,7 @@
          a sct:309343006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "309343006" ] ;
          fhir:display [ fhir:v "Physician" ]
@@ -336,7 +338,7 @@
      fhir:code [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/usage-context-type>
+         fhir:l <http://terminology.hl7.org/CodeSystem/usage-context-type>
        ] ;
        fhir:code [ fhir:v "venue" ]
      ] ;
@@ -346,7 +348,7 @@
          a sct:440655000 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "440655000" ] ;
          fhir:display [ fhir:v "Outpatient environment" ]
@@ -357,7 +359,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:link <urn:iso:std:iso:3166>
+         fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "US" ]
      ] )
@@ -392,25 +394,25 @@
      fhir:document [
        fhir:url [
          fhir:v "http://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/mdd.pdf"^^xsd:anyURI ;
-         fhir:link <http://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/mdd.pdf>
+         fhir:l <http://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/mdd.pdf>
        ]
      ]
   ] [
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/ActivityDefinition/referralPrimaryCareMentalHealth"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/ActivityDefinition/referralPrimaryCareMentalHealth>
+       fhir:l <http://example.org/fhir/ActivityDefinition/referralPrimaryCareMentalHealth>
      ]
   ] [
      fhir:type [ fhir:v "composed-of" ] ;
      fhir:resource [
        fhir:v "http://example.org/fhir/ActivityDefinition/citalopramPrescription"^^xsd:anyURI ;
-       fhir:link <http://example.org/fhir/ActivityDefinition/citalopramPrescription>
+       fhir:l <http://example.org/fhir/ActivityDefinition/citalopramPrescription>
      ]
   ] ) ; # 
   fhir:library ( [
      fhir:v "http://example.org/fhir/Library/suiciderisk-orderset-logic"^^xsd:anyURI ;
-     fhir:link <http://example.org/fhir/Library/suiciderisk-orderset-logic>
+     fhir:l <http://example.org/fhir/Library/suiciderisk-orderset-logic>
   ] ) ; # 
   fhir:action ( [
      fhir:title [ fhir:v "Suicide Risk Assessment and Outpatient Management" ] ;
@@ -422,7 +424,8 @@
          fhir:textEquivalent [ fhir:v "Refer to outpatient mental health program for evaluation and treatment of mental health conditions now" ] ;
          fhir:definition [
            a fhir:canonical ;
-           fhir:v "#referralToMentalHealthCare"^^xsd:anyURI
+           fhir:v "#referralToMentalHealthCare"^^xsd:anyURI ;
+           fhir:l <#referralToMentalHealthCare>
          ] ;
          fhir:dynamicValue ( [
            fhir:path [ fhir:v "timing.event" ] ;
@@ -480,14 +483,14 @@
              fhir:extension ( [
                fhir:url [
                  fhir:v "http://hl7.org/fhir/StructureDefinition/cqf-qualityOfEvidence"^^xsd:anyURI ;
-                 fhir:link <http://hl7.org/fhir/StructureDefinition/cqf-qualityOfEvidence>
+                 fhir:l <http://hl7.org/fhir/StructureDefinition/cqf-qualityOfEvidence>
                ] ;
                fhir:value [
                  a fhir:CodeableConcept ;
                  fhir:coding ( [
                    fhir:system [
                      fhir:v "http://terminology.hl7.org/CodeSystem/evidence-quality"^^xsd:anyURI ;
-                     fhir:link <http://terminology.hl7.org/CodeSystem/evidence-quality>
+                     fhir:l <http://terminology.hl7.org/CodeSystem/evidence-quality>
                    ] ;
                    fhir:code [ fhir:v "high" ]
                  ] ) ;
@@ -497,7 +500,7 @@
              fhir:contentType [ fhir:v "text/html" ] ;
              fhir:url [
                fhir:v "http://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/mdd.pdf"^^xsd:anyURI ;
-               fhir:link <http://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/mdd.pdf>
+               fhir:l <http://psychiatryonline.org/pb/assets/raw/sitewide/practice_guidelines/guidelines/mdd.pdf>
              ] ;
              fhir:title [ fhir:v "Practice Guideline for the Treatment of Patients with Major Depressive Disorder" ]
            ]
@@ -512,7 +515,7 @@
                fhir:contentType [ fhir:v "text/html" ] ;
                fhir:url [
                  fhir:v "http://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6daeb45c-451d-b135-bf8f-2d6dff4b6b01"^^xsd:anyURI ;
-                 fhir:link <http://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6daeb45c-451d-b135-bf8f-2d6dff4b6b01>
+                 fhir:l <http://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6daeb45c-451d-b135-bf8f-2d6dff4b6b01>
                ] ;
                fhir:title [ fhir:v "National Library of Medicine. DailyMed website. CITALOPRAM- citalopram hydrobromide tablet, film coated." ]
              ]
@@ -523,7 +526,8 @@
              fhir:textEquivalent [ fhir:v "citalopram 20 mg tablet 1 tablet oral 1 time daily now (30 table; 3 refills)" ] ;
              fhir:definition [
                a fhir:canonical ;
-               fhir:v "#citalopramPrescription"^^xsd:anyURI
+               fhir:v "#citalopramPrescription"^^xsd:anyURI ;
+               fhir:l <#citalopramPrescription>
              ] ;
              fhir:dynamicValue ( [
                fhir:path [ fhir:v "status" ] ;

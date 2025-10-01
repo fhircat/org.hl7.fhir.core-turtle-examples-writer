@@ -15,7 +15,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -31,7 +31,7 @@
      ] ;
      fhir:system [
        fhir:v "https://fevir.net"^^xsd:anyURI ;
-       fhir:link <https://fevir.net>
+       fhir:l <https://fevir.net>
      ] ;
      fhir:value [ fhir:v "49218" ] ;
      fhir:assigner [
@@ -61,7 +61,7 @@
      fhir:document [
        fhir:url [
          fhir:v "https://academic.oup.com/eurheartj/article/43/20/1955/6542137"^^xsd:anyURI ;
-         fhir:link <https://academic.oup.com/eurheartj/article/43/20/1955/6542137>
+         fhir:l <https://academic.oup.com/eurheartj/article/43/20/1955/6542137>
        ]
      ]
   ] [
@@ -71,9 +71,12 @@
      ] ) ;
      fhir:display [ fhir:v "Citation Resource for 2022 Systematic Review of bariatric surgery mortality effect - PMID 35243488" ] ;
      fhir:resourceReference [
-       fhir:link <http://hl7.org/fhir/Citation/33400> ;
+       fhir:l <http://hl7.org/fhir/Citation/33400> ;
        fhir:reference [ fhir:v "Citation/33400" ] ;
-       fhir:type [ fhir:v "Citation"^^xsd:anyURI ] ;
+       fhir:type [
+         fhir:v "Citation"^^xsd:anyURI ;
+         fhir:l fhir:Citation
+       ] ;
        fhir:display [ fhir:v "StudyCitation: 2022 Systematic Review of bariatric surgery mortality effect 35243488" ]
      ]
   ] ) ; # 
@@ -87,7 +90,7 @@
            a sct:424144002 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "424144002" ] ;
            fhir:display [ fhir:v "Current chronological age" ]
@@ -100,7 +103,7 @@
          fhir:unit [ fhir:v "year" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "a" ]
        ]
@@ -114,7 +117,7 @@
            a loinc:39156-5 ;
            fhir:system [
              fhir:v "http://loinc.org"^^xsd:anyURI ;
-             fhir:link <http://loinc.org>
+             fhir:l <http://loinc.org>
            ] ;
            fhir:code [ fhir:v "39156-5" ] ;
            fhir:display [ fhir:v "Body mass index (BMI) [Ratio]" ]
@@ -127,7 +130,7 @@
          fhir:unit [ fhir:v "kg/m2" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "kg/m2" ]
        ]

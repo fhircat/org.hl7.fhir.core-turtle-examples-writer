@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -28,7 +28,7 @@
      fhir:coding ( [
        fhir:system [
          fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ;
-         fhir:link <http://www.nlm.nih.gov/research/umls/rxnorm>
+         fhir:l <http://www.nlm.nih.gov/research/umls/rxnorm>
        ] ;
        fhir:code [ fhir:v "358793" ] ;
        fhir:display [ fhir:v "Mometasone Furoate 0.05mg/Actuat" ]
@@ -39,7 +39,7 @@
        a sct:385157007 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "385157007" ] ;
        fhir:display [ fhir:v "Nasal Spray" ]

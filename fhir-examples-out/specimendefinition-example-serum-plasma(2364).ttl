@@ -14,7 +14,7 @@
      fhir:security ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActReason"^^xsd:anyURI ;
-         fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActReason>
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActReason>
        ] ;
        fhir:code [ fhir:v "HTEST" ] ;
        fhir:display [ fhir:v "test health data" ]
@@ -26,7 +26,7 @@
   ] ; # 
   fhir:url [
      fhir:v "http://example.com/specdef/v1/12345"^^xsd:anyURI ;
-     fhir:link <http://example.com/specdef/v1/12345>
+     fhir:l <http://example.com/specdef/v1/12345>
   ] ; # 
   fhir:identifier [
      fhir:value [ fhir:v "12345" ]
@@ -39,7 +39,7 @@
        a sct:122555007 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "122555007" ] ;
        fhir:display [ fhir:v "Venous blood specimen" ]
@@ -52,7 +52,7 @@
        a sct:263678003 ;
        fhir:system [
          fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:link <http://snomed.info/sct>
+         fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "263678003" ] ;
        fhir:display [ fhir:v "At rest" ]
@@ -66,7 +66,7 @@
          a sct:119364003 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "119364003" ] ;
          fhir:display [ fhir:v "Serum specimen" ]
@@ -79,7 +79,7 @@
            a sct:61088005 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "61088005" ] ;
            fhir:display [ fhir:v "plastic" ]
@@ -90,7 +90,7 @@
            a sct:702281005 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "702281005" ] ;
            fhir:display [ fhir:v "Evacuated blood collection tube, thrombin/clot activator/gel separator" ]
@@ -100,7 +100,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:iso:std:iso:6710:2017"^^xsd:anyURI ;
-             fhir:link <urn:iso:std:iso:6710:2017>
+             fhir:l <urn:iso:std:iso:6710:2017>
            ] ;
            fhir:code [ fhir:v "yellow" ] ;
            fhir:display [ fhir:v "yellow cap" ]
@@ -112,7 +112,7 @@
          fhir:unit [ fhir:v "ml" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mL" ]
        ]
@@ -127,7 +127,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ] ;
@@ -136,7 +136,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ]
@@ -146,7 +146,7 @@
          fhir:unit [ fhir:v "minute" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "min" ]
        ]
@@ -160,7 +160,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ] ;
@@ -169,7 +169,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ]
@@ -179,7 +179,7 @@
          fhir:unit [ fhir:v "hour" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "h" ]
        ]
@@ -190,7 +190,7 @@
          a sct:119361006 ;
          fhir:system [
            fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:link <http://snomed.info/sct>
+           fhir:l <http://snomed.info/sct>
          ] ;
          fhir:code [ fhir:v "119361006" ] ;
          fhir:display [ fhir:v "Plasma specimen" ]
@@ -203,7 +203,7 @@
            a sct:32039001 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "32039001" ] ;
            fhir:display [ fhir:v "glass" ]
@@ -214,7 +214,7 @@
            a sct:702281005 ;
            fhir:system [
              fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-             fhir:link <http://snomed.info/sct>
+             fhir:l <http://snomed.info/sct>
            ] ;
            fhir:code [ fhir:v "702281005" ] ;
            fhir:display [ fhir:v "Evacuated blood collection tube, thrombin/clot activator/gel separator" ]
@@ -224,7 +224,7 @@
          fhir:coding ( [
            fhir:system [
              fhir:v "urn:iso:std:iso:6710:2017"^^xsd:anyURI ;
-             fhir:link <urn:iso:std:iso:6710:2017>
+             fhir:l <urn:iso:std:iso:6710:2017>
            ] ;
            fhir:code [ fhir:v "green" ] ;
            fhir:display [ fhir:v "green cap" ]
@@ -236,7 +236,7 @@
          fhir:unit [ fhir:v "ml" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "mL" ]
        ]
@@ -245,7 +245,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/rejection-criteria"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/rejection-criteria>
+           fhir:l <http://terminology.hl7.org/CodeSystem/rejection-criteria>
          ] ;
          fhir:code [ fhir:v "insufficient" ] ;
          fhir:display [ fhir:v "insufficient specimen volume" ]
@@ -254,7 +254,7 @@
        fhir:coding ( [
          fhir:system [
            fhir:v "http://terminology.hl7.org/CodeSystem/rejection-criteria"^^xsd:anyURI ;
-           fhir:link <http://terminology.hl7.org/CodeSystem/rejection-criteria>
+           fhir:l <http://terminology.hl7.org/CodeSystem/rejection-criteria>
          ] ;
          fhir:code [ fhir:v "hemolized" ] ;
          fhir:display [ fhir:v "hemolized specimen" ]
@@ -270,7 +270,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ] ;
@@ -279,7 +279,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ]
@@ -289,7 +289,7 @@
          fhir:unit [ fhir:v "minute" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "min" ]
        ]
@@ -303,7 +303,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ] ;
@@ -312,7 +312,7 @@
            fhir:unit [ fhir:v "°C" ] ;
            fhir:system [
              fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-             fhir:link <http://unitsofmeasure.org>
+             fhir:l <http://unitsofmeasure.org>
            ] ;
            fhir:code [ fhir:v "Cel" ]
          ]
@@ -322,7 +322,7 @@
          fhir:unit [ fhir:v "hour" ] ;
          fhir:system [
            fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-           fhir:link <http://unitsofmeasure.org>
+           fhir:l <http://unitsofmeasure.org>
          ] ;
          fhir:code [ fhir:v "h" ]
        ]
