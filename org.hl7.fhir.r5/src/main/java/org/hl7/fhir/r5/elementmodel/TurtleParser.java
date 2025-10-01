@@ -368,18 +368,19 @@ public class TurtleParser extends ParserBase {
   }
 
   protected String getReferenceURI(String ref) {
-    if (ref != null && (ref.startsWith("http://") || ref.startsWith("https://") || ref.startsWith("urn:")))
+    if (ref != null && (ref.startsWith("http://") || ref.startsWith("https://") || ref.startsWith("urn:") || ref.startsWith("#")))
       return "<" + ref + ">";
     else if (base != null && ref != null && ref.contains("/"))
       return "<" + Utilities.appendForwardSlash(base) + ref + ">";
-    else
-      return null;
+    else {
+        return FHIR_URI_BASE + ref;
+    }
   }
 
   protected void decorateReference(Complex t, Element coding) {
     String refURI = getReferenceURI(coding.getChildValue("reference"));
     if(refURI != null)
-      t.linkedPredicate("fhir:link", refURI, linkResolver == null ? null : linkResolver.resolvePage("rdf.html#reference"), null);
+      t.linkedPredicate("fhir:l", refURI, linkResolver == null ? null : linkResolver.resolvePage("rdf.html#reference"), null);
   }
 
   private String genSubjectId(Element e) {
@@ -562,7 +563,7 @@ public class TurtleParser extends ParserBase {
 	  }
 	  String refURI = getReferenceURI(versioned);
 	  if (refURI != null)
-        t.linkedPredicate("fhir:link", getReferenceURI(versioned), linkResolver == null ? null : linkResolver.resolveType(type), null);
+        t.linkedPredicate("fhir:l", getReferenceURI(versioned), linkResolver == null ? null : linkResolver.resolveType(type), null);
     }
   }
 
